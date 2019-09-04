@@ -1,4 +1,3 @@
-// Config object - to be pulled out into separate file
 var streamampConfig = {
     prebidJsVersion: '2.26.0',
     a9Enabled: true,
