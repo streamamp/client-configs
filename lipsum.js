@@ -45,7 +45,7 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size1', 'size2', 'size3'],
                     params: {
                         placementId: 6439954,
@@ -54,10 +54,28 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size4', 'size5'],
                     params: {
                         placementId: 6445409,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size1', 'size2', 'size3'],
+                    params: {
+                        placementId: 16303268,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size4', 'size5'],
+                    params: {
+                        placementId: 16303316,
                         referrer: 'www.lipsum.com',
                         alt_referrer: 'www.lipsum.com'
                     }
