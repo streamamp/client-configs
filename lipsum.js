@@ -1,5 +1,7 @@
 var streamampConfig = {
     prebidJsVersion: '2.26.0',
+    publisher_id: 'StreamAMP/Lipsum',
+    token: 'iH2XRvTyXlZRkFlKiYhSCPOMgwLrtdejJecXtognjtbC9dBLhQoDeYxWYRvwKUfk',
     a9Enabled: true,
     bidTimeout: 20,
     adUnits: [
