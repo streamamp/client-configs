@@ -194,7 +194,7 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size1', 'size2', 'size3'],
                     params: {
                         placementId: 6445422,
@@ -203,10 +203,28 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size4', 'size5'],
                     params: {
                         placementId: 6445424,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size1', 'size2', 'size3'],
+                    params: {
+                        placementId: 16303340,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size4', 'size5'],
+                    params: {
+                        placementId: 16303334,
                         referrer: 'www.lipsum.com',
                         alt_referrer: 'www.lipsum.com'
                     }
@@ -312,10 +330,19 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size1'],
                     params: {
                         placementId: 9719396,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size1'],
+                    params: {
+                        placementId: 16303350,
                         referrer: 'www.lipsum.com',
                         alt_referrer: 'www.lipsum.com'
                     }
@@ -389,10 +416,19 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size1'],
                     params: {
                         placementId: 9719398,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size1'],
+                    params: {
+                        placementId: 16303351,
                         referrer: 'www.lipsum.com',
                         alt_referrer: 'www.lipsum.com'
                     }
@@ -479,7 +515,7 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size1', 'size2', 'size3'],
                     params: {
                         placementId: 14743207,
@@ -488,10 +524,28 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'appnexus',
+                    bidder: 'streamamp',
                     labelAny: ['size4', 'size5'],
                     params: {
                         placementId: 14743208,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size1', 'size2', 'size3'],
+                    params: {
+                        placementId: 16303355,
+                        referrer: 'www.lipsum.com',
+                        alt_referrer: 'www.lipsum.com'
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: ['size4', 'size5'],
+                    params: {
+                        placementId: 16303359,
                         referrer: 'www.lipsum.com',
                         alt_referrer: 'www.lipsum.com'
                     }
