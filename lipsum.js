@@ -3,7 +3,7 @@ var streamampConfig = {
     publisher_id: 'StreamAMP/Lipsum',
     token: 'iH2XRvTyXlZRkFlKiYhSCPOMgwLrtdejJecXtognjtbC9dBLhQoDeYxWYRvwKUfk',
     a9Enabled: true,
-    bidTimeout: 20,
+    bidTimeout: 2,
     adUnits: [
         {
             code: 'div-gpt-ad-1456148316198-0',
