@@ -671,7 +671,7 @@ var streamampConfig = {
         },
     ],
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: true,
+    hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: true,
     cmp: {
