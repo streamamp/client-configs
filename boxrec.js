@@ -10,6 +10,7 @@ var streamampConfig = {
     adUnits: [{
         code: 'StreamAMP_TopLeaderboard',
         path: '/5548363/StreamAMP_TopLeaderboard',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[728, 90], [970, 90]]
@@ -78,6 +79,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_BottomLeaderboard',
         path: '/5548363/StreamAMP_BottomLeaderboard',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[728, 90]]
@@ -146,6 +148,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_MPU1',
         path: '/5548363/StreamAMP_MPU1',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[300, 250]]
@@ -214,6 +217,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_MPU2',
         path: '/5548363/StreamAMP_MPU2',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[300, 250]]
@@ -282,6 +286,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_MobileTop',
         path: '/5548363/StreamAMP_MobileTop',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[320, 50]]
@@ -357,6 +362,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_MobileMid',
         path: '/5548363/StreamAMP_MobileMid',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[320, 50], [300, 250], [320, 100]]
@@ -464,6 +470,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_MobileBottom',
         path: '/5548363/StreamAMP_MobileBottom',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[320, 50], [300, 250], [320, 100]]
@@ -578,6 +585,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_MidLeaderboard',
         path: '/5548363/StreamAMP_MidLeaderboard',
+        safeFrame: true,
         mediaTypes: {
             banner: {
                 sizes: [[728, 90], [970, 90]]
@@ -646,6 +654,7 @@ var streamampConfig = {
     }, {
         code: 'StreamAMP_1x1',
         path: '/5548363/StreamAMP_1x1',
+        safeFrame: true,
         isSticky: true,
         mediaTypes: {
             banner: {
