@@ -1,5 +1,5 @@
 var streamampConfig = {
-    a9Enabled: true,
+    a9Enabled: false,
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
