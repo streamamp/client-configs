@@ -1,5 +1,5 @@
 var streamampConfig = {
-    a9Enabled: false,
+    a9Enabled: true,
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -546,7 +546,7 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: true,
+        isEnabled: false,
         config: {
             'UI Layout': 'popup',
             Language: 'en',
@@ -632,9 +632,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
-
-
-
-
-
+};
