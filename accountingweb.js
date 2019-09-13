@@ -732,12 +732,7 @@ var streamampConfig = {
             path: '/4394518/AWUK_inline',
             mediaTypes: {
                 banner: {
-                    sizes: [
-                        [
-                            1,
-                            1
-                        ]
-                    ]
+                    sizes: []
                 }
             },
             isSticky: false,
@@ -749,12 +744,7 @@ var streamampConfig = {
             path: '/4394518/AWUK_Brand_Sponsorship',
             mediaTypes: {
                 banner: {
-                    sizes: [
-                        [
-                            1,
-                            1
-                        ]
-                    ]
+                    sizes: []
                 }
             },
             isSticky: false,
@@ -766,12 +756,7 @@ var streamampConfig = {
             path: '/4394518/AWUK_aa_sposorship',
             mediaTypes: {
                 banner: {
-                    sizes: [
-                        [
-                            1,
-                            1
-                        ]
-                    ]
+                    sizes: []
                 }
             },
             isSticky: false,
