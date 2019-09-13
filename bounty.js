@@ -1408,7 +1408,7 @@ var streamampConfig = {
             },
             toggleSwitchBorderColor: '#000000',
             toggleStatusTextColor: '#000000',
-            customCSS: '.qc-cmp-bounty-p {' +
+            additionalStyles: '.qc-cmp-bounty-p {' +
                 'font-size: 14px!important;' +
                 '}' +'.qc-cmp-bounty-ul {' +
                 'padding-left: 20px!important;' +
