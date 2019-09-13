@@ -7,6 +7,10 @@ var streamampConfig = {
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/AccountingWeb',
     token: 'pPgosGY8xoeFtm5kN4rS2dVXGhHiwiUOiqwoZwvmH8CWKgik9kVOGez8AfAV3gOR',
+    currency: {
+        enabled: true,
+        value: 'GBP'
+    },
     adUnits: [
         {
             code: 'AWUK_MPU1',
@@ -722,6 +726,58 @@ var streamampConfig = {
                     }
                 }
             ]
+        },
+        {
+            code: 'AWUK_inline',
+            path: '/4394518/AWUK_inline',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            bids: []
+        },
+        {
+            code: 'AWUK_Brand_Sponsorship',
+            path: '/4394518/AWUK_Brand_Sponsorship',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            bids: []
+        },
+        {
+            code: 'AWUK_aa_sposorship',
+            path: '/4394518/AWUK_aa_sposorship',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: true,
+            bids: []
         }
     ],
     cmp: {
