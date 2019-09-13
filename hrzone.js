@@ -7,6 +7,10 @@ var streamampConfig = {
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/HRZone',
     token: 'C1xLXw9iDZ4wiKuxhLthjbb6tuVEoiKgvN0yiltMJHGoGHzweZ1PMnShNJrJcqQ5',
+    currency: {
+        enabled: true,
+        value: 'GBP'
+    },
     adUnits: [
         {
             code: 'HRZ_MPU1',
