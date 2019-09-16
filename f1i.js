@@ -244,15 +244,6 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+'
-                    ],
-                    params: {
-                        placementId: 22118910
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '769+',
                         '0 - 768'
                     ],
@@ -357,25 +348,7 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+'
-                    ],
-                    params: {
-                        placementId: 22118911
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '769+',
-                        '0 - 768'
-                    ],
-                    params: {
-                        placementId: 22118911
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '0 - 768'
                     ],
                     params: {
