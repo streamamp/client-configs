@@ -5,8 +5,8 @@ var streamampConfig = {
     hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: false,
-    publisher_id: '',
-    token: '',
+    publisher_id: 'Ad4Games/prnt',
+    token: 'e3GTlSpQ9pIXJggGwLkyUqcsPK1RwLRurxbPeflO7xf60tbjNBzpuquxu5k2sV13',
     currency: {
         enabled: false,
         value: ''
