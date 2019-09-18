@@ -330,13 +330,6 @@ var streamampConfig = {
                 size: [320, 50]
             }
         }, {
-            bidder: 'justpremium',
-            labelAny: [],
-            params: {
-                zone: '79229',
-                allow: ['mo']
-            }
-        }, {
             bidder: 'openx',
             labelAny: ['0 - 550'],
             params: {
