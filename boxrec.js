@@ -2,6 +2,10 @@ var streamampConfig = {
     a9Enabled: true,
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
+    currency: {
+        enabled: false,
+        value: ''
+    },
     hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: false,
