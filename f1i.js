@@ -5,8 +5,8 @@ var streamampConfig = {
     hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: true,
-    publisher_id: '',
-    token: '',
+    publisher_id: 'StreamAMP/f1i',
+    token: 'oNCK2PTUJt9KJUxj7wtRlMbJbCeOdsMDIPbIf3TNqIPZb4FLnnntynahaNyp93US',
     currency: {
         enabled: false,
         value: ''
