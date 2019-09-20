@@ -1,12 +1,16 @@
 var streamampConfig = {
-    a9Enabled: true,
+    a9Enabled: false,
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: true,
-    publisher_id: 'f1i',
-    token: '',
+    publisher_id: 'StreamAMP/f1i',
+    token: 'oNCK2PTUJt9KJUxj7wtRlMbJbCeOdsMDIPbIf3TNqIPZb4FLnnntynahaNyp93US',
+    currency: {
+        enabled: false,
+        value: ''
+    },
     adUnits: [
         {
             code: 'Unit1',
@@ -15,31 +19,32 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            320,
-                            50
-                        ],
-                        [
                             728,
                             90
                         ],
                         [
                             970,
-                            90
+                            250
+                        ],
+                        [
+                            320,
+                            50
                         ],
                         [
                             970,
-                            250
+                            90
                         ]
                     ]
                 }
             },
             isSticky: false,
-            safeFrame: false,
+            safeFrame: true,
+            outOfPage: false,
             bids: [
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382489,
@@ -49,7 +54,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382488,
@@ -69,7 +74,16 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+', '0 - 768'
+                        '769 - 9999'
+                    ],
+                    params: {
+                        placementId: 22118908
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '0 - 768'
                     ],
                     params: {
                         placementId: 22118908
@@ -78,7 +92,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974450
@@ -87,7 +101,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974453
@@ -121,17 +135,22 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
             },
             isSticky: false,
-            safeFrame: false,
+            safeFrame: true,
+            outOfPage: false,
             bids: [
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382492,
@@ -141,7 +160,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382491,
@@ -151,7 +170,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382493,
@@ -161,7 +180,7 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 22118909
@@ -170,7 +189,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974457
@@ -179,7 +198,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974459
@@ -188,7 +207,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974460
@@ -213,17 +232,22 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
             },
             isSticky: false,
-            safeFrame: false,
+            safeFrame: true,
+            outOfPage: false,
             bids: [
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382489,
@@ -233,7 +257,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+',
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
@@ -242,9 +266,28 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'F1i_Unit3_320x50'
+                    }
+                },
+                {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+',
+                        '769 - 9999'
+                    ],
+                    params: {
+                        placementId: 22118910
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
@@ -263,7 +306,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974462
@@ -272,7 +315,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+',
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
@@ -307,17 +350,22 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
             },
             isSticky: false,
-            safeFrame: false,
+            safeFrame: true,
+            outOfPage: false,
             bids: [
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382489,
@@ -327,7 +375,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+',
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
@@ -348,7 +396,25 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+',
+                        '769 - 9999'
+                    ],
+                    params: {
+                        placementId: 22118911
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: 22118911
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
                         '0 - 768'
                     ],
                     params: {
@@ -358,7 +424,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 16974470
@@ -367,11 +433,20 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+',
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
                         placementId: 16974474
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: 16974477
                     }
                 }
             ]
@@ -389,27 +464,22 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
             },
             isSticky: false,
-            safeFrame: false,
+            safeFrame: true,
+            outOfPage: false,
             bids: [
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'F1i_Unit5_300x250'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         zoneId: 1382493,
@@ -417,9 +487,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'F1i_Unit5_300x250'
+                    }
+                },
+                {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
                         placementId: 22118912
@@ -428,19 +508,19 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
-                        placementId: 16974480
+                        placementId: 16974483
                     }
                 },
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '769 - 9999'
                     ],
                     params: {
-                        placementId: 16974483
+                        placementId: 16974480
                     }
                 }
             ]
@@ -460,11 +540,12 @@ var streamampConfig = {
             },
             isSticky: true,
             safeFrame: false,
+            outOfPage: false,
             bids: [
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769+'
+                        '0 - 768'
                     ],
                     params: {
                         zoneId: 1382490,
@@ -474,7 +555,7 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '769+'
+                        '0 - 768'
                     ],
                     params: {
                         placementId: 22118913
@@ -483,7 +564,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '769+'
+                        '0 - 768'
                     ],
                     params: {
                         placementId: 16974487
@@ -506,11 +587,12 @@ var streamampConfig = {
             },
             isSticky: false,
             safeFrame: false,
+            outOfPage: false,
             bids: []
         }
     ],
     cmp: {
-        isEnabled: false,
+        isEnabled: true,
         config: {
             'UI Layout': 'popup',
             Language: 'en',
@@ -526,7 +608,7 @@ var streamampConfig = {
             'Initial Screen Body Text Option': 1,
             'Initial Screen Accept Button Text': 'I agree',
             'Initial Screen Reject Button Text': 'I do not accept',
-            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. Each purpose has a description so that you know how we and partners use your data. If you choose to opt-out, you will see ads that are less relevant to you. These ads will use cookies, but not for personalization.',
+            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
             'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
@@ -545,12 +627,13 @@ var streamampConfig = {
             tableHeader: {},
             tableRow: {},
             toggleOn: {},
-            toggleOff: {}
+            toggleOff: {},
+            additionalStyles: ''
         }
     },
     breakpoints: [
         {
-            label: '769+',
+            label: '769 - 9999',
             minWidth: 769,
             maxWidth: 9999,
             sizesSupported: [
@@ -573,10 +656,6 @@ var streamampConfig = {
                 [
                     160,
                     600
-                ],
-                [
-                    320,
-                    50
                 ]
             ]
         },
@@ -596,4 +675,4 @@ var streamampConfig = {
             ]
         }
     ]
-};
+}
