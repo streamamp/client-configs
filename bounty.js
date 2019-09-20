@@ -7,6 +7,10 @@ var streamampConfig = {
     hasCollapsedEmptyDivs: true,
     publisher_id: 'Bounty/Bounty',
     token: 'Qa9aYLKDB0nODgkWfJ7kRFkJQv992EoedYNib1mZ7QelSxPNaArAhhWlPEJmDj0V',
+    currency: {
+    enabled: true,
+        value: 'GBP'
+    },
     adUnits: [{
         code: 'Unit1',
         path: '/4465849/HB-Bounty/Unit1',
