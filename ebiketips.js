@@ -731,8 +731,8 @@ var streamampConfig = {
                 sizes: [[320, 50]]
             }
         },
-        isSticky: false,
-        safeFrame: true,
+        isSticky: true,
+        safeFrame: false,
         outOfPage: false,
         bids: [{
             bidder: 'criteo',
