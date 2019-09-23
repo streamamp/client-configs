@@ -618,15 +618,7 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
-            breakpoints: {
-                '993 - 9999': [
-                    [
-                        1,
-                        1
-                    ]
-                ]
-            }
+            bids: []
         },
         {
             code: 'SA-Unit3',
@@ -792,10 +784,6 @@ var streamampConfig = {
                 [
                     970,
                     250
-                ],
-                [
-                    1,
-                    1
                 ]
             ]
         },
