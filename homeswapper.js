@@ -359,8 +359,77 @@ var streamampConfig = {
                     params: {
                         placementId: 15930016
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999'
+                    ],
+                    params: {
+                        placementId: 17049561
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        placementId: 17049564
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0 - 467'
+                    ],
+                    params: {
+                        placementId: 17049567
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0 - 467'
+                    ],
+                    params: {
+                        placementId: 17049568
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '0 - 467': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        320,
+                        100
+                    ]
+                ]
+            }
         },
         {
             code: 'div-gpt-ad-1454495945248-1',
@@ -470,8 +539,32 @@ var streamampConfig = {
                     params: {
                         placementId: 5984841
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        placementId: 17049651
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        160,
+                        600
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        160,
+                        600
+                    ]
+                ]
+            }
         },
         {
             code: 'div-gpt-ad-1454495945248-2',
@@ -659,8 +752,45 @@ var streamampConfig = {
                     params: {
                         placementId: 10660722
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        placementId: 17049652
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999'
+                    ],
+                    params: {
+                        placementId: 17049653
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        970,
+                        250
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        728,
+                        90
+                    ]
+                ]
+            }
         },
         {
             code: 'div-gpt-ad-1455797301587-4',
@@ -931,8 +1061,64 @@ var streamampConfig = {
                     params: {
                         placementId: 15930019
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        placementId: 17049656
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0 - 467'
+                    ],
+                    params: {
+                        placementId: 17049659
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0 - 467'
+                    ],
+                    params: {
+                        placementId: 17049662
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '0 - 467': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        320,
+                        100
+                    ]
+                ]
+            }
         },
         {
             code: 'div-gpt-ad-1455797301587-5',
@@ -1042,8 +1228,32 @@ var streamampConfig = {
                     params: {
                         placementId: 13788998
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        placementId: 17049666
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        160,
+                        600
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        160,
+                        600
+                    ]
+                ]
+            }
         },
         {
             code: 'div-gpt-ad-1455797301587-6',
@@ -1153,8 +1363,32 @@ var streamampConfig = {
                     params: {
                         placementId: 13788999
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        placementId: 17049669
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'div-gpt-ad-1455797301587-7',
@@ -1263,8 +1497,31 @@ var streamampConfig = {
                     params: {
                         placementId: 13789001
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '728 - 9999'
+                    ],
+                    params: {
+                        placementId: 17049671
+                    }
                 }
-            ]
+            ],
+            breakpoints: {
+                '728 - 9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '468 - 727': [
+                    [
+                        728,
+                        90
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
