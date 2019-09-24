@@ -1,5 +1,6 @@
 var streamampConfig = {
-    a9Enabled: false,
+    a9Enabled: true,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -48,7 +49,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         zoneId: 1382491,
@@ -69,7 +70,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         tagid: '70984'
@@ -89,7 +90,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         placementId: 22039666
@@ -110,7 +111,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         unit: '540778444',
@@ -132,7 +133,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         publisherId: '2237788',
@@ -153,13 +154,37 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         placementId: 16175510
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 727': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'ukbf-mpu-2',
@@ -197,7 +222,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         zoneId: 1382491,
@@ -218,7 +243,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         tagid: '70986'
@@ -238,7 +263,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         placementId: 22039670
@@ -259,7 +284,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         unit: '540778445',
@@ -281,7 +306,7 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         publisherId: '2237790',
@@ -302,13 +327,37 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '728 - 970',
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         placementId: 16175513
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 727': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'ukbf-top',
@@ -359,7 +408,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         zoneId: 1382490,
@@ -388,7 +437,7 @@ var streamampConfig = {
                 {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         tagid: '70989'
@@ -416,7 +465,7 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         placementId: 22039671
@@ -446,7 +495,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         unit: '540778452',
@@ -477,7 +526,7 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         publisherId: '2237793',
@@ -506,13 +555,229 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '0 - 720'
+                        '0 - 727'
                     ],
                     params: {
                         placementId: 16175516
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '728 - 970': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '0 - 727': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'ukbf-mpu-3',
+            path: '/4394518/ukbf-mpu-3',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            300,
+                            250
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: true,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'ukbf_mpu_3_300x250'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        tagid: '74366'
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        placementId: 22051763
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        unit: '540796815',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        publisherId: '2237794',
+                        adSlot: 'Sift-ukbf_mpu_3_300x250'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        placementId: 16411665
+                    }
+                }
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 727': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'UKBF_Sticky',
+            path: '/4394518/UKBF_Sticky',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: true,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'ukbf_sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        tagid: '80042'
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        placementId: 22128382
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        unit: '540861910',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        publisherId: '2348481',
+                        adSlot: 'Sift-ukbf_Sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        placementId: 17085238
+                    }
+                }
+            ],
+            breakpoints: {
+                '0 - 727': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
@@ -589,9 +854,9 @@ var streamampConfig = {
             ]
         },
         {
-            label: '0 - 720',
+            label: '0 - 727',
             minWidth: 0,
-            maxWidth: 720,
+            maxWidth: 727,
             sizesSupported: [
                 [
                     300,
