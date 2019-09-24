@@ -1979,7 +1979,8 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Off.Road.cc',
-            'Publisher Logo': 'https://static.amp.services/logos/offroad.png'
+            'Publisher Logo': 'https://static.amp.services/logos/offroad.png',
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {
