@@ -1,5 +1,6 @@
 var streamampConfig = {
-    a9Enabled: false,
+    a9Enabled: true,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -165,7 +166,31 @@ var streamampConfig = {
                         placementId: 16177265
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        300,
+                        600
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'TZ_MPU2',
@@ -244,7 +269,15 @@ var streamampConfig = {
                         placementId: 16177356
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        600
+                    ]
+                ]
+            }
         },
         {
             code: 'TZ_MPU3',
@@ -335,7 +368,27 @@ var streamampConfig = {
                         placementId: 16177419
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'TZ_Top',
@@ -552,7 +605,31 @@ var streamampConfig = {
                         placementId: 16177568
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         },
         {
             code: 'TZ_inline',
@@ -682,7 +759,114 @@ var streamampConfig = {
                         placementId: 16411661
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'TZ_Sticky',
+            path: '/4394518/TZ_Sticky',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: true,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'TZ_Sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        tagid: '80043'
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        placementId: 22128381
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        siteId: '413488',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        unit: '540861909',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        placementId: 17085237
+                    }
+                }
+            ],
+            breakpoints: {
+                '0 - 728': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
