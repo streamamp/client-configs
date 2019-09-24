@@ -1,9 +1,17 @@
 var streamampConfig = {
-    prebidJsVersion: '2.26.0',
+    a9Enabled: true,
+    apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
+    bidTimeout: 1.2,
+    pbjsPriceGranularity: 'high',
+    currency: {
+        enabled: false,
+        value: ''
+    },
+    hasRefreshBids: false,
+    refreshBidsTimeout: 90,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'StreamAMP/Lipsum',
     token: 'iH2XRvTyXlZRkFlKiYhSCPOMgwLrtdejJecXtognjtbC9dBLhQoDeYxWYRvwKUfk',
-    a9Enabled: true,
-    bidTimeout: 2,
     adUnits: [
         {
             code: 'div-gpt-ad-1456148316198-0',
@@ -625,6 +633,32 @@ var streamampConfig = {
             ]
         }
     ],
+    cmp: {
+        isEnabled: true,
+        config: {
+            // General
+            'UI Layout': 'popup',
+            'Language': 'en',
+            'Publisher Name': 'Lipsum',
+            'Publisher Logo': 'https://static.amp.services/logos/lipsum.png',
+            'No Option': true,
+            // Consent
+            'Non-Consent Display Frequency': 7,
+            'Publisher Purpose IDs': [1,2,3,4,5],
+            // Main Page
+            'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
+            'Initial Screen Accept Button Text': 'I Agree',
+            'Initial Screen Reject Button Text': 'I do not accept',
+            // Purposes Page
+            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+            // Vendors Page
+            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+            'Vendor Screen Accept All Button Text': 'Accept all',
+            'Vendor Screen Reject All Button Text': 'Reject all',
+        },
+        hasCustomStyles: false,
+        styles: {},
+    },
     breakpoints: [
         {
             label: 'size1',
@@ -670,36 +704,6 @@ var streamampConfig = {
             ],
         },
     ],
-    pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
-    hasCollapsedEmptyDivs: true,
-    cmp: {
-        isEnabled: true,
-        config: {
-            // General
-            'UI Layout': 'popup',
-            'Language': 'en',
-            'Publisher Name': 'Lipsum',
-            'Publisher Logo': 'https://static.amp.services/logos/lipsum.png',
-            'No Option': true,
-            // Consent
-            'Non-Consent Display Frequency': 7,
-            'Publisher Purpose IDs': [1,2,3,4,5],
-            // Main Page
-            'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
-            'Initial Screen Accept Button Text': 'I Agree',
-            'Initial Screen Reject Button Text': 'I do not accept',
-            // Purposes Page
-            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
-            // Vendors Page
-            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
-            'Vendor Screen Accept All Button Text': 'Accept all',
-            'Vendor Screen Reject All Button Text': 'Reject all',
-        },
-        hasCustomStyles: false,
-        styles: {},
-    },
 };
 
 

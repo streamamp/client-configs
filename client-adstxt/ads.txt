@@ -1,0 +1,35 @@
+freewheel.tv, 33601, RESELLER
+google.com, pub-8172268348509349, RESELLER, f08c47fec0942fa0
+video.unrulymedia.com, UNRX-PUB-1214fa5c-37cb-4a9d-83fe-f84f7e342411, DIRECT
+indexexchange.com, 182257, RESELLER
+appnexus.com, 6849, RESELLER
+rubiconproject.com, 15268, RESELLER
+appnexus.com, 8646, reseller
+rubiconproject.com, 18176, RESELLER, 0bfd66d529a55807
+indexexchange.com, 187297, RESELLER
+openx.com, 540038339, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 156938, RESELLER, 5d62403b186f2ace
+media.net, 8CUQD1K66, RESELLER
+Rhythmone.com,2130882134,DIRECT,a670c89d4a324e47
+smaato.com, 1001012346, RESELLER
+sovrn.com, 229584, RESELLER, fafdf38b16bf6b2b
+lijit.com, 229584, RESELLER, fafdf38b16bf6b2b
+appnexus.com, 1360, RESELLER, f5ab79cb980f11d1
+gumgum.com, 11645, RESELLER, ffdef49475d318a9
+openx.com, 538959099, RESELLER, 6a698e2ec38604c6
+openx.com, 539924617, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156700, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
+media.net, 8CU107KG5, DIRECT
+openx.com, 537100188, RESELLER
+#Amazon
+aps.amazon.com,aac344f8-dc17-4ab8-b0a7-91cd349ec3b1,DIRECT
+pubmatic.com,157150,RESELLER,5d62403b186f2ace
+openx.com,540191398,RESELLER,6a698e2ec38604c6
+rubiconproject.com,18020,RESELLER,0bfd66d529a55807
+appnexus.com,1908,RESELLER,f5ab79cb980f11d1
+adtech.com,12068,RESELLER,e1a5b5b6e3255540
+districtm.io,100962,RESELLER,3fd707be9c4527c3
+rhythmone.com,1654642120,RESELLER,a670c89d4a324e47
