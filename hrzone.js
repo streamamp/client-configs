@@ -1,5 +1,6 @@
 var streamampConfig = {
-    a9Enabled: false,
+    a9Enabled: true,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -164,7 +165,31 @@ var streamampConfig = {
                         placementId: 16175524
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        300,
+                        600
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'HRZ_MPU2',
@@ -242,7 +267,15 @@ var streamampConfig = {
                         placementId: 16175561
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        600
+                    ]
+                ]
+            }
         },
         {
             code: 'HRZ_MPU3',
@@ -332,7 +365,27 @@ var streamampConfig = {
                         placementId: 16175589
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'HRZ_Top',
@@ -548,7 +601,31 @@ var streamampConfig = {
                         placementId: 16175621
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         },
         {
             code: 'HRZ_inline',
@@ -674,7 +751,114 @@ var streamampConfig = {
                         placementId: 16405862
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'HRZ_Sticky',
+            path: '/4394518/HRZ_Sticky',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: true,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'HRZ_Sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        tagid: '80045'
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        placementId: 22128379
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        siteId: '413486',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        unit: '540861883',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        placementId: 17085232
+                    }
+                }
+            ],
+            breakpoints: {
+                '0 - 728': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
