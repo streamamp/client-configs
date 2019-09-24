@@ -1,5 +1,6 @@
 var streamampConfig = {
     a9Enabled: false,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -193,6 +194,28 @@ var streamampConfig = {
                     params: {
                         placementId: 11501137
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999',
+                        '750-899',
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069651
+                    }
+                },
+                ,
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '750-899',
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069653
+                    }
                 }
             ]
         },
@@ -372,6 +395,33 @@ var streamampConfig = {
                     params: {
                         placementId: 11501139
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999'
+                    ],
+                    params: {
+                        placementId: 17069655
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999'
+                    ],
+                    params: {
+                        placementId: 17069658
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999'
+                    ],
+                    params: {
+                        placementId: 17069659
+                    }
                 }
             ]
         },
@@ -477,6 +527,18 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 11221284
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999',
+                        '990-1199',
+                        '900-989',
+                        '750-899'
+                    ],
+                    params: {
+                        placementId: 17069648
                     }
                 }
             ]
@@ -698,6 +760,35 @@ var streamampConfig = {
                     params: {
                         placementId: 14459888
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '750-899',
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069853
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '750-899',
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069855
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '900-989'
+                    ],
+                    params: {
+                        placementId: 17069851
+                    }
                 }
             ]
         },
@@ -832,6 +923,24 @@ var streamampConfig = {
                     params: {
                         placementId: 15198299
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069710
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069711
+                    }
                 }
             ]
         },
@@ -949,6 +1058,19 @@ var streamampConfig = {
                     params: {
                         placementId: 15198297
                     }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999',
+                        '990-1199',
+                        '900-989',
+                        '0-750',
+                        '750-899'
+                    ],
+                    params: {
+                        placementId: 17069663
+                    }
                 }
             ]
         },
@@ -1065,6 +1187,19 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 15198300
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999',
+                        '990-1199',
+                        '900-989',
+                        '750-899',
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069651
                     }
                 }
             ]
@@ -1225,6 +1360,25 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 15198301
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069845
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '900-989',
+                        '990-1199'
+                    ],
+                    params: {
+                        placementId: 17069713
                     }
                 }
             ]
@@ -1398,6 +1552,27 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 15198302
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1200-9999',
+                        '990-1199',
+                        '900-989'
+                    ],
+                    params: {
+                        placementId: 17069847
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '750-899',
+                        '0-750'
+                    ],
+                    params: {
+                        placementId: 17069850
                     }
                 }
             ]
