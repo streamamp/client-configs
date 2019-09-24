@@ -311,7 +311,55 @@ var streamampConfig = {
                         placementId: 16300159
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970 - 1033': [
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '491 - 727': [
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 490': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'leaderboard_header',
@@ -436,7 +484,15 @@ var streamampConfig = {
                         placementId: 16300210
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ]
+            }
         },
         {
             code: 'leaderboard_footer',
@@ -685,7 +741,35 @@ var streamampConfig = {
                         placementId: 16303146
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '970 - 1033': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        728,
+                        90
+                    ]
+                ]
+            }
         },
         {
             code: 'Desktop_print',
@@ -826,7 +910,172 @@ var streamampConfig = {
                         placementId: 17063050
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '970 - 1033': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        728,
+                        90
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'skyscraper',
+            path: '/21723740412/TheAA/skyscraper',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            160,
+                            600
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'TheAA_Skyscrapper_160x600'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        dmxid: 255315,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        tagid: '41386'
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 1206887
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        siteId: '307615',
+                        size: [
+                            160,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        unit: '540546511',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'TheAA_sky_160x600'
+                    }
+                },
+                {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '217768',
+                        zoneId: 1079398,
+                        sizes: [
+                            9
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 14160807
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 16303148
+                    }
+                }
+            ],
+            breakpoints: {
+                '970 - 1033': [
+                    [
+                        160,
+                        600
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        160,
+                        600
+                    ]
+                ]
+            }
         },
         {
             code: 'skyscraper1',
@@ -1263,7 +1512,67 @@ var streamampConfig = {
                         placementId: 17063055
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 490': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '491 - 727': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970 - 1033': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'skyscraper2',
@@ -1706,7 +2015,67 @@ var streamampConfig = {
                         placementId: 17063069
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970 - 1033': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '491 - 727': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 490': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'skyscraper3',
@@ -2149,7 +2518,67 @@ var streamampConfig = {
                         placementId: 17063083
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '1034 - 9999': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970 - 1033': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '491 - 727': [
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 490': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
         },
         {
             code: 'Mobile',
@@ -2274,11 +2703,19 @@ var streamampConfig = {
                         placementId: 16303151
                     }
                 }
-            ]
+            ],
+            breakpoints: {
+                '0 - 490': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
-        isEnabled: false,
+        isEnabled: false
     },
     breakpoints: [
         {
