@@ -1,5 +1,6 @@
 var streamampConfig = {
-    a9Enabled: false,
+    a9Enabled: true,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -859,6 +860,103 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: true,
             bids: []
+        },
+        {
+            code: 'AWUK_Sticky',
+            path: '/4394518/AWUK_Sticky',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: true,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'AWUK_Sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        tagid: '80046'
+                    }
+                },
+                {
+                    bidder: 'improvedigital',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        placementId: 22128326
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        siteId: '413485',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        unit: '540861879',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        publisherId: '2348473',
+                        adSlot: 'Sift-AWUK_Sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        placementId: 17085214
+                    }
+                }
+            ],
+            breakpoints: {
+                '0 - 728': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
