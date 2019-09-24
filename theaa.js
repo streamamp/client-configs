@@ -384,7 +384,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         zoneId: 1382489,
@@ -394,7 +395,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         dmxid: 255309,
@@ -404,7 +406,8 @@ var streamampConfig = {
                 {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         tagid: '41380'
@@ -413,7 +416,8 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         placementId: 1206885
@@ -422,7 +426,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         siteId: '307603',
@@ -435,7 +440,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         unit: '540546509',
@@ -445,7 +451,8 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         publisherId: '127864',
@@ -455,7 +462,8 @@ var streamampConfig = {
                 {
                     bidder: 'rubicon',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         accountId: '14418',
@@ -469,7 +477,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         placementId: 14160797
@@ -478,7 +487,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '1034 - 9999'
+                        '1034 - 9999',
+                        '728 - 969'
                     ],
                     params: {
                         placementId: 16300210
@@ -490,6 +500,18 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ]
+                ],
+                '728 - 969': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '491 - 727': [
+                    [
+                        468,
+                        60
                     ]
                 ]
             }
@@ -1526,12 +1548,24 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '0 - 490': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '491 - 727': [
@@ -1542,6 +1576,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '728 - 969': [
@@ -1556,6 +1594,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '970 - 1033': [
@@ -1570,6 +1612,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ]
             }
@@ -2029,6 +2075,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '970 - 1033': [
@@ -2043,6 +2093,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '728 - 969': [
@@ -2057,6 +2111,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '491 - 727': [
@@ -2067,12 +2125,24 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '0 - 490': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -2532,6 +2602,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '970 - 1033': [
@@ -2546,6 +2620,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '728 - 969': [
@@ -2560,6 +2638,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '491 - 727': [
@@ -2570,12 +2652,24 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '0 - 490': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -2709,6 +2803,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
