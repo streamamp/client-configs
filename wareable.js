@@ -14,7 +14,7 @@ var streamampConfig = {
     },
     adUnits: [
         {
-            code: 'Articles_TopBanner',
+            code: 'TopBanner',
             path: '/135921087/Articles_TopBanner',
             mediaTypes: {
                 banner: {
@@ -176,7 +176,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'Articles_RightSidebarTop',
+            code: 'RightSidebarTop',
             path: '/135921087/Articles_RightSidebarTop',
             mediaTypes: {
                 banner: {
@@ -409,7 +409,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'Articles_InlineContent',
+            code: 'Article_InlineContent',
             path: '/135921087/Articles_InlineContent',
             mediaTypes: {
                 banner: {
@@ -1478,7 +1478,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'Articles_RightSidebarBottom',
+            code: 'RightSidebarBottom',
             path: '/135921087/Articles_RightSidebarBottom',
             mediaTypes: {
                 banner: {
@@ -1700,20 +1700,20 @@ var streamampConfig = {
             }
         }
     ],
-        cmp: {
-    isEnabled: true,
+    cmp: {
+        isEnabled: true,
         config: {
-        'UI Layout': 'popup',
+            'UI Layout': 'popup',
             Language: 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
             'Initial Screen Body Text Option': 1,
             'Initial Screen Accept Button Text': 'I agree',
             'Initial Screen Reject Button Text': 'I do not accept',
@@ -1723,23 +1723,23 @@ var streamampConfig = {
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Wareable',
             'Publisher Logo': 'https://static.amp.services/logos/wearable.png'
-    },
-    hasCustomStyles: false,
+        },
+        hasCustomStyles: false,
         styles: {
-        ui: {},
-        link: {},
-        primaryButton: {},
-        primaryButtonHover: {},
-        isSecondaryButtonHidden: false,
+            ui: {},
+            link: {},
+            primaryButton: {},
+            primaryButtonHover: {},
+            isSecondaryButtonHidden: false,
             secondaryButton: {},
-        secondaryButtonHover: {},
-        tableHeader: {},
-        tableRow: {},
-        toggleOn: {},
-        toggleOff: {},
-        additionalStyles: ''
-    }
-},
+            secondaryButtonHover: {},
+            tableHeader: {},
+            tableRow: {},
+            toggleOn: {},
+            toggleOff: {},
+            additionalStyles: ''
+        }
+    },
     breakpoints: [
         {
             label: '1200-9999',
