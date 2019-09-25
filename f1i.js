@@ -120,7 +120,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '769 - 9999'
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
@@ -512,7 +512,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '769 - 9999'
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
@@ -726,7 +726,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '769 - 9999'
+                        '769 - 9999',
                         '0 - 768'
                     ],
                     params: {
