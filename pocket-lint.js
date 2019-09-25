@@ -8534,7 +8534,8 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Pocket Lint',
-            'Publisher Logo': 'https://static.amp.services/logos/pocketlint.png'
+            'Publisher Logo': 'https://static.amp.services/logos/pocketlint.png',
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {

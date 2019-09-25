@@ -1,5 +1,6 @@
 var streamampConfig = {
     a9Enabled: false,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
@@ -1978,7 +1979,8 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Off.Road.cc',
-            'Publisher Logo': 'https://static.amp.services/logos/offroad.png'
+            'Publisher Logo': 'https://static.amp.services/logos/offroad.png',
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {

@@ -1421,18 +1421,22 @@ var streamampConfig = {
     cmp: {
         isEnabled: true,
         config: {
-            'UI Layout': 'popup',
-            Language: 'en',
-            'No Option': false,
-            'Non-Consent Display Frequency': 7,
-            'Publisher Purpose IDs': [],
-            'Initial Screen Body Text Option': 1,
-            'Initial Screen Accept Button Text': 'I agree',
+            'Language': 'en',
             'Initial Screen Reject Button Text': 'I do not accept',
+            'Initial Screen Accept Button Text': 'I Agree',
             'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
             'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
             'Vendor Screen Accept All Button Text': 'Accept all',
-            'Vendor Screen Reject All Button Text': 'Reject all'
+            'Vendor Screen Reject All Button Text': 'Reject all',
+            'Initial Screen Title Text': 'Ads help us run this site',
+            'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
+            'Publisher Name': 'BoxRec',
+            'Publisher Logo': 'https://static.amp.services/logos/boxrec.png',
+            'Publisher Purpose IDs': [1, 2, 3, 4, 5],
+            'No Option': false,
+            'Non-Consent Display Frequency': 7,
+            'UI Layout': 'popup',
+            'Display Persistent Consent Link': false,
         },
         hasCustomStyles: true,
         styles: {
@@ -1446,16 +1450,37 @@ var streamampConfig = {
             primaryButton: {
                 backgroundColor: '#FF0F00',
                 borderColor: '#FF0F00',
-                textColor: '#CC0C00'
+                textColor: '#FFFFFF'
             },
-            primaryButtonHover: {},
+            primaryButtonHover: {
+                backgroundColor: '#CC0C00',
+                borderColor: '#CC0C00',
+                textColor: '#FFFFFF'
+            },
             isSecondaryButtonHidden: false,
-            secondaryButton: {},
+            secondaryButton: {
+                backgroundColor: 'transparent',
+                borderColor: '#ffffff',
+                textColor: '#FFFFFF'
+            },
             secondaryButtonHover: {},
-            tableHeader: {},
-            tableRow: {},
-            toggleOn: {},
-            toggleOff: {}
+            tableHeader: {
+                textColor: '#ffffff'
+            },
+            tableRow: {
+                backgroundColor: '#000000',
+                textColor: '#ffffff'
+            },
+            toggleOn: {
+                backgroundColor: '#FF0F00',
+                borderColor: '#FF0F00'
+            },
+            toggleOff: {
+                backgroundColor: '#FFFFFF',
+                borderColor: '#FFFFFF'
+            },
+            toggleSwitchBorderColor: '#000000',
+            toggleStatusTextColor: '#FFFFFF'
         }
     },
     breakpoints: [
