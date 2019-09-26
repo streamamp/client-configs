@@ -1416,6 +1416,51 @@ var streamampConfig = {
                     ]
                 ]
             }
+        },
+        {
+            code: 'StreamAMP_Skin',
+            path: '/5548363/StreamAMP_Skin',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            bids: [
+
+            ],
+            breakpoints: {
+                '0 - 550': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '551 - 728': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '729 - 999': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '1000+': [
+                    [
+                        1,
+                        1
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
@@ -1565,6 +1610,10 @@ var streamampConfig = {
                 [
                     320,
                     100
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
