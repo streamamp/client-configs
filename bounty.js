@@ -2644,7 +2644,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: false,
+            safeFrame: true,
             bids: [
                 {
                     bidder: 'justpremium',
