@@ -661,10 +661,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -1001,10 +997,6 @@ var streamampConfig = {
                     [
                         300,
                         250
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -1242,10 +1234,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -1483,10 +1471,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -1724,10 +1708,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -1965,10 +1945,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -2305,10 +2281,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -2645,10 +2617,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -2985,10 +2953,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -3280,6 +3244,19 @@ var streamampConfig = {
                         size: [
                             320,
                             50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 767'
+                    ],
+                    params: {
+                        zone: '79351',
+                        allow: [
+                            'mt',
+                            'ms'
                         ]
                     }
                 },
@@ -3582,10 +3559,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -3823,10 +3796,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -4064,10 +4033,6 @@ var streamampConfig = {
                     [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
