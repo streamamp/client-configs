@@ -47,7 +47,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -403,7 +403,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -721,7 +721,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -965,7 +965,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -1127,7 +1127,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -1552,7 +1552,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -1772,7 +1772,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -1992,7 +1992,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -2212,7 +2212,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -2432,7 +2432,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -2644,7 +2644,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'justpremium',
