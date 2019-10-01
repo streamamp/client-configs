@@ -3192,7 +3192,7 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: false,
+            isSticky: true,
             safeFrame: true,
             outOfPage: false,
             bids: [
