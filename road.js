@@ -3324,7 +3324,68 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: []
+            bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 767'
+                    ],
+                    params: {
+                        zone: '79351',
+                        allow: [
+                            'is',
+                            'mo'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '768 - 1025'
+                    ],
+                    params: {
+                        zone: '79351',
+                        allow: [
+                            'cf',
+                            'ci',
+                          'pa'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '768 - 1025'
+                    ],
+                    params: {
+                        zone: '79351',
+                        allow: [
+                            'ci',
+                            'pa'
+                        ]
+                    }
+                }
+            ],
+            breakpoints: {
+                '1025 - 9999': [
+                    [
+                        1,
+                      1
+                    ]
+                ],
+                '768 - 1025': [
+                    [
+                       1,
+                      1
+                    ]
+                ],
+                '0 - 767': [
+                    [
+                        1,
+                      1
+                    ]
+                ]
+            }
         },
         {
             code: 'SA-Unit15',
@@ -4103,6 +4164,10 @@ var streamampConfig = {
                 [
                     160,
                     600
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -4126,6 +4191,10 @@ var streamampConfig = {
                 [
                     300,
                     600
+                ],
+                [
+                  1,
+                  1
                 ]
             ]
         },
@@ -4141,6 +4210,10 @@ var streamampConfig = {
                 [
                     300,
                     250
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
