@@ -12,6 +12,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'TZ_MPU1',
@@ -31,7 +34,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -206,7 +209,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -293,7 +296,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -416,7 +419,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -684,7 +687,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
