@@ -7,9 +7,6 @@ var streamampConfig = {
         enabled: false,
         value: ''
     },
-    namespace: 'streamamp',
-    globalKeyValues: [],
-    keyValues: {},
     hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: true,

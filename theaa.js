@@ -12,9 +12,6 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
-    namespace: 'streamamp',
-    globalKeyValues: [],
-    keyValues: {},
     adUnits: [
         {
             code: 'MPU',

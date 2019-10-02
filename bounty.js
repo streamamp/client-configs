@@ -11,9 +11,6 @@ var streamampConfig = {
     enabled: true,
         value: 'GBP'
     },
-    namespace: 'streamamp',
-    globalKeyValues: [],
-    keyValues: {},
     adUnits: [{
         code: 'Unit1',
         path: '/4465849/HB-Bounty/Unit1',
