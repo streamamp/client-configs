@@ -5,6 +5,9 @@ var streamampConfig = {
         value: 'GBP',
         enabled: true
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     bidTimeout: 2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: false,
