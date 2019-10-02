@@ -12,6 +12,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [{
         code: 'SA-Unit1',
         path: '/269479563/eBikeTips/SA-Unit1',
