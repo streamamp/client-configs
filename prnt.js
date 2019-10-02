@@ -11,6 +11,9 @@ var streamampConfig = {
         enabled: false,
         value: ''
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'Unit1',
@@ -30,7 +33,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -91,7 +94,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -171,7 +174,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -232,7 +235,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -289,7 +292,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
