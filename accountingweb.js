@@ -12,6 +12,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'AWUK_MPU1',
@@ -31,7 +34,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -227,7 +230,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -323,7 +326,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -457,7 +460,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -716,7 +719,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
