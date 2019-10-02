@@ -12,6 +12,13 @@ var streamampConfig = {
     hasCollapsedEmptyDivs: true,
     publisher_id: 'StreamAMP/Lipsum',
     token: 'iH2XRvTyXlZRkFlKiYhSCPOMgwLrtdejJecXtognjtbC9dBLhQoDeYxWYRvwKUfk',
+    currency: {
+        enabled: true,
+        value: 'USD'
+    },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'div-gpt-ad-1456148316198-0',
