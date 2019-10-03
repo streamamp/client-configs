@@ -9,8 +9,8 @@ var streamampConfig = {
     publisher_id: 'StreamAMP/Lipsum',
     token: 'iH2XRvTyXlZRkFlKiYhSCPOMgwLrtdejJecXtognjtbC9dBLhQoDeYxWYRvwKUfk',
     currency: {
-        enabled: true,
-        value: 'USD'
+        enabled: false,
+        value: ''
     },
     namespace: 'streamamp',
     globalKeyValues: [],
