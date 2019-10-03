@@ -1,9 +1,20 @@
 var streamampConfig = {
+    levelTargeting: true,
+    toggleOffUrls: [
+        {
+            "level": "3",
+            "url": "398385"
+        },
+        {
+            "level": "3",
+            "url": "373661"
+        }
+    ],
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
+    hasRefreshBids: true,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/UKBusinessForum',
