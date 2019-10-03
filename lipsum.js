@@ -3,10 +3,6 @@ var streamampConfig = {
     apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    currency: {
-        enabled: false,
-        value: ''
-    },
     hasRefreshBids: false,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: true,
