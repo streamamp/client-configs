@@ -1,6 +1,6 @@
 var streamampConfig = {
     a9Enabled: true,
-    apsPubId: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     currency: {
         value: 'GBP',
         enabled: true
@@ -10,7 +10,7 @@ var streamampConfig = {
     keyValues: {},
     bidTimeout: 2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
+    hasRefreshBids: true,
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: false,
     publisher_id: 'BoxRec/Boxrec',
