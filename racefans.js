@@ -13,7 +13,7 @@ var streamampConfig = {
 	currency: {
 		enabled: false,
 		value: ''
-},
+	},
 	namespace: 'streamamp',
 	globalKeyValues: [],
 	keyValues: {},
@@ -2984,9 +2984,9 @@ var streamampConfig = {
 			bids: []
 		}
 	],
-		cmp: {
-	isEnabled: false
-},
+	cmp: {
+		isEnabled: false
+	},
 	breakpoints: [
 		{
 			label: '1667-9999',
