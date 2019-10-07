@@ -13,7 +13,7 @@ var streamampConfig = {
 	currency: {
 		enabled: false,
 		value: ''
-	},
+},
 	namespace: 'streamamp',
 	globalKeyValues: [],
 	keyValues: {},
@@ -35,6 +35,10 @@ var streamampConfig = {
 						[
 							320,
 							50
+						],
+						[
+							1,
+							1
 						]
 					]
 				}
@@ -206,6 +210,25 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'justpremium',
+					labelAny: [
+						'1667-9999'
+					],
+					params: {
+						zone: '79427',
+						allow: [
+							'pu',
+							'pa',
+							'ci',
+							'as',
+							'cf',
+							'hv',
+							'wv',
+							'wp'
+						]
+					}
+				},
+				{
 					bidder: 'openx',
 					labelAny: [
 						'1667-9999',
@@ -311,6 +334,10 @@ var streamampConfig = {
 					[
 						970,
 						250
+					],
+					[
+						1,
+						1
 					]
 				],
 				'957-1666': [
@@ -2957,9 +2984,9 @@ var streamampConfig = {
 			bids: []
 		}
 	],
-	cmp: {
-		isEnabled: false
-	},
+		cmp: {
+	isEnabled: false
+},
 	breakpoints: [
 		{
 			label: '1667-9999',
@@ -2989,6 +3016,10 @@ var streamampConfig = {
 				[
 					320,
 					50
+				],
+				[
+					1,
+					1
 				]
 			]
 		},
@@ -3070,4 +3101,4 @@ var streamampConfig = {
 			]
 		}
 	]
-};
+}
