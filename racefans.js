@@ -19,7 +19,7 @@ var streamampConfig = {
 	keyValues: {},
 	adUnits: [
 		{
-			code: 'F1fanatic/Unit1',
+			code: 'F1fanatic-Unit1',
 			path: '/15188745/f1fanatic-unit1',
 			mediaTypes: {
 				banner: {
@@ -369,7 +369,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/Unit2',
+			code: 'F1fanatic-Unit2',
 			path: '/15188745/f1fanatic-unit2',
 			mediaTypes: {
 				banner: {
@@ -693,7 +693,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/Unit3',
+			code: 'F1fanatic-Unit3',
 			path: '/15188745/f1fanatic-unit3',
 			mediaTypes: {
 				banner: {
@@ -827,7 +827,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/Unit4',
+			code: 'F1fanatic-Unit4',
 			path: '/15188745/f1fanatic-unit4',
 			mediaTypes: {
 				banner: {
@@ -1050,7 +1050,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/Unit5',
+			code: 'F1fanatic-Unit5',
 			path: '/15188745/F1fanatic//Unit5',
 			mediaTypes: {
 				banner: {
@@ -1285,7 +1285,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/Unit6',
+			code: 'F1fanatic-Unit6',
 			path: '/15188745/F1fanatic//Unit6',
 			mediaTypes: {
 				banner: {
@@ -1520,7 +1520,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1Fanatic/Unit8',
+			code: 'F1fanatic-Unit7',
 			path: '/15188745/F1Fanatic//Unit8',
 			mediaTypes: {
 				banner: {
@@ -2860,7 +2860,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/Sticky',
+			code: 'F1fanatic-Sticky',
 			path: '/15188745/F1fanatic//Sticky',
 			mediaTypes: {
 				banner: {
@@ -2966,8 +2966,8 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'F1fanatic/1x1-interscroller',
-			path: 'div-gpt-ad-1531839440830-0',
+			code: 'div-gpt-ad-1531839440830-0',
+			path: '/15188745/F1fanatic//1x1-interscroller',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -2981,11 +2981,51 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: []
+			bids: [],
+			breakpoints: {}
 		}
 	],
 	cmp: {
-		isEnabled: false
+		isEnabled: true,
+		config: {
+			'UI Layout': 'popup',
+			Language: 'en',
+			'Display Persistent Consent Link': true,
+			'No Option': false,
+			'Non-Consent Display Frequency': 7,
+			'Publisher Purpose IDs': [
+				1,
+				2,
+				3,
+				4,
+				5
+			],
+			'Initial Screen Body Text Option': 1,
+			'Initial Screen Accept Button Text': 'I agree',
+			'Initial Screen Reject Button Text': 'I do not accept',
+			'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+			'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+			'Vendor Screen Accept All Button Text': 'Accept all',
+			'Vendor Screen Reject All Button Text': 'Reject all',
+			'Publisher Logo': 'https://static.amp.services/logos/racefans.png',
+			'Publisher Name': 'RaceFans',
+			'Initial Screen Title Text': 'We value your privacy'
+		},
+		hasCustomStyles: false,
+		styles: {
+			ui: {},
+			link: {},
+			primaryButton: {},
+			primaryButtonHover: {},
+			isSecondaryButtonHidden: false,
+			secondaryButton: {},
+			secondaryButtonHover: {},
+			tableHeader: {},
+			tableRow: {},
+			toggleOn: {},
+			toggleOff: {},
+			additionalStyles: ''
+		}
 	},
 	breakpoints: [
 		{
