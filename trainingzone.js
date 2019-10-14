@@ -5,7 +5,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    refreshBidsTimeout: 150,s
+    refreshBidsTimeout: 150,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/TrainingZone',
     token: 'rVtkKtzeSFHJU2bZAoduGsoQWYTsrBimBdDaXmq4wZpF70IpmWdOBvxvBnkUzwdv',
