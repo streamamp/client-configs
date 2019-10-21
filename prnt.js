@@ -1,9 +1,11 @@
 var streamampConfig = {
+    levelTargeting: false,
     a9Enabled: false,
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: false,
     publisher_id: 'Ad4Games/prnt',
     token: 'e3GTlSpQ9pIXJggGwLkyUqcsPK1RwLRurxbPeflO7xf60tbjNBzpuquxu5k2sV13',
