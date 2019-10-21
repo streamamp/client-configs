@@ -1,10 +1,12 @@
 var streamampConfig = {
+    levelTargeting: true,
+    toggleOffUrls: [],
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    refreshBidsTimeout: 150,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/MyCustomer',
     token: 'YPu5gu4IWoIofQCSL7lQPOrxrBdYpI7yExh7WLG250iqMsddGDCNKhDBUHoFiiyt',
@@ -12,6 +14,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'MYC_MPU1',

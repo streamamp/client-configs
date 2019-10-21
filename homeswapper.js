@@ -11,6 +11,9 @@ var streamampConfig = {
         enabled: false,
         value: ''
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'div-gpt-ad-1454495945248-0',

@@ -1,6 +1,6 @@
 var streamampConfig = {
     a9Enabled: true,
-    apsPubId: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     currency: {
         value: 'GBP',
         enabled: true
@@ -10,8 +10,10 @@ var streamampConfig = {
     keyValues: {},
     bidTimeout: 2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 30,
+    maxRefreshTime: 60,
+    adUnitsToRefresh: ['StreamAMP_TopLeaderboard', 'StreamAMP_MPU1', 'StreamAMP_MPU2', 'StreamAMP_MobileTop', 'StreamAMP_MobileMid', 'StreamAMP_1x1'],
     hasCollapsedEmptyDivs: false,
     publisher_id: 'BoxRec/Boxrec',
     token: 'qAyQfPvuiysxtKRS0vlPdDKrMa9BrXlt4KYzggJDfwm3aVNo1tN2JcNOcVBOVNJw',
@@ -565,6 +567,10 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            468,
+                            90
                         ]
                     ]
                 }
@@ -684,6 +690,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        468,
+                        90
                     ]
                 ],
                 '0 - 550': [
@@ -902,6 +912,10 @@ var streamampConfig = {
                         [
                             320,
                             100
+                        ],
+                        [
+                            468,
+                            90
                         ]
                     ]
                 }
@@ -1103,6 +1117,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        468,
+                        90
                     ]
                 ],
                 '0 - 550': [
@@ -1266,6 +1284,10 @@ var streamampConfig = {
                         [
                             1,
                             1
+                        ],
+                        [
+                            468,
+                            90
                         ]
                     ]
                 }
@@ -1404,6 +1426,10 @@ var streamampConfig = {
                     [
                         1,
                         1
+                    ],
+                    [
+                        468,
+                        90
                     ]
                 ],
                 '729 - 999': [
@@ -1594,6 +1620,10 @@ var streamampConfig = {
                 [
                     1,
                     1
+                ],
+                [
+                    468,
+                    90
                 ]
             ]
         },

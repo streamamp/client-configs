@@ -4,7 +4,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    refreshBidsTimeout: '30',
+    refreshBidsTimeout: '35',
     hasCollapsedEmptyDivs: true,
     publisher_id: 'TheAA/TheAA',
     token: 'JZg3CKrEL9GmNHpRn8lsXpTbKx28a3F73qxp4KbFtkwGnR5ygyrx91VHZbh4ahYf',
@@ -12,6 +12,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'MPU',

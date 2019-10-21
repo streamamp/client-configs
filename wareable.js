@@ -3,8 +3,9 @@ var streamampConfig = {
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: false,
     publisher_id: 'Wareable/Wareable',
     token: 'PfJFkS50okfovzL7ttDWDLXW0pLxPP2dcy0CDsAAfoJfKiSdf4FuYAStEJmAAG09',
@@ -12,6 +13,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'TopBanner',
