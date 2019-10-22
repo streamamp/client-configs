@@ -7294,6 +7294,10 @@ var streamampConfig = {
                             250
                         ],
                         [
+                            728,
+                            90
+                        ],
+                        [
                             300,
                             250
                         ],
@@ -7311,6 +7315,16 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'PocketLint_Homepage_Billboard_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
@@ -7324,16 +7338,6 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        dmxid: 224921,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
@@ -7351,6 +7355,15 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '67061'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        tagid: '83232'
                     }
                 },
                 {
@@ -7377,27 +7390,9 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        placementId: 1203415
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
-                    ],
-                    params: {
-                        placementId: 1203415
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '375 - 747'
                     ],
                     params: {
                         placementId: 1203415
@@ -7414,6 +7409,19 @@ var streamampConfig = {
                         size: [
                             970,
                             250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        siteId: '418574',
+                        size: [
+                            728,
+                            90
                         ]
                     }
                 },
@@ -7449,29 +7457,9 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        unit: '540149673',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
-                    ],
-                    params: {
-                        unit: '540149673',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '375 - 747'
                     ],
                     params: {
                         unit: '540149673',
@@ -7487,6 +7475,16 @@ var streamampConfig = {
                     params: {
                         publisherId: '2333143',
                         adSlot: 'pocket-lint_homepage_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        publisherId: '2433005',
+                        adSlot: 'PocketLint_Homepage_Billboard_728x90'
                     }
                 },
                 {
@@ -7535,6 +7533,15 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        placementId: 17318431
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
                         '375 - 747'
                     ],
                     params: {
@@ -7549,6 +7556,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16303278
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        placementId: 17428280
                     }
                 },
                 {
