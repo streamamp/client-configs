@@ -1,4 +1,5 @@
 var streamampConfig = {
+    levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
@@ -50,6 +51,25 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
+    beforeInit: function() {
+        // Set targetings
+        var fn_pageskin = "false";
+        if (screen.width >= 375) {
+            fn_pageskin = "true";
+        }
+        googletag.cmd.push(function() {
+            googletag.pubads().setTargeting("inskin_yes", fn_pageskin);
+        });
+    
+        var PL_settings = window._pl_settings;
+        googletag.cmd.push( function() {
+            if (PL_settings && PL_settings.targeting) {
+                for (index = 0, length = PL_settings.targeting.length; index < length; ++index) {
+                    googletag.pubads().setTargeting(PL_settings.targeting[index][0], PL_settings.targeting[index][1]);
+                }
+            }
+        });
+    },
     adUnits: [
         {
             code: 'SA-Unit1',
