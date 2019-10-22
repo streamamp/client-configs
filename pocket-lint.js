@@ -52,7 +52,6 @@ var streamampConfig = {
     globalKeyValues: [],
     keyValues: {},
     beforeInit: function() {
-        // Set targetings
         var fn_pageskin = "false";
         if (screen.width >= 375) {
             fn_pageskin = "true";
