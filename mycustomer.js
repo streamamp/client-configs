@@ -6,7 +6,8 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    refreshBidsTimeout: 150,
+    minRefreshTime: 120,
+    maxRefreshTime: 180,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/MyCustomer',
     token: 'YPu5gu4IWoIofQCSL7lQPOrxrBdYpI7yExh7WLG250iqMsddGDCNKhDBUHoFiiyt',
@@ -36,7 +37,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -211,7 +212,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -298,7 +299,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -417,7 +418,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -685,7 +686,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
