@@ -1,10 +1,13 @@
 var streamampConfig = {
-    a9Enabled: false,
+    levelTargeting: false,
+    gptSingleRequestEnabled: true,
+    a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'FarrellyAtkinsonLtd/dealsroadcc',
     token: 'pLvyWa99A45ELEJbsuDblTJnazb5UiELFF2lNlnYRQbPm9GpQ0YXyJrwvTQaXV5y',
@@ -42,7 +45,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -344,7 +347,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
