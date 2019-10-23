@@ -1,9 +1,46 @@
 var streamampConfig = {
-    a9Enabled: false,
+    levelTargeting: false,
+    a9Enabled: true,
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
+    hasRefreshBids: true,
     refreshBidsTimeout: 90,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
+    adUnitsToRefresh: [
+        "SA-Unit1",
+        "SA-Unit2",
+        "SA-Unit3",
+        "SA-Unit4",
+        "SA-Unit5",
+        "SA-Unit6",
+        "SA-Unit7",
+        "SA-Unit8",
+        "SA-Unit9",
+        "SA-Unit10",
+        "SA-Unit11",
+        "SA-Unit12",
+        "SA-Unit13",
+        "SA-Unit14",
+        "SA-Unit15",
+        "SA-Unit16",
+        "SA-Unit17",
+        "SA-Unit19",
+        "SA-Unit20",
+        "SA-Sticky",
+        "SA-Tablet",
+        "SA-OutOfPage",
+        "SA-RecommendationWidget",
+        "SA-HomepageBillboard",
+        "SA-Unit21",
+        "Widget-320x50",
+        "SA-Unit22-HomePage",
+        "SA-Unit23-HomePage",
+        "SA-Unit24-HomePage",
+        "SA-Unit25-HomePage",
+        "SA-Unit26-HomePage"
+    ],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'Pocket-lint/pocket-lint-2',
     token: '1aejlUWVaAv14ZFfjjskPR5dhvF6psOSHzwj1cBZkeLZjuydMfMCXiBbkTFEXi4D',
@@ -14,6 +51,24 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
+    beforeInit: function() {
+        var fn_pageskin = "false";
+        if (screen.width >= 375) {
+            fn_pageskin = "true";
+        }
+        googletag.cmd.push(function() {
+            googletag.pubads().setTargeting("inskin_yes", fn_pageskin);
+        });
+    
+        var PL_settings = window._pl_settings;
+        googletag.cmd.push( function() {
+            if (PL_settings && PL_settings.targeting) {
+                for (index = 0, length = PL_settings.targeting.length; index < length; ++index) {
+                    googletag.pubads().setTargeting(PL_settings.targeting[index][0], PL_settings.targeting[index][1]);
+                }
+            }
+        });
+    },
     adUnits: [
         {
             code: 'SA-Unit1',
@@ -45,7 +100,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -312,7 +367,7 @@ var streamampConfig = {
                         '375 - 747'
                     ],
                     params: {
-                        publisherId: '1522812\t',
+                        publisherId: '1522812',
                         adSlot: 'pocket-lint_unit1_320x50'
                     }
                 },
@@ -462,7 +517,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -889,7 +944,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -1316,7 +1371,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -1743,7 +1798,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -2170,7 +2225,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -2587,7 +2642,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -3004,7 +3059,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -3410,7 +3465,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -3827,7 +3882,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -4229,7 +4284,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -4585,7 +4640,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -4941,7 +4996,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -5643,7 +5698,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -5999,7 +6054,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -6345,7 +6400,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -6839,7 +6894,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -7239,6 +7294,10 @@ var streamampConfig = {
                             250
                         ],
                         [
+                            728,
+                            90
+                        ],
+                        [
                             300,
                             250
                         ],
@@ -7250,9 +7309,19 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'PocketLint_Homepage_Billboard_728x90'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -7269,16 +7338,6 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        dmxid: 224921,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
@@ -7296,6 +7355,15 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '67061'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        tagid: '83232'
                     }
                 },
                 {
@@ -7322,27 +7390,9 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        placementId: 1203415
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
-                    ],
-                    params: {
-                        placementId: 1203415
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '375 - 747'
                     ],
                     params: {
                         placementId: 1203415
@@ -7359,6 +7409,19 @@ var streamampConfig = {
                         size: [
                             970,
                             250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        siteId: '418574',
+                        size: [
+                            728,
+                            90
                         ]
                     }
                 },
@@ -7394,29 +7457,9 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        unit: '540149673',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '748 - 989',
                         '375 - 747',
                         '0 - 374'
-                    ],
-                    params: {
-                        unit: '540149673',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '375 - 747'
                     ],
                     params: {
                         unit: '540149673',
@@ -7432,6 +7475,16 @@ var streamampConfig = {
                     params: {
                         publisherId: '2333143',
                         adSlot: 'pocket-lint_homepage_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        publisherId: '2433005',
+                        adSlot: 'PocketLint_Homepage_Billboard_728x90'
                     }
                 },
                 {
@@ -7480,6 +7533,15 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        placementId: 17318431
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
                         '375 - 747'
                     ],
                     params: {
@@ -7494,6 +7556,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16303278
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '748 - 989'
+                    ],
+                    params: {
+                        placementId: 17428280
                     }
                 },
                 {
@@ -7644,7 +7715,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -7722,7 +7793,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '1701645',
-                        adSlot: 'Pocket-lint_unit21_\u2028320x50'
+                        adSlot: 'Pocket-lint_unit21_320x50'
                     }
                 },
                 {
@@ -7797,7 +7868,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -7943,7 +8014,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -8089,7 +8160,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -8235,7 +8306,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -8381,7 +8452,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
