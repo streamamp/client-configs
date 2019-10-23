@@ -1083,10 +1083,11 @@ var streamampConfig = {
 		hasCustomStyles: true,
 		styles: {
 			ui: {
+				backgroundColor: '#368bd6',
 				textColor: '#ffffff'
 			},
 			link: {
-				textColor: '#fffff'
+				textColor: '#ffffff'
 			},
 			primaryButton: {
 				backgroundColor: '#efcc38',
