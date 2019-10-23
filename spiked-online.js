@@ -21,7 +21,7 @@ var streamampConfig = {
 	adUnits: [
 		{
 			code: 'Unit1',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit1',
+			path: '/15188745/Spiked-Online/Unit1',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -224,7 +224,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit2',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit2',
+			path: '/15188745/Spiked-Online/Unit2',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -426,7 +426,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit3',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit3',
+			path: '/15188745/Spiked-Online/Unit3',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -629,7 +629,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit4',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit4',
+			path: '/15188745/Spiked-Online/Unit4',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -832,7 +832,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit5',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit5',
+			path: '/15188745/Spiked-Online/Unit5',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -941,7 +941,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit6',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit6',
+			path: '/15188745/Spiked-Online/Unit6',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -1051,7 +1051,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit7',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit7',
+			path: '/15188745/Spiked-Online/Unit7',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -1309,7 +1309,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit8',
-			path: 'ca-pub-9543195267816971/Spiked-Online/Unit8',
+			path: '/15188745/Spiked-Online/Unit8',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -1445,7 +1445,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Unit9',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Unit9',
+			path: '/15188745/Spiked-Online/Unit9',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -1647,7 +1647,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Sticky',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Sticky',
+			path: '/15188745/Spiked-Online/Sticky',
 			mediaTypes: {
 				banner: {
 					sizes: [
