@@ -1110,7 +1110,7 @@ var streamampConfig = {
 			},
 			toggleOn: {},
 			toggleOff: {},
-			additionalStyles: '\'@media screen and (min-width: 550px)\' + {\' + \'.qc-cmp-ui-content\' + \'{\' + \'padding:\' + \'30px 60px!important;\' + \'}\' + \'}\'',
+			additionalStyles: '@media screen and (min-width: 550px) { .qc-cmp-ui-content { padding: 30px 60px!important; } }',
 			toggleStatusTextColor: '#ffffff'
 		}
 	},
