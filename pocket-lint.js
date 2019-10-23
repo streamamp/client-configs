@@ -367,7 +367,7 @@ var streamampConfig = {
                         '375 - 747'
                     ],
                     params: {
-                        publisherId: '1522812\t',
+                        publisherId: '1522812',
                         adSlot: 'pocket-lint_unit1_320x50'
                     }
                 },
@@ -7793,7 +7793,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '1701645',
-                        adSlot: 'Pocket-lint_unit21_\u2028320x50'
+                        adSlot: 'Pocket-lint_unit21_320x50'
                     }
                 },
                 {
