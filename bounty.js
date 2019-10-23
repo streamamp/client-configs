@@ -1,9 +1,11 @@
 var streamampConfig = {
     a9Enabled: true,
     bidTimeout: 1.2,
+    levelTargeting: true,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'Bounty/Bounty',
     token: 'Qa9aYLKDB0nODgkWfJ7kRFkJQv992EoedYNib1mZ7QelSxPNaArAhhWlPEJmDj0V',
