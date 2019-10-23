@@ -1,13 +1,22 @@
 var streamampConfig = {
-    levelTargeting: false,
+    levelTargeting: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
+    hasRefreshBids: true,
+    adUnitsToRefresh:[
+        "SA-Unit4",
+        "SA-Unit5",
+        "SA-Unit11",
+        "SA-Unit12",
+        "SA-Unit13",
+        "SA-Unit15",
+        "SA-Unit16",
+        "SA-Unit17"
+    ],
     minRefreshTime: 30,
     maxRefreshTime: 45,
-    adUnitsToRefresh: ['SA-Unit2', 'SA-Unit6', 'SA-Unit11', 'SA-Unit12', 'SA-Unit13'],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'FarellyAtkinsonLtd/roadcc',
     token: 'UGJhCWtxZCFtArI0YylKqavMvwSStcXgCNod37zVR7aStEBZzQwb67BsZaADQVlp',
@@ -4128,7 +4137,8 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Road.cc',
-            'Publisher Logo': 'https://static.amp.services/logos/roadcc-logo.png'
+            'Publisher Logo': 'https://static.amp.services/logos/roadcc-logo.png',
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {
