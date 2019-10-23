@@ -1083,10 +1083,11 @@ var streamampConfig = {
 		hasCustomStyles: true,
 		styles: {
 			ui: {
+				backgroundColor: '#368bd6',
 				textColor: '#ffffff'
 			},
 			link: {
-				textColor: '#fffff'
+				textColor: '#ffffff'
 			},
 			primaryButton: {
 				backgroundColor: '#efcc38',
@@ -1109,7 +1110,7 @@ var streamampConfig = {
 			},
 			toggleOn: {},
 			toggleOff: {},
-			additionalStyles: '\'@media screen and (min-width: 550px)\' + {\' + \'.qc-cmp-ui-content\' + \'{\' + \'padding:\' + \'30px 60px!important;\' + \'}\' + \'}\'',
+			additionalStyles: '@media screen and (min-width: 550px) { .qc-cmp-ui-content { padding: 30px 60px!important; } }',
 			toggleStatusTextColor: '#ffffff'
 		}
 	},
