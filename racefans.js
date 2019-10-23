@@ -1,12 +1,27 @@
 var streamampConfig = {
 	levelTargeting: false,
-	gptSingleRequestEnabled: true,
 	a9Enabled: true,
 	apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
 	bidTimeout: 1.2,
 	pbjsPriceGranularity: 'high',
 	hasRefreshBids: true,
-	refreshBidsTimeout: 90,
+	adUnitsToRefresh: [
+		"F1fanatic-Unit2",
+		"F1fanatic-Unit3",
+		"F1fanatic-Unit4",
+		"F1fanatic-Unit5",
+		"F1fanatic-Unit6",
+		"F1fanatic-Unit7",
+		"F1fanatic-Sticky",
+		"F1fanatic/Unit9",
+		"F1fanatic/Unit10",
+		"F1fanatic/Unit14",
+		"F1fanatic/Unit15",
+		"F1fanatic/Unit16",
+		"F1fanatic/Unit22"
+	],
+	minRefreshTime: 90,
+	maxRefreshTime: 120,
 	hasCollapsedEmptyDivs: false,
 	publisher_id: 'StreamAMP/F1Fanatic',
 	token: '4rI8hfYLZc6Ebat2m1X2la4VFLYHmNzhYn2kZ6UAv3SET7yeS3bEz35IE3Ky3hQk',
@@ -52,7 +67,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						zoneId: 1382489,
@@ -62,8 +77,8 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -75,7 +90,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 136723,
@@ -96,8 +111,8 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 136722,
@@ -109,7 +124,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '40535'
@@ -128,8 +143,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40536'
@@ -140,7 +155,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186878
@@ -159,8 +174,8 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186878
@@ -171,7 +186,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '179845',
@@ -198,8 +213,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '182266',
@@ -233,7 +248,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '538773842',
@@ -254,8 +269,8 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '538773842',
@@ -267,7 +282,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 6096875
@@ -286,8 +301,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 6096766
@@ -298,7 +313,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071421
@@ -317,8 +332,8 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071409
@@ -350,7 +365,7 @@ var streamampConfig = {
 						250
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						728,
 						90
@@ -360,7 +375,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						320,
 						50
@@ -398,8 +413,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382491,
@@ -411,8 +426,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 136726,
@@ -424,7 +439,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 136727,
@@ -434,7 +449,7 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 234692,
@@ -446,8 +461,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '67121'
@@ -458,7 +473,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '67123'
@@ -467,7 +482,7 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '67122'
@@ -478,8 +493,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186879
@@ -490,7 +505,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186879
@@ -499,7 +514,7 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186879
@@ -510,8 +525,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '182270',
@@ -526,7 +541,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '182271',
@@ -539,7 +554,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '306050',
@@ -554,8 +569,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '538773843',
@@ -567,7 +582,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '538773843',
@@ -577,7 +592,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '538773843',
@@ -589,8 +604,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 6096904
@@ -601,7 +616,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 6096905
@@ -610,7 +625,7 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 13756716
@@ -621,8 +636,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071428
@@ -633,7 +648,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071430
@@ -642,7 +657,7 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071429
@@ -670,7 +685,7 @@ var streamampConfig = {
 						600
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						300,
 						250
@@ -684,7 +699,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						300,
 						250
@@ -714,7 +729,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						zoneId: 1382493,
@@ -726,7 +741,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 136729,
@@ -738,7 +753,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '67124'
@@ -749,7 +764,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186880
@@ -760,7 +775,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '182272',
@@ -775,7 +790,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '538773847',
@@ -787,7 +802,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 6096933
@@ -798,7 +813,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071431
@@ -818,7 +833,7 @@ var streamampConfig = {
 						600
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						160,
 						600
@@ -850,8 +865,8 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -863,7 +878,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 136732,
@@ -873,8 +888,8 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 136730,
@@ -886,7 +901,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '40534'
@@ -895,8 +910,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40530'
@@ -907,7 +922,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186881
@@ -916,8 +931,8 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186881
@@ -928,7 +943,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '182276',
@@ -941,8 +956,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '182274',
@@ -957,7 +972,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '538773848',
@@ -967,8 +982,8 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '538773848',
@@ -980,7 +995,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 6096939
@@ -989,8 +1004,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 6096937
@@ -1001,7 +1016,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071433
@@ -1010,8 +1025,8 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071432
@@ -1031,7 +1046,7 @@ var streamampConfig = {
 						90
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						728,
 						90
@@ -1041,7 +1056,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						320,
 						50
@@ -1075,7 +1090,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						zoneId: 1382489,
@@ -1085,8 +1100,8 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -1098,7 +1113,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 368602,
@@ -1108,8 +1123,8 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 136724,
@@ -1121,7 +1136,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '40538'
@@ -1130,8 +1145,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '67125'
@@ -1142,7 +1157,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186882
@@ -1151,8 +1166,8 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186882
@@ -1163,7 +1178,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '306052',
@@ -1176,8 +1191,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '244258',
@@ -1192,7 +1207,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '539716074',
@@ -1202,8 +1217,8 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '539716074',
@@ -1215,7 +1230,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 12705356
@@ -1224,8 +1239,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 12705353
@@ -1236,7 +1251,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071440
@@ -1245,8 +1260,8 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071434
@@ -1266,7 +1281,7 @@ var streamampConfig = {
 						90
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						728,
 						90
@@ -1276,7 +1291,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						320,
 						50
@@ -1310,7 +1325,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						zoneId: 1382489,
@@ -1320,8 +1335,8 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -1333,7 +1348,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						dmxid: 368604,
@@ -1343,8 +1358,8 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 368603,
@@ -1356,7 +1371,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						tagid: '40541'
@@ -1365,8 +1380,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '67126'
@@ -1377,7 +1392,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 1186883
@@ -1386,8 +1401,8 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186883
@@ -1398,7 +1413,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						siteId: '306055',
@@ -1411,8 +1426,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306053',
@@ -1427,7 +1442,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						unit: '539716076',
@@ -1437,8 +1452,8 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '539716076',
@@ -1450,7 +1465,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 12705361
@@ -1459,8 +1474,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 12705359
@@ -1471,7 +1486,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956'
+						'416-956'
 					],
 					params: {
 						placementId: 17071442
@@ -1480,8 +1495,8 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071441
@@ -1501,7 +1516,7 @@ var streamampConfig = {
 						90
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						728,
 						90
@@ -1511,7 +1526,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						320,
 						50
@@ -1541,8 +1556,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382491,
@@ -1554,8 +1569,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 368607,
@@ -1567,8 +1582,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40543'
@@ -1579,8 +1594,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186885
@@ -1591,8 +1606,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306059',
@@ -1607,8 +1622,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '540001451',
@@ -1620,8 +1635,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 13216897
@@ -1632,8 +1647,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071446
@@ -1653,13 +1668,13 @@ var streamampConfig = {
 						250
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						300,
 						250
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						300,
 						250
@@ -1693,8 +1708,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382491,
@@ -1706,8 +1721,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -1719,8 +1734,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 368609,
@@ -1732,8 +1747,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 368610,
@@ -1745,8 +1760,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40545'
@@ -1757,8 +1772,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40546'
@@ -1769,8 +1784,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186886
@@ -1781,8 +1796,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306061',
@@ -1797,8 +1812,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306062',
@@ -1813,8 +1828,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '540084472',
@@ -1826,8 +1841,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 13403722
@@ -1838,8 +1853,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 13410731
@@ -1850,8 +1865,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071450
@@ -1879,7 +1894,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						300,
 						250
@@ -1889,7 +1904,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						300,
 						250
@@ -1927,8 +1942,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382491,
@@ -1940,8 +1955,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -1953,8 +1968,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 368611,
@@ -1966,8 +1981,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 368612,
@@ -1979,8 +1994,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40547'
@@ -1991,8 +2006,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40548'
@@ -2003,7 +2018,7 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'0-768'
+						'0-415'
 					],
 					params: {
 						placementId: 1186887
@@ -2014,8 +2029,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186887
@@ -2026,8 +2041,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306063',
@@ -2042,8 +2057,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306064',
@@ -2058,8 +2073,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '540084473',
@@ -2071,8 +2086,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 13403733
@@ -2083,8 +2098,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 13410732
@@ -2095,8 +2110,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071451
@@ -2107,8 +2122,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071452
@@ -2136,7 +2151,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						300,
 						250
@@ -2146,7 +2161,7 @@ var streamampConfig = {
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						300,
 						250
@@ -2186,8 +2201,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '40556'
@@ -2206,8 +2221,8 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 1186894
@@ -2244,8 +2259,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '306071',
@@ -2269,8 +2284,8 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '540084477',
@@ -2300,8 +2315,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 13410737
@@ -2330,8 +2345,8 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071483
@@ -2359,13 +2374,13 @@ var streamampConfig = {
 						250
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						320,
 						50
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						320,
 						50
@@ -2639,8 +2654,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382492,
@@ -2652,8 +2667,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						zoneId: 1382491,
@@ -2665,8 +2680,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 272488,
@@ -2678,8 +2693,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						dmxid: 272489,
@@ -2691,8 +2706,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '58247'
@@ -2703,8 +2718,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						tagid: '58248'
@@ -2715,8 +2730,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 12048471
@@ -2727,8 +2742,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '327251',
@@ -2743,8 +2758,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						siteId: '327250',
@@ -2759,8 +2774,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						unit: '540496507',
@@ -2772,8 +2787,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 14476247
@@ -2784,8 +2799,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 14476360
@@ -2796,8 +2811,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071488
@@ -2808,8 +2823,8 @@ var streamampConfig = {
 					labelAny: [
 						'1667-9999',
 						'957-1666',
-						'769-956',
-						'0-768'
+						'416-956',
+						'0-415'
 					],
 					params: {
 						placementId: 17071489
@@ -2837,7 +2852,7 @@ var streamampConfig = {
 						250
 					]
 				],
-				'769-956': [
+				'416-956': [
 					[
 						300,
 						250
@@ -2847,7 +2862,7 @@ var streamampConfig = {
 						600
 					]
 				],
-				'0-768': [
+				'0-415': [
 					[
 						300,
 						250
@@ -2879,7 +2894,7 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						zoneId: 1382490,
@@ -2889,7 +2904,7 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						dmxid: 368619,
@@ -2899,7 +2914,7 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						tagid: '67129'
@@ -2908,7 +2923,7 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						placementId: 1186895
@@ -2917,7 +2932,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						siteId: '306072',
@@ -2930,7 +2945,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						unit: '540001453',
@@ -2940,7 +2955,7 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						placementId: 13216896
@@ -2949,7 +2964,7 @@ var streamampConfig = {
 				{
 					bidder: 'totaljobs',
 					labelAny: [
-						'0-768'
+						'0-415'
 					],
 					params: {
 						placementId: 17071487
@@ -2957,7 +2972,7 @@ var streamampConfig = {
 				}
 			],
 			breakpoints: {
-				'0-768': [
+				'0-415': [
 					[
 						320,
 						50
@@ -2989,8 +3004,8 @@ var streamampConfig = {
 		isEnabled: true,
 		config: {
 			'UI Layout': 'popup',
-			Language: 'en',
-			'Display Persistent Consent Link': true,
+			'Language': 'en',
+			'Display Persistent Consent Link': false,
 			'No Option': false,
 			'Non-Consent Display Frequency': 7,
 			'Publisher Purpose IDs': [
@@ -3009,7 +3024,7 @@ var streamampConfig = {
 			'Vendor Screen Reject All Button Text': 'Reject all',
 			'Publisher Logo': 'https://static.amp.services/logos/racefans.png',
 			'Publisher Name': 'RaceFans',
-			'Initial Screen Title Text': 'We value your privacy'
+			'Initial Screen Title Text': 'We value your privacy',
 		},
 		hasCustomStyles: false,
 		styles: {
@@ -3095,8 +3110,8 @@ var streamampConfig = {
 			]
 		},
 		{
-			label: '769-956',
-			minWidth: 769,
+			label: '416-956',
+			minWidth: 416,
 			maxWidth: 956,
 			sizesSupported: [
 				[
@@ -3122,9 +3137,9 @@ var streamampConfig = {
 			]
 		},
 		{
-			label: '0-768',
+			label: '0-415',
 			minWidth: 0,
-			maxWidth: 768,
+			maxWidth: 415,
 			sizesSupported: [
 				[
 					320,
@@ -3141,4 +3156,4 @@ var streamampConfig = {
 			]
 		}
 	]
-}
+};
