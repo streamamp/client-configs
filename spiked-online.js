@@ -1647,7 +1647,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'Sticky',
-			path: '/ca-pub-9543195267816971/Spiked-Online/Sticky',
+			path: '/15188745/Spiked-Online/Sticky',
 			mediaTypes: {
 				banner: {
 					sizes: [
