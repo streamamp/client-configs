@@ -1,0 +1,106 @@
+districtm.io, 100615, RESELLER, 3fd707be9c4527c3
+appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
+EMXDGT.com, 28, RESELLER, 1e1d41537f7cad7f
+Appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
+google.com, pub-5995202563537249, RESELLER, f08c47fec0942fa0
+improvedigital.com, 1146, RESELLER
+indexexchange.com, 183813, RESELLER
+
+openx.com, 537148814, Reseller, 6a698e2ec38604c6
+pubmatic.com, 127864, RESELLER, 5d62403b186f2ace
+appnexus.com, 3491, reseller
+appnexus.com, 8646, reseller
+#StreamAMP ADX
+google.com, pub-2318854337682975, reseller
+
+#AdYouLike
+adyoulike.com, dc2b34abc3aa8bffec251c1b93f8d3e0, DIRECT, 4ad745ead2958bf7
+
+#Pocket-Lint Adsense
+google.com, pub-0130802586863346, DIRECT, f08c47fec0942fa0
+
+#Just Premium
+adform.com, 183, RESELLER
+appnexus.com, 7118, RESELLER
+freewheel.tv, 33081, RESELLER
+freewheel.tv, 33601, RESELLER
+google.com, pub-8172268348509349, RESELLER, f08c47fec0942fa0
+improvedigital.com, 185, RESELLER
+openx.com, 540651740, RESELLER, 6a698e2ec38604c6
+spotx.tv, 108933, RESELLER, 7842df1d2fe2db34
+spotxchange.com, 108933, RESELLER, 7842df1d2fe2db34
+
+#AppMonet
+districtm.io, 100974, RESELLER
+appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
+appnexus.com, 7944, RESELLER, f5ab79cb980f11d1
+EMXDGT.com, 402, RESELLER, 1e1d41537f7cad7f
+Appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
+appnexus.com, 3153, RESELLER, f5ab79cb980f11d1
+adtech.com, 11095, RESELLER
+pubmatic.com, 156077, RESELLER, 5d62403b186f2ace
+aol.com, 49648, RESELLER
+appnexus.com, 9393, RESELLER
+smartadserver.com,3056,RESELLER
+pubmatic.com,156439,RESELLER
+pubmatic.com, 154037,RESELLER
+sovrn.com, 257611,RESELLER, fafdf38b16bf6b2b
+appnexus.com,3703,RESELLER,f5ab79cb980f11d1
+sonobi.com, 783272317b , RESELLER
+indexexchange.com, 189775, RESELLER
+sovrn.com, 260380, RESELLER, fafdf38b16bf6b2b
+lijit.com, 260380, RESELLER, fafdf38b16bf6b2b
+appnexus.com, 1360, RESELLER, f5ab79cb980f11d1
+openx.com, 538959099, RESELLER, 6a698e2ec38604c6
+openx.com, 539924617, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156700, RESELLER, 5d62403b186f2ace
+
+#RevContent
+revcontent.com, 17266, DIRECT
+appnexus.com, 7666, RESELLER, f5ab79cb980f11d1
+rubiconproject.com, 156042, RESELLER, 0bfd66d529a55807
+my6sense.com, 9732, RESELLER
+criteo.com, 7822, RESELLER
+connatix.com, 101600, DIRECT, 2af98acdee0e81ed
+tremorhub.com, cd009, RESELLER, 1a4e959a1b50034a
+advertising.com, 3679, RESELLER
+advertising.com, 14564, RESELLER
+spotxchange.com, 136839, RESELLER, 7842df1d2fe2db34
+spotx.tv, 136839, RESELLER, 7842df1d2fe2db34
+openx.com, 539496816, RESELLER, 6a698e2ec38604c6
+google.com, pub-5480205708168063, RESELLER, f08c47fec0942fa0
+google.com, pub-9914992914910847, DIRECT, f08c47fec0942fa0
+
+#EBDA
+indexexchange.com, 187297, RESELLER
+openx.com, 540038339, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 156938, RESELLER, 5d62403b186f2ace
+Mobfox.com,76848, RESELLER
+rubiconproject.com, 18176, RESELLER, 0bfd66d529a55807
+smaato.com, 1001012346, RESELLER
+aerserv.com, 5646, RESELLER
+sovrn.com, 229584, RESELLER, fafdf38b16bf6b2b
+lijit.com, 229584, RESELLER, fafdf38b16bf6b2b
+appnexus.com, 1360, RESELLER, f5ab79cb980f11d1
+gumgum.com, 11645, RESELLER, ffdef49475d318a9
+openx.com, 538959099, RESELLER, 6a698e2ec38604c6
+openx.com, 539924617, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 137711, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156212, RESELLER, 5d62403b186f2ace
+pubmatic.com, 156700, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 17960, RESELLER, 0bfd66d529a55807
+media.net, 8CU107KG5, DIRECT
+openx.com, 537100188, RESELLER
+
+#StreamAMP-AmazonA9-GBP
+aps.amazon.com,aac344f8-dc17-4ab8-b0a7-91cd349ec3b1,DIRECT
+pubmatic.com,157150,RESELLER,5d62403b186f2ace
+openx.com,540191398,RESELLER,6a698e2ec38604c6
+rubiconproject.com,18020,RESELLER,0bfd66d529a55807
+appnexus.com,1908,RESELLER,f5ab79cb980f11d1
+adtech.com,12068,RESELLER,e1a5b5b6e3255540
+ad-generation.jp,12474,RESELLER
+districtm.io,100962,RESELLER,3fd707be9c4527c3
+rhythmone.com,1654642120,RESELLER,a670c89d4a324e47
