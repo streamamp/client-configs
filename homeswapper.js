@@ -1530,7 +1530,7 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: false,
+        isEnabled: false
     },
     breakpoints: [
         {
