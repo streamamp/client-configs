@@ -17,6 +17,23 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
+    toggleOffUrls: [
+        {
+            "level": "2",
+            "url": "Miscarriage-And-Loss"
+        },
+        {
+            "url": "bereavement-c"
+        },
+        {
+            "level": "2",
+            "url": "miscarriage-and-baby-loss"
+        },
+        {
+            "level": "2",
+            "url": "bereavement-p"
+        }
+    ],
     adUnits: [
         {
             code: 'Unit1',
@@ -930,6 +947,10 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        320,
+                        50
                     ]
                 ],
                 '769 - 999': [
