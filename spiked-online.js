@@ -12,8 +12,8 @@ var streamampConfig = {
 	publisher_id: 'StreamAMP/spiked-online',
 	token: 'lOmXAVCkqCFN0rhQVou8RkjW9NjO8dMQ0WBRVB3VvGlI96mutN4ogEawMCFLHYRY',
 	currency: {
+		enabled: true,
 		value: 'GBP',
-		enabled: true
 	},
 	namespace: 'streamamp',
 	globalKeyValues: [],
