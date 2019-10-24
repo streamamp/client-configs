@@ -1,10 +1,12 @@
 var streamampConfig = {
-    a9Enabled: false,
+    levelTargeting: false,
+    a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'FarrellyAtkinsonLtd/offroadcc',
     token: 'QIF5XdPYZyzuXXf17YrEe2xmaSlWqWgQJCccKGOujx5Iw387kGVWfpdcATB8VMVD',
@@ -12,6 +14,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'SA-Unit1',
@@ -434,8 +439,8 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: false,
-            safeFrame: true,
+            isSticky: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -668,8 +673,8 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: false,
-            safeFrame: true,
+            isSticky: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
