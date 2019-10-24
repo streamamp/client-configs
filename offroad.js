@@ -466,7 +466,6 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
