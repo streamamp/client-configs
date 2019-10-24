@@ -425,16 +425,8 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            300,
-                            250
-                        ],
-                        [
                             320,
                             50
-                        ],
-                        [
-                            320,
-                            100
                         ]
                     ]
                 }
@@ -444,33 +436,8 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'FA_Off_Unit3_300x250'
-                    }
-                },
-                {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        dmxid: 202671,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -481,18 +448,6 @@ var streamampConfig = {
                 {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        tagid: '41036'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -502,37 +457,10 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
                         placementId: 1204075
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204075
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        siteId: '306853',
-                        size: [
-                            300,
-                            250
-                        ]
                     }
                 },
                 {
@@ -552,19 +480,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        unit: '539929969',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -575,18 +490,6 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 13075039
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -596,18 +499,6 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 16995608
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -616,34 +507,10 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970 - 9999': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '640 - 969': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ],
                 '0 - 639': [
                     [
-                        300,
-                        250
-                    ],
-                    [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
