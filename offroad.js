@@ -1,10 +1,12 @@
 var streamampConfig = {
-    a9Enabled: false,
+    levelTargeting: false,
+    a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'FarrellyAtkinsonLtd/offroadcc',
     token: 'QIF5XdPYZyzuXXf17YrEe2xmaSlWqWgQJCccKGOujx5Iw387kGVWfpdcATB8VMVD',
@@ -12,6 +14,9 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
     adUnits: [
         {
             code: 'SA-Unit1',
@@ -420,52 +425,19 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            300,
-                            250
-                        ],
-                        [
                             320,
                             50
-                        ],
-                        [
-                            320,
-                            100
                         ]
                     ]
                 }
             },
-            isSticky: false,
-            safeFrame: true,
+            isSticky: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'FA_Off_Unit3_300x250'
-                    }
-                },
-                {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        dmxid: 202671,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -476,18 +448,6 @@ var streamampConfig = {
                 {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        tagid: '41036'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -497,18 +457,6 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204075
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -518,22 +466,6 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        siteId: '306853',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -547,19 +479,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        unit: '539929969',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -570,18 +489,6 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 13075039
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -591,18 +498,6 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 16995608
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
@@ -611,34 +506,10 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970 - 9999': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '640 - 969': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ],
                 '0 - 639': [
                     [
-                        300,
-                        250
-                    ],
-                    [
                         320,
                         50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -668,8 +539,8 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: false,
-            safeFrame: true,
+            isSticky: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
