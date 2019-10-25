@@ -539,8 +539,8 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: true,
-            safeFrame: false,
+            isSticky: false,
+            safeFrame: true,
             outOfPage: false,
             bids: [
                 {
