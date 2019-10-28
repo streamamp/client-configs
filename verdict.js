@@ -1151,7 +1151,7 @@ var streamampConfig = {
                 borderColor: '#000000'
             },
             additionalStyles: '',
-            toggleSwitchBorderColor: '1px solid #000000',
+            toggleSwitchBorderColor: '#000000',
             toggleStatusTextColor: '#000000'
         }
     },
