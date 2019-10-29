@@ -1,6 +1,5 @@
 var streamampConfig ={
     levelTargeting: false,
-    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
@@ -215,50 +214,6 @@ var streamampConfig ={
                     params: {
                         unit: '539081842',
                         delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999',
-                        '730-899'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679088,
-                        sizes: [
-                            2
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679088,
-                        sizes: [
-                            57
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679088,
-                        sizes: [
-                            43
-                        ]
                     }
                 },
                 {
@@ -577,64 +532,6 @@ var streamampConfig ={
                     params: {
                         unit: '539081845',
                         delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679094,
-                        sizes: [
-                            15
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679094,
-                        sizes: [
-                            9
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679094,
-                        sizes: [
-                            10
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679094,
-                        sizes: [
-                            43
-                        ]
                     }
                 },
                 {
@@ -992,64 +889,6 @@ var streamampConfig ={
                     }
                 },
                 {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679096,
-                        sizes: [
-                            15
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679096,
-                        sizes: [
-                            9
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679096,
-                        sizes: [
-                            10
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679096,
-                        sizes: [
-                            43
-                        ]
-                    }
-                },
-                {
                     bidder: 'streamamp',
                     labelAny: [
                         '900-9999',
@@ -1368,50 +1207,6 @@ var streamampConfig ={
                     }
                 },
                 {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679098,
-                        sizes: [
-                            15
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679098,
-                        sizes: [
-                            10
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679098,
-                        sizes: [
-                            43
-                        ]
-                    }
-                },
-                {
                     bidder: 'streamamp',
                     labelAny: [
                         '900-9999',
@@ -1659,36 +1454,6 @@ var streamampConfig ={
                     }
                 },
                 {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '730-899',
-                        '900-9999'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679100,
-                        sizes: [
-                            2
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679100,
-                        sizes: [
-                            43
-                        ]
-                    }
-                },
-                {
                     bidder: 'streamamp',
                     labelAny: [
                         '730-899',
@@ -1901,36 +1666,6 @@ var streamampConfig ={
                     params: {
                         unit: '539082391',
                         delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679102,
-                        sizes: [
-                            43
-                        ]
-                    }
-                },
-                {
-                    bidder: 'rubicon',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        accountId: 14418,
-                        siteId: '144986',
-                        zoneId: 679102,
-                        sizes: [
-                            15
-                        ]
                     }
                 },
                 {
