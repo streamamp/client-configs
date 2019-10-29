@@ -1,14 +1,14 @@
 var streamampConfig = {
     levelTargeting: false,
-    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
+    adUnitsToRefresh: ["Unit1", "Unit2", "Unit3", "Unit4", "Unit5", "Unit6"],
     minRefreshTime: 120,
     maxRefreshTime: 120,
-    hasCollapsedEmptyDivs: false,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'GlobalData/NewStatesman',
     token: 'yzING9LuUg5JbqK6GLkzLQdjJWG6sTwZIbHsRthez6c6QysPXOtCP1us4R6lgTeC',
     currency: {
@@ -21,7 +21,7 @@ var streamampConfig = {
     adUnits: [
         {
             code: 'Unit1',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit1',
+            path: '/5269235/New_Statesman/Unit1',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -98,16 +98,8 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1000-9999',
-                        '900-999'
-                    ],
-                    params: {
-                        placementId: 1202307
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '1000-9999'
+                        '900-999',
+                        '728-899'
                     ],
                     params: {
                         placementId: 1202307
@@ -147,16 +139,6 @@ var streamampConfig = {
                         '1000-9999',
                         '900-999',
                         '728-899'
-                    ],
-                    params: {
-                        unit: '539029204',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1000-9999'
                     ],
                     params: {
                         unit: '539029204',
@@ -231,7 +213,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit2',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit2',
+            path: '/5269235/New_Statesman/Unit2',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -339,15 +321,9 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1000-9999'
-                    ],
-                    params: {
-                        placementId: 1202308
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '1000-9999',
+                        '900-999',
+                        '728-899',
                         '0-727'
                     ],
                     params: {
@@ -401,29 +377,8 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '1000-9999',
-                        '900-999'
-                    ],
-                    params: {
-                        unit: '539029205',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1000-9999',
                         '900-999',
                         '728-899',
-                        '0-727'
-                    ],
-                    params: {
-                        unit: '539029205',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-727'
                     ],
                     params: {
@@ -539,7 +494,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit3',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit3',
+            path: '/5269235/New_Statesman/Unit3',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -648,15 +603,8 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1000-9999',
-                        '900-999'
-                    ],
-                    params: {
-                        placementId: 1202309
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '900-999',
+                        '728-899',
                         '0-727'
                     ],
                     params: {
@@ -723,16 +671,6 @@ var streamampConfig = {
                         '1000-9999',
                         '900-999',
                         '728-899',
-                        '0-727'
-                    ],
-                    params: {
-                        unit: '539029206',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-727'
                     ],
                     params: {
@@ -848,7 +786,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit4',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit4',
+            path: '/5269235/New_Statesman/Unit4',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -956,15 +894,9 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1000-9999'
-                    ],
-                    params: {
-                        placementId: 1202310
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '1000-9999',
+                        '900-999',
+                        '728-899',
                         '0-727'
                     ],
                     params: {
@@ -1020,27 +952,6 @@ var streamampConfig = {
                         '1000-9999',
                         '900-999',
                         '728-899',
-                        '0-727'
-                    ],
-                    params: {
-                        unit: '539029209',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1000-9999',
-                        '900-999'
-                    ],
-                    params: {
-                        unit: '539029209',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-727'
                     ],
                     params: {
@@ -1156,7 +1067,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit5',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit5',
+            path: '/5269235/New_Statesman/Unit5',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1268,15 +1179,8 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1000-9999'
-                    ],
-                    params: {
-                        placementId: 1202311
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '1000-9999',
+                        '900-999',
                         '728-899',
                         '0-727'
                     ],
@@ -1329,28 +1233,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '1000-9999'
-                    ],
-                    params: {
-                        unit: '539029210',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899'
-                    ],
-                    params: {
-                        unit: '539029210',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '728-899',
                         '0-727'
                     ],
@@ -1457,7 +1341,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit6',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit6',
+            path: '/5269235/New_Statesman/Unit6',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1577,7 +1461,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit7',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit7',
+            path: '/5269235/New_Statesman/Unit7',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1697,7 +1581,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit8',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit8',
+            path: '/5269235/New_Statesman/New_Statesman_Unit8',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1860,7 +1744,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit9',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit9',
+            path: '/5269235/New_Statesman/Unit9',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -2023,7 +1907,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit10',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit10',
+            path: '/5269235/New_Statesman/Unit10',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -2186,7 +2070,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit11',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit11',
+            path: '/5269235/New_Statesman/Unit11',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -2349,7 +2233,7 @@ var streamampConfig = {
         },
         {
             code: 'NS_Rich Media',
-            path: '/ca-pub-8914899523938848/New_Statesman/NS_RichMedia',
+            path: '/5269235/New_Statesman/NS_Rich Media',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -2407,8 +2291,7 @@ var streamampConfig = {
                 4,
                 5
             ],
-            // 'Initial Screen Body Text Option': 1,
-            'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
+            'Initial Screen Body Text Option': 1,
             'Initial Screen Accept Button Text': 'I agree',
             'Initial Screen Reject Button Text': 'I do not accept',
             'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
