@@ -218,35 +218,6 @@ var streamampConfig = {
                     params: {
                         placementId: 17428347
                     }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '489433'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999',
-                        '728 - 1024'
-                    ],
-                    params: {
-                        tagid: '489434'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '642 - 727',
-                        '0 - 641'
-                    ],
-                    params: {
-                        tagid: '508759'
-                    }
                 }
             ],
             breakpoints: {
@@ -408,24 +379,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428349
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '489436'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '489437'
                     }
                 }
             ],
@@ -592,27 +545,6 @@ var streamampConfig = {
                     params: {
                         placementId: 17428356
                     }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999',
-                        '728 - 1024',
-                        '642 - 727',
-                        '0 - 641'
-                    ],
-                    params: {
-                        tagid: '489438'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '489439'
-                    }
                 }
             ],
             breakpoints: {
@@ -774,24 +706,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428443
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '508764'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '508765'
                     }
                 }
             ],
@@ -1011,36 +925,6 @@ var streamampConfig = {
                     params: {
                         placementId: 17428447
                     }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999',
-                        '728 - 1024'
-                    ],
-                    params: {
-                        tagid: '489443'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '728 - 1024',
-                        '0 - 641'
-                    ],
-                    params: {
-                        tagid: '489440'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '642 - 727',
-                        '0 - 641'
-                    ],
-                    params: {
-                        tagid: '489441'
-                    }
                 }
             ],
             breakpoints: {
@@ -1235,29 +1119,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428456
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999',
-                        '728 - 1024',
-                        '642 - 727',
-                        '0 - 641'
-                    ],
-                    params: {
-                        tagid: '489444'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999',
-                        '728 - 1024',
-                        '642 - 727'
-                    ],
-                    params: {
-                        tagid: '489445'
                     }
                 }
             ],
@@ -1499,36 +1360,7 @@ var streamampConfig = {
                     params: {
                         placementId: 17428458
                     }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999',
-                        '728 - 1024'
-                    ],
-                    params: {
-                        tagid: '489448'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '489454'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '642 - 727',
-                        '0 - 641'
-                    ],
-                    params: {
-                        tagid: '489446'
-                    }
-                },
+                }
             ],
             breakpoints: {
                 '1025 - 9999': [
