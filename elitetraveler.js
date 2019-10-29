@@ -1,6 +1,5 @@
 var streamampConfig = {
     levelTargeting: false,
-    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
@@ -8,7 +7,7 @@ var streamampConfig = {
     hasRefreshBids: true,
     minRefreshTime: 120,
     maxRefreshTime: 120,
-    hasCollapsedEmptyDivs: false,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'MIRAJ/EliteTraveler',
     token: 'iTKEJRj7UvsoIRyOahRI8DRsQ2oNtHx18r8S35KgTfFnxaavgYHtvZgA7tg8ZB5G',
     currency: {
@@ -21,7 +20,7 @@ var streamampConfig = {
     adUnits: [
         {
             code: 'EliteTraveler_Unit1',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit1',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit1',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -158,34 +157,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1260-9999',
-                        '700-1259'
-                    ],
-                    params: {
-                        placementId: 1202318
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        placementId: 1202318
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '700-1259',
-                        '0-699'
-                    ],
-                    params: {
-                        placementId: 1202318
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '0-699'
                     ],
                     params: {
@@ -223,37 +195,7 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '1260-9999',
-                        '700-1259'
-                    ],
-                    params: {
-                        unit: '539053881',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        unit: '539053881',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '700-1259',
-                        '0-699'
-                    ],
-                    params: {
-                        unit: '539053881',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-699'
                     ],
                     params: {
@@ -377,7 +319,7 @@ var streamampConfig = {
         },
         {
             code: 'EliteTraveler_Unit2',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit2',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit2',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -541,7 +483,7 @@ var streamampConfig = {
         },
         {
             code: 'EliteTraveler_Unit3',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit3',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit3',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -651,24 +593,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        placementId: 1202320
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0-699'
-                    ],
-                    params: {
-                        placementId: 1202320
-                    }
-                },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '1260-9999',
@@ -714,26 +638,6 @@ var streamampConfig = {
                     labelAny: [
                         '1260-9999',
                         '700-1259',
-                        '0-699'
-                    ],
-                    params: {
-                        unit: '539053917',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        unit: '539053917',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-699'
                     ],
                     params: {
@@ -835,7 +739,7 @@ var streamampConfig = {
         },
         {
             code: 'EliteTraveler_Unit4',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit4',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit4',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -999,7 +903,7 @@ var streamampConfig = {
         },
         {
             code: 'EliteTraveler_Unit5',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit5',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit5',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1144,35 +1048,8 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        placementId: 1202322
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '1260-9999',
-                        '700-1259'
-                    ],
-                    params: {
-                        placementId: 1202322
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '700-1259',
-                        '0-699'
-                    ],
-                    params: {
-                        placementId: 1202322
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '0-699'
                     ],
                     params: {
@@ -1236,38 +1113,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        unit: '539053926',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '1260-9999',
-                        '700-1259'
-                    ],
-                    params: {
-                        unit: '539053926',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '700-1259',
-                        '0-699'
-                    ],
-                    params: {
-                        unit: '539053926',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-699'
                     ],
                     params: {
@@ -1391,7 +1238,7 @@ var streamampConfig = {
         },
         {
             code: 'EliteTraveler_Unit6',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit6',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit6',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1497,7 +1344,7 @@ var streamampConfig = {
         },
         {
             code: 'EliteTraveler_Unit7',
-            path: '/ca-pub-8914899523938848/Elite_Traveler/EliteTraveler_Unit7',
+            path: '/5269235/Elite_Traveler/EliteTraveler_Unit7',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1633,34 +1480,8 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        placementId: 1202324
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '1260-9999',
-                        '700-1259'
-                    ],
-                    params: {
-                        placementId: 1202324
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '700-1259'
-                    ],
-                    params: {
-                        placementId: 1202324
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '700-1259',
                         '0-699'
                     ],
                     params: {
@@ -1724,38 +1545,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '1260-9999'
-                    ],
-                    params: {
-                        unit: '539053929',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '1260-9999',
-                        '700-1259'
-                    ],
-                    params: {
-                        unit: '539053929',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '700-1259',
-                        '0-699'
-                    ],
-                    params: {
-                        unit: '539053929',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-699'
                     ],
                     params: {
