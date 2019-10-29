@@ -257,25 +257,6 @@ var streamampConfig = {
                     params: {
                         placementId: 17428286
                     }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        tagid: '489108'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        tagid: '489104'
-                    }
                 }
             ],
             breakpoints: {
@@ -474,16 +455,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428295
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        tagid: '489106'
                     }
                 }
             ],
@@ -746,15 +717,6 @@ var streamampConfig = {
                     params: {
                         placementId: 17428308
                     }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '0 - 489'
-                    ],
-                    params: {
-                        tagid: '489111'
-                    }
                 }
             ],
             breakpoints: {
@@ -961,16 +923,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428318
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        tagid: '508758'
                     }
                 }
             ],
@@ -1236,16 +1188,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428322
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        tagid: '508758'
                     }
                 }
             ],
@@ -1805,28 +1747,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17428333
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        tagid: '489127'
-                    }
-                },
-                {
-                    bidder: 'sovrn',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        tagid: '489128'
                     }
                 }
             ],
