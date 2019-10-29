@@ -1,25 +1,59 @@
 var streamampConfig = {
-    levelTargeting: true,
+    levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
+    hasRefreshBids: true,
     minRefreshTime: 90,
     maxRefreshTime: 120,
-    hasCollapsedEmptyDivs: false,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'RoyalHorticulturalSociety/RoyalHorticulturalSociety',
     token: 'aOVXDDNskSWHvUZHoXSwCPAKQCz08xno8xQaK4Z2Mlv0Sng09ZWPhByy8yj6ssjN',
     currency: {
         value: 'GBP',
         enabled: true
     },
+    beforeInit: function() {
+        var levels = window.location.pathname.split("/");
+        for(levelIndex = 1; levelIndex<8; levelIndex++) {
+            window.streamampConfig.globalKeyValues.push({
+                name: "Level" + levelIndex,
+                value: levels[levelIndex] || "none",
+                type: 'static'
+            });
+        }
+        
+        var getQueryVariable = function(variable, queryString){
+            queryString = queryString || window.location.search;
+            
+            var query = queryString.substr(1),
+                vars  = query.split('&'),
+                pairs;
+            
+            for(var i = 0, j = vars.length; i < j; i++){
+                pairs = vars[i].split('=');
+                
+                if(decodeURIComponent(pairs[0].toLowerCase()) == variable.toLowerCase()){
+                    return decodeURIComponent(pairs[1]);
+                }
+            }
+        };
+        
+        var pid = getQueryVariable("pid");
+        
+        window.streamampConfig.globalKeyValues.push({
+            name: "PID",
+            value: pid || "none",
+            type: 'static'
+        });
+    },
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
     adUnits: [
         {
-            code: 'Bottom_Leaderboard',
+            code: 'ad-leaderboard',
             path: '/21682926971/Bottom_Leaderboard',
             mediaTypes: {
                 banner: {
@@ -94,15 +128,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '800-9999',
-                        '768-799'
-                    ],
-                    params: {
-                        placementId: 1204059
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '768-799',
                         '0-767'
                     ],
                     params: {
@@ -140,7 +166,8 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '800-9999',
-                        '768-799'
+                        '768-799',
+                        '0-767'
                     ],
                     params: {
                         unit: '539813019',
@@ -218,7 +245,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'Right_Skyscraper',
+            code: 'ad-skyscraper',
             path: '/21682926971/Right_Skyscraper',
             mediaTypes: {
                 banner: {
@@ -329,7 +356,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'MPU',
+            code: 'ad-mpu',
             path: '/21682926971/MPU',
             mediaTypes: {
                 banner: {
@@ -419,15 +446,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0-767'
-                    ],
-                    params: {
-                        placementId: 1204061
-                    }
-                },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '800-9999',
@@ -461,16 +479,6 @@ var streamampConfig = {
                         '800-9999',
                         '0-767',
                         '768-799'
-                    ],
-                    params: {
-                        unit: '539813021',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0-767'
                     ],
                     params: {
                         unit: '539813021',
@@ -692,25 +700,7 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '0-767'
-                    ],
-                    params: {
-                        placementId: 13314795
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '800-9999',
-                        '768-799'
-                    ],
-                    params: {
-                        placementId: 13314795
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '768-799',
                         '0-767'
                     ],
@@ -776,27 +766,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '0-767'
-                    ],
-                    params: {
-                        unit: '540651788',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '800-9999',
-                        '768-799'
-                    ],
-                    params: {
-                        unit: '540651788',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '768-799',
                         '0-767'
                     ],
