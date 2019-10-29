@@ -1,19 +1,25 @@
 var streamampConfig = {
-	levelTargeting: true,
-	gptSingleRequestEnabled: true,
+	levelTargeting: false,
+	preventInit: true,
 	a9Enabled: true,
 	apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
 	bidTimeout: 1.2,
 	pbjsPriceGranularity: 'high',
 	hasRefreshBids: true,
-	minRefreshTime: 90,
-	maxRefreshTime: 120,
-	hasCollapsedEmptyDivs: false,
+	adUnitsToRefresh: ['Sticky'],
+	minRefreshTime: 30,
+	maxRefreshTime: 30,
+	hasCollapsedEmptyDivs: true,
 	publisher_id: 'StreamAMP/spiked-online',
 	token: 'lOmXAVCkqCFN0rhQVou8RkjW9NjO8dMQ0WBRVB3VvGlI96mutN4ogEawMCFLHYRY',
 	currency: {
-		enabled: true,
-		value: 'GBP',
+		enabled: false,
+		value: '',
+	},
+	afterLoad: function() {
+		googletag.cmd.push(function () {
+			streamampInit()
+		})
 	},
 	namespace: 'streamamp',
 	globalKeyValues: [],
