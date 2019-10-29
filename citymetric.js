@@ -5,9 +5,9 @@ var streamampConfig ={
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minRefreshTime: 90,
+    minRefreshTime: 120,
     maxRefreshTime: 120,
-    hasCollapsedEmptyDivs: false,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'MIRAJ/CityMetric',
     token: 'PWTILQ2j5wnhQGtg22wSk3SNEzze9ilnD2eZ1yoykA6z5oV5SWrJxeibtlob8rlB',
     currency: {
@@ -20,7 +20,7 @@ var streamampConfig ={
     adUnits: [
         {
             code: 'Unit1',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit1',
+            path: '/5269235/City_Metric/Unit1',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -119,24 +119,6 @@ var streamampConfig ={
                     bidder: 'improvedigital',
                     labelAny: [
                         '900-9999',
-                        '730-899'
-                    ],
-                    params: {
-                        placementId: 1202325
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 1202325
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '730-899',
                         '0-729'
                     ],
@@ -189,26 +171,7 @@ var streamampConfig ={
                     bidder: 'openx',
                     labelAny: [
                         '900-9999',
-                        '730-899'
-                    ],
-                    params: {
-                        unit: '539081842',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        unit: '539081842',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '730-899',
                         '730-899'
                     ],
                     params: {
@@ -306,7 +269,7 @@ var streamampConfig ={
         },
         {
             code: 'Unit2',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit2',
+            path: '/5269235/City_Metric/Unit2',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -441,24 +404,6 @@ var streamampConfig ={
                     }
                 },
                 {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 1202326
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 1202326
-                    }
-                },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '900-9999',
@@ -518,16 +463,6 @@ var streamampConfig ={
                         '900-9999',
                         '0-729',
                         '730-899'
-                    ],
-                    params: {
-                        unit: '539081845',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '900-9999'
                     ],
                     params: {
                         unit: '539081845',
@@ -650,7 +585,7 @@ var streamampConfig ={
         },
         {
             code: 'Unit3',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit3',
+            path: '/5269235/City_Metric/Unit3',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -785,24 +720,6 @@ var streamampConfig ={
                     }
                 },
                 {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 1202327
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 1202327
-                    }
-                },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '900-9999',
@@ -861,26 +778,6 @@ var streamampConfig ={
                     labelAny: [
                         '900-9999',
                         '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        unit: '539081863',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        unit: '539081863',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-729'
                     ],
                     params: {
@@ -1004,7 +901,7 @@ var streamampConfig ={
         },
         {
             code: 'Unit4',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit4',
+            path: '/5269235/City_Metric/Unit4',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1116,24 +1013,6 @@ var streamampConfig ={
                     }
                 },
                 {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 1202328
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 1202328
-                    }
-                },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '900-9999',
@@ -1179,26 +1058,6 @@ var streamampConfig ={
                     labelAny: [
                         '900-9999',
                         '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        unit: '539081882',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        unit: '539081882',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-729'
                     ],
                     params: {
@@ -1300,7 +1159,7 @@ var streamampConfig ={
         },
         {
             code: 'Unit5',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit5',
+            path: '/5269235/City_Metric/Unit5',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1387,16 +1246,7 @@ var streamampConfig ={
                     bidder: 'improvedigital',
                     labelAny: [
                         '730-899',
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 1202329
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '730-899',
+                        '900-9999',
                         '0-729'
                     ],
                     params: {
@@ -1435,17 +1285,7 @@ var streamampConfig ={
                     bidder: 'openx',
                     labelAny: [
                         '730-899',
-                        '900-9999'
-                    ],
-                    params: {
-                        unit: '539082227',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '730-899',
+                        '900-9999',
                         '0-729'
                     ],
                     params: {
@@ -1521,7 +1361,7 @@ var streamampConfig ={
         },
         {
             code: 'Unit6',
-            path: '/ca-pub-8914899523938848/New_Statesman/Unit6',
+            path: '/5269235/City_Metric/Unit6',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1601,15 +1441,6 @@ var streamampConfig ={
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 1202330
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '900-9999',
                         '0-729',
                         '730-899'
@@ -1644,16 +1475,6 @@ var streamampConfig ={
                             300,
                             250
                         ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        unit: '539082391',
-                        delDomain: 'streamamp-d.openx.net'
                     }
                 },
                 {
