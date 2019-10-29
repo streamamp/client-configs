@@ -87,15 +87,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1200 - 9999',
-                        '740 - 1199'
-                    ],
-                    params: {
-                        placementId: 1202539
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '740 - 1199',
                         '601 - 739',
                         '0 - 660'
                     ],
@@ -535,15 +527,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1200 - 9999',
-                        '740 - 1199'
-                    ],
-                    params: {
-                        placementId: 1202542
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '740 - 1199',
                         '601 - 739',
                         '0 - 660'
                     ],
@@ -941,15 +925,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1200 - 9999',
-                        '740 - 1199'
-                    ],
-                    params: {
-                        placementId: 1202544
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '740 - 1199',
                         '601 - 739',
                         '0 - 660'
                     ],
