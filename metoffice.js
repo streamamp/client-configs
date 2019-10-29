@@ -7,10 +7,10 @@ var streamampConfig ={
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: true,
+    hasRefreshBids: false,
     minRefreshTime: 90,
     maxRefreshTime: 120,
-    hasCollapsedEmptyDivs: false,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'MetOffice/metoffice-responsive',
     token: 'EIpqnpJzIOt7wMrmDVoOTqQb9KU95mTO5reousiZ554JuXFYxu9mjun73uleLnmH',
     currency: {
