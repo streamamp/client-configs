@@ -166,25 +166,8 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        placementId: 1186788
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '1000 - 9999',
-                        '769 - 999'
-                    ],
-                    params: {
-                        placementId: 1186788
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '769 - 999',
                         '469 - 768',
                         '0 - 468'
                     ],
@@ -236,27 +219,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        unit: '539295100',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '1000 - 9999',
-                        '769 - 999'
-                    ],
-                    params: {
-                        unit: '539295100',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '769 - 999',
                         '469 - 768',
                         '0 - 468'
                     ],
@@ -509,29 +473,10 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 1186791
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '1000 - 9999',
                         '769 - 999',
                         '469 - 768',
                         '0 - 468'
-                    ],
-                    params: {
-                        placementId: 1186791
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '1000 - 9999',
-                        '769 - 999'
                     ],
                     params: {
                         placementId: 1186791
@@ -569,31 +514,10 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '0 - 468'
-                    ],
-                    params: {
-                        unit: '539295179',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '1000 - 9999',
                         '769 - 999',
                         '469 - 768',
                         '0 - 468'
-                    ],
-                    params: {
-                        unit: '539295179',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1000 - 9999',
-                        '769 - 999'
                     ],
                     params: {
                         unit: '539295179',
@@ -813,15 +737,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1000 - 9999',
-                        '769 - 999'
-                    ],
-                    params: {
-                        placementId: 1186794
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '769 - 999',
                         '469 - 768',
                         '0 - 468'
                     ],
@@ -861,16 +777,7 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '1000 - 9999',
-                        '769 - 999'
-                    ],
-                    params: {
-                        unit: '539295188',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '769 - 999',
                         '469 - 768',
                         '0 - 468'
                     ],
@@ -1250,26 +1157,6 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '1000 - 9999',
-                        '769 - 999'
-                    ],
-                    params: {
-                        placementId: 1186800
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '469 - 768',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 1186800
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '1000 - 9999',
                         '769 - 999',
                         '469 - 768',
                         '0 - 468'
@@ -1334,28 +1221,6 @@ var streamampConfig = {
                             970,
                             250
                         ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1000 - 9999',
-                        '769 - 999'
-                    ],
-                    params: {
-                        unit: '539295201',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '469 - 768',
-                        '0 - 468'
-                    ],
-                    params: {
-                        unit: '539295201',
-                        delDomain: 'streamamp-d.openx.net'
                     }
                 },
                 {
@@ -2676,13 +2541,31 @@ var streamampConfig = {
                     bidder: 'justpremium',
                     labelAny: [
                         '1000 - 9999',
-                        '769 - 999',
-                        '0 - 468',
+                        '769 - 999'
+                    ],
+                    params: {
+                        zone: '70919',
+                        allow: ['cf','as','fi','hi','ci','pa']
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
                         '469 - 768'
                     ],
                     params: {
                         zone: '70919',
-                        allow: []
+                        allow: ['mt','is','mo','ms','ci','hi','as','cf']
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 468'
+                    ],
+                    params: {
+                        zone: '70919',
+                        allow: ['mt','is','mo','ms']
                     }
                 }
             ],
