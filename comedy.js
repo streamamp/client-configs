@@ -1,5 +1,5 @@
 var streamampConfig = {
-	levelTargeting: true,
+	levelTargeting: false,
 	a9Enabled: true,
 	apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
 	bidTimeout: 1.2,
@@ -7,7 +7,7 @@ var streamampConfig = {
 	hasRefreshBids: true,
 	minRefreshTime: 90,
 	maxRefreshTime: 120,
-	hasCollapsedEmptyDivs: false,
+	hasCollapsedEmptyDivs: true,
 	publisher_id: 'BritishComedyGuide/BritishComedyGuide',
 	token: 'L7KBVbLylqvMApDHR1ughDHnU0qw8jnzpdHvkigEYZ7cTSwnuVISAVrobChsX8z4',
 	currency: {
@@ -1049,6 +1049,54 @@ var streamampConfig = {
 					[
 						300,
 						250
+					]
+				]
+			}
+		},
+		{
+			code: 'Sticky',
+			path: '/11915656/BritishComedyguide/Sticky',
+			mediaTypes: {
+				banner: {
+					sizes: [
+						[
+							728,
+							90
+						],
+						[
+							320,
+							50
+						]
+					]
+				}
+			},
+			isSticky: true,
+			safeFrame: false,
+			outOfPage: false,
+			bids: [],
+			breakpoints: {
+				'979-9999': [
+					[
+						728,
+						90
+					]
+				],
+				'729-978': [
+					[
+						728,
+						90
+					]
+				],
+				'469-728': [
+					[
+						728,
+						90
+					]
+				],
+				'0-468': [
+					[
+						320,
+						50
 					]
 				]
 			}
