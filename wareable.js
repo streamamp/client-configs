@@ -1702,6 +1702,74 @@ var streamampConfig = {
                     ]
                 ]
             }
+        },
+        {
+            code: 'Article-Middle',
+            path: '/135921087/Articles-Middle',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            300,
+                            250
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [],
+            breakpoints: {
+                '0-749': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Articles-Top',
+            path: '/135921087/Articles-Top',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            300,
+                            250
+                        ],
+                        [
+                            320,
+                            50
+                        ],
+                        [
+                            320,
+                            100
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [],
+            breakpoints: {
+                '0-749': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        320,
+                        100
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
