@@ -32,6 +32,18 @@ var streamampConfig = {
         {
             "level": "2",
             "url": "bereavement-p"
+        },
+        {
+            "level": "1",
+            "url": "login"
+        },
+        {
+            "level": "1",
+            "url": "register"
+        },
+        {
+            "level": "1",
+            "url": "profile"
         }
     ],
     adUnits: [
@@ -2599,6 +2611,7 @@ var streamampConfig = {
     ],
     cmp: {
         isEnabled: true,
+        pathnamesToExclude: ["/register", "/register/step-1", "/register/step-2", "/login", "/login/forgottenpassword", "/login/changepassword", "/profile", "/profile/edit"],
         config: {
             'UI Layout': 'banner',
             Language: 'en',
