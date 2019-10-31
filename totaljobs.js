@@ -155,8 +155,8 @@ var streamampConfig = {
             }
         },
         {
-            code: ' /53560144/TJ-Results-Skyscraper-160x600',
-            path: 'skyscraper',
+            code: 'skyscraper',
+            path: '/53560144/TJ-Results-Skyscraper-160x600',
             mediaTypes: {
                 banner: {
                     sizes: [
