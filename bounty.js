@@ -2466,7 +2466,6 @@ var streamampConfig = {
     ],
     cmp: {
         isEnabled: true,
-        pathnamesToExclude: ["/register", "/register/step-1", "/register/step-2", "/login", "/login/forgottenpassword", "/login/changepassword", "/profile", "/profile/edit"],
         config: {
             'UI Layout': 'banner',
             Language: 'en',
