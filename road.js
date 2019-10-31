@@ -6,6 +6,7 @@ var streamampConfig = {
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
     adUnitsToRefresh:[
+        "SA-Unit8",
         "SA-Unit4",
         "SA-Unit5",
         "SA-Unit11",
