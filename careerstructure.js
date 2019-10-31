@@ -39,7 +39,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         dmxid: 355056,
@@ -51,7 +52,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         tagid: '40474'
@@ -62,7 +64,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         placementId: 1204371
@@ -73,7 +76,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         siteId: '185285',
@@ -88,7 +92,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         unit: '538815334',
@@ -100,7 +105,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         publisherId: '873524',
@@ -112,7 +118,8 @@ var streamampConfig = {
                     labelAny: [
                         '1810-9999',
                         '1400-1809',
-                        '1000-1399'
+                        '1000-1399',
+                        '768-999'
                     ],
                     params: {
                         placementId: 9734154
@@ -133,6 +140,12 @@ var streamampConfig = {
                     ]
                 ],
                 '1000-1399': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '768-999': [
                     [
                         728,
                         90
@@ -482,7 +495,12 @@ var streamampConfig = {
             label: '768-999',
             minWidth: 768,
             maxWidth: 999,
-            sizesSupported: []
+            sizesSupported: [
+                [
+                    728,
+                    90
+                ]
+            ]
         },
         {
             label: '350-767',
