@@ -15,6 +15,11 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    beforeInit: function() {
+        if (window.location.pathname === '/route-planner/route') {
+            window.AD_UNITS_TOGGLE_ON = ['Desktop_print', 'MPU', 'leaderboard_header', 'leaderboard_footer']
+        }
+    },
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
