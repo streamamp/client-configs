@@ -4,7 +4,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    maxRefreshTime: 90,
+    minRefreshTime: 90,
     maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'FarrellyAtkinsonLtd/ebiketipsroadcc',
