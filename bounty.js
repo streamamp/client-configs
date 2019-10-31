@@ -44,6 +44,10 @@ var streamampConfig = {
         {
             "level": "1",
             "url": "profile"
+        },
+        {
+            "level": "1",
+            "url": "info"
         }
     ],
     adUnits: [
