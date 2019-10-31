@@ -19,7 +19,7 @@ var streamampConfig = {
     keyValues: {},
     adUnits: [
         {
-            code: 'header-adbanner',
+            code: 'TJ-Results-Leaderboard-728x90',
             path: '/53560144/TJ-Results-Leaderboard-728x90',
             mediaTypes: {
                 banner: {
@@ -155,7 +155,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'skyscraper',
+            code: 'TJ-Results-Skyscraper-160x600',
             path: '/53560144/TJ-Results-Skyscraper-160x600',
             mediaTypes: {
                 banner: {
@@ -265,7 +265,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'mobile-adbanner',
+            code: 'TJ-Mobile-320x50',
             path: '/53560144/TJ-Mobile-320x50',
             mediaTypes: {
                 banner: {
