@@ -1,4 +1,4 @@
-var streamamp = {
+var streamampConfig = {
     levelTargeting: false,
     gptSingleRequestEnabled: true,
     a9Enabled: true,
