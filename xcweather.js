@@ -475,7 +475,21 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: []
+            bids: [],
+            breakpoints: {
+                '970-9999': [
+                    [
+                        160,
+                        600
+                    ]
+                ],
+                '729-969': [
+                    [
+                        160,
+                        600
+                    ]
+                ]
+            }
         },
         {
             code: 'Unit7',
