@@ -694,6 +694,10 @@ var streamampConfig = {
                 [
                     160,
                     600
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
