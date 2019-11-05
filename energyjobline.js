@@ -982,8 +982,8 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            300,
-                            250
+                            320,
+                            50
                         ]
                     ]
                 }
@@ -1021,8 +1021,8 @@ var streamampConfig = {
                     params: {
                         siteId: '322929',
                         size: [
-                            300,
-                            250
+                            320,
+                            50
                         ]
                     }
                 },
@@ -1062,14 +1062,14 @@ var streamampConfig = {
             breakpoints: {
                 '469-820': [
                     [
-                        300,
-                        250
+                        320,
+                        50
                     ]
                 ],
                 '0-468': [
                     [
-                        300,
-                        250
+                        320,
+                        50
                     ]
                 ]
             }
