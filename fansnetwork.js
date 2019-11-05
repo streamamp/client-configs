@@ -15,6 +15,7 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
+    setForceContainerSize: true,
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
