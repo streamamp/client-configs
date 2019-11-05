@@ -1191,6 +1191,18 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
+                '971-9999': [
+                    [
+                        120,
+                        120
+                    ]
+                ],
+                '821-970': [
+                    [
+                        120,
+                        120
+                    ]
+                ],
                 '469-820': [
                     [
                         120,
@@ -1223,6 +1235,18 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
+                '971-9999': [
+                    [
+                        120,
+                        120
+                    ]
+                ],
+                '821-970': [
+                    [
+                        120,
+                        120
+                    ]
+                ],
                 '469-820': [
                     [
                         120,
