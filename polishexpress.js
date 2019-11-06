@@ -6,13 +6,14 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    refreshBidsTimeout: 90,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'ZethaLtd/polishexpress',
     token: 'GRkC7MzIUz3clACj2KlBHdVZ2InVQG56thAhEUPgHIJy4ZOAcEEtpgkizkC8kkYG',
     currency: {
         enabled: true,
-        value: 'GBP'
+        value: 'PLN'
     },
     namespace: 'streamamp',
     globalKeyValues: [],
