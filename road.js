@@ -3365,19 +3365,20 @@ var streamampConfig = {
                         allow: [
                             'cf',
                             'ci',
-                          'pa'
+                            'pa'
                         ]
                     }
                 },
                 {
                     bidder: 'justpremium',
                     labelAny: [
-                        '768 - 1025'
+                        '1025 - 9999'
                     ],
                     params: {
                         zone: '79351',
                         allow: [
-                            'ci',
+                            'cf',
+                            'hv',
                             'pa'
                         ]
                     }
