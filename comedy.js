@@ -1075,18 +1075,6 @@ var streamampConfig = {
 			outOfPage: false,
 			bids: [],
 			breakpoints: {
-				'979-9999': [
-					[
-						728,
-						90
-					]
-				],
-				'729-978': [
-					[
-						728,
-						90
-					]
-				],
 				'469-728': [
 					[
 						728,
