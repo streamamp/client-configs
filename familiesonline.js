@@ -12,7 +12,7 @@ var streamampConfig = {
 		enabled: false,
 		value: ''
 	},
-	namespace: '',
+	namespace: 'streamamp',
 	globalKeyValues: [],
 	keyValues: {},
 	adUnits: [
@@ -25,6 +25,10 @@ var streamampConfig = {
 						[
 							728,
 							90
+						],
+						[
+							320,
+							50
 						]
 					]
 				}
@@ -39,31 +43,11 @@ var streamampConfig = {
 						728,
 						90
 					]
-				]
-			}
-		},
-		{
-			code: 'Unit2',
-			path: '/21802520772/FamiliesOnline/Unit2',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							729,
-							60
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [],
-			breakpoints: {
-				'768-9999': [
+				],
+				'0-767': [
 					[
-						729,
-						60
+						320,
+						50
 					]
 				]
 			}
@@ -205,7 +189,7 @@ var streamampConfig = {
 				banner: {
 					sizes: [
 						[
-							972,
+							970,
 							250
 						]
 					]
@@ -218,7 +202,7 @@ var streamampConfig = {
 			breakpoints: {
 				'768-9999': [
 					[
-						972,
+						970,
 						250
 					]
 				]
@@ -231,8 +215,12 @@ var streamampConfig = {
 				banner: {
 					sizes: [
 						[
+							728,
+							90
+						],
+						[
 							320,
-							250
+							50
 						]
 					]
 				}
@@ -242,10 +230,16 @@ var streamampConfig = {
 			outOfPage: false,
 			bids: [],
 			breakpoints: {
+				'768-9999': [
+					[
+						728,
+						90
+					]
+				],
 				'0-767': [
 					[
 						320,
-						250
+						50
 					]
 				]
 			}
@@ -268,7 +262,7 @@ var streamampConfig = {
 			outOfPage: false,
 			bids: [],
 			breakpoints: {
-				'768-9999': [
+				'0-767': [
 					[
 						320,
 						50
@@ -407,32 +401,6 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit17',
-			path: '/21802520772/FamiliesOnline/Unit17',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							300,
-							500
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [],
-			breakpoints: {
-				'768-9999': [
-					[
-						300,
-						500
-					]
-				]
-			}
-		},
-		{
 			code: 'Unit18',
 			path: '/21802520772/FamiliesOnline/Unit18',
 			mediaTypes: {
@@ -499,10 +467,6 @@ var streamampConfig = {
 					90
 				],
 				[
-					729,
-					60
-				],
-				[
 					160,
 					600
 				],
@@ -515,12 +479,8 @@ var streamampConfig = {
 					600
 				],
 				[
-					972,
+					970,
 					250
-				],
-				[
-					320,
-					50
 				],
 				[
 					760,
@@ -537,10 +497,6 @@ var streamampConfig = {
 			minWidth: 0,
 			maxWidth: 767,
 			sizesSupported: [
-				[
-					320,
-					250
-				],
 				[
 					300,
 					250
