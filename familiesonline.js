@@ -483,10 +483,6 @@ var streamampConfig = {
 					250
 				],
 				[
-					320,
-					50
-				],
-				[
 					760,
 					360
 				],
@@ -501,10 +497,6 @@ var streamampConfig = {
 			minWidth: 0,
 			maxWidth: 767,
 			sizesSupported: [
-				[
-					320,
-					250
-				],
 				[
 					300,
 					250
