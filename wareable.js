@@ -1719,7 +1719,50 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'Wareable_Article-Middle_300x250'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        siteId: '427732',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        unit: '540907061',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        placementId: 17645308
+                    }
+                },
+            ],
             breakpoints: {
                 '0-749': [
                     [
