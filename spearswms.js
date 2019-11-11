@@ -1,4 +1,5 @@
 var streamampConfig = {
+    gptSingleRequestEnabled: true,
     levelTargeting: false,
     a9Enabled: true,
     adUnitsToRefresh:['Unit1', 'Unit2', 'Unit3', 'Unit4', 'Unit5', 'Unit6', 'Unit7'],
