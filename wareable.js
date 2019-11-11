@@ -1761,7 +1761,7 @@ var streamampConfig = {
                     params: {
                         placementId: 17645308
                     }
-                },
+                }
             ],
             breakpoints: {
                 '0-749': [
@@ -1796,7 +1796,82 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'Wareable_Articles-Top_300x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'Wareable_Articles-Top_320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        siteId: '427731',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        siteId: '427731',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        unit: '540907061',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        placementId: 17645305
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0-749'
+                    ],
+                    params: {
+                        placementId: 17645306
+                    }
+                }
+            ],
             breakpoints: {
                 '0-749': [
                     [
