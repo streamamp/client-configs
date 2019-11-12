@@ -1,5 +1,6 @@
 var streamampConfig = {
     a9Enabled: true,
+    gptSingleRequestEnabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     currency: {
         value: 'GBP',
@@ -21,6 +22,7 @@ var streamampConfig = {
         {
             code: 'StreamAMP_TopLeaderboard',
             path: '/5548363/StreamAMP_TopLeaderboard',
+            safeFrame: true,
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -161,6 +163,7 @@ var streamampConfig = {
         {
             code: 'StreamAMP_BottomLeaderboard',
             path: '/5548363/StreamAMP_BottomLeaderboard',
+            safeFrame: true,
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -301,6 +304,7 @@ var streamampConfig = {
         {
             code: 'StreamAMP_MPU1',
             path: '/5548363/StreamAMP_MPU1',
+            safeFrame: true,
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -431,6 +435,7 @@ var streamampConfig = {
         {
             code: 'StreamAMP_MPU2',
             path: '/5548363/StreamAMP_MPU2',
+            safeFrame: true,
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1146,6 +1151,7 @@ var streamampConfig = {
         {
             code: 'StreamAMP_MidLeaderboard',
             path: '/5548363/StreamAMP_MidLeaderboard',
+            safeFrame: true,
             mediaTypes: {
                 banner: {
                     sizes: [
