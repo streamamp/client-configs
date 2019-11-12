@@ -8,7 +8,7 @@ var streamampConfig = {
     hasRefreshBids: true,
     minRefreshTime: 90,
     maxRefreshTime: 120,
-    hasCollapsedEmptyDivs: false,
+    hasCollapsedEmptyDivs: true,
     publisher_id: 'StreamAMP/EnergyJobLine',
     token: 'tsawdifJDgiW73t4cy5qHfpUCcCuwMHQbV5kdENFxyM6MT9QlieISzCb45SoXVHp',
     currency: {
