@@ -980,7 +980,7 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Accounting Web UK',
-            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png'
+            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png',
             'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
