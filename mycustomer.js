@@ -6,8 +6,11 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minRefreshTime: 120,
-    maxRefreshTime: 180,
+    minRefreshTime: 40,
+    maxRefreshTime: 60,
+    adUnitsToRefresh: [
+      'MYC_Sticky'
+    ],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/MyCustomer',
     token: 'YPu5gu4IWoIofQCSL7lQPOrxrBdYpI7yExh7WLG250iqMsddGDCNKhDBUHoFiiyt',
@@ -424,16 +427,6 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        zoneId: 1382490,
-                        publisherSubId: 'MYC_Top_320x50'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -450,15 +443,6 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382489,
                         publisherSubId: 'MYC_Top_728x90'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        tagid: '71103'
                     }
                 },
                 {
@@ -483,15 +467,6 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22039731
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -506,19 +481,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 22039731
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        siteId: '378978',
-                        size: [
-                            320,
-                            50
-                        ]
                     }
                 },
                 {
@@ -551,16 +513,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        unit: '540778481',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -577,15 +529,6 @@ var streamampConfig = {
                     params: {
                         unit: '540778481',
                         delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 16176748
                     }
                 },
                 {
@@ -625,12 +568,6 @@ var streamampConfig = {
                         90
                     ]
                 ],
-                '0 - 728': [
-                    [
-                        320,
-                        50
-                    ]
-                ]
             }
         },
         {
