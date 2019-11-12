@@ -5,8 +5,9 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minRefreshTime: 90,
-    maxRefreshTime: 120,
+    adUnitsToRefresh: ['TZ_Sticky'],
+    minRefreshTime: 40,
+    maxRefreshTime: 60,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/TrainingZone',
     token: 'rVtkKtzeSFHJU2bZAoduGsoQWYTsrBimBdDaXmq4wZpF70IpmWdOBvxvBnkUzwdv',
@@ -410,10 +411,6 @@ var streamampConfig = {
                             90
                         ],
                         [
-                            320,
-                            50
-                        ],
-                        [
                             970,
                             90
                         ]
@@ -446,16 +443,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        zoneId: 1382490,
-                        publisherSubId: 'TZ_Top_320x50'
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '971 - 9999'
@@ -475,15 +462,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        tagid: '71095'
-                    }
-                },
-                {
                     bidder: 'improvedigital',
                     labelAny: [
                         '971 - 9999'
@@ -497,15 +475,6 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '729 - 970'
-                    ],
-                    params: {
-                        placementId: 22039769
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 728'
                     ],
                     params: {
                         placementId: 22039769
@@ -539,19 +508,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        siteId: '378999',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
-                {
                     bidder: 'openx',
                     labelAny: [
                         '971 - 9999'
@@ -566,16 +522,6 @@ var streamampConfig = {
                     labelAny: [
                         '971 - 9999',
                         '729 - 970'
-                    ],
-                    params: {
-                        unit: '540778488',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0 - 728'
                     ],
                     params: {
                         unit: '540778488',
@@ -601,15 +547,6 @@ var streamampConfig = {
                         placementId: 16177507
                     }
                 },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 16177568
-                    }
-                }
             ],
             breakpoints: {
                 '971 - 9999': [
@@ -626,12 +563,6 @@ var streamampConfig = {
                     [
                         728,
                         90
-                    ]
-                ],
-                '0 - 728': [
-                    [
-                        320,
-                        50
                     ]
                 ]
             }
