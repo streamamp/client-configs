@@ -1713,7 +1713,31 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: false
+        isEnabled: true,
+        config: {
+            'UI Layout': 'popup',
+            'Language': 'en',
+            'Publisher Name': 'RLFans',
+            'Publisher Logo': 'https://static.amp.services/logos/rl.png',
+            'No Option': false,
+            'Non-Consent Display Frequency': 7,
+            'Display Persistent Consent Link': false,
+            'Publisher Purpose IDs': [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            'Initial Screen Body Text Option': 1,
+            'Initial Screen Accept Button Text': 'I Agree',
+            'Initial Screen Reject Button Text': 'I do not accept',
+            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+            'Vendor Screen Accept All Button Text': 'Accept all',
+            'Vendor Screen Reject All Button Text': 'Reject all'
+        },
+        hasCustomStyles: false
     },
     breakpoints: [
         {
