@@ -8,7 +8,7 @@ var streamampConfig = {
 	hasRefreshBids: true,
 	minRefreshTime: 90,
 	maxRefreshTime: 90,
-	hasCollapsedEmptyDivs: false,
+	hasCollapsedEmptyDivs: true,
 	publisher_id: 'StreamAMP/PWMania',
 	token: 'jCwT0d5rTbEgVo3fQWqyebVepvORjN9domMGNGCMLIM1luI7Ium7dpyiBOqHhk37',
 	currency: {
