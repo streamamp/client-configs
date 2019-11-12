@@ -963,7 +963,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': true,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [],
@@ -975,7 +975,8 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Accounting Web UK',
-            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png'
+            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png',
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {
