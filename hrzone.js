@@ -424,16 +424,6 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        zoneId: 1382490,
-                        publisherSubId: 'HRZ_Top_320x50'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -450,15 +440,6 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382489,
                         publisherSubId: 'HRZ_Top_728x90'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        tagid: '71111'
                     }
                 },
                 {
@@ -483,15 +464,6 @@ var streamampConfig = {
                 {
                     bidder: 'improvedigital',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22039686
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -506,19 +478,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 22039686
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        siteId: '378939',
-                        size: [
-                            320,
-                            50
-                        ]
                     }
                 },
                 {
@@ -551,16 +510,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        unit: '540778468',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -577,15 +526,6 @@ var streamampConfig = {
                     params: {
                         unit: '540778468',
                         delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 16175622
                     }
                 },
                 {
@@ -623,12 +563,6 @@ var streamampConfig = {
                     [
                         728,
                         90
-                    ]
-                ],
-                '0 - 728': [
-                    [
-                        320,
-                        50
                     ]
                 ]
             }
