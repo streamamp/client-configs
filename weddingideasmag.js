@@ -12,8 +12,8 @@ var streamampConfig = {
     publisher_id: 'WeddingIdeas/weddingideas',
     token: 'THoVWPiqDTt16DrqTlo1MhplLEPzxXX9khB1PxVkN1Ds9Suzj5dfi9zkOaaiSkMN',
     currency: {
-        enabled: false,
-        value: ''
+        enabled: true,
+        value: 'GBP'
     },
     namespace: 'streamamp',
     globalKeyValues: [],
