@@ -6,6 +6,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
+    adUnitsToRefresh: ['Unit6'],
     minRefreshTime: 60,
     maxRefreshTime: 60,
     hasCollapsedEmptyDivs: true,
