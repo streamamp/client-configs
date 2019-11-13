@@ -13,8 +13,8 @@ var streamampConfig = {
     publisher_id: 'ChelseaMagazineCompany/babymagazine',
     token: '9DwASG6TMgvZkgq95V2PD1Fe5zqoEs5NW0BrTvrGE5yIPA6JnQ0i2lTFytfd7QLr',
     currency: {
-        enabled: false,
-        value: ''
+        enabled: true,
+        value: 'GBP'
     },
     namespace: 'streamamp',
     globalKeyValues: [],
