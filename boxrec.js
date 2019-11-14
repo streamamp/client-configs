@@ -1393,7 +1393,8 @@ var streamampConfig = {
                 {
                     bidder: 'justpremium',
                     labelAny: [
-                        '0 - 550'
+                        '0 - 550',
+                        '551 - 728'
                     ],
                     params: {
                         zone: '79229',
@@ -1408,17 +1409,34 @@ var streamampConfig = {
                 {
                     bidder: 'justpremium',
                     labelAny: [
-                        '551 - 728',
                         '729 - 999',
+                    ],
+                    params: {
+                        zone: '79229',
+                        allow: [
+                            'cf',
+                            'ci',
+                            'hi',
+                            'as',
+                            'hv'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
                         '1000+'
                     ],
                     params: {
                         zone: '79229',
                         allow: [
-                            ' cf',
-                            ' ci',
-                            ' hi',
-                            ' as'
+                            'cf',
+                            'ci',
+                            'hi',
+                            'as',
+                            'pu',
+                            'pd',
+                            'hv'
                         ]
                     }
                 },
