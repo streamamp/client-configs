@@ -38,6 +38,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '200017'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '0-9999'
@@ -148,6 +157,15 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '200017'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -260,6 +278,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '200017'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '0-9999'
@@ -366,6 +393,15 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '200017'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -474,6 +510,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '200017'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '0-9999'
@@ -580,6 +625,15 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '200017'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
