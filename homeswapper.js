@@ -1,5 +1,5 @@
 var streamampConfig = {
-    gptSingleRequestEnabled: false,
+    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
     bidTimeout: 1.2,
@@ -289,9 +289,9 @@ var streamampConfig = {
                         '728 - 9999'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 385478,
+                        zoneId: '385478',
                         sizes: [
                             57
                         ]
@@ -304,9 +304,9 @@ var streamampConfig = {
                         '468 - 727'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 385478,
+                        zoneId: '385478',
                         sizes: [
                             2
                         ]
@@ -318,9 +318,9 @@ var streamampConfig = {
                         '0 - 467'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 385478,
+                        zoneId: '385478',
                         sizes: [
                             15
                         ]
@@ -332,9 +332,9 @@ var streamampConfig = {
                         '0 - 467'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 385478,
+                        zoneId: '385478',
                         sizes: [
                             43
                         ]
@@ -549,9 +549,9 @@ var streamampConfig = {
                         '468 - 727'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1300040,
+                        zoneId: '1300040',
                         sizes: [
                             9
                         ]
@@ -749,9 +749,9 @@ var streamampConfig = {
                         '468 - 727'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 385482,
+                        zoneId: '385482',
                         sizes: [
                             2
                         ]
@@ -763,9 +763,9 @@ var streamampConfig = {
                         '728 - 9999'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 385482,
+                        zoneId: '385482',
                         sizes: [
                             57
                         ]
@@ -1046,9 +1046,9 @@ var streamampConfig = {
                         '468 - 727'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1300042,
+                        zoneId: '1300042',
                         sizes: [
                             2
                         ]
@@ -1060,9 +1060,9 @@ var streamampConfig = {
                         '0 - 467'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1300042,
+                        zoneId: '1300042',
                         sizes: [
                             15
                         ]
@@ -1074,9 +1074,9 @@ var streamampConfig = {
                         '0 - 467'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1300042,
+                        zoneId: '1300042',
                         sizes: [
                             43
                         ]
@@ -1269,9 +1269,9 @@ var streamampConfig = {
                         '468 - 727'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1028180,
+                        zoneId: '1028180',
                         sizes: [
                             9
                         ]
@@ -1414,9 +1414,9 @@ var streamampConfig = {
                         '468 - 727'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1028182,
+                        zoneId: '1028182',
                         sizes: [
                             15
                         ]
@@ -1558,9 +1558,9 @@ var streamampConfig = {
                         '728 - 9999'
                     ],
                     params: {
-                        accountdId: '14418',
+                        accountId: '14418',
                         siteId: '78038',
-                        zoneId: 1028184,
+                        zoneId: '1028184',
                         sizes: [
                             2
                         ]
