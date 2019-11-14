@@ -52,6 +52,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727',
+                        '0 - 467'
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '728 - 9999',
@@ -455,6 +466,16 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '728 - 9999',
@@ -593,6 +614,16 @@ var streamampConfig = {
             safeFrame: true,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727',
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -827,6 +858,17 @@ var streamampConfig = {
             safeFrame: true,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727',
+                        '0 - 467'
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -1144,6 +1186,16 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '728 - 9999',
@@ -1279,6 +1331,16 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '728 - 9999',
@@ -1413,6 +1475,16 @@ var streamampConfig = {
             safeFrame: true,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '728 - 9999',
+                        '468 - 727'
+                    ],
+                    params: {
+                        site_id: '109248'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
