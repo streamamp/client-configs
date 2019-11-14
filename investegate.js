@@ -41,6 +41,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '109232'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '0 - 9999'
@@ -215,6 +224,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '109232'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '0 - 9999'
@@ -385,6 +403,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '109232'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '0 - 9999'
@@ -491,6 +518,15 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '109232'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '0 - 9999'
@@ -596,6 +632,15 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-9999'
+                    ],
+                    params: {
+                        site_id: '109232'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
