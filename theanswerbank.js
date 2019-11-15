@@ -2390,6 +2390,200 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: []
+		},
+		{
+			code: 'TheAnswerBank_Mobile',
+			path: '/15188745/TheAnswerBank_Mobile',
+			mediaTypes: {
+				banner: {
+					sizes: [
+						[
+							320,
+							50
+						]
+					]
+				}
+			},
+			isSticky: false,
+			safeFrame: false,
+			outOfPage: false,
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'AnswerBank_Mobile_320x50'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						dmxid: 223107,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						tagid: '58258'
+					}
+				},
+				{
+					bidder: 'improvedigital',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						placementId: 1201105
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						siteId: '306688',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						publisherId: '1455253',
+						adSlot: 'AnswerBank_Mobile_320x50'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+					placementId: 13475055
+					}
+				},
+			],
+			breakpoints: {
+				'0-767': [
+					[
+						320,
+						50
+					]
+				]
+			}
+		},
+		{
+			code: 'TheAnswerBankSticky',
+			path: '/15188745/TheAnswerBankSticky',
+			mediaTypes: {
+				banner: {
+					sizes: [
+						[
+							320,
+							50
+						]
+					]
+				}
+			},
+			isSticky: true,
+			safeFrame: false,
+			outOfPage: false,
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'AnswerBank_Sticky_320x50'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						dmxid: 333311,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						tagid: '58261'
+					}
+				},
+				{
+					bidder: 'improvedigital',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						placementId: 1201108
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						siteId: '306692',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+						publisherId: '2467750',
+						adSlot: 'AnswerBank_Sticky_320x50'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0-767'
+					],
+					params: {
+					placementId: 15129608
+					}
+				},
+			],
+			breakpoints: {
+				'0-767': [
+					[
+						320,
+						50
+					]
+				]
+			}
 		}
 	],
 		cmp: {
