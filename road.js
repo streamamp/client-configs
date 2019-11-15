@@ -3388,19 +3388,19 @@ var streamampConfig = {
                 '1025 - 9999': [
                     [
                         1,
-                      1
+                        1
                     ]
                 ],
                 '768 - 1025': [
                     [
-                       1,
-                      1
+                        1,
+                        1
                     ]
                 ],
                 '0 - 767': [
                     [
                         1,
-                      1
+                        1
                     ]
                 ]
             }
@@ -4115,6 +4115,33 @@ var streamampConfig = {
                     ]
                 ]
             }
+        },
+        {
+            code: 'SA-Skin',
+            path: '/269479563/Road.cc/SA-Skin',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+            ],
+            breakpoints: {
+                '1025 - 9999': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+            }
         }
     ],
     cmp: {
@@ -4212,8 +4239,8 @@ var streamampConfig = {
                     600
                 ],
                 [
-                  1,
-                  1
+                    1,
+                    1
                 ]
             ]
         },
