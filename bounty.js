@@ -2529,23 +2529,14 @@ var streamampConfig = {
                     ],
                     params: {
                         zone: '70919',
-                        allow: ['cf','as','fi','hi','ci','pa']
+                        allow: ['cf','as','fi','hi','ci','pa', 'sa']
                     }
                 },
                 {
                     bidder: 'justpremium',
                     labelAny: [
+                        '0 - 468',
                         '469 - 768'
-                    ],
-                    params: {
-                        zone: '70919',
-                        allow: ['mt','is','mo','ms','ci','hi','as','cf']
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 468'
                     ],
                     params: {
                         zone: '70919',
