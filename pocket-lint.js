@@ -1,5 +1,4 @@
 var streamampConfig = {
-    gptSingleRequestEnabled: true,
     levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
@@ -60,7 +59,7 @@ var streamampConfig = {
         googletag.cmd.push(function() {
             googletag.pubads().setTargeting("inskin_yes", fn_pageskin);
         });
-    
+
         var PL_settings = window._pl_settings;
         googletag.cmd.push( function() {
             if (PL_settings && PL_settings.targeting) {
@@ -7657,7 +7656,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zone: '70926',
-                        allow: ['ci','is']
+                        allow: ['ci']
                     }
                 }, {
                     bidder: 'justpremium',
