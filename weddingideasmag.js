@@ -6,14 +6,15 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
+    adUnitsToRefresh: ['Unit6'],
     minRefreshTime: 60,
     maxRefreshTime: 60,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'WeddingIdeas/weddingideas',
     token: 'THoVWPiqDTt16DrqTlo1MhplLEPzxXX9khB1PxVkN1Ds9Suzj5dfi9zkOaaiSkMN',
     currency: {
-        enabled: false,
-        value: ''
+        enabled: true,
+        value: 'GBP'
     },
     namespace: 'streamamp',
     globalKeyValues: [],
@@ -246,7 +247,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit2',
-            path: '/2611224/BabyMagazine2019/Unit2',
+            path: '/4856165/WeddingIdeas2019/Unit2',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -426,7 +427,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit3',
-            path: '/2611224/BabyMagazine2019/Unit3',
+            path: '/4856165/WeddingIdeas2019/Unit3',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -606,7 +607,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit4',
-            path: '/2611224/BabyMagazine2019/Unit4',
+            path: '/4856165/WeddingIdeas2019/Unit4',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -786,7 +787,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit5',
-            path: '/2611224/BabyMagazine2019/Unit5',
+            path: '/4856165/WeddingIdeas2019/Unit5',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1007,7 +1008,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit6',
-            path: '/2611224/BabyMagazine2019/Unit6',
+            path: '/4856165/WeddingIdeas2019/Unit6',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1171,7 +1172,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit7',
-            path: '/2611224/BabyMagazine2019/Unit7',
+            path: '/4856165/WeddingIdeas2019/Unit7',
             mediaTypes: {
                 banner: {
                     sizes: [
