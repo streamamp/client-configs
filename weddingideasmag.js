@@ -247,7 +247,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit2',
-            path: '/2611224/BabyMagazine2019/Unit2',
+            path: '/4856165/WeddingIdeas2019/Unit2',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -427,7 +427,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit3',
-            path: '/2611224/BabyMagazine2019/Unit3',
+            path: '/4856165/WeddingIdeas2019/Unit3',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -607,7 +607,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit4',
-            path: '/2611224/BabyMagazine2019/Unit4',
+            path: '/4856165/WeddingIdeas2019/Unit4',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -787,7 +787,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit5',
-            path: '/2611224/BabyMagazine2019/Unit5',
+            path: '/4856165/WeddingIdeas2019/Unit5',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1008,7 +1008,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit6',
-            path: '/2611224/BabyMagazine2019/Unit6',
+            path: '/4856165/WeddingIdeas2019/Unit6',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -1172,7 +1172,7 @@ var streamampConfig = {
         },
         {
             code: 'Unit7',
-            path: '/2611224/BabyMagazine2019/Unit7',
+            path: '/4856165/WeddingIdeas2019/Unit7',
             mediaTypes: {
                 banner: {
                     sizes: [
