@@ -806,88 +806,66 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'SoccerStats/Responsive/StickyMobile',
-			path: '/15188745/SoccerStats//Responsive//StickyMobile',
+			code: 'SoccerStats-1x1',
+			path: '/15188745/SoccerStats-1x1',
 			mediaTypes: {
 				banner: {
 					sizes: [
 						[
-							320,
-							50
+							1,
+							1
 						]
 					]
 				}
 			},
-			isSticky: true,
+			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
 				{
-					bidder: 'districtmDMX',
+					bidder: 'justpremium',
 					labelAny: [
 						'0-468'
 					],
 					params: {
-						dmxid: 261761,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						tagid: '40387'
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						placementId: 1219061
-					}
-				},
-				{
-					bidder: 'ix',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						siteId: '313822',
-						size: [
-							320,
-							50
+						zone: '79714',
+						allow: [
+							'mt',
+							'is',
+							'mo',
+							'ms'
 						]
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'justpremium',
 					labelAny: [
-						'0-468'
+						'469-9999'
 					],
 					params: {
-						unit: '540766909',
-						delDomain: 'streamamp-d.openx.net'
-					}
-				},
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						placementId: 14321848
+						zone: '79714',
+						allow: [
+							'hv',
+							'cs',
+							'as',
+							'ci',
+							'sa',
+							'pa'
+						]
 					}
 				}
 			],
 			breakpoints: {
+				'469-9999': [
+					[
+						1,
+						1
+					]
+				],
 				'0-468': [
 					[
-						320,
-						50
+						1,
+						1
 					]
 				]
 			}
@@ -959,6 +937,10 @@ var streamampConfig = {
 				[
 					970,
 					250
+				],
+				[
+					1,
+					1
 				]
 			]
 		},
@@ -974,6 +956,10 @@ var streamampConfig = {
 				[
 					300,
 					250
+				],
+				[
+					1,
+					1
 				]
 			]
 		}
