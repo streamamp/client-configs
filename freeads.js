@@ -1,12 +1,19 @@
 var streamampConfig = {
     levelTargeting: false,
-    gptSingleRequestEnabled: false,
+    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    adUnitsToRefresh: ['Unit2', 'Unit3', 'Unit7', 'Unit8', 'Unit10', 'StickyAd', 'Unit12', 'Unit13', 'Unit15', 'Unit16', 'Unit17', 'Unit18', 'Unit19', 'Unit20', 'Unit21'],
+    hasRefreshBids: true,
+    adUnitsToRefresh: [
+        'Unit1',
+        'Unit4',
+        'Unit5',
+        'StickyAd',
+        'Unit19',
+        'Unit20'
+    ],
     minRefreshTime: 90,
     maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
