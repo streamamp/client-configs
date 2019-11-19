@@ -418,7 +418,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -746,7 +746,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -895,7 +895,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -1130,7 +1130,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -1620,7 +1620,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -2030,7 +2030,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -2522,7 +2522,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -2652,7 +2652,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
@@ -3040,7 +3040,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: true,
-			safeFrame: false,
+			safeFrame: true,
 			outOfPage: false,
 			bids: [
 				{
