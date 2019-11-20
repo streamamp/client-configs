@@ -3210,7 +3210,7 @@ var streamampConfig = {
                 }
             },
             isSticky: true,
-            safeFrame: false,
+            safeFrame: true,
             outOfPage: false,
             bids: [
                 {
@@ -3261,19 +3261,6 @@ var streamampConfig = {
                         size: [
                             320,
                             50
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 767'
-                    ],
-                    params: {
-                        zone: '79351',
-                        allow: [
-                            'mt',
-                            'ms'
                         ]
                     }
                 },
@@ -3350,36 +3337,25 @@ var streamampConfig = {
                     params: {
                         zone: '79351',
                         allow: [
+                            'mt',
                             'is',
-                            'mo'
+                            'mo',
+                            'ms'
                         ]
                     }
                 },
                 {
                     bidder: 'justpremium',
                     labelAny: [
-                        '768 - 1025'
+                        '1025 - 9999',
+                        '768 - 1025',
                     ],
                     params: {
                         zone: '79351',
                         allow: [
                             'cf',
-                            'ci',
-                            'pa'
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '1025 - 9999'
-                    ],
-                    params: {
-                        zone: '79351',
-                        allow: [
-                            'cf',
-                            'hv',
-                            'pa'
+                            'as',
+                            'ci'
                         ]
                     }
                 }
@@ -4133,6 +4109,40 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '1025 - 9999',
+                        '768 - 1025'
+                    ],
+                    params: {
+                        zone: '79351',
+                        allow: [
+                          'wp',
+                          'wv',
+                          'cf',
+                          'as',
+                          'ci',
+                          'sa',
+                          'pa'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 767'
+                    ],
+                    params: {
+                        zone: '79351',
+                        allow: [
+                          'mt',
+                          'is',
+                          'mo',
+                          'ms'
+                        ]
+                    }
+                },
             ],
             breakpoints: {
                 '1025 - 9999': [
@@ -4141,6 +4151,18 @@ var streamampConfig = {
                         1
                     ]
                 ],
+                '768 - 1025': [
+                  [
+                    1,
+                    1
+                  ]
+                ],
+                '0 - 767': [
+                  [
+                    1,
+                    1
+                  ]
+                ]
             }
         }
     ],
