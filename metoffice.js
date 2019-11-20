@@ -273,6 +273,37 @@ var streamampConfig = {
                     }
                 },
                 {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970'
+                    ],
+                    "params": {
+                        "tagid": 398210
+                    }
+                },
+                {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970',
+                        '0-728'
+                    ],
+                    "params": {
+                        "tagid": 398056
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '1976-9999',
@@ -605,6 +636,33 @@ var streamampConfig = {
                     }
                 },
                 {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616'
+                    ],
+                    "params": {
+                        "tagid": 398054
+                    }
+                },
+                {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970'
+                    ],
+                    "params": {
+                        "tagid": 398211
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '1976-9999',
@@ -862,6 +920,25 @@ var streamampConfig = {
                     }
                 },
                 {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999'
+                    ],
+                    "params": {
+                        "tagid": 507810
+                    }
+                },
+                {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975'
+                    ],
+                    "params": {
+                        "tagid": 507808
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '1976-9999',
@@ -1069,6 +1146,25 @@ var streamampConfig = {
                     }
                 },
                 {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999'
+                    ],
+                    "params": {
+                        "tagid": 507813
+                    }
+                },
+                {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975'
+                    ],
+                    "params": {
+                        "tagid": 507812
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '1976-9999',
@@ -1232,6 +1328,20 @@ var streamampConfig = {
                         sizes: [
                             2
                         ]
+                    }
+                },
+                {
+                    "bidder": "sovrn",
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280'
+                    ],
+                    "params": {
+                        "tagid": 507815
                     }
                 },
                 {
