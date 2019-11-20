@@ -3,7 +3,7 @@ var streamampConfig = {
     predefinedSlotOverride: true,
     predefinedSlotOverrideMethod: 'metoffice',
     levelTargeting: false,
-    gptSingleRequestEnabled: false,
+    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
