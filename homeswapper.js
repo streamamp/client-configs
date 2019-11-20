@@ -1603,7 +1603,72 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: false
+        isEnabled: true,
+        config: {
+            'UI Layout': 'banner',
+            Language: 'en',
+            'Display Persistent Consent Link': false,
+            'No Option': true,
+            'Non-Consent Display Frequency': 7,
+            'Publisher Purpose IDs': [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            'Initial Screen Body Text Option': 1,
+            'Initial Screen Accept Button Text': 'I agree',
+            'Initial Screen Reject Button Text': 'I do not accept',
+            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+            'Vendor Screen Accept All Button Text': 'Accept all',
+            'Vendor Screen Reject All Button Text': 'Reject all',
+            'Publisher Name': 'Homeswapper',
+            'Publisher Logo': 'https://static.amp.services/logos/homeswapper-logo.png'
+        },
+        hasCustomStyles: true,
+        styles: {
+            ui: {
+                backgroundColor: '#FFFFFF',
+                textColor: '#6F2476'
+            },
+            link: {
+                textColor: '#6F2476'
+            },
+            primaryButton: {
+                backgroundColor: '#6F2476',
+                borderColor: '#6F2476',
+                textColor: '#FFFFFF'
+            },
+            primaryButtonHover: {
+                backgroundColor: '#893E90',
+                borderColor: '#893E90',
+                textColor: '#FFFFFF'
+            },
+            isSecondaryButtonHidden: false,
+            secondaryButton: {
+                backgroundColor: 'transparent',
+                borderColor: '#6F2476',
+                textColor: '#6F2476'
+            },
+            secondaryButtonHover: {},
+            tableHeader: {
+                backgroundColor: '#6F2476'
+            },
+            tableRow: {},
+            toggleOn: {
+                backgroundColor: '#6F2476',
+                borderColor: '#6F2476'
+            },
+            toggleOff: {
+                backgroundColor: '#FFFFFF',
+                borderColor: '#6F2476'
+            },
+            additionalStyles: '',
+            toggleSwitchBorderColor: '#6F2476',
+            toggleStatusTextColor: '#FFFFFF'
+        }
     },
     breakpoints: [
         {
