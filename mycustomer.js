@@ -6,11 +6,8 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minRefreshTime: 40,
-    maxRefreshTime: 60,
-    adUnitsToRefresh: [
-      'MYC_Sticky'
-    ],
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/MyCustomer',
     token: 'YPu5gu4IWoIofQCSL7lQPOrxrBdYpI7yExh7WLG250iqMsddGDCNKhDBUHoFiiyt',
