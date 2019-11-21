@@ -15,7 +15,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minrefreshTime: 90,
+    minRefreshTime: 90,
     maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/UKBusinessForum',
