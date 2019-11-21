@@ -921,9 +921,10 @@ var streamampConfig = {
     ],
     cmp: {
         isEnabled: true,
+        pathnamesToExclude: ['/help/privacy-policy/'],
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [],
@@ -931,11 +932,13 @@ var streamampConfig = {
             'Initial Screen Accept Button Text': 'I agree',
             'Initial Screen Reject Button Text': 'I do not accept',
             'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
-            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data based on Legitimate Interests, these companies include OptInMonster, AddThisSocial, HotJar and PageFair. You can view our <a target="_blank" rel="noopener noreferrer" href="https://www.ukbusinessforums.co.uk/help/privacy-policy/"><strong>Privacy Policy</strong></a> for more information on these and to opt out.',
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'UK Business Forums',
-            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png'
+            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png',
+            'Custom Links Displayed on Initial Screen': ['[Privacy Policy](https://www.ukbusinessforums.co.uk/help/privacy-policy/)'],
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {
