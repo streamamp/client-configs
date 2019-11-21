@@ -889,7 +889,7 @@ var streamampConfig = {
     ],
     cmp: {
         isEnabled: true,
-        pathsToExclude: ['/privacy-policy'],
+        pathnamesToExclude: ['/privacy-policy'],
         config: {
             'UI Layout': 'popup',
             'Language': 'en',
@@ -905,7 +905,7 @@ var streamampConfig = {
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'Accounting Web UK',
             'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png',
-            'Custom Links Displayed on Initial Screen': ['[Privacy Policy](https://www.accountingweb.co.uk/%E2%80%9Chttps://www.accountingweb.co.uk/privacy-policy%E2%80%9D)'],
+            'Custom Links Displayed on Initial Screen': ['[Privacy Policy](https://www.accountingweb.co.uk/privacy-policy)'],
             'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
