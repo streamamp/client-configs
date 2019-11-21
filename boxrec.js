@@ -580,6 +580,7 @@ var streamampConfig = {
                     ]
                 }
             },
+            safeFrame: true,
             bids: [
                 {
                     bidder: 'criteo',
@@ -633,18 +634,6 @@ var streamampConfig = {
                         size: [
                             320,
                             50
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 550'
-                    ],
-                    params: {
-                        zone: '79229',
-                        allow: [
-                            'mo'
                         ]
                     }
                 },
@@ -730,6 +719,7 @@ var streamampConfig = {
                     ]
                 }
             },
+            safeFrame: true,
             bids: [
                 {
                     bidder: 'criteo',
@@ -801,18 +791,6 @@ var streamampConfig = {
                         size: [
                             300,
                             250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 550'
-                    ],
-                    params: {
-                        zone: '79229',
-                        allow: [
-                            'is'
                         ]
                     }
                 },
@@ -925,6 +903,7 @@ var streamampConfig = {
                     ]
                 }
             },
+            safeFrame: true,
             bids: [
                 {
                     bidder: 'criteo',
@@ -1013,30 +992,6 @@ var streamampConfig = {
                         size: [
                             300,
                             250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 550'
-                    ],
-                    params: {
-                        zone: '79229',
-                        allow: [
-                            'mo'
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '551 -728'
-                    ],
-                    params: {
-                        zone: '79229',
-                        allow: [
-                            'cf,as,hi,ci'
                         ]
                     }
                 },
@@ -1166,6 +1121,7 @@ var streamampConfig = {
                     ]
                 }
             },
+            safeFrame: true,
             bids: [
                 {
                     bidder: 'criteo',
@@ -1361,36 +1317,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 550'
-                    ],
-                    params: {
-                        zone: '79229',
-                        allow: [
-                            'mt',
-                            'ms'
-                        ]
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '551 - 728',
-                        '729 - 999',
-                        '1000+'
-                    ],
-                    params: {
-                        zone: '79229',
-                        allow: [
-                            ' cf',
-                            ' ci',
-                            ' hi',
-                            ' as'
-                        ]
-                    }
-                },
-                {
                     bidder: 'openx',
                     labelAny: [
                         '0 - 550'
@@ -1464,7 +1390,56 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             bids: [
-
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 550',
+                        '551 - 728'
+                    ],
+                    params: {
+                        zone: '79229',
+                        allow: [
+                            'mo',
+                            'is',
+                            'mt',
+                            'ms'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '729 - 999',
+                    ],
+                    params: {
+                        zone: '79229',
+                        allow: [
+                            'cf',
+                            'ci',
+                            'hi',
+                            'as',
+                            'hv'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '1000+'
+                    ],
+                    params: {
+                        zone: '79229',
+                        allow: [
+                            'cf',
+                            'ci',
+                            'hi',
+                            'as',
+                            'pu',
+                            'pd',
+                            'hv'
+                        ]
+                    }
+                },
             ],
             breakpoints: {
                 '0 - 550': [
