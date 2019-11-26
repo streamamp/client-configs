@@ -985,7 +985,7 @@ var streamampConfig = {
                             'ms'
                         ]
                     }
-                },
+                }
             ],
             breakpoints: {
                 '971 - 9999': [
