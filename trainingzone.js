@@ -17,6 +17,19 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
+    afterInit: function() {
+        if (!window.__cmp) {
+            streamampUtils.log('Overriding CMP displayConsentUI')
+            window.__cmp = function(x) {
+                if (x === 'displayConsentUi') {
+                    streamampInitializeCmp()
+                    window.__cmp('displayConsentUi')
+                    streamampUtils.log('Displaying CMP consent UI')
+                }
+            }
+            window.__cmp.streamampOverridden = true
+        }
+    },
     adUnits: [
         {
             code: 'TZ_MPU1',
