@@ -27,6 +27,19 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
+    afterInit: function() {
+        if (!window.__cmp) {
+            streamampUtils.log('Overriding CMP displayConsentUI')
+            window.__cmp = function(x) {
+                if (x === 'displayConsentUi') {
+                    streamampInitializeCmp()
+                    window.__cmp('displayConsentUi')
+                    streamampUtils.log('Displaying CMP consent UI')
+                }
+            }
+            window.__cmp.streamampOverridden = true
+        }
+    },
     adUnits: [
         {
             code: 'ukbf-mpu',
@@ -917,6 +930,44 @@ var streamampConfig = {
                     ]
                 ]
             }
+        },
+        {
+            code: 'UKBF_RichMedia',
+            path: '/4394518/UKBF_RichMedia',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '728 - 970': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '0 - 727': [
+                    [
+                        1,
+                        1
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
@@ -977,6 +1028,10 @@ var streamampConfig = {
                 [
                     728,
                     90
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -992,6 +1047,10 @@ var streamampConfig = {
                 [
                     728,
                     90
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -1007,6 +1066,10 @@ var streamampConfig = {
                 [
                     320,
                     50
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
