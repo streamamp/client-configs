@@ -190,6 +190,40 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999',
+                        '769 - 992',
+                        '0 - 768'
+
+                    ],
+                    params: {
+                        publisherId: '2455307',
+                        adSlot: 'FA_Deals_Unit1_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999',
+                        '769 - 992'
+                    ],
+                    params: {
+                        publisherId: '2455308',
+                        adSlot: 'FA_Deals_Unit1_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        publisherId: '2455309',
+                        adSlot: 'FA_Deals_Unit1_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '993 - 9999',
@@ -462,6 +496,36 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455312',
+                        adSlot: 'FA_Deals_Unit2_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '769 - 992'
+                    ],
+                    params: {
+                        publisherId: '2455311',
+                        adSlot: 'FA_Deals_Unit2_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        publisherId: '2455310',
+                        adSlot: 'FA_Deals_Unit2_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '993 - 9999'
@@ -631,6 +695,16 @@ var streamampConfig = {
                     params: {
                         unit: '540844531',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        publisherId: '2455313',
+                        adSlot: 'FA_Deals_Unit3_320x50'
                     }
                 },
                 {
