@@ -265,7 +265,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378783',
-                //         adSlot: 'new_bounty_unit1_970x250
+                //         adSlot: 'new_bounty_unit1_970x250'
                 //     }
                 // },
                 // {
