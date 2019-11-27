@@ -1409,6 +1409,16 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
+                        '1000 - 9999',
+                        '769 - 999'
+                    ],
+                    params: {
+                        placementId: 17866638
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
                         '469 - 768',
                         '0 - 468'
                     ],
