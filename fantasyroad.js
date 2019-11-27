@@ -131,6 +131,26 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455329',
+                        adSlot: 'FA_Fantasy_Unit1_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455330',
+                        adSlot: 'FA_Fantasy_Unit1_728x90'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '0 - 9999'
@@ -298,6 +318,26 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455331',
+                        adSlot: 'FA_Fantasy_Unit2_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455332',
+                        adSlot: 'FA_Fantasy_Unit2_300x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '0 - 9999'
@@ -440,6 +480,26 @@ var streamampConfig = {
                     params: {
                         unit: '539929986',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455333',
+                        adSlot: 'FA_Fantasy_Unit3_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455334',
+                        adSlot: 'FA_Fantasy_Unit3_300x600'
                     }
                 },
                 {
