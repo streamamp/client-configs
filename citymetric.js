@@ -173,11 +173,43 @@ var streamampConfig = {
                     labelAny: [
                         '900-9999',
                         '730-899',
-                        '730-899'
+                        '0-729'
                     ],
                     params: {
                         unit: '539081842',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '730-899'
+                    ],
+                    params: {
+                        publisherId: '2470362',
+                        adSlot: 'CityMetric_Unit1_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999'
+                    ],
+                    params: {
+                        publisherId: '2470360',
+                        adSlot: 'CityMetric_Unit1_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '730-899',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470361',
+                        adSlot: 'CityMetric_Unit1_320x50'
                     }
                 },
                 {
@@ -468,6 +500,49 @@ var streamampConfig = {
                     params: {
                         unit: '539081845',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '730-899',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470363',
+                        adSlot: 'CityMetric_Unit2_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470365',
+                        adSlot: 'CityMetric_Unit2_160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999'
+                    ],
+                    params: {
+                        publisherId: '2470366',
+                        adSlot: 'CityMetric_Unit2_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470364',
+                        adSlot: 'CityMetric_Unit2_320x50'
                     }
                 },
                 {
@@ -787,6 +862,49 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '730-899',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470367',
+                        adSlot: 'CityMetric_Unit3_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470369',
+                        adSlot: 'CityMetric_Unit3_160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999'
+                    ],
+                    params: {
+                        publisherId: '2470370',
+                        adSlot: 'CityMetric_Unit3_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470368',
+                        adSlot: 'CityMetric_Unit3_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '900-9999',
@@ -1067,6 +1185,38 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '730-899',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470371',
+                        adSlot: 'CityMetric_Unit4_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999'
+                    ],
+                    params: {
+                        publisherId: '2470373',
+                        adSlot: 'CityMetric_Unit4_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470372',
+                        adSlot: 'CityMetric_Unit4_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '900-9999',
@@ -1295,6 +1445,28 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '730-899'
+                    ],
+                    params: {
+                        publisherId: '2470375',
+                        adSlot: 'CityMetric_Unit5_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '730-899',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470374',
+                        adSlot: 'CityMetric_Unit5_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '730-899',
@@ -1488,6 +1660,18 @@ var streamampConfig = {
                     params: {
                         unit: '539082391',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '900-9999',
+                        '730-899',
+                        '0-729'
+                    ],
+                    params: {
+                        publisherId: '2470377',
+                        adSlot: 'CityMetric_Unit6_300x250'
                     }
                 },
                 {
