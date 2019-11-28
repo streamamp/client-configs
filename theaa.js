@@ -19,6 +19,8 @@ var streamampConfig = {
     beforeInit: function() {
         if (window.location.pathname === '/route-planner/route') {
             window.AD_UNITS_TOGGLE_ON = ['Desktop_print', 'MPU', 'leaderboard_header', 'leaderboard_footer']
+        } else if (window.location.pathname === '/driving/mileage-calculator.jsp') {
+            window.AD_UNITS_TOGGLE_ON = ['skyscraper1', 'MPU', 'skyscraper2', 'skyscraper3']
         }
     },
     namespace: 'streamamp',
