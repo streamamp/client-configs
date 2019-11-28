@@ -425,12 +425,16 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            300,
+                            728,
+                            90
+                        ],
+                        [
+                            970,
                             250
                         ],
                         [
                             300,
-                            600
+                            250
                         ],
                         [
                             320,
@@ -451,24 +455,32 @@ var streamampConfig = {
                     bidder: 'criteo',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989',
+                        '748 - 989'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'BusinessLeaderMagazine_Unit4_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'BusinessLeaderMagazine_Unit4_970x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
                         '375 - 747',
                         '0 - 374'
                     ],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'BusinessLeaderMagazine_Unit4_300x250'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        zoneId: 1382492,
-                        publisherSubId: 'BusinessLeaderMagazine_Unit4_300x600'
                     }
                 },
                 {
@@ -511,22 +523,29 @@ var streamampConfig = {
                     bidder: 'streamamp',
                     labelAny: [
                         '990 - 9999',
-                        '748 - 989',
-                        '375 - 747',
-                        '0 - 374'
+                        '748 - 989'
                     ],
                     params: {
-                        placementId: 17865890
+                        placementId: 17929625
                     }
                 },
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '990 - 9999',
-                        '748 - 989'
+                        '990 - 9999'
                     ],
                     params: {
-                        placementId: 17865891
+                        placementId: 17929628
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 17865890
                     }
                 },
                 {
@@ -543,22 +562,14 @@ var streamampConfig = {
             breakpoints: {
                 '990 - 9999': [
                     [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
+                        728,
+                        90
                     ]
                 ],
                 '748 - 989': [
                     [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
+                        728,
+                        90
                     ]
                 ],
                 '375 - 747': [
@@ -569,16 +580,20 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 374': [
                     [
-                        320,
-                        50
-                    ],
-                    [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        50
                     ]
                 ]
             }
@@ -705,48 +720,7 @@ var streamampConfig = {
                     }
                 }
             ],
-            breakpoints: {
-                '990 - 9999': [
-                    [
-                        300,
-                        600
-                    ],
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '748 - 989': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
-                    ]
-                ],
-                '375 - 747': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ],
-                '0 - 374': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ]
-            }
+            breakpoints: {}
         },
         {
             code: 'Interscroller',
@@ -791,6 +765,10 @@ var streamampConfig = {
                 [
                     970,
                     250
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -810,6 +788,10 @@ var streamampConfig = {
                 [
                     728,
                     90
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -825,6 +807,10 @@ var streamampConfig = {
                 [
                     300,
                     250
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -840,6 +826,10 @@ var streamampConfig = {
                 [
                     300,
                     250
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
