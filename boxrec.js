@@ -18,6 +18,12 @@ var streamampConfig = {
     hasCollapsedEmptyDivs: false,
     publisher_id: 'BoxRec/Boxrec',
     token: 'qAyQfPvuiysxtKRS0vlPdDKrMa9BrXlt4KYzggJDfwm3aVNo1tN2JcNOcVBOVNJw',
+    beforeInit: function() {
+        if (navigator.userAgent.includes('iPad')) {
+            var newbreakpoints = streamampConfig.adUnits[0].breakpoints['729 - 999'].filter((elem, i) => i !== 1)
+            streamampConfig.adUnits[0].breakpoints['729 - 999'] = newbreakpoints
+        }
+    },
     adUnits: [
         {
             code: 'StreamAMP_TopLeaderboard',
