@@ -28,6 +28,10 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
@@ -122,6 +126,10 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ]
             }
@@ -134,6 +142,10 @@ var streamampConfig = {
                     sizes: [
                         [
                             160,
+                            600
+                        ],
+                        [
+                            120,
                             600
                         ]
                     ]
@@ -229,6 +241,10 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ]
             }
@@ -250,6 +266,10 @@ var streamampConfig = {
                         [
                             300,
                             250
+                        ],
+                        [
+                            1,
+                            1
                         ]
                     ]
                 }
@@ -258,6 +278,21 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 700'
+                    ],
+                    params: {
+                        zone: 82103,
+                        allow: [
+                            'mt',
+                            'is',
+                            'mo',
+                            'ms'
+                        ]
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -502,6 +537,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        1,
+                        1
                     ]
                 ]
             }
@@ -527,6 +566,18 @@ var streamampConfig = {
                         [
                             300,
                             250
+                        ],
+                        [
+                            970,
+                            90
+                        ],
+                        [
+                            320,
+                            100
+                        ]
+                        [
+                            1,
+                            1
                         ]
                     ]
                 }
@@ -535,6 +586,46 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        zone: 82103,
+                        allow: [
+                            'wp',
+                            'wv',
+                            'hv',
+                            'cf',
+                            'as',
+                            'sa',
+                            'pa',
+                            'ca'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '700 - 970'
+                    ],
+                    params: {
+                        zone: 82103,
+                        allow: [
+                            'hv',
+                            'cf',
+                            'as',
+                            'sa',
+                            'pa',
+                            'ca',
+                            'mt',
+                            'mo',
+                            'ms',
+                            'is'
+                        ]
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -831,6 +922,14 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        970,
+                        90
+                    ],
+                    [
+                        1,
+                        1
                     ]
                 ],
                 '700 - 970': [
@@ -845,6 +944,14 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
+                    ]
+                    [
+                        1,
+                        1
                     ]
                 ],
                 '0 - 700': [
@@ -855,6 +962,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1065,6 +1176,10 @@ var streamampConfig = {
                 [
                     320,
                     50
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -1088,6 +1203,10 @@ var streamampConfig = {
                 [
                     320,
                     50
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -1103,6 +1222,10 @@ var streamampConfig = {
                 [
                     320,
                     50
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
