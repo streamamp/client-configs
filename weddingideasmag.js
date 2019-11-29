@@ -6,7 +6,6 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    adUnitsToRefresh: ['Unit6'],
     minRefreshTime: 60,
     maxRefreshTime: 60,
     hasCollapsedEmptyDivs: true,
@@ -41,6 +40,14 @@ var streamampConfig = {
                         [
                             320,
                             100
+                        ],
+                        [
+                            970,
+                            90
+                        ],
+                        [
+                            468,
+                            60
                         ]
                     ]
                 }
@@ -180,6 +187,39 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471920',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_970x250_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '1689114',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_728x90_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1689111',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_320x50_New'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999',
@@ -219,6 +259,10 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '729 - 969': [
@@ -229,18 +273,30 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '469 - 728': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -258,6 +314,10 @@ var streamampConfig = {
                         [
                             300,
                             600
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -368,6 +428,30 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '2471915',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit2_300x250_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471921',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit2_300x600_New'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999',
@@ -415,12 +499,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -438,6 +530,10 @@ var streamampConfig = {
                         [
                             300,
                             600
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -548,6 +644,30 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1689117',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit3_300x250_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471922',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit3_300x600_New'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999',
@@ -595,12 +715,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -618,6 +746,10 @@ var streamampConfig = {
                         [
                             300,
                             600
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -728,6 +860,30 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1689118',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit4_300x250_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471923',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit4_300x600_New'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999',
@@ -775,12 +931,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -802,6 +966,10 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -941,6 +1109,39 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471924',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_970x250_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471925',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_728x90_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '2471916',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_320x50_New'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999',
@@ -996,12 +1197,20 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1120,6 +1329,28 @@ var streamampConfig = {
                     params: {
                         unit: '540847227',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        publisherId: '2471926',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit6_728x90_New'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '2471917',
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit6_320x50_New'
                     }
                 },
                 {
