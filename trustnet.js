@@ -3613,7 +3613,7 @@ var streamampConfig = {
             'UI Layout': 'popup',
             Language: 'en',
             'Display Persistent Consent Link': true,
-            'No Option': true,
+            'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [
                 1,
@@ -3630,7 +3630,9 @@ var streamampConfig = {
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Logo': 'https://static.amp.services/logos/trustnet-logo.jpg',
-            'Publisher Name': 'Trustnet'
+            'Publisher Name': 'Trustnet',
+            'Consent Scope': 'service',
+            'Initial Screen Title Text' : 'Cookies and Advertising',
         },
         hasCustomStyles: true,
         styles: {
