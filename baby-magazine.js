@@ -6,7 +6,6 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    adUnitsToRefresh:['Unit6'],
     minRefreshTime: 60,
     maxRefreshTime: 60,
     hasCollapsedEmptyDivs: true,
@@ -31,8 +30,16 @@ var streamampConfig = {
                             250
                         ],
                         [
+                            970,
+                            90
+                        ],
+                        [
                             728,
                             90
+                        ],
+                        [
+                            468,
+                            60
                         ],
                         [
                             320,
@@ -180,6 +187,39 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '1682596',
+                        adSlot: 'TheCMC_BabyMagazine_Unit1_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '1683880',
+                        adSlot: 'TheCMC_BabyMagazine_Unit1_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1683882',
+                        adSlot: 'TheCMC_BabyMagazine_Unit1_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '991 - 9999',
@@ -217,6 +257,10 @@ var streamampConfig = {
                         250
                     ],
                     [
+                        970,
+                        90
+                    ],
+                    [
                         728,
                         90
                     ]
@@ -229,6 +273,10 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '469 - 728': [
@@ -365,6 +413,30 @@ var streamampConfig = {
                     params: {
                         unit: '540845913',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1683886',
+                        adSlot: 'TheCMC_BabyMagazine_Unit2_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '2471454',
+                        adSlot: 'TheCMC_BabyMagazine_Unit2_300x600'
                     }
                 },
                 {
@@ -548,6 +620,30 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1683887',
+                        adSlot: 'TheCMC_BabyMagazine_Unit3_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '2471456',
+                        adSlot: 'TheCMC_BabyMagazine_Unit3_300x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '991 - 9999',
@@ -728,6 +824,30 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '2471451',
+                        adSlot: 'TheCMC_BabyMagazine_Unit4_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '1683888',
+                        adSlot: 'TheCMC_BabyMagazine_Unit4_300x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '991 - 9999',
@@ -802,6 +922,18 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            970,
+                            90
+                        ],
+                        [
+                            468,
+                            60
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -941,6 +1073,39 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '2471457',
+                        adSlot: 'TheCMC_BabyMagazine_Unit5_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '2471461',
+                        adSlot: 'TheCMC_BabyMagazine_Unit5_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '2471452',
+                        adSlot: 'TheCMC_BabyMagazine_Unit5_320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '991 - 9999',
@@ -980,6 +1145,10 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '729 - 990': [
@@ -990,18 +1159,30 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '469 - 728': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1120,6 +1301,28 @@ var streamampConfig = {
                     params: {
                         unit: '540845912',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        publisherId: '1683891',
+                        adSlot: 'TheCMC_BabyMagazine_Unit6_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1683893',
+                        adSlot: 'TheCMC_BabyMagazine_Unit6_320x50'
                     }
                 },
                 {
