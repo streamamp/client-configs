@@ -895,7 +895,85 @@ var streamampConfig = {
                     ]
                 ]
             }
+        },
+        {
+            code: 'AWUK_RichMedia',
+            path: '/4394518/AWUK_RichMedia',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                    ],
+                    params: {
+                        zone: 82105,
+                        allow: [
+                            'wp',
+                            'wv',
+                            'cf',
+                            'as',
+                            'fi',
+                            'hi',
+                            'ci',
+                            'sa',
+                            'pa',
+                            'ca',
+                            'pu'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 728'
+                    ],
+                    params: {
+                        zone: 82105,
+                        allow: [
+                            'mt',
+                            'is',
+                            'mo',
+                            'ms'
+                        ]
+                    }
+                }
+            ],
+            breakpoints: {
+                '971 - 9999': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '729 - 970': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '0 - 728': [
+                    [
+                        1,
+                        1
+                    ]
+                ]
+            }
         }
+
     ],
     cmp: {
         isEnabled: true,
@@ -954,6 +1032,10 @@ var streamampConfig = {
                 [
                     728,
                     90
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -969,6 +1051,10 @@ var streamampConfig = {
                 [
                     728,
                     90
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -984,6 +1070,10 @@ var streamampConfig = {
                 [
                     320,
                     50
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
