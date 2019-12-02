@@ -1017,6 +1017,15 @@ var streamampConfig = {
                         tagid: '80071'
                     }
                 },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        tagid: '89780'
+                    }
+                },
                 // {
                 //     bidder: 'improvedigital',
                 //     labelAny: [
