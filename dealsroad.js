@@ -40,6 +40,10 @@ var streamampConfig = {
                         [
                             300,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
@@ -127,27 +131,9 @@ var streamampConfig = {
                 //     bidder: 'improvedigital',
                 //     labelAny: [
                 //         '993 - 9999',
-                //         '769 - 992'
-                //     ],
-                //     params: {
-                //         placementId: 1204090
-                //     }
-                // },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '0 - 768'
-                //     ],
-                //     params: {
-                //         placementId: 1204090
-                //     }
-                // },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '993 - 9999',
                 //         '769 - 992',
                 //         '0 - 768'
+                //
                 //     ],
                 //     params: {
                 //         placementId: 1204090
@@ -199,33 +185,46 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '993 - 9999',
-                        '769 - 992'
-                    ],
-                    params: {
-                        unit: '539929987',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0 - 768'
-                    ],
-                    params: {
-                        unit: '539929987',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '993 - 9999',
                         '769 - 992',
                         '0 - 768'
                     ],
                     params: {
                         unit: '539929987',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999',
+                        '769 - 992',
+                        '0 - 768'
+                    
+                    ],
+                    params: {
+                        publisherId: '2455307',
+                        adSlot: 'FA_Deals_Unit1_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999',
+                        '769 - 992'
+                    ],
+                    params: {
+                        publisherId: '2455308',
+                        adSlot: 'FA_Deals_Unit1_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        publisherId: '2455309',
+                        adSlot: 'FA_Deals_Unit1_320x50'
                     }
                 },
                 {
@@ -262,7 +261,8 @@ var streamampConfig = {
                     bidder: 'totaljobs',
                     labelAny: [
                         '993 - 9999',
-                        '769 - 992'
+                        '769 - 992',
+                        '0 - 768'
                     ],
                     params: {
                         placementId: 17049519
@@ -281,11 +281,10 @@ var streamampConfig = {
                     bidder: 'totaljobs',
                     labelAny: [
                         '993 - 9999',
-                        '769 - 992',
-                        '0 - 768'
+                        '769 - 992'
                     ],
                     params: {
-                        placementId: 17049519
+                        placementId: 17049534
                     }
                 }
             ],
@@ -306,7 +305,7 @@ var streamampConfig = {
                         250
                     ],
                     [
-                        300,
+                        120,
                         600
                     ]
                 ],
@@ -320,7 +319,8 @@ var streamampConfig = {
                         50
                     ],
                     [
-                        320, 100
+                        320,
+                        100
                     ]
                 ]
             }
@@ -342,6 +342,18 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            970,
+                            90
+                        ],
+                        [
+                            468,
+                            60
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -440,24 +452,8 @@ var streamampConfig = {
                 // {
                 //     bidder: 'improvedigital',
                 //     labelAny: [
-                //         '993 - 9999'
-                //     ],
-                //     params: {
-                //         placementId: 1204091
-                //     }
-                // },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '769 - 992'
-                //     ],
-                //     params: {
-                //         placementId: 1204091
-                //     }
-                // },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
+                //         '993 - 9999',
+                //         '769 - 992',
                 //         '0 - 768'
                 //     ],
                 //     params: {
@@ -506,31 +502,43 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '993 - 9999'
-                    ],
-                    params: {
-                        unit: '539929988',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '769 - 992'
-                    ],
-                    params: {
-                        unit: '539929988',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '993 - 9999',
+                        '769 - 992',
                         '0 - 768'
                     ],
                     params: {
                         unit: '539929988',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455312',
+                        adSlot: 'FA_Deals_Unit2_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '769 - 992'
+                    ],
+                    params: {
+                        publisherId: '2455311',
+                        adSlot: 'FA_Deals_Unit2_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        publisherId: '2455310',
+                        adSlot: 'FA_Deals_Unit2_320x50'
                     }
                 },
                 {
@@ -593,18 +601,30 @@ var streamampConfig = {
                     [
                         970,
                         250
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '769 - 992': [
                     [
                         728,
                         90
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0 - 768': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -703,6 +723,16 @@ var streamampConfig = {
                     params: {
                         unit: '540844531',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        publisherId: '2455313',
+                        adSlot: 'FA_Deals_Unit3_320x50'
                     }
                 },
                 {
