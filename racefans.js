@@ -163,18 +163,18 @@ var streamampConfig = {
 						tagid: '40536'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186878
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186878
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -525,18 +525,18 @@ var streamampConfig = {
 						tagid: '67122'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186879
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186879
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -800,17 +800,17 @@ var streamampConfig = {
 						tagid: '67124'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956'
-					],
-					params: {
-						placementId: 1186880
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186880
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -982,18 +982,18 @@ var streamampConfig = {
 						tagid: '40530'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186881
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186881
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1233,18 +1233,18 @@ var streamampConfig = {
 						tagid: '67125'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186882
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186882
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1484,18 +1484,18 @@ var streamampConfig = {
 						tagid: '67126'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186883
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186883
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1703,18 +1703,18 @@ var streamampConfig = {
 						tagid: '40543'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186885
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186885
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1905,18 +1905,18 @@ var streamampConfig = {
 						tagid: '40546'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186886
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186886
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -2151,18 +2151,18 @@ var streamampConfig = {
 						tagid: '40548'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186887
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186887
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -2347,18 +2347,18 @@ var streamampConfig = {
 						tagid: '40556'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 1186894
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186894
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -2592,16 +2592,16 @@ var streamampConfig = {
 						tagid: '80023'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666'
-					],
-					params: {
-						placementId: 22122200
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666'
+				// 	],
+				// 	params: {
+				// 		placementId: 22122200
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -2734,16 +2734,16 @@ var streamampConfig = {
 						tagid: '80026'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666'
-					],
-					params: {
-						placementId: 22122201
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666'
+				// 	],
+				// 	params: {
+				// 		placementId: 22122201
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -2926,18 +2926,18 @@ var streamampConfig = {
 						tagid: '58248'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'1667-9999',
-						'957-1666',
-						'416-956',
-						'0-415'
-					],
-					params: {
-						placementId: 12048471
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'1667-9999',
+				// 		'957-1666',
+				// 		'416-956',
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 12048471
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -3166,15 +3166,15 @@ var streamampConfig = {
 						tagid: '67129'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0-415'
-					],
-					params: {
-						placementId: 1186895
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0-415'
+				// 	],
+				// 	params: {
+				// 		placementId: 1186895
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
