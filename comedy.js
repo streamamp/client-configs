@@ -42,6 +42,18 @@ var streamampConfig = {
 							50
 						],
 						[
+							320,
+							100
+						],
+						[
+							468,
+							60
+						],
+						[
+							970,
+							90
+						],
+						[
 							1,
 							1
 						]
@@ -55,8 +67,8 @@ var streamampConfig = {
 				{
 					bidder: 'justpremium',
 					labelAny: [
-						'979-9999',
-						'729-978',
+						'992-9999',
+						'768-991',
 					],
 					params: {
 						zone: 1382489,
@@ -76,8 +88,8 @@ var streamampConfig = {
 				{
 					bidder: 'justpremium',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						zone: 1382489,
@@ -92,9 +104,9 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						zoneId: 1382489,
@@ -104,8 +116,8 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						zoneId: 1382491,
@@ -115,7 +127,7 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'979-9999'
+						'992-9999'
 					],
 					params: {
 						dmxid: 363259,
@@ -125,9 +137,9 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						dmxid: 363260,
@@ -137,8 +149,8 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						dmxid: 363262,
@@ -148,7 +160,7 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						dmxid: 363261,
@@ -158,7 +170,7 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'979-9999'
+						'992-9999'
 					],
 					params: {
 						tagid: '69874'
@@ -167,9 +179,9 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						tagid: '69875'
@@ -178,8 +190,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						tagid: '69877'
@@ -188,7 +200,7 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						tagid: '69876'
@@ -197,37 +209,11 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'979-9999'
-					],
-					params: {
-						placementId: 22025967
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
-					],
-					params: {
-						placementId: 22025967
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-728',
-						'0-468'
-					],
-					params: {
-						placementId: 22025967
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
+					
 					],
 					params: {
 						placementId: 22025967
@@ -236,7 +222,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'979-9999'
+						'992-9999'
 					],
 					params: {
 						siteId: '367688',
@@ -249,9 +235,9 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						siteId: '368178',
@@ -264,8 +250,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						siteId: '368180',
@@ -278,7 +264,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						siteId: '368179',
@@ -291,7 +277,11 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'979-9999'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
+					
 					],
 					params: {
 						unit: '540736029',
@@ -299,42 +289,52 @@ var streamampConfig = {
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999'
 					],
 					params: {
-						unit: '540736029',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2471217',
+						adSlot: 'BritishComedyGuide_Unit1_970x250'
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
-						unit: '540736029',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2471218',
+						adSlot: 'BritishComedyGuide_Unit1_728x90'
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
 					labelAny: [
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
-						unit: '540736029',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2471220',
+						adSlot: 'BritishComedyGuide_Unit1_300x250'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0–575'
+					],
+					params: {
+						publisherId: '2471219',
+						adSlot: 'BritishComedyGuide_Unit1_320x50'
 					}
 				},
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'979-9999'
+						'992-9999'
 					],
 					params: {
 						placementId: 15887493
@@ -343,9 +343,9 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						placementId: 15887494
@@ -354,8 +354,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 15887496
@@ -364,7 +364,7 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						placementId: 15887495
@@ -372,7 +372,7 @@ var streamampConfig = {
 				}
 			],
 			breakpoints: {
-				'979-9999': [
+				'992-9999': [
 					[
 						970,
 						250
@@ -382,13 +382,7 @@ var streamampConfig = {
 						90
 					],
 					[
-						1,
-						1
-					]
-				],
-				'729-978': [
-					[
-						728,
+						970,
 						90
 					],
 					[
@@ -396,7 +390,21 @@ var streamampConfig = {
 						1
 					]
 				],
-				'469-728': [
+				'768-991': [
+					[
+						728,
+						90
+					],
+					[
+						468,
+						60
+					],
+					[
+						1,
+						1
+					]
+				],
+				'576–767': [
 					[
 						728,
 						90
@@ -406,11 +414,15 @@ var streamampConfig = {
 						250
 					],
 					[
+						468,
+						60
+					],
+					[
 						1,
 						1
 					]
 				],
-				'0-468': [
+				'0–575': [
 					[
 						300,
 						250
@@ -418,6 +430,10 @@ var streamampConfig = {
 					[
 						320,
 						50
+					],
+					[
+						320,
+						100
 					],
 					[
 						1,
@@ -446,10 +462,10 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						zoneId: 1382491,
@@ -459,10 +475,10 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						dmxid: 363264,
@@ -472,10 +488,10 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						tagid: '69878'
@@ -484,9 +500,9 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						placementId: 22025968
@@ -495,10 +511,10 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						siteId: '368181',
@@ -511,10 +527,10 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						unit: '540736031',
@@ -522,12 +538,25 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
+					],
+					params: {
+						publisherId: '2471221',
+						adSlot: 'BritishComedyGuide_Unit2_300x250'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 15887497
@@ -535,25 +564,25 @@ var streamampConfig = {
 				}
 			],
 			breakpoints: {
-				'979-9999': [
+				'992-9999': [
 					[
 						300,
 						250
 					]
 				],
-				'729-978': [
+				'768-991': [
 					[
 						300,
 						250
 					]
 				],
-				'469-728': [
+				'576–767': [
 					[
 						300,
 						250
 					]
 				],
-				'0-468': [
+				'0–575': [
 					[
 						300,
 						250
@@ -581,7 +610,7 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						zoneId: 1382491,
@@ -591,10 +620,10 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						dmxid: 363265,
@@ -604,10 +633,10 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						tagid: '69879'
@@ -616,10 +645,10 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 22025969
@@ -628,10 +657,10 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						siteId: '368182',
@@ -644,10 +673,10 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						unit: '540736032',
@@ -655,12 +684,25 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
+					],
+					params: {
+						publisherId: '2471222',
+						adSlot: 'BritishComedyGuide_Unit3_300x250'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 15887498
@@ -668,25 +710,25 @@ var streamampConfig = {
 				}
 			],
 			breakpoints: {
-				'979-9999': [
+				'992-9999': [
 					[
 						300,
 						250
 					]
 				],
-				'729-978': [
+				'768-991': [
 					[
 						300,
 						250
 					]
 				],
-				'469-728': [
+				'576–767': [
 					[
 						300,
 						250
 					]
 				],
-				'0-468': [
+				'0–575': [
 					[
 						300,
 						250
@@ -711,7 +753,15 @@ var streamampConfig = {
 						[
 							320,
 							50
-						]
+						],
+						[
+							468,
+							60
+						],
+						[
+							970,
+							90
+						],
 					]
 				}
 			},
@@ -722,9 +772,9 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						zoneId: 1382489,
@@ -734,8 +784,8 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						zoneId: 1382491,
@@ -745,9 +795,9 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						dmxid: 363266,
@@ -757,8 +807,8 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						dmxid: 363268,
@@ -768,7 +818,7 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						dmxid: 363267,
@@ -778,9 +828,9 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						tagid: '69880'
@@ -789,8 +839,8 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						tagid: '69882'
@@ -799,7 +849,7 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						tagid: '69881'
@@ -808,28 +858,10 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
-					],
-					params: {
-						placementId: 22025970
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-728',
-						'0-468'
-					],
-					params: {
-						placementId: 22025970
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 22025970
@@ -838,9 +870,9 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						siteId: '368183',
@@ -853,8 +885,8 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						siteId: '368185',
@@ -867,7 +899,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						siteId: '368184',
@@ -880,9 +912,10 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						unit: '540736033',
@@ -890,32 +923,44 @@ var streamampConfig = {
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
-						unit: '540736033',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2471223',
+						adSlot: 'BritishComedyGuide_Unit4_728x90'
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
 					labelAny: [
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
-						unit: '540736033',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2471225',
+						adSlot: 'BritishComedyGuide_Unit4_300x250'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0–575'
+					],
+					params: {
+						publisherId: '2471224',
+						adSlot: 'BritishComedyGuide_Unit4_320x50'
 					}
 				},
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						placementId: 15887499
@@ -924,8 +969,8 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'469-728',
-						'0-468'
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 15887502
@@ -934,7 +979,7 @@ var streamampConfig = {
 				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0-468'
+						'0–575'
 					],
 					params: {
 						placementId: 15887500
@@ -942,19 +987,27 @@ var streamampConfig = {
 				}
 			],
 			breakpoints: {
-				'979-9999': [
+				'992-9999': [
 					[
 						728,
 						90
-					]
-				],
-				'729-978': [
+					],
 					[
-						728,
+						970,
 						90
 					]
 				],
-				'469-728': [
+				'768-991': [
+					[
+						728,
+						90
+					],
+					[
+						468,
+						60
+					]
+				],
+				'576–767': [
 					[
 						728,
 						90
@@ -962,9 +1015,13 @@ var streamampConfig = {
 					[
 						300,
 						250
+					],
+					[
+						468,
+						60
 					]
 				],
-				'0-468': [
+				'0–575': [
 					[
 						300,
 						250
@@ -996,10 +1053,10 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						zoneId: 1382491,
@@ -1009,10 +1066,10 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						dmxid: 366701,
@@ -1022,10 +1079,10 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						tagid: '70294'
@@ -1034,9 +1091,9 @@ var streamampConfig = {
 				{
 					bidder: 'improvedigital',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728'
+						'992-9999',
+						'768-991',
+						'576–767'
 					],
 					params: {
 						placementId: 22028056
@@ -1045,10 +1102,10 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						siteId: '370808',
@@ -1061,10 +1118,10 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						unit: '540745341',
@@ -1072,12 +1129,25 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
+					],
+					params: {
+						publisherId: '2471226',
+						adSlot: 'BritishComedyGuide_Unit5_300x250'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'979-9999',
-						'729-978',
-						'469-728',
-						'0-468'
+						'992-9999',
+						'768-991',
+						'576–767',
+						'0–575'
 					],
 					params: {
 						placementId: 15973400
@@ -1085,25 +1155,25 @@ var streamampConfig = {
 				}
 			],
 			breakpoints: {
-				'979-9999': [
+				'992-9999': [
 					[
 						300,
 						250
 					]
 				],
-				'729-978': [
+				'768-991': [
 					[
 						300,
 						250
 					]
 				],
-				'469-728': [
+				'576–767': [
 					[
 						300,
 						250
 					]
 				],
-				'0-468': [
+				'0–575': [
 					[
 						300,
 						250
@@ -1133,13 +1203,13 @@ var streamampConfig = {
 			outOfPage: false,
 			bids: [],
 			breakpoints: {
-				'469-728': [
+				'576–767': [
 					[
 						728,
 						90
 					]
 				],
-				'0-468': [
+				'0–575': [
 					[
 						320,
 						50
@@ -1210,8 +1280,8 @@ var streamampConfig = {
 	},
 	breakpoints: [
 		{
-			label: '979-9999',
-			minWidth: 979,
+			label: '992-9999',
+			minWidth: 992,
 			maxWidth: 9999,
 			sizesSupported: [
 				[
@@ -1229,9 +1299,9 @@ var streamampConfig = {
 			]
 		},
 		{
-			label: '729-978',
-			minWidth: 729,
-			maxWidth: 978,
+			label: '768-991',
+			minWidth: 768,
+			maxWidth: 991,
 			sizesSupported: [
 				[
 					728,
@@ -1244,9 +1314,9 @@ var streamampConfig = {
 			]
 		},
 		{
-			label: '469-728',
-			minWidth: 469,
-			maxWidth: 728,
+			label: '576–767',
+			minWidth: 576,
+			maxWidth: 767,
 			sizesSupported: [
 				[
 					728,
@@ -1259,9 +1329,9 @@ var streamampConfig = {
 			]
 		},
 		{
-			label: '0-468',
+			label: '0–575',
 			minWidth: 0,
-			maxWidth: 468,
+			maxWidth: 575,
 			sizesSupported: [
 				[
 					300,
