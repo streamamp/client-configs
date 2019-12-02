@@ -65,15 +65,15 @@ var streamampConfig = {
 						tagid: '40381'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						placementId: 1204104
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'469-9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 1204104
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -165,16 +165,16 @@ var streamampConfig = {
 						tagid: '40382'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-9999',
-						'0-468'
-					],
-					params: {
-						placementId: 1204105
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'469-9999',
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		placementId: 1204105
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -331,25 +331,16 @@ var streamampConfig = {
 						tagid: '74341'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						placementId: 1204106
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-9999',
-						'0-468'
-					],
-					params: {
-						placementId: 1204106
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'469-9999',
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		placementId: 1204106
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -549,25 +540,16 @@ var streamampConfig = {
 						tagid: '64543'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-9999',
-						'0-468'
-					],
-					params: {
-						placementId: 1204107
-					}
-				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						placementId: 1204107
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'469-9999',
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		placementId: 1204107
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -728,15 +710,15 @@ var streamampConfig = {
 						tagid: '58229'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						placementId: 1204108
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'469-9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 1204108
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -832,8 +814,7 @@ var streamampConfig = {
 						allow: [
 							'mt',
 							'is',
-							'mo',
-							'ms'
+							'mo'
 						]
 					}
 				},
@@ -869,7 +850,104 @@ var streamampConfig = {
 					]
 				]
 			}
-		}
+		},
+		{
+			code: 'SoccerStats/Responsive/StickyMobile',
+			path: '/15188745/SoccerStats//Responsive//StickyMobile',
+			mediaTypes: {
+				banner: {
+					sizes: [
+						[
+							320,
+							50
+						]
+					]
+				}
+			},
+			isSticky: true,
+			safeFrame: false,
+			outOfPage: false,
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'SoccerStats_Unit6_320x50'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						dmxid: 261761,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						tagid: '40387'
+					}
+				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		placementId: 1219061
+				// 	}
+				// },
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						siteId: '313822',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						unit: '540766909',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						placementId: 14321848
+					}
+				}
+			],
+			breakpoints: {
+				'0-468': [
+					[
+						320,
+						50
+					]
+				]
+			}
+		},
 	],
 	cmp: {
 		isEnabled: true,
