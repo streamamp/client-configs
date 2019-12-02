@@ -1,5 +1,5 @@
 var streamampConfig = {
-    gptSingleRequestEnabled: false,
+    gptSingleRequestEnabled: true,
     a9Enabled: true,
     bidTimeout: 1.2,
     levelTargeting: true,
@@ -265,7 +265,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378783',
-                //         adSlot: 'new_bounty_unit1_970x250@970x250'
+                //         adSlot: 'new_bounty_unit1_970x250'
                 //     }
                 // },
                 // {
@@ -276,7 +276,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378785',
-                //         adSlot: 'new_bounty_unit1_728x90@728x90'
+                //         adSlot: 'new_bounty_unit1_728x90'
                 //     }
                 // },
                 // {
@@ -287,7 +287,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378787',
-                //         adSlot: 'new_bounty_unit1_320x50@320x50'
+                //         adSlot: 'new_bounty_unit1_320x50'
                 //     }
                 // },
                 {
@@ -572,7 +572,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378793',
-                //         adSlot: 'new_bounty_unit2_320x50@320x50'
+                //         adSlot: 'new_bounty_unit2_320x50'
                 //     }
                 // },
                 // {
@@ -584,8 +584,8 @@ var streamampConfig = {
                 //         '0 - 468'
                 //     ],
                 //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'new_bounty_unit2_300x250@300x250'
+                //         publisherId: '1378792',
+                //         adSlot: 'new_bounty_unit2_300x250'
                 //     }
                 // },
                 {
@@ -707,7 +707,7 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: false,
+            isSticky: true,
             safeFrame: false,
             bids: [
                 {
@@ -847,7 +847,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378795',
-                //         adSlot: 'new_bounty_unit3_728x90@728x90'
+                //         adSlot: 'new_bounty_unit3_728x90'
                 //     }
                 // },
                 // {
@@ -858,7 +858,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378797',
-                //         adSlot: 'new_bounty_unit3_320x50@320x50'
+                //         adSlot: 'new_bounty_unit3_320x50'
                 //     }
                 // },
                 {
@@ -902,7 +902,32 @@ var streamampConfig = {
                     }
                 }
             ],
-            breakpoints: {}
+            breakpoints: {
+                '1000 - 9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '769 - 999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '469 - 768': [
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '0 - 468': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         },
         {
             code: 'Unit4',
@@ -1011,7 +1036,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378799',
-                //         adSlot: 'new_bounty_unit4_160x600@160x600'
+                //         adSlot: 'new_bounty_unit4_160x600'
                 //     }
                 // },
                 {
@@ -1202,6 +1227,16 @@ var streamampConfig = {
                 //     }
                 // },
                 // {
+                //     bidder: 'emx_digital',
+                //     labelAny: [
+                //         '1000 - 9999',
+                //         '769 - 999'
+                //     ],
+                //     params: {
+                //         tagid: '86580'
+                //     }
+                // },
+                // {
                 //     bidder: 'improvedigital',
                 //     labelAny: [
                 //         '1000 - 9999',
@@ -1292,7 +1327,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378802',
-                //         adSlot: 'new_bounty_unit5_728x90@728x90'
+                //         adSlot: 'new_bounty_unit5_728x90'
                 //     }
                 // },
                 // {
@@ -1303,7 +1338,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378803',
-                //         adSlot: 'new_bounty_unit5_320x50@320x50'
+                //         adSlot: 'new_bounty_unit5_320x50'
                 //     }
                 // },
                 // {
@@ -1316,7 +1351,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378806',
-                //         adSlot: 'new_bounty_unit5_300x250@300x250'
+                //         adSlot: 'new_bounty_unit5_300x250'
                 //     }
                 // },
                 {
@@ -1369,6 +1404,16 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16806162
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1000 - 9999',
+                        '769 - 999'
+                    ],
+                    params: {
+                        placementId: 17866638
                     }
                 },
                 {
@@ -1615,7 +1660,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378813',
-                //         adSlot: 'new_bounty_unit2a_300x250@300x250'
+                //         adSlot: 'new_bounty_unit2a_300x250'
                 //     }
                 // },
                 // {
@@ -1626,7 +1671,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '2239279',
-                //         adSlot: 'new_bounty_unit2a_320x50@320x50'
+                //         adSlot: 'new_bounty_unit2a_320x50'
                 //     }
                 // },
                 {
@@ -1816,7 +1861,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378815',
-                //         adSlot: 'new_bounty_unit2b_300x250@300x250'
+                //         adSlot: 'new_bounty_unit2b_300x250'
                 //     }
                 // },
                 // {
@@ -1827,7 +1872,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '2239280',
-                //         adSlot: 'new_bounty_unit2b_320x50@320x50'
+                //         adSlot: 'new_bounty_unit2b_320x50'
                 //     }
                 // },
                 {
@@ -2046,7 +2091,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378817',
-                //         adSlot: 'new_bounty_unit2c_300x250@300x250'
+                //         adSlot: 'new_bounty_unit2c_300x250'
                 //     }
                 // },
                 // {
@@ -2057,7 +2102,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '2239281',
-                //         adSlot: 'new_bounty_unit2c_320x50@320x50'
+                //         adSlot: 'new_bounty_unit2c_320x50'
                 //     }
                 // },
                 {
@@ -2247,7 +2292,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378819',
-                //         adSlot: 'new_bounty_unit2d_300x250@300x250'
+                //         adSlot: 'new_bounty_unit2d_300x250'
                 //     }
                 // },
                 // {
@@ -2258,7 +2303,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '2239282',
-                //         adSlot: 'new_bounty_unit2d_320x50@320x50'
+                //         adSlot: 'new_bounty_unit2d_320x50'
                 //     }
                 // },
                 {
@@ -2448,7 +2493,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '1378820',
-                //         adSlot: 'new_bounty_unit2e_300x250@300x250'
+                //         adSlot: 'new_bounty_unit2e_300x250'
                 //     }
                 // },
                 // {
@@ -2459,7 +2504,7 @@ var streamampConfig = {
                 //     ],
                 //     params: {
                 //         publisherId: '2239283',
-                //         adSlot: 'new_bounty_unit2e_320x50@320x50'
+                //         adSlot: 'new_bounty_unit2e_320x50'
                 //     }
                 // },
                 {
@@ -2529,23 +2574,14 @@ var streamampConfig = {
                     ],
                     params: {
                         zone: '70919',
-                        allow: ['cf','as','fi','hi','ci','pa']
+                        allow: ['cf','as','fi','hi','ci','pa', 'sa']
                     }
                 },
                 {
                     bidder: 'justpremium',
                     labelAny: [
+                        '0 - 468',
                         '469 - 768'
-                    ],
-                    params: {
-                        zone: '70919',
-                        allow: ['mt','is','mo','ms','ci','hi','as','cf']
-                    }
-                },
-                {
-                    bidder: 'justpremium',
-                    labelAny: [
-                        '0 - 468'
                     ],
                     params: {
                         zone: '70919',
