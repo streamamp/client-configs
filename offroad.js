@@ -1,5 +1,6 @@
 var streamampConfig = {
     levelTargeting: false,
+    gptSingleRequestEnabled: true,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
@@ -64,15 +65,15 @@ var streamampConfig = {
                         tagid: '41034'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        placementId: 1204073
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 1204073
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -94,6 +95,16 @@ var streamampConfig = {
                     params: {
                         unit: '539929967',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455378',
+                        adSlot: 'FA_OffRoad_Unit1_970x250'
                     }
                 },
                 {
@@ -233,34 +244,17 @@ var streamampConfig = {
                         tagid: '41035'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        placementId: 1204074
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204074
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204074
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999',
+                //         '640 - 969',
+                //         '0 - 639'
+                //     ],
+                //     params: {
+                //         placementId: 1204074
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -304,16 +298,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        unit: '539929968',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '970 - 9999',
                         '640 - 969',
                         '0 - 639'
                     ],
@@ -323,13 +308,33 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455336',
+                        adSlot: 'FA_OffRoad_Unit2_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '640 - 969'
+                    ],
+                    params: {
+                        publisherId: '2455379',
+                        adSlot: 'FA_OffRoad_Unit2_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
                     labelAny: [
                         '0 - 639'
                     ],
                     params: {
-                        unit: '539929968',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '2455335',
+                        adSlot: 'FA_OffRoad_Unit2_320x50'
                     }
                 },
                 {
@@ -454,15 +459,15 @@ var streamampConfig = {
                         tagid: '41036'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204075
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '0 - 639'
+                //     ],
+                //     params: {
+                //         placementId: 1204075
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -484,6 +489,16 @@ var streamampConfig = {
                     params: {
                         unit: '539929969',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 639'
+                    ],
+                    params: {
+                        publisherId: '2455337',
+                        adSlot: 'FA_OffRoad_Unit3_320x50'
                     }
                 },
                 {
@@ -618,36 +633,17 @@ var streamampConfig = {
                         tagid: '41037'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204076
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969'
-                    ],
-                    params: {
-                        placementId: 1204076
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204076
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999',
+                //         '640 - 969',
+                //         '0 - 639'
+                //     ],
+                //     params: {
+                //         placementId: 1204076
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -703,24 +699,36 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969',
+                        '0 - 639'
+                    ],
+                    params: {
+                        publisherId: '2455339',
+                        adSlot: 'FA_OffRoad_Unit4_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
                     labelAny: [
                         '970 - 9999',
                         '640 - 969'
                     ],
                     params: {
-                        unit: '539929970',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '2455340',
+                        adSlot: 'FA_OffRoad_Unit4_300x600'
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
                     labelAny: [
                         '0 - 639'
                     ],
                     params: {
-                        unit: '539929970',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '2455338',
+                        adSlot: 'FA_OffRoad_Unit4_320x50'
                     }
                 },
                 {
@@ -925,36 +933,17 @@ var streamampConfig = {
                         tagid: '41038'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204077
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969'
-                    ],
-                    params: {
-                        placementId: 1204077
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204077
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999',
+                //         '640 - 969',
+                //         '0 - 639'
+                //     ],
+                //     params: {
+                //         placementId: 1204077
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1010,27 +999,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969'
-                    ],
-                    params: {
-                        unit: '539929971',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        unit: '539929971',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999',
@@ -1039,6 +1007,39 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 13075051
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969',
+                        '0 - 639'
+                    ],
+                    params: {
+                        publisherId: '2455342',
+                        adSlot: 'FA_OffRoad_Unit5_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969'
+                    ],
+                    params: {
+                        publisherId: '2455343',
+                        adSlot: 'FA_OffRoad_Unit5_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 639'
+                    ],
+                    params: {
+                        publisherId: '2455341',
+                        adSlot: 'FA_OffRoad_Unit5_320x50'
                     }
                 },
                 {
@@ -1207,26 +1208,17 @@ var streamampConfig = {
                         tagid: '58388'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204078
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        placementId: 1204078
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999',
+                //         '640 - 969',
+                //         '0 - 639'
+                //     ],
+                //     params: {
+                //         placementId: 1204078
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1268,13 +1260,15 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
                     labelAny: [
+                        '970 - 9999',
+                        '640 - 969',
                         '0 - 639'
                     ],
                     params: {
-                        unit: '540002186',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '2455345',
+                        adSlot: 'FA_OffRoad_Unit6_300x250'
                     }
                 },
                 {
@@ -1393,15 +1387,15 @@ var streamampConfig = {
                         tagid: '58390'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        placementId: 1204079
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 1204079
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1423,6 +1417,16 @@ var streamampConfig = {
                     params: {
                         unit: '540096823',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455346',
+                        adSlot: 'FA_OffRoad_Unit7_728x90'
                     }
                 },
                 {
@@ -1512,15 +1516,15 @@ var streamampConfig = {
                         tagid: '58392'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        placementId: 1204080
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 1204080
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1555,6 +1559,26 @@ var streamampConfig = {
                     params: {
                         unit: '540096824',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455348',
+                        adSlot: 'FA_OffRoad_Unit8_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455347',
+                        adSlot: 'FA_OffRoad_Unit8_300x250'
                     }
                 },
                 {
@@ -1679,15 +1703,15 @@ var streamampConfig = {
                         tagid: '58394'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        placementId: 1204081
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 1204081
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1735,6 +1759,36 @@ var streamampConfig = {
                     params: {
                         unit: '540096826',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455351',
+                        adSlot: 'FA_OffRoad_Unit9_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455349',
+                        adSlot: 'FA_OffRoad_Unit9_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2455350',
+                        adSlot: 'FA_OffRoad_Unit9_970x250'
                     }
                 },
                 {
