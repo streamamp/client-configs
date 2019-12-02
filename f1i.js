@@ -951,6 +951,10 @@ var streamampConfig = {
                             250
                         ],
                         [
+                            300,
+                            600
+                        ],
+                        [
                             160,
                             600
                         ],
@@ -983,6 +987,16 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'F1i_Unit5_300x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'F1i_Unit5_300x600'
                     }
                 },
                 {
@@ -1069,6 +1083,16 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2505849',
+                        adSlot: 'F1i_Unit5_300x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '769 - 9999'
@@ -1085,6 +1109,15 @@ var streamampConfig = {
                     params: {
                         placementId: 16974480
                     }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        placementId: 17939151
+                    }
                 }
             ],
             breakpoints: {
@@ -1092,6 +1125,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        300,
+                        600
                     ],
                     [
                         160,
