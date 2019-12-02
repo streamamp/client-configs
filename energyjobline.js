@@ -64,15 +64,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '971-9999',
-                        '821-970'
-                    ],
-                    params: {
-                        placementId: 1229874
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '821-970',
                         '469-820',
                         '0-468'
                     ],
@@ -112,16 +104,7 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '971-9999',
-                        '821-970'
-                    ],
-                    params: {
-                        unit: '540487652',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '821-970',
                         '469-820',
                         '0-468'
                     ],
@@ -258,25 +241,8 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '971-9999',
-                        '821-970'
-                    ],
-                    params: {
-                        placementId: 1229875
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '821-970',
                         '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        placementId: 1229875
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
                         '0-468'
                     ],
                     params: {
@@ -328,27 +294,8 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '971-9999',
-                        '821-970'
-                    ],
-                    params: {
-                        unit: '540487653',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '821-970',
                         '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        unit: '540487653',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '0-468'
                     ],
                     params: {
@@ -494,15 +441,7 @@ var streamampConfig = {
                     bidder: 'improvedigital',
                     labelAny: [
                         '971-9999',
-                        '821-970'
-                    ],
-                    params: {
-                        placementId: 1229876
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
+                        '821-970',
                         '469-820',
                         '0-468'
                     ],
@@ -542,16 +481,7 @@ var streamampConfig = {
                     bidder: 'openx',
                     labelAny: [
                         '971-9999',
-                        '821-970'
-                    ],
-                    params: {
-                        unit: '540487654',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
+                        '821-970',
                         '469-820',
                         '0-468'
                     ],
@@ -762,6 +692,10 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
@@ -842,11 +776,19 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '821-970': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
                         600
                     ]
                 ]
@@ -1083,6 +1025,10 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
@@ -1163,11 +1109,19 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '821-970': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
                         600
                     ]
                 ]
