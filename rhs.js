@@ -124,17 +124,17 @@ var streamampConfig = {
                         tagid: '58352'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '800-9999',
-                        '768-799',
-                        '0-767'
-                    ],
-                    params: {
-                        placementId: 1204059
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '800-9999',
+                //         '768-799',
+                //         '0-767'
+                //     ],
+                //     params: {
+                //         placementId: 1204059
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -290,15 +290,15 @@ var streamampConfig = {
                         tagid: '40954'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '800-9999'
-                    ],
-                    params: {
-                        placementId: 1204060
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '800-9999'
+                //     ],
+                //     params: {
+                //         placementId: 1204060
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -434,17 +434,17 @@ var streamampConfig = {
                         tagid: '40956'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '800-9999',
-                        '0-767',
-                        '768-799'
-                    ],
-                    params: {
-                        placementId: 1204061
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '800-9999',
+                //         '0-767',
+                //         '768-799'
+                //     ],
+                //     params: {
+                //         placementId: 1204061
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -697,17 +697,17 @@ var streamampConfig = {
                         tagid: '58354'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '800-9999',
-                        '768-799',
-                        '0-767'
-                    ],
-                    params: {
-                        placementId: 13314795
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '800-9999',
+                //         '768-799',
+                //         '0-767'
+                //     ],
+                //     params: {
+                //         placementId: 13314795
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
