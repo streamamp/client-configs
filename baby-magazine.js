@@ -119,18 +119,18 @@ var streamampConfig = {
                         tagid: '86129'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 22113088
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         placementId: 22113088
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -360,18 +360,18 @@ var streamampConfig = {
                         tagid: '86131'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 22113089
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         placementId: 22113089
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -564,18 +564,18 @@ var streamampConfig = {
                         tagid: '86133'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 22113090
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         placementId: 22113090
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -768,18 +768,18 @@ var streamampConfig = {
                         tagid: '86135'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 22113091
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         placementId: 22113091
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1005,18 +1005,18 @@ var streamampConfig = {
                         tagid: '86138'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 22113092
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         placementId: 22113092
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1250,18 +1250,18 @@ var streamampConfig = {
                         tagid: '86140'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        placementId: 22113088
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         placementId: 22113088
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
