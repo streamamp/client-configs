@@ -9,7 +9,7 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
-    bidTimeout: 2,
+    bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
     minRefreshTime: 90,
