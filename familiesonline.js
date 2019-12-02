@@ -43,15 +43,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit1_728x90'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22007940
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22007940
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -121,15 +121,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit3_160x600'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22015098
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22015098
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -199,15 +199,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit4_160x600'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22015099
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22015099
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -277,15 +277,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit5_300x250'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22015100
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22015100
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -355,15 +355,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit6_300x250'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22015101
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22015101
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -433,15 +433,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit7_300x600'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22015107
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22015107
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -511,15 +511,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit8_970x250'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999'
-					],
-					params: {
-						placementId: 22015109
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999'
+				// 	],
+				// 	params: {
+				// 		placementId: 22015109
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -593,15 +593,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit9_320x50'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0 - 767',
-					],
-					params: {
-						placementId: 22015112
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0 - 767',
+				// 	],
+				// 	params: {
+				// 		placementId: 22015112
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -671,15 +671,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit9_320x50'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0 - 767',
-					],
-					params: {
-						placementId: 22015112
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0 - 767',
+				// 	],
+				// 	params: {
+				// 		placementId: 22015112
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -749,15 +749,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit11_300x250'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0 - 767',
-					],
-					params: {
-						placementId: 22169569
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0 - 767',
+				// 	],
+				// 	params: {
+				// 		placementId: 22169569
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -827,15 +827,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit12_300x250'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0 - 767',
-					],
-					params: {
-						placementId: 22169570
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0 - 767',
+				// 	],
+				// 	params: {
+				// 		placementId: 22169570
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -983,15 +983,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit18_300x250'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'768 - 9999',
-					],
-					params: {
-						placementId: 22169571
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'768 - 9999',
+				// 	],
+				// 	params: {
+				// 		placementId: 22169571
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1061,15 +1061,15 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit19_320x50'
 					}
 				},
-				{
-					bidder: 'improvedigital',
-					labelAny: [
-						'0 - 767',
-					],
-					params: {
-						placementId: 22169572
-					}
-				},
+				// {
+				// 	bidder: 'improvedigital',
+				// 	labelAny: [
+				// 		'0 - 767',
+				// 	],
+				// 	params: {
+				// 		placementId: 22169572
+				// 	}
+				// },
 				{
 					bidder: 'ix',
 					labelAny: [
