@@ -1668,7 +1668,7 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: true,
+        isEnabled: false,
         config: {
             'UI Layout': 'banner',
             Language: 'en',
