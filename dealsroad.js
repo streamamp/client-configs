@@ -42,6 +42,10 @@ var streamampConfig = {
                             600
                         ],
                         [
+                            160,
+                            600
+                        ],
+                        [
                             120,
                             600
                         ]
@@ -65,6 +69,16 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'FA_Deals_Unit1_160x600'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '993 - 9999',
@@ -125,6 +139,15 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '41051'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        tagid: '89779'
                     }
                 },
                 // {
@@ -163,6 +186,19 @@ var streamampConfig = {
                         size: [
                             320,
                             50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        siteId: '435928',
+                        size: [
+                            160,
+                            600
                         ]
                     }
                 },
@@ -228,6 +264,16 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2507870',
+                        adSlot: 'FA_Deals_Unit1_160x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '993 - 9999',
@@ -255,6 +301,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 13075282
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '993 - 9999'
+                    ],
+                    params: {
+                        placementId: 17953884
                     }
                 },
                 {
@@ -297,16 +352,20 @@ var streamampConfig = {
                     [
                         300,
                         600
+                    ],
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '769 - 992': [
                     [
                         300,
                         250
-                    ],
-                    [
-                        120,
-                        600
                     ]
                 ],
                 '0 - 768': [
@@ -822,6 +881,10 @@ var streamampConfig = {
                 [
                     970,
                     250
+                ],
+                [
+                    160,
+                    600
                 ]
             ]
         },
@@ -833,10 +896,6 @@ var streamampConfig = {
                 [
                     300,
                     250
-                ],
-                [
-                    300,
-                    600
                 ],
                 [
                     728,
