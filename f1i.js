@@ -475,10 +475,6 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            728,
-                            90
-                        ],
-                        [
                             300,
                             250
                         ],
@@ -500,16 +496,6 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382489,
-                        publisherSubId: 'F1i_Unit3_728x90'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
                         '769 - 9999',
                         '0 - 768'
                     ],
@@ -526,15 +512,6 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382490,
                         publisherSubId: 'F1i_Unit3_320x50'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        tagid: '80065'
                     }
                 },
                 {
@@ -566,19 +543,6 @@ var streamampConfig = {
                 //         placementId: 22118910
                 //     }
                 // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        siteId: '415352',
-                        size: [
-                            728,
-                            90
-                        ]
-                    }
-                },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -620,16 +584,6 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        publisherId: '2346278',
-                        adSlot: 'F1i_Unit3_728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
                         '769 - 9999',
                         '0 - 768'
                     ],
@@ -646,15 +600,6 @@ var streamampConfig = {
                     params: {
                         publisherId: '2346277',
                         adSlot: 'F1i_Unit3_320x50'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        placementId: 16974462
                     }
                 },
                 {
@@ -679,10 +624,6 @@ var streamampConfig = {
             ],
             breakpoints: {
                 '769 - 9999': [
-                    [
-                        728,
-                        90
-                    ],
                     [
                         300,
                         250
@@ -947,14 +888,6 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                         [
-                            300,
-                            250
-                        ],
-                        [
-                            300,
-                            600
-                        ],
-                        [
                             160,
                             600
                         ],
@@ -980,50 +913,12 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'F1i_Unit5_300x250'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382492,
-                        publisherSubId: 'F1i_Unit5_300x600'
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '769 - 9999'
                     ],
                     params: {
                         tagid: '80072'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        tagid: '80071'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        tagid: '89780'
                     }
                 },
                 // {
@@ -1035,19 +930,6 @@ var streamampConfig = {
                 //         placementId: 22118912
                 //     }
                 // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        siteId: '415354',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1082,26 +964,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        publisherId: '2346282',
-                        adSlot: 'F1i_Unit5_300x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        publisherId: '2505849',
-                        adSlot: 'F1i_Unit5_300x600'
-                    }
-                },
-                {
                     bidder: 'streamamp',
                     labelAny: [
                         '769 - 9999'
@@ -1109,36 +971,10 @@ var streamampConfig = {
                     params: {
                         placementId: 16974483
                     }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        placementId: 16974480
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '769 - 9999'
-                    ],
-                    params: {
-                        placementId: 17939151
-                    }
                 }
             ],
             breakpoints: {
                 '769 - 9999': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
-                    ],
                     [
                         160,
                         600
