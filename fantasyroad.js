@@ -35,6 +35,10 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            970,
+                            90
                         ]
                     ]
                 }
@@ -43,6 +47,16 @@ var streamampConfig = {
             safeFrame: true,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'FA_Fantasy_Unit1_970x250'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -218,6 +232,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ]
             }
