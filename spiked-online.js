@@ -1,5 +1,5 @@
 var streamampConfig = {
-    gptSingleRequestEnabled: true,
+    gptSingleRequestEnabled: false,
     levelTargeting: false,
     preventInit: true,
     a9Enabled: true,
@@ -2198,7 +2198,7 @@ var streamampConfig = {
         config: {
             'UI Layout': 'banner',
             Language: 'en',
-            'Display Persistent Consent Link': true,
+            'Display Persistent Consent Link': false,
             'No Option': true,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [
