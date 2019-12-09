@@ -1,7 +1,7 @@
 var streamampConfig = {
 	levelTargeting: false,
 	gptSingleRequestEnabled: true,
-	a9Enabled: true,
+	a9Enabled: false,
 	apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
 	bidTimeout: 1.2,
 	pbjsPriceGranularity: 'high',
@@ -36,16 +36,16 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						zoneId: 1382489,
-						publisherSubId: 'SoccerStats_Unit1_728x90'
-					}
-				},
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'469-9999'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382489,
+				// 		publisherSubId: 'SoccerStats_Unit1_728x90'
+				// 	}
+				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -133,17 +133,17 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'469-9999',
-						'0-468'
-					],
-					params: {
-						zoneId: 1382491,
-						publisherSubId: 'SoccerStats_Unit2_300x250'
-					}
-				},
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'469-9999',
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382491,
+				// 		publisherSubId: 'SoccerStats_Unit2_300x250'
+				// 	}
+				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -251,27 +251,27 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						zoneId: 1382493,
-						publisherSubId: 'SoccerStas_Unit3_160x600'
-					}
-				},
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'469-9999',
-						'0-468'
-					],
-					params: {
-						zoneId: 1382491,
-						publisherSubId: 'SoccerStats_Unit3_300x250'
-					}
-				},
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'469-9999'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382493,
+				// 		publisherSubId: 'SoccerStas_Unit3_160x600'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'469-9999',
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382491,
+				// 		publisherSubId: 'SoccerStats_Unit3_300x250'
+				// 	}
+				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -479,27 +479,27 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'469-9999',
-						'0-468'
-					],
-					params: {
-						zoneId: 1382491,
-						publisherSubId: 'SoccerStats_Unit4_300x250'
-					}
-				},
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						zoneId: 1382490,
-						publisherSubId: 'SoccerStats_Unit4_320x50'
-					}
-				},
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'469-9999',
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382491,
+				// 		publisherSubId: 'SoccerStats_Unit4_300x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382490,
+				// 		publisherSubId: 'SoccerStats_Unit4_320x50'
+				// 	}
+				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -662,16 +662,16 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						zoneId: 1382489,
-						publisherSubId: 'SoccerStats_Unit5_728x90'
-					}
-				},
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'469-9999'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382489,
+				// 		publisherSubId: 'SoccerStats_Unit5_728x90'
+				// 	}
+				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -868,16 +868,16 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						zoneId: 1382490,
-						publisherSubId: 'SoccerStats_Unit6_320x50'
-					}
-				},
+				// {
+				// 	bidder: 'criteo',
+				// 	labelAny: [
+				// 		'0-468'
+				// 	],
+				// 	params: {
+				// 		zoneId: 1382490,
+				// 		publisherSubId: 'SoccerStats_Unit6_320x50'
+				// 	}
+				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
