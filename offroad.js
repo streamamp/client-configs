@@ -1220,6 +1220,10 @@ var streamampConfig = {
                         [
                             728,
                             90
+                        ],
+                        [
+                            468,
+                            60
                         ]
                     ]
                 }
@@ -1231,7 +1235,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         zoneId: 1382489,
@@ -1241,7 +1246,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         dmxid: 206682,
@@ -1251,7 +1257,8 @@ var streamampConfig = {
                 {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         tagid: '58390'
@@ -1269,7 +1276,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         siteId: '306861',
@@ -1282,7 +1290,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         unit: '540096823',
@@ -1292,7 +1301,8 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         publisherId: '2455346',
@@ -1302,7 +1312,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         placementId: 13422706
@@ -1311,7 +1322,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         placementId: 16995623
@@ -1323,6 +1335,16 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ]
+                ],
+                '640 - 969': [
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ]
             }
