@@ -347,72 +347,59 @@ var streamampConfig = {
             path: '/269479563/eBikeTips/SA-Unit3',
             mediaTypes: {
                 banner: {
-                    sizes: [[300, 250], [300, 600], [320, 50], [320, 100]]
+                    sizes: [[300, 250], [300, 600], [320, 50], [320, 100], [160, 600], [120, 600]]
                 }
             },
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [{
-                bidder: 'criteo',
-                labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
-                params: {
-                    zoneId: 1382491,
-                    publisherSubId: 'FA_EBikeTips_Unit3_300x250'
-                }
-            }, {
-                bidder: 'districtmDMX',
-                labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
-                params: {
-                    dmxid: 375144,
-                    memberid: 100615
-                }
-            }, {
-                bidder: 'districtmDMX',
-                labelAny: ['980 - 9999'],
-                params: {
-                    dmxid: 375144,
-                    memberid: 100615
-                }
-            }, {
-                bidder: 'districtmDMX',
-                labelAny: ['0 - 659'],
-                params: {
-                    dmxid: 375144,
-                    memberid: 100615
-                }
-            }, {
-                bidder: 'emx_digital',
-                labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
-                params: {
-                    tagid: '41042'
-                }
-            }, {
-                bidder: 'emx_digital',
-                labelAny: ['980 - 9999'],
-                params: {
-                    tagid: '41042'
-                }
-            }, {
-                bidder: 'emx_digital',
-                labelAny: ['0 - 659'],
-                params: {
-                    tagid: '41042'
-                }
-            },
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'FA_EBikeTips_Unit3_300x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: ['980 - 9999'],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'FA_EBikeTips_Unit3_160x600'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
+                    params: {
+                        dmxid: 375144,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
+                    params: {
+                        tagid: '41042'
+                    }
+                },
                 //     {
                 //     bidder: 'improvedigital',
                 //     labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
                 //     params: {
                 //         placementId: 1204084
                 //     }
-                // }, {
+                // },
+                // {
                 //     bidder: 'improvedigital',
                 //     labelAny: ['980 - 9999'],
                 //     params: {
                 //         placementId: 1204084
                 //     }
-                // }, {
+                // },
+                // {
                 //     bidder: 'improvedigital',
                 //     labelAny: ['0 - 659'],
                 //     params: {
@@ -426,37 +413,34 @@ var streamampConfig = {
                         siteId: '306835',
                         size: [300, 250]
                     }
-                }, {
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['980 - 9999'],
                     params: {
                         siteId: '306839',
                         size: [300, 600]
                     }
-                }, {
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: ['980 - 9999'],
+                    params: {
+                        siteId: '436031',
+                        size: [160, 600]
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['0 - 659'],
                     params: {
                         siteId: '306838',
                         size: [320, 50]
                     }
-                }, {
+                },
+                {
                     bidder: 'openx',
                     labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
-                    params: {
-                        unit: '539929975',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                }, {
-                    bidder: 'openx',
-                    labelAny: ['980 - 9999'],
-                    params: {
-                        unit: '539929975',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                }, {
-                    bidder: 'openx',
-                    labelAny: ['0 - 659'],
                     params: {
                         unit: '539929975',
                         delDomain: 'streamamp-d.openx.net'
@@ -487,6 +471,16 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
+                        '980 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2508745',
+                        adSlot: 'FA_EBikeTips_Unit3_160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
                         '0 - 659'
                     ],
                     params: {
@@ -500,21 +494,31 @@ var streamampConfig = {
                     params: {
                         placementId: 13075081
                     }
-                }, {
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: ['980 - 9999'],
                     params: {
                         placementId: 13075082
                     }
-                }, {
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: ['980 - 9999'],
+                    params: {
+                        placementId: 17955344
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: ['0 - 659'],
                     params: {
                         placementId: 13754418
                     }
-                }],
+                }
+            ],
             breakpoints: {
-                '980 - 9999': [[300, 250], [300, 600]],
+                '980 - 9999': [[300, 250], [300, 600], [160, 600], [120, 600]],
                 '670 - 979': [[300, 250]],
                 '0 - 659': [[300, 250], [320, 50], [320, 100]]
             }
