@@ -410,7 +410,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         siteId: '306891',
                         size: [300, 600]
@@ -442,7 +442,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         publisherId: '1341651',
                         adSlot: 'rcc_road_3_300x600@300x600'
@@ -466,7 +466,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         placementId: 13075000
                     }
@@ -487,7 +487,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         placementId: 16806196
                     }
@@ -510,7 +510,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250], [300, 600]],
                 '1025 - 1639': [[300, 250], [300, 600]],
-                '768 - 1025': [[300, 250], [300, 600]],
+                '768 - 1025': [[300, 250]],
                 '0 - 767': [[320, 50], [300, 250]]
             }
         },
