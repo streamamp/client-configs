@@ -34,7 +34,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
                         zoneId: 1382489,
                         publisherSubId: 'FA_Road_Unit1_728x90'
@@ -50,7 +50,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 375137,
                         memberid: 100615
@@ -58,14 +58,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41023'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024'],
                 //     params: {
                 //         placementId: 1186860
                 //     }
@@ -86,7 +86,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
                         siteId: '306879',
                         size: [728, 90]
@@ -110,7 +110,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929955',
                         delDomain: 'streamamp-d.openx.net'
@@ -118,7 +118,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
                         publisherId: '1341643',
                         adSlot: 'rcc_road_1_728x90@728x90'
@@ -142,7 +142,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
                         placementId: 13074988
                     }
@@ -163,7 +163,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
                         placementId: 16806181
                     }
@@ -186,7 +186,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[970, 250], [728, 90]],
                 '1025 - 1639': [[970, 250], [728, 90]],
-                '768 - 1025': [[728, 90]],
+                '768 - 1024': [[728, 90]],
                 '0 - 767': [[320, 50]]
             }
         },
@@ -204,7 +204,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit2_300x250'
@@ -212,7 +212,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202653,
                         memberid: 100615
@@ -220,14 +220,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41024'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186861
                 //     }
@@ -241,14 +241,14 @@ var streamampConfig = {
                 // },
                 // {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['768 - 1025', '0 - 767'],
+                //     labelAny: ['768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186861
                 //     }
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306883',
                         size: [300, 250]
@@ -264,7 +264,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'ix',
-                    labelAny: ['768 - 1025', '0 - 767'],
+                    labelAny: ['768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306882',
                         size: [320, 50]
@@ -272,7 +272,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929956',
                         delDomain: 'streamamp-d.openx.net'
@@ -280,7 +280,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341645',
                         adSlot: 'rcc_road_2_300x250@300x250'
@@ -296,7 +296,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['768 - 1025', '0 - 767'],
+                    labelAny: ['768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341646',
                         adSlot: 'rcc_road_2_320x50@320x50'
@@ -304,7 +304,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13074992
                     }
@@ -318,14 +318,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['768 - 1025', '0 - 767'],
+                    labelAny: ['768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13074993
                     }
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806185
                     }
@@ -339,7 +339,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['768 - 1025', '0 - 767'],
+                    labelAny: ['768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806186
                     }
@@ -348,7 +348,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250], [300, 600]],
                 '1025 - 1639': [[300, 250], [300, 600]],
-                '768 - 1025': [[300, 250], [320, 50]],
+                '768 - 1024': [[300, 250], [320, 50]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -366,7 +366,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit3_300x250'
@@ -374,7 +374,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202654,
                         memberid: 100615
@@ -382,21 +382,21 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41025'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024'],
                 //     params: {
                 //         placementId: 1186862
                 //     }
                 // },
                 // {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186862
                 //     }
@@ -418,7 +418,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306893',
                         size: [300, 250]
@@ -434,7 +434,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929957',
                         delDomain: 'streamamp-d.openx.net'
@@ -450,7 +450,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341649',
                         adSlot: 'rcc_road_3_300x250@300x250'
@@ -473,7 +473,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13074996
                     }
@@ -494,7 +494,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806190
                     }
@@ -510,7 +510,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250], [300, 600]],
                 '1025 - 1639': [[300, 250], [300, 600]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[320, 50], [300, 250]]
             }
         },
@@ -528,7 +528,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit4_300x250'
@@ -536,7 +536,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202655,
                         memberid: 100615
@@ -544,14 +544,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41026'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186867
                 //     }
@@ -565,7 +565,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306890',
                         size: [300, 250]
@@ -581,7 +581,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929959',
                         delDomain: 'streamamp-d.openx.net'
@@ -589,7 +589,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341652',
                         adSlot: 'rcc_road_4_300x250@300x250'
@@ -605,7 +605,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075005
                     }
@@ -619,7 +619,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806198
                     }
@@ -635,7 +635,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -653,7 +653,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit5_300x250'
@@ -661,7 +661,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202656,
                         memberid: 100615
@@ -669,14 +669,14 @@ var streamampConfig = {
                 }, ,
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41027'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186868
                 //     }
@@ -690,7 +690,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306888',
                         size: [300, 250]
@@ -706,7 +706,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929960',
                         delDomain: 'streamamp-d.openx.net'
@@ -714,7 +714,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341661',
                         adSlot: 'rcc_road_5_300x250@300x250'
@@ -730,7 +730,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075014
                     }
@@ -744,7 +744,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806200
                     }
@@ -760,7 +760,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -778,7 +778,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit6_300x250'
@@ -786,7 +786,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202657,
                         memberid: 100615
@@ -794,14 +794,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41028'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186869
                 //     }
@@ -815,7 +815,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306886',
                         size: [300, 250]
@@ -831,7 +831,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929961',
                         delDomain: 'streamamp-d.openx.net'
@@ -839,7 +839,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341666',
                         adSlot: 'rcc_road_6_300x250@300x250'
@@ -855,7 +855,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075024
                     }
@@ -869,7 +869,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806202
                     }
@@ -885,7 +885,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -903,7 +903,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit7_300x250'
@@ -911,7 +911,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202658,
                         memberid: 100615
@@ -919,14 +919,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41029'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186870
                 //     }
@@ -940,7 +940,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306884',
                         size: [300, 250]
@@ -956,7 +956,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929962',
                         delDomain: 'streamamp-d.openx.net'
@@ -964,7 +964,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341668',
                         adSlot: 'rcc_road_7_300x250@300x250'
@@ -980,7 +980,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075026
                     }
@@ -994,7 +994,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806207
                     }
@@ -1010,7 +1010,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -1028,7 +1028,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit8_300x250'
@@ -1036,7 +1036,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202659,
                         memberid: 100615
@@ -1044,21 +1044,21 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41030'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186871
                 //     }
                 // },
                 // {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024'],
                 //     params: {
                 //         placementId: 1186871
                 //     }
@@ -1072,7 +1072,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306904',
                         size: [300, 250]
@@ -1096,7 +1096,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929963',
                         delDomain: 'streamamp-d.openx.net'
@@ -1104,7 +1104,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341671',
                         adSlot: 'rcc_road_8_300x250@300x250'
@@ -1128,7 +1128,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075028
                     }
@@ -1149,7 +1149,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806210
                     }
@@ -1172,7 +1172,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250], [300, 600]],
                 '1025 - 1639': [[300, 250], [300, 600]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -1190,7 +1190,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit9_300x250'
@@ -1198,7 +1198,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202660,
                         memberid: 100615
@@ -1206,21 +1206,21 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41031'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024'],
                 //     params: {
                 //         placementId: 1186872
                 //     }
                 // },
                 // {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186872
                 //     }
@@ -1242,7 +1242,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306899',
                         size: [300, 250]
@@ -1258,7 +1258,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929964',
                         delDomain: 'streamamp-d.openx.net'
@@ -1274,7 +1274,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341674',
                         adSlot: 'rcc_road_9_300x250@300x250'
@@ -1297,7 +1297,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075031
                     }
@@ -1318,7 +1318,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806220
                     }
@@ -1334,7 +1334,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250], [300, 600]],
                 '1025 - 1639': [[300, 250], [300, 600]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -1352,7 +1352,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit10_300x250'
@@ -1360,7 +1360,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202661,
                         memberid: 100615
@@ -1368,21 +1368,21 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '41032'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024'],
                 //     params: {
                 //         placementId: 1186873
                 //     }
                 // },
                 // {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1186873
                 //     }
@@ -1396,7 +1396,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         siteId: '306894',
                         size: [300, 600]
@@ -1404,7 +1404,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '306896',
                         size: [300, 250]
@@ -1420,7 +1420,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '539929965',
                         delDomain: 'streamamp-d.openx.net'
@@ -1428,7 +1428,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         publisherId: '1341677',
                         adSlot: 'rcc_road_10_300x600@300x600'
@@ -1436,7 +1436,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1341676',
                         adSlot: 'rcc_road_10_300x250@300x250'
@@ -1452,14 +1452,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         placementId: 13075034
                     }
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 13075033
                     }
@@ -1473,14 +1473,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
+                    labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
                         placementId: 16806226
                     }
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806224
                     }
@@ -1496,7 +1496,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250], [300, 600]],
                 '1025 - 1639': [[300, 250], [300, 600]],
-                '768 - 1025': [[300, 250], [300, 600]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -1771,7 +1771,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'justpremium',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025',],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
                     params: {
                         zone: '79351',
                         allow: ['cf', 'as', 'ci']
@@ -1781,7 +1781,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[1, 1]],
                 '1025 - 1639': [[1, 1]],
-                '768 - 1025': [[1, 1]],
+                '768 - 1024': [[1, 1]],
                 '0 - 767': [[1, 1]]
             }
         },
@@ -1799,7 +1799,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit15_300x250'
@@ -1807,7 +1807,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202666,
                         memberid: 100615
@@ -1815,14 +1815,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '58377'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1226147
                 //     }
@@ -1836,7 +1836,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '320241',
                         size: [300, 250]
@@ -1852,7 +1852,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '540457062',
                         delDomain: 'streamamp-d.openx.net'
@@ -1860,7 +1860,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1711362',
                         adSlot: 'rcc_road_Unit15_300x250@300x250'
@@ -1876,7 +1876,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 14387397
                     }
@@ -1890,7 +1890,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806230
                     }
@@ -1906,7 +1906,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -1924,7 +1924,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit16_300x250'
@@ -1932,7 +1932,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202667,
                         memberid: 100615
@@ -1940,14 +1940,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '58378'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1226149
                 //     }
@@ -1961,7 +1961,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '320245',
                         size: [300, 250]
@@ -1977,7 +1977,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '540457063',
                         delDomain: 'streamamp-d.openx.net'
@@ -1985,7 +1985,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1711365',
                         adSlot: 'rcc_road_Unit16_300x250@300x250'
@@ -2001,7 +2001,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 14387400
                     }
@@ -2015,7 +2015,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806233
                     }
@@ -2031,7 +2031,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -2049,7 +2049,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'criteo',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'FA_Road_Unit17_300x250'
@@ -2057,7 +2057,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         dmxid: 202668,
                         memberid: 100615
@@ -2065,14 +2065,14 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         tagid: '58379'
                     }
                 },
                 //     {
                 //     bidder: 'improvedigital',
-                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1025', '0 - 767'],
+                //     labelAny: ['1640 - 9999', 1025 - 1639', '768 - 1024', '0 - 767'],
                 //     params: {
                 //         placementId: 1226154
                 //     }
@@ -2086,7 +2086,7 @@ var streamampConfig = {
                 // },
                 {
                     bidder: 'ix',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         siteId: '320246',
                         size: [300, 250]
@@ -2102,7 +2102,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         unit: '540457064',
                         delDomain: 'streamamp-d.openx.net'
@@ -2110,7 +2110,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'pubmatic',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         publisherId: '1711370',
                         adSlot: 'rcc_road_Unit17_300x250@300x250'
@@ -2126,7 +2126,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 14387404
                     }
@@ -2140,7 +2140,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'totaljobs',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
                         placementId: 16806236
                     }
@@ -2156,7 +2156,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[300, 250]],
                 '1025 - 1639': [[300, 250]],
-                '768 - 1025': [[300, 250]],
+                '768 - 1024': [[300, 250]],
                 '0 - 767': [[300, 250], [320, 50]]
             }
         },
@@ -2175,7 +2175,7 @@ var streamampConfig = {
             breakpoints: {
                 '1640 - 9999': [[1, 1]],
                 '1025 - 1639': [[1, 1]],
-                '768 - 1025': [[1, 1]],
+                '768 - 1024': [[1, 1]],
                 '0 - 767': [[1, 1]]
             }
         }
@@ -2228,9 +2228,9 @@ var streamampConfig = {
             sizesSupported: [[970, 250], [728, 90], [300, 250], [300, 600], [160, 600], [1, 1]]
         },
         {
-            label: '768 - 1025',
+            label: '768 - 1024',
             minWidth: 768,
-            maxWidth: 1025,
+            maxWidth: 1024,
             sizesSupported: [[728, 90], [300, 250], [320, 50], [300, 600], [1, 1]]
         },
         {
