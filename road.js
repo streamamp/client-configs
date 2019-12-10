@@ -50,23 +50,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        dmxid: 375137,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639'],
-                    params: {
-                        dmxid: 375137,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
                     params: {
                         dmxid: 375137,
                         memberid: 100615
@@ -74,21 +58,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        tagid: '41023'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639'],
-                    params: {
-                        tagid: '41023'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
                     params: {
                         tagid: '41023'
                     }
@@ -140,23 +110,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        unit: '539929955',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639'],
-                    params: {
-                        unit: '539929955',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
                     params: {
                         unit: '539929955',
                         delDomain: 'streamamp-d.openx.net'
@@ -265,38 +219,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639'],
-                    params: {
-                        dmxid: 202653,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: ['768 - 1025', '0 - 767'],
-                    params: {
-                        dmxid: 202653,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41024'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639'],
-                    params: {
-                        tagid: '41024'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['768 - 1025', '0 - 767'],
                     params: {
                         tagid: '41024'
                     }
@@ -349,22 +273,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929956',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639'],
-                    params: {
-                        unit: '539929956',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['768 - 1025', '0 - 767'],
                     params: {
                         unit: '539929956',
                         delDomain: 'streamamp-d.openx.net'
@@ -466,14 +374,6 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        dmxid: 202654,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
                     params: {
                         dmxid: 202654,
@@ -481,30 +381,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202654,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        tagid: '41025'
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41025'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41025'
                     }
@@ -556,23 +434,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        unit: '539929957',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929957',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929957',
                         delDomain: 'streamamp-d.openx.net'
@@ -681,23 +543,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202655,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41026'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41026'
                     }
@@ -735,14 +582,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929959',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929959',
                         delDomain: 'streamamp-d.openx.net'
@@ -827,25 +666,10 @@ var streamampConfig = {
                         dmxid: 202656,
                         memberid: 100615
                     }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202656,
-                        memberid: 100615
-                    }
-                },
+                }, ,
                 {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41027'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41027'
                     }
@@ -883,14 +707,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929960',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929960',
                         delDomain: 'streamamp-d.openx.net'
@@ -977,23 +793,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202657,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41028'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41028'
                     }
@@ -1031,14 +832,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929961',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929961',
                         delDomain: 'streamamp-d.openx.net'
@@ -1125,23 +918,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202658,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41029'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41029'
                     }
@@ -1179,14 +957,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929962',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929962',
                         delDomain: 'streamamp-d.openx.net'
@@ -1273,38 +1043,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        dmxid: 202659,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202659,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41030'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        tagid: '41030'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41030'
                     }
@@ -1357,22 +1097,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929963',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        unit: '539929963',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929963',
                         delDomain: 'streamamp-d.openx.net'
@@ -1474,14 +1198,6 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        dmxid: 202660,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
                     params: {
                         dmxid: 202660,
@@ -1489,30 +1205,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202660,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        tagid: '41031'
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41031'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41031'
                     }
@@ -1564,23 +1258,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        unit: '539929964',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929964',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929964',
                         delDomain: 'streamamp-d.openx.net'
@@ -1682,14 +1360,6 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'districtmDMX',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        dmxid: 202661,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
                     params: {
                         dmxid: 202661,
@@ -1697,30 +1367,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202661,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        tagid: '41032'
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '41032'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '41032'
                     }
@@ -1772,23 +1420,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025'],
-                    params: {
-                        unit: '539929965',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '539929965',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '539929965',
                         delDomain: 'streamamp-d.openx.net'
@@ -2182,23 +1814,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202666,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '58377'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '58377'
                     }
@@ -2236,14 +1853,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '540457062',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '540457062',
                         delDomain: 'streamamp-d.openx.net'
@@ -2330,23 +1939,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202667,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '58378'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '58378'
                     }
@@ -2384,14 +1978,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '540457063',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '540457063',
                         delDomain: 'streamamp-d.openx.net'
@@ -2478,23 +2064,8 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: ['0 - 767'],
-                    params: {
-                        dmxid: 202668,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        tagid: '58379'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: ['0 - 767'],
                     params: {
                         tagid: '58379'
                     }
@@ -2532,14 +2103,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1025', '0 - 767'],
-                    params: {
-                        unit: '540457064',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['0 - 767'],
                     params: {
                         unit: '540457064',
                         delDomain: 'streamamp-d.openx.net'
