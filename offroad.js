@@ -188,16 +188,7 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        dmxid: 202670,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '970 - 9999',
                         '640 - 969',
                         '0 - 639'
                     ],
@@ -207,37 +198,10 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0 - 639'
-                    ],
-                    params: {
-                        dmxid: 202670,
-                        memberid: 100615
-                    }
-                },
-                {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '970 - 9999'
-                    ],
-                    params: {
-                        tagid: '41035'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
+                        '970 - 9999',
                         '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        tagid: '41035'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
                         '0 - 639'
                     ],
                     params: {
@@ -1087,16 +1051,6 @@ var streamampConfig = {
                     labelAny: [
                         '970 - 9999',
                         '640 - 969',
-                        '0 - 639'
-                    ],
-                    params: {
-                        dmxid: 206681,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
                         '0 - 639'
                     ],
                     params: {
