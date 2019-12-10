@@ -844,7 +844,8 @@ var streamampConfig = {
                 '670 - 979': [[300, 250], [300, 600]],
                 '0 - 659': [[300, 250], [320, 50], [320, 100]]
             }
-        }, {
+        },
+        {
             code: '1x1-interscroller',
             path: '/269479563/eBikeTips/1x1-interscroller',
             mediaTypes: {
@@ -856,7 +857,8 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: []
-        }, {
+        },
+        {
             code: 'SA-Unit6',
             path: '/269479563/eBikeTips/SA-Unit6',
             mediaTypes: {
@@ -867,27 +869,30 @@ var streamampConfig = {
             isSticky: true,
             safeFrame: false,
             outOfPage: false,
-            bids: [{
-                bidder: 'criteo',
-                labelAny: ['0 - 659'],
-                params: {
-                    zoneId: 1382490,
-                    publisherSubId: 'FA_EBikeTips_Unit6_320x50'
-                }
-            }, {
-                bidder: 'districtmDMX',
-                labelAny: ['0 - 659'],
-                params: {
-                    dmxid: 412646,
-                    memberid: 100615
-                }
-            }, {
-                bidder: 'emx_digital',
-                labelAny: ['0 - 659'],
-                params: {
-                    tagid: '80030'
-                }
-            },
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: ['0 - 659'],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'FA_EBikeTips_Unit6_320x50'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: ['0 - 659'],
+                    params: {
+                        dmxid: 412646,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: ['0 - 659'],
+                    params: {
+                        tagid: '80030'
+                    }
+                },
                 //     {
                 //     bidder: 'improvedigital',
                 //     labelAny: ['0 - 659'],
@@ -902,7 +907,8 @@ var streamampConfig = {
                         siteId: '410381',
                         size: [320, 50]
                     }
-                }, {
+                },
+                {
                     bidder: 'openx',
                     labelAny: ['0 - 659'],
                     params: {
@@ -926,7 +932,8 @@ var streamampConfig = {
                     params: {
                         placementId: 17018543
                     }
-                }, {
+                },
+                {
                     bidder: 'totaljobs',
                     labelAny: ['0 - 659'],
                     params: {
@@ -936,7 +943,8 @@ var streamampConfig = {
             breakpoints: {
                 '0 - 659': [[320, 50]]
             }
-        }, {
+        },
+        {
             code: 'SA-Unit7',
             path: '/ca-pub-9881962860178110/eBikeTips/SA-Unit7',
             mediaTypes: {
@@ -954,20 +962,22 @@ var streamampConfig = {
                     zoneId: 1382490,
                     publisherSubId: 'FA_EBikeTips_Unit7_320x50'
                 }
-            }, {
-                bidder: 'districtmDMX',
-                labelAny: ['0 - 659'],
-                params: {
-                    dmxid: 412647,
-                    memberid: 100615
-                }
-            }, {
-                bidder: 'emx_digital',
-                labelAny: ['0 - 659'],
-                params: {
-                    tagid: '80032'
-                }
             },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: ['0 - 659'],
+                    params: {
+                        dmxid: 412647,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: ['0 - 659'],
+                    params: {
+                        tagid: '80032'
+                    }
+                },
                 //     {
                 //     bidder: 'improvedigital',
                 //     labelAny: ['0 - 659'],
@@ -982,7 +992,8 @@ var streamampConfig = {
                         siteId: '410382',
                         size: [320, 50]
                     }
-                }, {
+                },
+                {
                     bidder: 'openx',
                     labelAny: ['0 - 659'],
                     params: {
@@ -1006,17 +1017,20 @@ var streamampConfig = {
                     params: {
                         placementId: 17018544
                     }
-                }, {
+                },
+                {
                     bidder: 'totaljobs',
                     labelAny: ['0 - 659'],
                     params: {
                         placementId: 17049228
                     }
-                }],
+                }
+            ],
             breakpoints: {
                 '0 - 659': [[320, 50]]
             }
-        }],
+        }
+    ],
     cmp: {
         isEnabled: true,
         config: {
@@ -1057,15 +1071,17 @@ var streamampConfig = {
         minWidth: 980,
         maxWidth: 9999,
         sizesSupported: [[970, 250], [300, 250], [300, 600], [160, 600]]
-    }, {
-        label: '670 - 979',
-        minWidth: 670,
-        maxWidth: 979,
-        sizesSupported: [[300, 250], [300, 600]]
-    }, {
-        label: '0 - 659',
-        minWidth: 0,
-        maxWidth: 659,
-        sizesSupported: [[320, 50], [300, 250]]
-    }]
+    },
+        {
+            label: '670 - 979',
+            minWidth: 670,
+            maxWidth: 979,
+            sizesSupported: [[300, 250], [300, 600]]
+        },
+        {
+            label: '0 - 659',
+            minWidth: 0,
+            maxWidth: 659,
+            sizesSupported: [[320, 50], [300, 250]]
+        }]
 }
