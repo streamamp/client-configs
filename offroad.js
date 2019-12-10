@@ -28,6 +28,18 @@ var streamampConfig = {
                         [
                             970,
                             250
+                        ],
+                        [
+                            728,
+                            90
+                        ],
+                        [
+                            970,
+                            90
+                        ],
+                        [
+                            468,
+                            60
                         ]
                     ]
                 }
@@ -47,9 +59,21 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'FA_Off_Unit1_728x90'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         dmxid: 202669,
@@ -63,6 +87,16 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '41034'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969'
+                    ],
+                    params: {
+                        tagid: '89944'
                     }
                 },
                 // {
@@ -88,9 +122,24 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969'
+                    ],
+                    params: {
+                        siteId: '436295',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
-                        '970 - 9999'
+                        '970 - 9999',
+                        '640 - 969'
                     ],
                     params: {
                         unit: '539929967',
@@ -108,12 +157,33 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969'
+                    ],
+                    params: {
+                        publisherId: '2510419',
+                        adSlot: 'FA_OffRoad_Unit1_728x90'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970 - 9999'
                     ],
                     params: {
                         placementId: 13075035
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970 - 9999',
+                        '640 - 969'
+                    ],
+                    params: {
+                        placementId: 17969352
                     }
                 },
                 {
@@ -131,6 +201,20 @@ var streamampConfig = {
                     [
                         970,
                         250
+                    ],
+                    [
+                        970,
+                        90
+                    ]
+                ],
+                '640 - 969': [
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ]
             }
