@@ -22,13 +22,14 @@ var streamampConfig = {
         path: '/269479563/eBikeTips/SA-Unit1',
         mediaTypes: {
             banner: {
-                sizes: [[970, 250], [320, 50]]
+                sizes: [[970, 250], [320, 50], [970, 90]]
             }
         },
         isSticky: false,
         safeFrame: false,
         outOfPage: false,
-        bids: [{
+        bids: [
+            {
             bidder: 'criteo',
             labelAny: ['980 - 9999'],
             params: {
@@ -147,7 +148,7 @@ var streamampConfig = {
         }],
         breakpoints: {
             '0 - 659': [[320, 50]],
-            '980 - 9999': [[970, 250]]
+            '980 - 9999': [[970, 250], [970, 90]]
         }
     }, {
         code: 'SA-Unit2',
