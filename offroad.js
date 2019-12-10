@@ -592,12 +592,20 @@ var streamampConfig = {
                             600
                         ],
                         [
+                            160,
+                            600
+                        ],
+                        [
                             320,
                             50
                         ],
                         [
                             320,
                             100
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
@@ -619,15 +627,13 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'criteo',
                     labelAny: [
-                        '970 - 9999',
-                        '640 - 969',
-                        '0 - 639'
+                        '970 - 9999'
                     ],
                     params: {
-                        dmxid: 202672,
-                        memberid: 100615
+                        zoneId: 1382493,
+                        publisherSubId: 'FA_Off_Unit4_160x600'
                     }
                 },
                 {
@@ -651,6 +657,15 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '41037'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        tagid: '89943'
                     }
                 },
                 // {
@@ -688,6 +703,19 @@ var streamampConfig = {
                         siteId: '306857',
                         size: [
                             300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        siteId: '436296',
+                        size: [
+                            160,
                             600
                         ]
                     }
@@ -742,6 +770,16 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2510420',
+                        adSlot: 'FA_OffRoad_Unit4_160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
                         '0 - 639'
                     ],
                     params: {
@@ -767,6 +805,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 13075044
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970 - 9999'
+                    ],
+                    params: {
+                        placementId: 17969355
                     }
                 },
                 {
@@ -816,6 +863,14 @@ var streamampConfig = {
                     ],
                     [
                         300,
+                        600
+                    ],
+                    [
+                        160,
+                        600
+                    ],
+                    [
+                        120,
                         600
                     ]
                 ],
@@ -1920,6 +1975,10 @@ var streamampConfig = {
                 [
                     728,
                     90
+                ],
+                [
+                    160,
+                    600
                 ]
             ]
         },
