@@ -36,11 +36,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'768 - 9999',
+						'768 - 9999'
 					],
 					params: {
 						zoneId: 1382489,
 						publisherSubId: 'LCM_FamiliesOnline_Unit1_728x90'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473603,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89948'
 					}
 				},
 				// {
@@ -73,6 +92,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712662',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511776',
+						adSlot: 'LCM_FamiliesOnline_Unit1_728x90'
 					}
 				},
 				{
@@ -121,6 +150,25 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit3_160x600'
 					}
 				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473605,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89950'
+					}
+				},
 				// {
 				// 	bidder: 'improvedigital',
 				// 	labelAny: [
@@ -151,6 +199,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712664',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511788',
+						adSlot: 'LCM_FamiliesOnline_Unit3_160x600'
 					}
 				},
 				{
@@ -199,6 +257,25 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit4_160x600'
 					}
 				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473606,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89951'
+					}
+				},
 				// {
 				// 	bidder: 'improvedigital',
 				// 	labelAny: [
@@ -229,6 +306,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712665',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511789',
+						adSlot: 'LCM_FamiliesOnline_Unit4_160x600'
 					}
 				},
 				{
@@ -277,6 +364,25 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit5_300x250'
 					}
 				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473607,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89952'
+					}
+				},
 				// {
 				// 	bidder: 'improvedigital',
 				// 	labelAny: [
@@ -307,6 +413,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712666',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511778',
+						adSlot: 'LCM_FamiliesOnline_Unit5_300x250'
 					}
 				},
 				{
@@ -355,6 +471,25 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit6_300x250'
 					}
 				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473608,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89953'
+					}
+				},
 				// {
 				// 	bidder: 'improvedigital',
 				// 	labelAny: [
@@ -385,6 +520,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712667',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511779',
+						adSlot: 'LCM_FamiliesOnline_Unit6_300x250'
 					}
 				},
 				{
@@ -433,6 +578,25 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit7_300x600'
 					}
 				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473609,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89954'
+					}
+				},
 				// {
 				// 	bidder: 'improvedigital',
 				// 	labelAny: [
@@ -463,6 +627,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712668',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511780',
+						adSlot: 'LCM_FamiliesOnline_Unit7_300x600'
 					}
 				},
 				{
@@ -511,6 +685,25 @@ var streamampConfig = {
 						publisherSubId: 'LCM_FamiliesOnline_Unit8_970x250'
 					}
 				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473610,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89955'
+					}
+				},
 				// {
 				// 	bidder: 'improvedigital',
 				// 	labelAny: [
@@ -541,6 +734,16 @@ var streamampConfig = {
 					params: {
 						unit: '540712669',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511781',
+						adSlot: 'LCM_FamiliesOnline_Unit8_970x250'
 					}
 				},
 				{
@@ -586,11 +789,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						zoneId: 1382490,
 						publisherSubId: 'LCM_FamiliesOnline_Unit9_320x50'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						dmxid: 473611,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						tagid: '89956'
 					}
 				},
 				// {
@@ -605,7 +827,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						siteId: '361774',
@@ -618,7 +840,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						unit: '540712670',
@@ -626,9 +848,19 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						publisherId: '2511782',
+						adSlot: 'LCM_FamiliesOnline_Unit9_320x50'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						placementId: 15718621
@@ -664,11 +896,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						zoneId: 1382490,
-						publisherSubId: 'LCM_FamiliesOnline_Unit9_320x50'
+						publisherSubId: 'LCM_FamiliesOnline_Unit10_320x50'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						dmxid: 473612,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						tagid: '89957'
 					}
 				},
 				// {
@@ -683,7 +934,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						siteId: '361774',
@@ -696,7 +947,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						unit: '540712670',
@@ -704,9 +955,19 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						publisherId: '2511783',
+						adSlot: 'LCM_FamiliesOnline_Unit10_320x50'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						placementId: 15718621
@@ -742,11 +1003,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						zoneId: 1382491,
 						publisherSubId: 'LCM_FamiliesOnline_Unit11_300x250'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						dmxid: 473613,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						tagid: '89958'
 					}
 				},
 				// {
@@ -761,7 +1041,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						siteId: '429154',
@@ -774,7 +1054,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						unit: '540912315',
@@ -782,9 +1062,19 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						publisherId: '2511784',
+						adSlot: 'LCM_FamiliesOnline_Unit11_300x250'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						placementId: 17787928
@@ -820,11 +1110,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						zoneId: 1382491,
 						publisherSubId: 'LCM_FamiliesOnline_Unit12_300x250'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						dmxid: 473614,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						tagid: '89959'
 					}
 				},
 				// {
@@ -839,7 +1148,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						siteId: '429155',
@@ -852,7 +1161,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						unit: '540912316',
@@ -860,9 +1169,19 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						publisherId: '2511785',
+						adSlot: 'LCM_FamiliesOnline_Unit12_300x250'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						placementId: 17787931
@@ -976,11 +1295,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'768 - 9999',
+						'768 - 9999'
 					],
 					params: {
 						zoneId: 1382491,
 						publisherSubId: 'LCM_FamiliesOnline_Unit18_300x250'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						dmxid: 473615,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						tagid: '89960'
 					}
 				},
 				// {
@@ -995,7 +1333,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'768 - 9999',
+						'768 - 9999'
 					],
 					params: {
 						siteId: '429158',
@@ -1008,7 +1346,7 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'768 - 9999',
+						'768 - 9999'
 					],
 					params: {
 						unit: '540912317',
@@ -1016,9 +1354,19 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'768 - 9999'
+					],
+					params: {
+						publisherId: '2511786',
+						adSlot: 'LCM_FamiliesOnline_Unit18_300x250'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'768 - 9999',
+						'768 - 9999'
 					],
 					params: {
 						placementId: 17787932
@@ -1054,11 +1402,30 @@ var streamampConfig = {
 				{
 					bidder: 'criteo',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						zoneId: 1382490,
 						publisherSubId: 'LCM_FamiliesOnline_Unit19_320x50'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						dmxid: 473616,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						tagid: '89961'
 					}
 				},
 				// {
@@ -1073,7 +1440,7 @@ var streamampConfig = {
 				{
 					bidder: 'ix',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						siteId: '429157',
@@ -1094,9 +1461,19 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'0 - 767'
+					],
+					params: {
+						publisherId: '2511787',
+						adSlot: 'LCM_FamiliesOnline_Unit19_320x50'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
-						'0 - 767',
+						'0 - 767'
 					],
 					params: {
 						placementId: 17787935
