@@ -138,33 +138,46 @@ var streamampConfig = {
 				{
 					bidder: 'openx',
 					labelAny: [
-						'1061-9999'
-					],
-					params: {
-						unit: '540595415',
-						delDomain: 'streamamp-d.openx.net'
-					}
-				},
-				{
-					bidder: 'openx',
-					labelAny: [
 						'1061-9999',
-						'729-1060'
-					],
-					params: {
-						unit: '540595415',
-						delDomain: 'streamamp-d.openx.net'
-					}
-				},
-				{
-					bidder: 'openx',
-					labelAny: [
+						'729-1060',
 						'468-728',
 						'0-467'
 					],
 					params: {
 						unit: '540595415',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999'
+					],
+					params: {
+						publisherId: '2530421',
+						adSlot: 'Attitude_Unit1_970x250'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'468-728',
+						'0-467'
+					],
+					params: {
+						publisherId: '2530423',
+						adSlot: 'Attitude_Unit1_320x50'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999',
+						'729-1060'
+					],
+					params: {
+						publisherId: '2530422',
+						adSlot: 'Attitude_Unit1_728x90'
 					}
 				},
 				{
@@ -339,14 +352,27 @@ var streamampConfig = {
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999',
+						'729-1060',
+						'468-728',
+						'0-467'
+					],
+					params: {
+						publisherId: '2530424',
+						adSlot: 'Attitude_Unit2_300x250'
+					}
+				},
+				{
+					bidder: 'pubmatic',
 					labelAny: [
 						'1061-9999',
 						'729-1060'
 					],
 					params: {
-						unit: '540595416',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2530425',
+						adSlot: 'Attitude_Unit2_300x600'
 					}
 				},
 				{
@@ -517,14 +543,27 @@ var streamampConfig = {
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999',
+						'729-1060',
+						'468-728',
+						'0-467'
+					],
+					params: {
+						publisherId: '2530426',
+						adSlot: 'Attitude_Unit3_300x250'
+					}
+				},
+				{
+					bidder: 'pubmatic',
 					labelAny: [
 						'1061-9999',
 						'729-1060'
 					],
 					params: {
-						unit: '540595417',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2530427',
+						adSlot: 'Attitude_Unit3_300x600'
 					}
 				},
 				{
@@ -696,14 +735,27 @@ var streamampConfig = {
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999',
+						'729-1060',
+						'468-728',
+						'0-467'
+					],
+					params: {
+						publisherId: '2530428',
+						adSlot: 'Attitude_Unit4_300x250'
+					}
+				},
+				{
+					bidder: 'pubmatic',
 					labelAny: [
 						'1061-9999',
 						'729-1060'
 					],
 					params: {
-						unit: '540595418',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2530429',
+						adSlot: 'Attitude_Unit4_300x600'
 					}
 				},
 				{
@@ -828,6 +880,17 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999',
+						'729-1060'
+					],
+					params: {
+						publisherId: '2530430',
+						adSlot: 'Attitude_Unit5_160x600'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
 						'1061-9999',
@@ -948,7 +1011,9 @@ var streamampConfig = {
 					bidder: 'openx',
 					labelAny: [
 						'1061-9999',
-						'729-1060'
+						'729-1060',
+						'468-728',
+						'0-467'
 					],
 					params: {
 						unit: '540595420',
@@ -956,14 +1021,25 @@ var streamampConfig = {
 					}
 				},
 				{
-					bidder: 'openx',
+					bidder: 'pubmatic',
+					labelAny: [
+						'1061-9999',
+						'729-1060'
+					],
+					params: {
+						publisherId: '2530431',
+						adSlot: 'Attitude_Unit6_728x90'
+					}
+				},
+				{
+					bidder: 'pubmatic',
 					labelAny: [
 						'468-728',
 						'0-467'
 					],
 					params: {
-						unit: '540595420',
-						delDomain: 'streamamp-d.openx.net'
+						publisherId: '2530432',
+						adSlot: 'Attitude_Unit6_320x50'
 					}
 				},
 				{
@@ -1075,6 +1151,17 @@ var streamampConfig = {
 					params: {
 						unit: '540595421',
 						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'468-728',
+						'0-467'
+					],
+					params: {
+						publisherId: '2530433',
+						adSlot: 'Attitude_Sticky_320x50'
 					}
 				},
 				{
