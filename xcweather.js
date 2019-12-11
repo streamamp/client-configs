@@ -104,6 +104,18 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530479',
+                        adSlot: 'XCWeather_Unit1_160x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970-9999',
@@ -111,6 +123,128 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 15704252
+                    }
+                }
+            ],
+            breakpoints: {
+                '970-9999': [
+                    [
+                        160,
+                        600
+                    ]
+                ],
+                '729-969': [
+                    [
+                        160,
+                        600
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Unit2',
+            path: '/15188745/XCWeather/Unit2',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            160,
+                            600
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'XCWeather_Unit2_160x600'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        dmxid: 348770,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        tagid: '64445'
+                    }
+                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969'
+                //     ],
+                //     params: {
+                //         placementId: 22014333
+                //     }
+                // },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        siteId: '361406',
+                        size: [
+                            160,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        unit: '540710387',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530480',
+                        adSlot: 'XCWeather_Unit2_160x600'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        placementId: 15704253
                     }
                 }
             ],
@@ -211,6 +345,18 @@ var streamampConfig = {
                     params: {
                         unit: '540710388',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530481',
+                        adSlot: 'XCWeather_Unit3_160x600'
                     }
                 },
                 {
@@ -324,6 +470,18 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530482',
+                        adSlot: 'XCWeather_Unit4_728x90'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970-9999',
@@ -434,6 +592,18 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530483',
+                        adSlot: 'XCWeather_Unit5_160x600'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970-9999',
@@ -479,13 +649,13 @@ var streamampConfig = {
             breakpoints: {
                 '970-9999': [
                     [
-                        160,
+                        120,
                         600
                     ]
                 ],
                 '729-969': [
                     [
-                        160,
+                        120,
                         600
                     ]
                 ]
@@ -576,6 +746,18 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530485',
+                        adSlot: 'XCWeather_Unit7_728x90'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '970-9999',
@@ -597,6 +779,661 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Unit8',
+            path: '/15188745/XCWeather/Unit8',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            728,
+                            90
+                        ],
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'XCWeather_Unit8_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'XCWeather_Unit8_320x50'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        dmxid: 348776,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        dmxid: 348777,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        tagid: '64451'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        tagid: '64452'
+                    }
+                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969',
+                //         '469-728',
+                //          '0-468'
+                //     ],
+                //     params: {
+                //         placementId: 22014339
+                //     }
+                // },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        siteId: '361412',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        siteId: '361413',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        unit: '540710393',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+        
+                    ],
+                    params: {
+                        publisherId: '2530486',
+                        adSlot: 'XCWeather_Unit8_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '2530487',
+                        adSlot: 'XCWeather_Unit8_320x50'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        placementId: 15704275
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        placementId: 15704366
+                    }
+                }
+            ],
+            breakpoints: {
+                '970-9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '729-969': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '469-728': [
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '0-468': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Unit9',
+            path: '/15188745/XCWeather/Unit9',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            728,
+                            90
+                        ],
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'XCWeather_Unit9_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'XCWeather_Unit9_320x50'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728'
+                    ],
+                    params: {
+                        dmxid: 348776,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        dmxid: 348779,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728'
+                    ],
+                    params: {
+                        tagid: '64453'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        tagid: '64454'
+                    }
+                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969',
+                //         '469-728',
+                //          '0-468'
+                //     ],
+                //     params: {
+                //         placementId: 22014340
+                //     }
+                // },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728'
+                    ],
+                    params: {
+                        siteId: '361414',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        siteId: '361415',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        unit: '540710394',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728'
+                    ],
+                    params: {
+                        publisherId: '2530488',
+                        adSlot: 'XCWeather_Unit9_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '2530489',
+                        adSlot: 'XCWeather_Unit9_320x50'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970-9999',
+                        '729-969',
+                        '469-728'
+                    ],
+                    params: {
+                        placementId: 15704347
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '469-728',
+                        '0-468'
+                    ],
+                    params: {
+                        placementId: 15704348
+                    }
+                }
+            ],
+            breakpoints: {
+                '970-9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '729-969': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '469-728': [
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '0-468': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Unit10',
+            path: '/15188745/XCWeather/Unit10',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            300,
+                            250
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'XCWeather_Unit10_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        dmxid: 348780,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        tagid: '64455'
+                    }
+                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //          '0-468'
+                //     ],
+                //     params: {
+                //         placementId: 22014341
+                //     }
+                // },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        siteId: '361416',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        unit: '540710395',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '2530490',
+                        adSlot: 'XCWeather_Unit10_300x250'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        placementId: 15704349
+                    }
+                }
+            ],
+            breakpoints: {
+                '0-468': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Unit11',
+            path: '/15188745/XCWeather/Unit11',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            160,
+                            600
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'XCWeather_Unit11_160x600'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        dmxid: 348781,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        tagid: '64456'
+                    }
+                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //       '970-9999',
+                //       '729-969'
+                //     ],
+                //     params: {
+                //         placementId: 22014342
+                //     }
+                // },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        siteId: '361417',
+                        size: [
+                            160,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        unit: '540710398',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        publisherId: '2530491',
+                        adSlot: 'XCWeather_Unit11_160x600'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '970-9999',
+                        '729-969'
+                    ],
+                    params: {
+                        placementId: 15704350
+                    }
+                }
+            ],
+            breakpoints: {
+                '970-9999': [
+                    [
+                        160,
+                        600
+                    ]
+                ],
+                '729-969': [
+                    [
+                        160,
+                        600
                     ]
                 ]
             }
@@ -678,13 +1515,27 @@ var streamampConfig = {
             label: '469-728',
             minWidth: 469,
             maxWidth: 728,
-            sizesSupported: []
+            sizesSupported: [
+                [
+                    728,
+                    90
+                ],
+                [
+                    320,
+                    50
+                ]
+            ]
         },
         {
             label: '0-468',
             minWidth: 0,
             maxWidth: 468,
-            sizesSupported: []
+            sizesSupported: [
+                [
+                    320,
+                    50
+                ]
+            ]
         }
     ]
 }
