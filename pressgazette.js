@@ -6,7 +6,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    adUnitsToRefresh:['Unit1', 'Unit2', 'Unit3', 'Unit4', 'Unit5', 'Unit6', 'Unit7'],
+    adUnitsToRefresh: ['Unit1', 'Unit2', 'Unit3', 'Unit4', 'Unit5', 'Unit6', 'Unit7'],
     maxRefreshTime: 120,
     minRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
@@ -2157,4 +2157,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
+};
