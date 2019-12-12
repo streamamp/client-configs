@@ -2655,4 +2655,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
+};
