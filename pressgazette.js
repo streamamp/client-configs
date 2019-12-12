@@ -6,7 +6,7 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    adUnitsToRefresh:['Unit1', 'Unit2', 'Unit3', 'Unit4', 'Unit5', 'Unit6', 'Unit7'],
+    adUnitsToRefresh: ['Unit1', 'Unit2', 'Unit3', 'Unit4', 'Unit5', 'Unit6', 'Unit7'],
     maxRefreshTime: 120,
     minRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
@@ -197,6 +197,39 @@ var streamampConfig = {
                     params: {
                         unit: '539287557',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970',
+                        '490 - 759'
+                    ],
+                    params: {
+                        publisherId: '2527009',
+                        adSlot: 'PressGazette_Unit1_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2527010',
+                        adSlot: 'PressGazette_Unit1_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '490 - 759',
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527008',
+                        adSlot: 'PressGazette_Unit1_320x50'
                     }
                 },
                 {
@@ -416,6 +449,28 @@ var streamampConfig = {
                     params: {
                         unit: '539287567',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527011',
+                        adSlot: 'PressGazette_Unit2_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527012',
+                        adSlot: 'PressGazette_Unit2_300x250'
                     }
                 },
                 {
@@ -658,6 +713,40 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527014',
+                        adSlot: 'PressGazette_Unit3_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527013',
+                        adSlot: 'PressGazette_Unit3_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970',
+                        '490 - 759',
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527015',
+                        adSlot: 'PressGazette_Unit3_300x250'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '971 - 9999',
@@ -884,6 +973,28 @@ var streamampConfig = {
                     params: {
                         unit: '539287575',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527016',
+                        adSlot: 'PressGazette_Unit4_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527017',
+                        adSlot: 'PressGazette_Unit4_300x250'
                     }
                 },
                 {
@@ -1132,6 +1243,38 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527019',
+                        adSlot: 'PressGazette_Unit5_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527020',
+                        adSlot: 'PressGazette_Unit5_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '490 - 759',
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527018',
+                        adSlot: 'PressGazette_Unit5_300x250'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '971 - 9999',
@@ -1365,6 +1508,29 @@ var streamampConfig = {
                     params: {
                         unit: '539287579',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527022',
+                        adSlot: 'PressGazette_Unit6_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970',
+                        '490 - 759',
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527021',
+                        adSlot: 'PressGazette_Unit6_300x250'
                     }
                 },
                 {
@@ -1669,6 +1835,50 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527024',
+                        adSlot: 'PressGazette_Unit7_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970',
+                        '490 - 759',
+                        '0 - 489'
+                    ],
+                    params: {
+                        publisherId: '2527023',
+                        adSlot: 'PressGazette_Unit7_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '760 - 970'
+                    ],
+                    params: {
+                        publisherId: '2527025',
+                        adSlot: 'PressGazette_Unit7_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2527026',
+                        adSlot: 'PressGazette_Unit7_970x250'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '971 - 9999',
@@ -1947,4 +2157,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
+};
