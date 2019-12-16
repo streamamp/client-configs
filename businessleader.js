@@ -92,17 +92,17 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit1_320x50'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747'
-                    ],
-                    params: {
-                        placementId: 22176577
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '990 - 9999',
+                //         '748 - 989',
+                //         '375 - 747'
+                //     ],
+                //     params: {
+                //         placementId: 22176577
+                //     }
+                // },
                 {
                     bidder: 'openx',
                     labelAny: [
@@ -206,16 +206,16 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit2_320x50'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        placementId: 22176578
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '375 - 747',
+                //         '0 - 374'
+                //     ],
+                //     params: {
+                //         placementId: 22176578
+                //     }
+                // },
                 {
                     bidder: 'openx',
                     labelAny: [
@@ -317,18 +317,18 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit3_320x50'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        placementId: 22176579
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '990 - 9999',
+                //         '748 - 989',
+                //         '375 - 747',
+                //         '0 - 374'
+                //     ],
+                //     params: {
+                //         placementId: 22176579
+                //     }
+                // },
                 {
                     bidder: 'openx',
                     labelAny: [
@@ -494,18 +494,18 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit4_320x50'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        placementId: 22176580
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '990 - 9999',
+                //         '748 - 989',
+                //         '375 - 747',
+                //         '0 - 374'
+                //     ],
+                //     params: {
+                //         placementId: 22176580
+                //     }
+                // },
                 {
                     bidder: 'openx',
                     labelAny: [
@@ -662,18 +662,18 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit5_320x50'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        placementId: 22176581
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '990 - 9999',
+                //         '748 - 989',
+                //         '375 - 747',
+                //         '0 - 374'
+                //     ],
+                //     params: {
+                //         placementId: 22176581
+                //     }
+                // },
                 {
                     bidder: 'openx',
                     labelAny: [
