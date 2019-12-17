@@ -192,31 +192,31 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '1281 - 9999',
-                //         '976 - 1280',
-                //         '731 - 935'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum/Unit1/728x90@728x90',
-                //         uid: '643821'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '471 - 730',
-                //         '0 - 470'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum/Unit1/320x50@320x50',
-                //         uid: '643824'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1281 - 9999',
+                        '976 - 1280',
+                        '731 - 935'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum/Unit1/728x90@728x90',
+                        uid: '643821'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '471 - 730',
+                        '0 - 470'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum/Unit1/320x50@320x50',
+                        uid: '643824'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -446,31 +446,31 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '1281 - 9999',
-                //         '976 - 1280',
-                //         '731 - 935'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum/Unit2/728x90@728x90',
-                //         uid: '643825'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0 - 470',
-                //         '471 - 730'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum/Unit2/320x50@320x50',
-                //         uid: '643828'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1281 - 9999',
+                        '976 - 1280',
+                        '731 - 935'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum/Unit2/728x90@728x90',
+                        uid: '643825'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 470',
+                        '471 - 730'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum/Unit2/320x50@320x50',
+                        uid: '643828'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -613,17 +613,17 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '1281 - 9999'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum_Unit3_160x600@160x600',
-                //         uid: '1096698'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1281 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum_Unit3_160x600@160x600',
+                        uid: '1096698'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -730,17 +730,17 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '1281 - 9999'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum_Unit4_160x600@160x600',
-                //         uid: '1096701'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1281 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum_Unit4_160x600@160x600',
+                        uid: '1096701'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -934,31 +934,31 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '1281 - 9999',
-                //         '976 - 1280',
-                //         '731 - 935'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum/Unit5/728x90@728x90',
-                //         uid: '1809656'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0 - 470',
-                //         '471 - 730'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         adSlot: 'Lipsum/Unit5/320x50@320x50',
-                //         uid: '1809657'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1281 - 9999',
+                        '976 - 1280',
+                        '731 - 935'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum/Unit5/728x90@728x90',
+                        uid: '1809656'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 470',
+                        '471 - 730'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'Lipsum/Unit5/320x50@320x50',
+                        uid: '1809657'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
