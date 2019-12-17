@@ -18,44 +18,6 @@ var streamampConfig = {
         value: '',
     },
     adDelivered: [],
-    beforeInit: function () {
-        googletag.cmd.push(function () {
-            googletag.pubads().addEventListener('slotRenderEnded', function (event) {
-                if (event.slot.getSlotElementId() === 'Unit1' || event.slot.getSlotElementId() === 'Unit5') {
-                    if (!event.isEmpty) {
-                        
-                        var breakpoint = streamampGetBreakpoint().label
-                        var widthHeight
-                        if (event.slot.getSlotElementId() === 'Unit1') {
-                            if (breakpoint === '971-9999') {
-                                widthHeight = {width: 970, height: 250}
-                            } else if (breakpoint === '721-970') {
-                                widthHeight = {width: 728, height: 90}
-                            } else if (breakpoint === '469-720') {
-                                widthHeight = {width: 320, height: 50}
-                            } else if (breakpoint === '0-468') {
-                                widthHeight = {width: 320, height: 50}
-                            }
-                        } else if (event.slot.getSlotElementId() === 'Unit5') {
-                            widthHeight = {width: 160, height: 600}
-                        }
-                        
-                        streamampConfig.adDelivered.push({
-                            adUnit: event.slot.getSlotElementId(),
-                            adUnitFilled: !event.isEmpty,
-                            ...widthHeight
-                        })
-                        
-                    } else {
-                        streamampConfig.adDelivered.push({
-                            adUnit: event.slot.getSlotElementId(),
-                            adUnitFilled: !event.isEmpty
-                        })
-                    }
-                }
-            })
-        })
-    },
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
@@ -2191,6 +2153,223 @@ var streamampConfig = {
                     ]
                 ]
             }
+        },
+        {
+            code: 'Rich_Media',
+            path: '/15188745/Spiked-Online/Sticky',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            728,
+                            90
+                        ],
+                        [
+                            320,
+                            50
+                        ],
+                        [
+                            468,
+                            60
+                        ]
+                    ]
+                }
+            },
+            isSticky: true,
+            safeFrame: true,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '971-9999'
+                    ],
+                    params: {
+                        zoneId: 'Spiked_Sticky_728x90',
+                        publisherSubId: 'Spiked_Sticky_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '469-720'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'Spiked_Sticky_320x50'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '971-9999',
+                        '721-970'
+                    ],
+                    params: {
+                        dmxid: 371414,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '469-720',
+                        '0-468'
+                    ],
+                    params: {
+                        dmxid: 371413,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971-9999',
+                        '721-970'
+                    ],
+                    params: {
+                        tagid: '58502'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '469-720',
+                        '0-468'
+                    ],
+                    params: {
+                        tagid: '58501'
+                    }
+                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971-9999',
+                //         '721-970'
+                //     ],
+                //     params: {
+                //         placementId: 15273087
+                //     }
+                // },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '469-720',
+                //         '0-468'
+                //     ],
+                //     params: {
+                //         placementId: 15273087
+                //     }
+                // },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '971-9999',
+                        '721-970'
+                    ],
+                    params: {
+                        siteId: '355886',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '469-720',
+                        '0-468'
+                    ],
+                    params: {
+                        siteId: '355885',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '971-9999',
+                        '721-970'
+                    ],
+                    params: {
+                        unit: '540679266',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '469-720',
+                        '0-468'
+                    ],
+                    params: {
+                        unit: '540679266',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '971-9999',
+                        '721-970'
+                    ],
+                    params: {
+                        placementId: 15536714
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '469-720',
+                        '0-468'
+                    ],
+                    params: {
+                        placementId: 15536695
+                    }
+                }
+            ],
+            breakpoints: {
+                '971-9999': [
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        468,
+                        60
+                    ]
+                ],
+                '721-970': [
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        468,
+                        60
+                    ]
+                ],
+                '469-720': [
+                    [
+                        320,
+                        50
+                    ],
+                    [
+                        468,
+                        60
+                    ]
+                ],
+                '0-468': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
         }
     ],
     cmp: {
@@ -2336,6 +2515,10 @@ var streamampConfig = {
                 [
                     300,
                     250
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
