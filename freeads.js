@@ -44,6 +44,18 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            970,
+                            90
+                        ],
+                        [
+                            320,
+                            100
+                        ],
+                        [
+                            468,
+                            60
                         ]
                     ]
                 }
@@ -52,6 +64,28 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1790384',
+                        adSlot: 'Freeads_Unit1_HeroBanner_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1790392',
+                        adSlot: 'Freeads_Unit1_HeroBanner_728x90'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -290,6 +324,10 @@ var streamampConfig = {
                     [
                         970,
                         250
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '729 - 1338': [
@@ -306,12 +344,28 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ]
             }
@@ -333,6 +387,16 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '1790407',
+                        adSlot: 'Freeads_Unit4_Leader3_728x90'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -434,6 +498,22 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            300,
+                            600
+                        ],
+                        [
+                            300,
+                            250
+                        ],
+                        [
+                            120,
+                            600
+                        ],
+                        [
+                            300,
+                            1050
                         ]
                     ]
                 }
@@ -442,6 +522,37 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '2538478',
+                        adSlot: 'Freeads_Unit5_sky1_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2538529',
+                        adSlot: 'Freeads_Unit5_sky1_300x600'
+                    }
+                },
+                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1790408',
+                        adSlot: 'Freeads_Unit5_sky1_160x600'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -461,6 +572,24 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '58632'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '729 - 1338'
+                    ],
+                    params: {
+                        tagid: '90238'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0 - 468'
+                    ],
+                    params: {
+                        tagid: '71529'
                     }
                 },
                 // {
@@ -488,6 +617,32 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'ix',
+                    labelAny: [
+                        '729 - 1338'
+                    ],
+                    params: {
+                        siteId: '438333',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0 - 468'
+                    ],
+                    params: {
+                        siteId: '379896',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1339 - 9999',
@@ -509,6 +664,24 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'streamamp',
+                    labelAny: [
+                       '729 - 1338'
+                    ],
+                    params: {
+                        placementId: 18038177
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                         '0 - 468'
+                    ],
+                    params: {
+                        placementId: 16207619
+                    }
+                },
+                {
                     bidder: 'totaljobs',
                     labelAny: [
                         '1339 - 9999',
@@ -524,11 +697,29 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
+                    ],
+                    [
+                        300,
+                        1050
                     ]
                 ],
                 '729 - 1338': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
+                        600
+                    ]
+                ],
+                '0 - 468': [
+                    [
+                        300,
                         600
                     ]
                 ]
@@ -543,6 +734,22 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
+                        ],
+                        [
+                            300,
+                            600
+                        ],
+                        [
+                            300,
+                            250
+                        ],
+                        [
+                            300,
+                            1050
                         ]
                     ]
                 }
@@ -551,6 +758,37 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '2538490',
+                        adSlot: 'Freeads_Unit5_sky2_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2538530',
+                        adSlot: 'Freeads_Unit5_sky2_300x600'
+                    }
+                },
+                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1790410',
+                        adSlot: 'Freeads_Unit5_sky2_160x600'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -570,6 +808,24 @@ var streamampConfig = {
                     ],
                     params: {
                         tagid: '58633'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '729 - 1338'
+                    ],
+                    params: {
+                        tagid: '90239'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '0 - 468'
+                    ],
+                    params: {
+                        tagid: '71530'
                     }
                 },
                 // {
@@ -597,6 +853,32 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'ix',
+                    labelAny: [
+                        '729 - 1338'
+                    ],
+                    params: {
+                        siteId: '438334',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '0 - 468'
+                    ],
+                    params: {
+                        siteId: '379897',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1339 - 9999',
@@ -618,6 +900,24 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'streamamp',
+                    labelAny: [
+                         '729 - 1338'
+                    ],
+                    params: {
+                        placementId: 18038179
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                         '0 - 468'
+                    ],
+                    params: {
+                        placementId: 16207624
+                    }
+                },
+                {
                     bidder: 'totaljobs',
                     labelAny: [
                         '1339 - 9999',
@@ -633,11 +933,29 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
+                    ],
+                    [
+                        300,
+                        1050
                     ]
                 ],
                 '729 - 1338': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
+                        600
+                    ]
+                ],
+                '0 - 468': [
+                    [
+                        300,
                         600
                     ]
                 ]
@@ -660,6 +978,19 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1790411',
+                        adSlot: 'Freeads_Unit7_MPU_300x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -787,6 +1118,10 @@ var streamampConfig = {
                         [
                             300,
                             250
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -795,6 +1130,19 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1790412',
+                        adSlot: 'Freeads_Unit8_MPU_300x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -903,12 +1251,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -926,6 +1282,10 @@ var streamampConfig = {
                         [
                             300,
                             250
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -934,6 +1294,30 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1790413',
+                        adSlot: 'Freeads_Unit9_DMPU_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1790414',
+                        adSlot: 'Freeads_Unit9_DMPU_300x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -1126,12 +1510,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1236,6 +1628,14 @@ var streamampConfig = {
                         [
                             300,
                             250
+                        ],
+                        [
+                            320,
+                            100
+                        ],
+                        [
+                            468,
+                            60
                         ]
                     ]
                 }
@@ -1244,6 +1644,30 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1790418',
+                        adSlot: 'Freeads_Unit12_Midlisting_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                       '1339 - 9999',
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '2538459',
+                        adSlot: 'Freeads_Unit12_Midlisting_300x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -1436,12 +1860,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1467,6 +1899,18 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1799966',
+                        adSlot: 'Freeads_Unit13_MidListing1_320x50'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -1560,10 +2004,7 @@ var streamampConfig = {
             ],
             breakpoints: {
                 '1339 - 9999': [
-                    [
-                        320,
-                        50
-                    ]
+
                 ],
                 '729 - 1338': [
                     [
@@ -1575,12 +2016,20 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1602,6 +2051,16 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1790416',
+                        adSlot: 'Freeads_Unit11_Sticky_320x50'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -1698,6 +2157,18 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            320,
+                            100
+                        ],
+                        [
+                            468,
+                            60
+                        ],
+                        [
+                            970,
+                            90
                         ]
                     ]
                 }
@@ -1706,6 +2177,40 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1799968',
+                        adSlot: 'Freeads_Unit15_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1799969',
+                        adSlot: 'Freeads_Unit15_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1809119',
+                        adSlot: 'Freeads_Unit15_970x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -1923,6 +2428,10 @@ var streamampConfig = {
                     [
                         970,
                         250
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '729 - 1338': [
@@ -1933,18 +2442,34 @@ var streamampConfig = {
                     [
                         970,
                         250
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '469 - 728': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -1966,6 +2491,18 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                            320,
+                            100
+                        ],
+                        [
+                            468,
+                            60
+                        ],
+                        [
+                            970,
+                            90
                         ]
                     ]
                 }
@@ -1974,6 +2511,40 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1799970',
+                        adSlot: 'Freeads_Unit16_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1799971',
+                        adSlot: 'Freeads_Unit16_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1809120',
+                        adSlot: 'Freeads_Unit16_970x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -2213,6 +2784,10 @@ var streamampConfig = {
                         970,
                         250
                     ]
+                    [
+                        970,
+                        90
+                    ]
                 ],
                 '729 - 1338': [
                     [
@@ -2222,18 +2797,34 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '469 - 728': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0 - 468': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -2433,6 +3024,14 @@ var streamampConfig = {
                         [
                             300,
                             600
+                        ],
+                        [
+                            320,
+                            100
+                        ],
+                        [
+                            468,
+                            60
                         ]
                     ]
                 }
@@ -2441,6 +3040,50 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1860156',
+                        adSlot: 'Freeads_Unit19_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1860155',
+                        adSlot: 'Freeads_Unit19_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '1860154',
+                        adSlot: 'Freeads_Unit19_970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '1860157',
+                        adSlot: 'Freeads_Unit19_300x600'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -2754,18 +3397,34 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '469 - 728': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -2779,6 +3438,10 @@ var streamampConfig = {
                         [
                             300,
                             250
+                        ],
+                        [
+                            320,
+                            100
                         ]
                     ]
                 }
@@ -2787,6 +3450,18 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '729 - 1338',
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '1860158',
+                        adSlot: 'Freeads_Unit20_300x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -2882,12 +3557,20 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0 - 468': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ]
             }
@@ -2905,6 +3588,18 @@ var streamampConfig = {
                         [
                             300,
                             600
+                        ],
+                        [
+                          300,
+                          250
+                        ],
+                        [
+                            120,
+                            600
+                        ],
+                        [
+                            300,
+                            1050
                         ]
                     ]
                 }
@@ -2914,13 +3609,44 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '1860160',
+                        adSlot: 'Freeads_Unit21_Sky3_160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '2538491',
+                        adSlot: 'Freeads_Unit21_Sky3_300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '2538494',
+                        adSlot: 'Freeads_Unit21_Sky3_300x600'
+                    }
+                },
+                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1339 - 9999',
                         '729 - 1338'
                     ],
                     params: {
-                        dmxid: 326919,
+                        dmxid: 379077,
                         memberid: 100615
                     }
                 },
@@ -2930,7 +3656,7 @@ var streamampConfig = {
                         '1339 - 9999'
                     ],
                     params: {
-                        dmxid: 379077,
+                        dmxid: 326919,
                         memberid: 100615
                     }
                 },
@@ -3068,11 +3794,23 @@ var streamampConfig = {
                     [
                         300,
                         600
+                    ],
+                    [
+                        120,
+                        600
+                    ],
+                    [
+                        300,
+                        1050
                     ]
                 ],
                 '729 - 1338': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
                         600
                     ]
                 ]
@@ -3089,8 +3827,20 @@ var streamampConfig = {
                             600
                         ],
                         [
+                            300,
+                            250
+                        ],
+                        [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
+                        ],
+                        [
+                            300,
+                            1050
                         ]
                     ]
                 }
@@ -3099,6 +3849,37 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '1860160',
+                        adSlot: 'Freeads_Unit22_300x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '2538492',
+                        adSlot: 'Freeads_Unit22_160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '2538493',
+                        adSlot: 'Freeads_Unit22_300x250'
+                    }
+                },
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
@@ -3254,11 +4035,23 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
+                    ],
+                    [
+                        300,
+                        1050
                     ]
                 ],
                 '729 - 1338': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
                         600
                     ]
                 ]
