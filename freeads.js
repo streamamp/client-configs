@@ -3365,7 +3365,7 @@ var streamampConfig = {
                 backgroundColor: '#FFFFFF',
                 borderColor: '#0B63AE'
             },
-            additionalStyles: '',
+            additionalStyles: '@media screen and (max-width: 820px) { .qc-cmp-buttons.qc-cmp-primary-buttons, .qc-cmp-nav-bar.qc-cmp-bottom { height: 10rem !important }; }',
             toggleSwitchBorderColor: '#0B63AE',
             toggleStatusTextColor: '#FFFFFF'
         }
