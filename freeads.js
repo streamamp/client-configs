@@ -90,8 +90,7 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1339 - 9999',
-                        '729 - 1338',
-                        '469 - 728'
+                        '729 - 1338'
                     ],
                     params: {
                         dmxid: 276080,
@@ -123,8 +122,7 @@ var streamampConfig = {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1339 - 9999',
-                        '729 - 1338',
-                        '469 - 728'
+                        '729 - 1338'
                     ],
                     params: {
                         tagid: '58625'
@@ -183,8 +181,7 @@ var streamampConfig = {
                     bidder: 'ix',
                     labelAny: [
                         '1339 - 9999',
-                        '729 - 1338',
-                        '469 - 728'
+                        '729 - 1338'
                     ],
                     params: {
                         siteId: '331334',
@@ -226,26 +223,6 @@ var streamampConfig = {
                     labelAny: [
                         '1339 - 9999',
                         '729 - 1338',
-                        '469 - 728'
-                    ],
-                    params: {
-                        unit: '540514728',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1339 - 9999'
-                    ],
-                    params: {
-                        unit: '540514728',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '469 - 728',
                         '0 - 468'
                     ],
@@ -258,8 +235,7 @@ var streamampConfig = {
                     bidder: 'streamamp',
                     labelAny: [
                         '1339 - 9999',
-                        '729 - 1338',
-                        '469 - 728'
+                        '729 - 1338'
                     ],
                     params: {
                         placementId: 14554026
@@ -288,8 +264,7 @@ var streamampConfig = {
                     bidder: 'totaljobs',
                     labelAny: [
                         '1339 - 9999',
-                        '729 - 1338',
-                        '469 - 728'
+                        '729 - 1338'
                     ],
                     params: {
                         placementId: 16836379
@@ -337,10 +312,6 @@ var streamampConfig = {
                     ]
                 ],
                 '469 - 728': [
-                    [
-                        728,
-                        90
-                    ],
                     [
                         320,
                         50
@@ -4191,10 +4162,6 @@ var streamampConfig = {
             minWidth: 469,
             maxWidth: 728,
             sizesSupported: [
-                [
-                    728,
-                    90
-                ],
                 [
                     320,
                     50
