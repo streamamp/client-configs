@@ -44,7 +44,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -66,7 +67,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -108,7 +110,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -136,7 +139,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -158,7 +162,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -178,7 +183,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -197,7 +203,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '970-1200': [
                     [
                         728,
                         90
@@ -243,7 +255,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -255,7 +268,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -278,7 +292,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -293,7 +308,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -305,7 +321,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -316,7 +333,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728'
                     ],
@@ -326,7 +344,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        728,
+                        90
+                    ]
+                ],
+                '970-1200': [
                     [
                         728,
                         90
@@ -370,8 +394,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         zoneId: 1382493,
@@ -381,8 +404,7 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         dmxid: 368327,
@@ -402,8 +424,7 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         siteId: '361089',
@@ -416,8 +437,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         unit: '540708437',
@@ -427,8 +447,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         placementId: 15693494
@@ -437,8 +456,7 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         placementId: 16837170
@@ -446,19 +464,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
                     [
                         160,
                         600
                     ],
                     [
                         120,
-                        600
-                    ]
-                ],
-                '729-969': [
-                    [
-                        160,
                         600
                     ]
                 ]
@@ -488,8 +500,7 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         zoneId: 1382493,
@@ -499,8 +510,7 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         dmxid: 368328,
@@ -520,8 +530,7 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         siteId: '361090',
@@ -534,8 +543,7 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         unit: '540708438',
@@ -545,8 +553,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         placementId: 15693495
@@ -555,8 +562,7 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
-                        '729-969'
+                        '1201-9999'
                     ],
                     params: {
                         placementId: 16837171
@@ -564,19 +570,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
                     [
                         160,
                         600
                     ],
                     [
                         120,
-                        600
-                    ]
-                ],
-                '729-969': [
-                    [
-                        160,
                         600
                     ]
                 ]
@@ -602,7 +602,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -615,7 +616,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -640,7 +642,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -656,7 +659,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -669,7 +673,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -681,7 +686,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -692,7 +698,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970-1200': [
                     [
                         300,
                         250
@@ -738,7 +750,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -751,7 +764,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -776,7 +790,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -792,7 +807,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -805,7 +821,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -817,7 +834,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -828,7 +846,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970-1200': [
                     [
                         300,
                         250
@@ -1068,7 +1092,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1081,7 +1106,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1106,7 +1132,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1122,7 +1149,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1135,7 +1163,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1147,7 +1176,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1158,7 +1188,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970-1200': [
                     [
                         300,
                         250
@@ -1204,7 +1240,8 @@ var streamampConfig = {
                 {
                     bidder: 'criteo',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1217,7 +1254,8 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1242,7 +1280,8 @@ var streamampConfig = {
                 {
                     bidder: 'ix',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1258,7 +1297,8 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1271,7 +1311,8 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1283,7 +1324,8 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                        '970-9999',
+                        '1201-9999',
+                        '970-1200',
                         '729-969',
                         '469-728',
                         '0-468'
@@ -1294,7 +1336,13 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970-1200': [
                     [
                         300,
                         250
@@ -1338,7 +1386,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1382,7 +1436,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1426,7 +1486,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1470,7 +1536,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1514,7 +1586,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1558,7 +1636,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1602,7 +1686,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        280,
+                        345
+                    ]
+                ],
+                '970-1200': [
                     [
                         280,
                         345
@@ -1646,7 +1736,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '970-1200': [
                     [
                         320,
                         50
@@ -1690,7 +1786,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '970-1200': [
                     [
                         320,
                         50
@@ -1734,7 +1836,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        760,
+                        360
+                    ]
+                ],
+                '970-1200': [
                     [
                         760,
                         360
@@ -1778,7 +1886,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        760,
+                        360
+                    ]
+                ],
+                '970-1200': [
                     [
                         760,
                         360
@@ -1822,7 +1936,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                  [
+                        760,
+                        360
+                  ]
+                ],
+                '970-1200': [
                     [
                         760,
                         360
@@ -1866,7 +1986,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999':[
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '970-1200': [
                     [
                         300,
                         250
@@ -1910,7 +2036,13 @@ var streamampConfig = {
             outOfPage: false,
             bids: [],
             breakpoints: {
-                '970-9999': [
+                '1201-9999': [
+                    [
+                        640,
+                        320
+                    ]
+                ],
+                '970-1200': [
                     [
                         640,
                         320
@@ -1942,8 +2074,8 @@ var streamampConfig = {
     },
     breakpoints: [
         {
-            label: '970-9999',
-            minWidth: 970,
+            label: '1201-9999',
+            minWidth: 1201,
             maxWidth: 9999,
             sizesSupported: [
                 [
@@ -1961,6 +2093,37 @@ var streamampConfig = {
                 [
                     120,
                     600
+                ],
+                [
+                    280,
+                    345
+                ],
+                [
+                    320,
+                    50
+                ],
+                [
+                    760,
+                    360
+                ],
+                [
+                    640,
+                    320
+                ]
+            ]
+        },
+        {
+            label: '970-1200',
+            minWidth: 970,
+            maxWidth: 1200,
+            sizesSupported: [
+                [
+                    728,
+                    90
+                ],
+                [
+                    300,
+                    250
                 ],
                 [
                     280,
