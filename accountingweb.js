@@ -772,7 +772,12 @@ var streamampConfig = {
             },
             isSticky: false,
             safeFrame: false,
-            bids: []
+            bids: [],
+            breakpoints: {
+                "971 - 9999": [],
+                "729 - 970": [],
+                "0 - 728": []
+            }
         },
         {
             code: 'AWUK_Brand_Sponsorship',
@@ -784,7 +789,12 @@ var streamampConfig = {
             },
             isSticky: false,
             safeFrame: false,
-            bids: []
+            bids: [],
+            breakpoints: {
+                "971 - 9999": [],
+                "729 - 970": [],
+                "0 - 728": []
+            }
         },
         {
             code: 'AWUK_aa_sposorship',
@@ -797,7 +807,12 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: true,
-            bids: []
+            bids: [],
+            breakpoints: {
+                "971 - 9999": [],
+                "729 - 970": [],
+                "0 - 728": []
+            }
         },
         {
             code: 'AWUK_Sticky',
