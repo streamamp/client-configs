@@ -67,6 +67,15 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						placementId: 10411843
+					}
+				},
+				{
 					bidder: 'emx_digital',
 					labelAny: [
 						'469-9999'
@@ -174,6 +183,16 @@ var streamampConfig = {
 					params: {
 						dmxid: 138388,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						placementId: 10411846
 					}
 				},
 				{
@@ -344,6 +363,34 @@ var streamampConfig = {
 					params: {
 						dmxid: 381595,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						placementId: 	10411854
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						placementId: 	16378283
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						placementId: 	16378285
 					}
 				},
 				{
@@ -599,6 +646,25 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						placementId: 10411857
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						placementId: 15828168
+					}
+				},
+				{
 					bidder: 'emx_digital',
 					labelAny: [
 						'469-9999',
@@ -794,6 +860,24 @@ var streamampConfig = {
 					params: {
 						dmxid: 273919,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						placementId: 10411869
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						placementId: 14511580
 					}
 				},
 				{
@@ -1026,6 +1110,15 @@ var streamampConfig = {
 					params: {
 						dmxid: 261761,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'0-468'
+					],
+					params: {
+						placementId: 14318684
 					}
 				},
 				{
