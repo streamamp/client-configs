@@ -128,6 +128,44 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259'
+                    ],
+                    params: {
+                        placementId: 11586248
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586251
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586247
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586246
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1260-9999',
@@ -392,6 +430,24 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586252
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586253
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1260-9999'
@@ -584,6 +640,35 @@ var streamampConfig = {
                     params: {
                         dmxid: 235460,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586254
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586255
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 13768747
                     }
                 },
                 {
