@@ -60,7 +60,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -396,7 +396,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -597,7 +597,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -885,7 +885,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -916,6 +916,24 @@ var streamampConfig = {
                     params: {
                         dmxid: 161003,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586256
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586257
                     }
                 },
                 {
@@ -1072,7 +1090,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -1146,6 +1164,44 @@ var streamampConfig = {
                     params: {
                         dmxid: 161004,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586263
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259'
+                    ],
+                    params: {
+                       placementId:	11586261
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586259
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586258
                     }
                 },
                 {
@@ -1402,7 +1458,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -1423,6 +1479,15 @@ var streamampConfig = {
                     params: {
                         dmxid: 161010,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586265
                     }
                 },
                 {
@@ -1535,7 +1600,7 @@ var streamampConfig = {
                         '0 - 699'
                     ],
                     params: {
-                        site_id: 200954
+                        site_id: '200954'
                     }
                 },
                 {
@@ -1600,6 +1665,44 @@ var streamampConfig = {
                     params: {
                         dmxid: 161011,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586273
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259'
+                    ],
+                    params: {
+                        placementId: 11586269
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586267
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586266
                     }
                 },
                 {
