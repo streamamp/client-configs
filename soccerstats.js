@@ -47,6 +47,16 @@ var streamampConfig = {
 				// 	}
 				// },
 				{
+					bidder: 'conversant',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						site_id: '200955'
+					}
+				},
+				{
 					bidder: 'districtmDMX',
 					labelAny: [
 						'469-9999'
@@ -103,7 +113,8 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						publisherId: '643797',
+						publisherId: '127864',
+						pmzoneid: '643797',
 						adSlot: 'SoccerStats_Unit1_728x90'
 					}
 				},
@@ -217,7 +228,8 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						publisherId: '643798',
+						publisherId: '127864',
+						pmzoneid: '643798',
 						adSlot: 'SoccerStats_Unit2_300x250'
 					}
 				},
@@ -293,6 +305,16 @@ var streamampConfig = {
 				// 		publisherSubId: 'SoccerStats_Unit3_300x250'
 				// 	}
 				// },
+				{
+					bidder: 'conversant',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						site_id: '200955'
+					}
+				},
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -419,7 +441,8 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						publisherId: '643800',
+						publisherId: '127864',
+						pmzoneid: '643800',
 						adSlot: 'SoccerStats_Unit3_160x600'
 					}
 				},
@@ -429,7 +452,8 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						publisherId: '2468545',
+						publisherId: '127864',
+						pmzoneid: '2468545',
 						adSlot: 'SoccerStats_Unit3_300x600'
 					}
 				},
@@ -440,7 +464,8 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						publisherId: '2468543',
+						publisherId: '127864',
+						pmzoneid: '2468543',
 						adSlot: 'SoccerStats_Unit3_300x250'
 					}
 				},
@@ -543,6 +568,16 @@ var streamampConfig = {
 				// 	}
 				// },
 				{
+					bidder: 'conversant',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						site_id: '200955'
+					}
+				},
+				{
 					bidder: 'districtmDMX',
 					labelAny: [
 						'469-9999',
@@ -637,7 +672,8 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						publisherId: '643801',
+						publisherId: '127864',
+						pmzoneid: '643801',
 						adSlot: 'SoccerStats_Unit4_300x250'
 					}
 				},
@@ -647,7 +683,8 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						publisherId: '2468544',
+						publisherId: '127864',
+						pmzoneid: '2468544',
 						adSlot: 'SoccerStats_Unit4_320x50'
 					}
 				},
@@ -729,6 +766,16 @@ var streamampConfig = {
 				// 		publisherSubId: 'SoccerStats_Unit5_728x90'
 				// 	}
 				// },
+				{
+					bidder: 'conversant',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						site_id: '200955'
+					}
+				},
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -818,7 +865,8 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						publisherId: '643804',
+						publisherId: '127864',
+						pmzoneid: '643804',
 						adSlot: 'SoccerStats_Unit5_728x90'
 					}
 				},
@@ -828,7 +876,8 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						publisherId: '1771566',
+						publisherId: '127864',
+						pmzoneid: '1771566',
 						adSlot: 'soccerstats_Unit5_970x250'
 					}
 				},
@@ -960,6 +1009,16 @@ var streamampConfig = {
 				// 	}
 				// },
 				{
+					bidder: 'conversant',
+					labelAny: [
+						'469-9999',
+						'0-468'
+					],
+					params: {
+						site_id: '200955'
+					}
+				},
+				{
 					bidder: 'districtmDMX',
 					labelAny: [
 						'0-468'
@@ -1016,7 +1075,8 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						publisherId: '1698020',
+						publisherId: '127864',
+						pmzoneid: '1698020',
 						adSlot: 'SoccerStats_Unit6_320x50'
 					}
 				},
