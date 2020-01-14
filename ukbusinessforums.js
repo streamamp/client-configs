@@ -180,7 +180,8 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        publisherId: '2237787',
+                        publisherId: '127864',
+                        pmzoneid: '2237787',
                         adSlot: 'Sift-ukbf_mpu_300x600'
                     }
                 },
@@ -192,7 +193,8 @@ var streamampConfig = {
                         '0 - 727'
                     ],
                     params: {
-                        publisherId: '2237788',
+                        publisherId: '127864',
+                        pmzoneid: '2237788',
                         adSlot: 'Sift-ukbf_mpu_300x250'
                     }
                 },
@@ -381,7 +383,8 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        publisherId: '2237789',
+                        publisherId: '127864',
+                        pmzoneid: '2237789',
                         adSlot: 'Sift-ukbf_mpu_2_300x600'
                     }
                 },
@@ -393,7 +396,8 @@ var streamampConfig = {
                         '0 - 727'
                     ],
                     params: {
-                        publisherId: '2237790',
+                        publisherId: '127864',
+                        pmzoneid: '2237790',
                         adSlot: 'Sift-ukbf_mpu_2_300x250'
                     }
                 },
@@ -632,7 +636,8 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        publisherId: '2237791',
+                        publisherId: '127864',
+                        pmzoneid: '2237791',
                         adSlot: 'Sift-ukbf_top_970x250'
                     }
                 },
@@ -643,7 +648,8 @@ var streamampConfig = {
                         '728 - 970'
                     ],
                     params: {
-                        publisherId: '2237792',
+                        publisherId: '127864',
+                        pmzoneid: '2237792',
                         adSlot: 'Sift-ukbf_top_728x90'
                     }
                 },
@@ -653,7 +659,8 @@ var streamampConfig = {
                         '0 - 727'
                     ],
                     params: {
-                        publisherId: '2237793',
+                        publisherId: '127864',
+                        pmzoneid: '2237793',
                         adSlot: 'Sift-ukbf_top_320x50'
                     }
                 },
@@ -797,7 +804,8 @@ var streamampConfig = {
                         '0 - 727'
                     ],
                     params: {
-                        publisherId: '2237794',
+                        publisherId: '127864',
+                        pmzoneid: '2237794',
                         adSlot: 'Sift-ukbf_mpu_3_300x250'
                     }
                 },
@@ -908,7 +916,8 @@ var streamampConfig = {
                         '0 - 727'
                     ],
                     params: {
-                        publisherId: '2348481',
+                        publisherId: '127864',
+                        pmzoneid: '2348481',
                         adSlot: 'Sift-ukbf_Sticky_320x50'
                     }
                 },

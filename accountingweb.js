@@ -169,7 +169,8 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        publisherId: '2237800',
+                        publisherId: '127864',
+                        pmzoneid: '2237800',
                         adSlot: 'Sift-AWUK_MPU1_300x600'
                     }
                 },
@@ -181,7 +182,8 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        publisherId: '2237799',
+                        publisherId: '127864',
+                        pmzoneid: '2237799',
                         adSlot: 'Sift-AWUK_MPU1_300x250'
                     }
                 },
@@ -203,6 +205,17 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16176650
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                        '0 - 728'
+                    ],
+                    params: {
+                        site_id: 200953
                     }
                 }
             ],
@@ -304,7 +317,8 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        publisherId: '2237801',
+                        publisherId: '127864',
+                        pmzoneid: '2237801',
                         adSlot: 'Sift-AWUK_MPU2_300x600'
                     }
                 },
@@ -315,6 +329,17 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16176655
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                        '0 - 728'
+                    ],
+                    params: {
+                        site_id: 200953
                     }
                 }
             ],
@@ -412,7 +437,8 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        publisherId: '2237803',
+                        publisherId: '127864',
+                        pmzoneid: '2237803',
                         adSlot: 'Sift-AWUK_MPU3_300x250'
                     }
                 },
@@ -425,6 +451,17 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16176656
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                        '0 - 728'
+                    ],
+                    params: {
+                        site_id: 200953
                     }
                 }
             ],
@@ -586,7 +623,8 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        publisherId: '2237804',
+                        publisherId: '127864',
+                        pmzoneid: '2237804',
                         adSlot: 'Sift-AWUK_Top_970x250'
                     }
                 },
@@ -597,7 +635,8 @@ var streamampConfig = {
                         '729 - 970'
                     ],
                     params: {
-                        publisherId: '2237805',
+                        publisherId: '127864',
+                        pmzoneid: '2237805',
                         adSlot: 'Sift-AWUK_Top_728x90'
                     }
                 },
@@ -620,6 +659,17 @@ var streamampConfig = {
                         placementId: 16176659
                     }
                 },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                        '0 - 728'
+                    ],
+                    params: {
+                        site_id: 200953
+                    }
+                }
             ],
             breakpoints: {
                 '971 - 9999': [
@@ -725,7 +775,8 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        publisherId: '2237809',
+                        publisherId: '127864',
+                        pmzoneid: '2237809',
                         adSlot: 'Sift-AWUK_MPU4_300x250'
                     }
                 },
@@ -738,6 +789,17 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16402992
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                        '0 - 728'
+                    ],
+                    params: {
+                        site_id: 200953
                     }
                 }
             ],
@@ -772,7 +834,12 @@ var streamampConfig = {
             },
             isSticky: false,
             safeFrame: false,
-            bids: []
+            bids: [],
+            breakpoints: {
+                "971 - 9999": [],
+                "729 - 970": [],
+                "0 - 728": []
+            }
         },
         {
             code: 'AWUK_Brand_Sponsorship',
@@ -784,7 +851,12 @@ var streamampConfig = {
             },
             isSticky: false,
             safeFrame: false,
-            bids: []
+            bids: [],
+            breakpoints: {
+                "971 - 9999": [],
+                "729 - 970": [],
+                "0 - 728": []
+            }
         },
         {
             code: 'AWUK_aa_sposorship',
@@ -797,7 +869,12 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: true,
-            bids: []
+            bids: [],
+            breakpoints: {
+                "971 - 9999": [],
+                "729 - 970": [],
+                "0 - 728": []
+            }
         },
         {
             code: 'AWUK_Sticky',
@@ -873,7 +950,8 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        publisherId: '2348473',
+                        publisherId: '127864',
+                        pmzoneid: '2348473',
                         adSlot: 'Sift-AWUK_Sticky_320x50'
                     }
                 },
@@ -884,6 +962,17 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17085214
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970',
+                        '0 - 728'
+                    ],
+                    params: {
+                        site_id: 200953
                     }
                 }
             ],
