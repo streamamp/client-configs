@@ -88,14 +88,16 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2455378',
+                publisherId: '127864',
+                pmzoneid: '2455378',
                 adSlot: 'FA_OffRoad_Unit1_970x250'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999', '640 - 969'],
             params: {
-                publisherId: '2510419',
+                publisherId: '127864',
+                pmzoneid: '2510419',
                 adSlot: 'FA_OffRoad_Unit1_728x90'
             }
         }, {
@@ -191,21 +193,24 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2455336',
+                publisherId: '127864',
+                pmzoneid: '2455336',
                 adSlot: 'FA_OffRoad_Unit2_970x250'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['640 - 969'],
             params: {
-                publisherId: '2455379',
+                publisherId: '127864',
+                pmzoneid: '2455379',
                 adSlot: 'FA_OffRoad_Unit2_300x250'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['0 - 639'],
             params: {
-                publisherId: '2455335',
+                publisherId: '127864',
+                pmzoneid: '2455335',
                 adSlot: 'FA_OffRoad_Unit2_320x50'
             }
         }, {
@@ -292,7 +297,8 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['0 - 639'],
             params: {
-                publisherId: '2455337',
+                publisherId: '127864',
+                pmzoneid: '2455337',
                 adSlot: 'FA_OffRoad_Unit3_320x50'
             }
         }, {
@@ -394,28 +400,32 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999', '640 - 969', '0 - 639'],
             params: {
-                publisherId: '2455339',
+                publisherId: '127864',
+                pmzoneid: '2455339',
                 adSlot: 'FA_OffRoad_Unit4_300x250'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2455340',
+                publisherId: '127864',
+                pmzoneid: '2455340',
                 adSlot: 'FA_OffRoad_Unit4_300x600'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2510420',
+                publisherId: '127864',
+                pmzoneid: '2510420',
                 adSlot: 'FA_OffRoad_Unit4_160x600'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['0 - 639'],
             params: {
-                publisherId: '2455338',
+                publisherId: '127864',
+                pmzoneid: '2455338',
                 adSlot: 'FA_OffRoad_Unit4_320x50'
             }
         }, {
@@ -549,28 +559,32 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999', '640 - 969', '0 - 639'],
             params: {
-                publisherId: '2455342',
+                publisherId: '127864',
+                pmzoneid: '2455342',
                 adSlot: 'FA_OffRoad_Unit5_300x250'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2455343',
+                publisherId: '127864',
+                pmzoneid: '2455343',
                 adSlot: 'FA_OffRoad_Unit5_300x600'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2510421',
+                publisherId: '127864',
+                pmzoneid: '2510421',
                 adSlot: 'FA_OffRoad_Unit5_160x600'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['0 - 639'],
             params: {
-                publisherId: '2455341',
+                publisherId: '127864',
+                pmzoneid: '2455341',
                 adSlot: 'FA_OffRoad_Unit5_320x50'
             }
         }, {
@@ -683,7 +697,8 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999', '640 - 969', '0 - 639'],
             params: {
-                publisherId: '2455345',
+                publisherId: '127864',
+                pmzoneid: '2455345',
                 adSlot: 'FA_OffRoad_Unit6_300x250'
             }
         }, {
@@ -765,7 +780,8 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999', '640 - 969'],
             params: {
-                publisherId: '2455346',
+                publisherId: '127864',
+                pmzoneid: '2455346',
                 adSlot: 'FA_OffRoad_Unit7_728x90'
             }
         }, {
@@ -867,21 +883,24 @@ var streamampConfig = {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2455348',
+                publisherId: '127864',
+                pmzoneid: '2455348',
                 adSlot: 'FA_OffRoad_Unit8_300x600'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2455347',
+                publisherId: '127864',
+                pmzoneid: '2455347',
                 adSlot: 'FA_OffRoad_Unit8_300x250'
             }
         }, {
             bidder: 'pubmatic',
             labelAny: ['970 - 9999'],
             params: {
-                publisherId: '2510422',
+                publisherId: '127864',
+                pmzoneid: '2510422',
                 adSlot: 'FA_OffRoad_Unit8_160x600'
             }
         }, {
