@@ -128,7 +128,8 @@ var streamampConfig = {
                         '980 - 9999'
                     ],
                     params: {
-                        publisherId: '2455315',
+                        publisherId: '127864',
+                        pmzoneid: '2455315',
                         adSlot: 'FA_EBikeTips_Unit1_970x250'
                     }
                 },
@@ -138,7 +139,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455314',
+                        publisherId: '127864',
+                        pmzoneid: '2455314',
                         adSlot: 'FA_EBikeTips_Unit1_320x50'
                     }
                 },
@@ -284,7 +286,8 @@ var streamampConfig = {
                         '980 - 9999'
                     ],
                     params: {
-                        publisherId: '2455318',
+                        publisherId: '127864',
+                        pmzoneid: '2455318',
                         adSlot: 'FA_EBikeTips_Unit2_300x600'
                     }
                 },
@@ -294,7 +297,8 @@ var streamampConfig = {
                         '980 - 9999'
                     ],
                     params: {
-                        publisherId: '2508744',
+                        publisherId: '127864',
+                        pmzoneid: '2508744',
                         adSlot: 'FA_EBikeTips_Unit2_160x600'
                     }
                 },
@@ -304,7 +308,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455317',
+                        publisherId: '127864',
+                        pmzoneid: '2455317',
                         adSlot: 'FA_EBikeTips_Unit2_320x50'
                     }
                 },
@@ -455,7 +460,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455319',
+                        publisherId: '127864',
+                        pmzoneid: '2455319',
                         adSlot: 'FA_EBikeTips_Unit3_300x250'
                     }
                 },
@@ -465,7 +471,8 @@ var streamampConfig = {
                         '980 - 9999'
                     ],
                     params: {
-                        publisherId: '2455321',
+                        publisherId: '127864',
+                        pmzoneid: '2455321',
                         adSlot: 'FA_EBikeTips_Unit3_300x600'
                     }
                 },
@@ -475,7 +482,8 @@ var streamampConfig = {
                         '980 - 9999'
                     ],
                     params: {
-                        publisherId: '2508745',
+                        publisherId: '127864',
+                        pmzoneid: '2508745',
                         adSlot: 'FA_EBikeTips_Unit3_160x600'
                     }
                 },
@@ -485,7 +493,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455320',
+                        publisherId: '127864',
+                        pmzoneid: '2455320',
                         adSlot: 'FA_EBikeTips_Unit3_320x50'
                     }
                 },
@@ -628,7 +637,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455322',
+                        publisherId: '127864',
+                        pmzoneid: '2455322',
                         adSlot: 'FA_EBikeTips_Unit4_300x250'
                     }
                 },
@@ -638,7 +648,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455323',
+                        publisherId: '127864',
+                        pmzoneid: '2455323',
                         adSlot: 'FA_EBikeTips_Unit4_320x50'
                     }
                 },
@@ -775,7 +786,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455324',
+                        publisherId: '127864',
+                        pmzoneid: '2455324',
                         adSlot: 'FA_EBikeTips_Unit5_300x250'
                     }
                 },
@@ -786,7 +798,8 @@ var streamampConfig = {
                         '670 - 979'
                     ],
                     params: {
-                        publisherId: '2455326',
+                        publisherId: '127864',
+                        pmzoneid: '2455326',
                         adSlot: 'FA_EBikeTips_Unit5_300x600'
                     }
                 },
@@ -796,7 +809,8 @@ var streamampConfig = {
                         '980 - 9999'
                     ],
                     params: {
-                        publisherId: '2508746',
+                        publisherId: '127864',
+                        pmzoneid: '2508746',
                         adSlot: 'FA_EBikeTips_Unit5_160x600'
                     }
                 },
@@ -806,7 +820,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455325',
+                        publisherId: '127864',
+                        pmzoneid: '2455325',
                         adSlot: 'FA_EBikeTips_Unit5_320x50'
                     }
                 },
@@ -922,7 +937,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455327',
+                        publisherId: '127864',
+                        pmzoneid: '2455327',
                         adSlot: 'FA_EBikeTips_Unit6_320x50'
                     }
                 },
@@ -1007,7 +1023,8 @@ var streamampConfig = {
                         '0 - 659'
                     ],
                     params: {
-                        publisherId: '2455328',
+                        publisherId: '127864',
+                        pmzoneid: '2455328',
                         adSlot: 'FA_EBikeTips_Unit7_320x50'
                     }
                 },
