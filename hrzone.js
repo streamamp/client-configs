@@ -1,16 +1,34 @@
 var streamampConfig = {
+    levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+    minRefreshTime: 90,
+    maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/HRZone',
     token: 'C1xLXw9iDZ4wiKuxhLthjbb6tuVEoiKgvN0yiltMJHGoGHzweZ1PMnShNJrJcqQ5',
     currency: {
         enabled: true,
         value: 'GBP'
+    },
+    namespace: 'streamamp',
+    globalKeyValues: [],
+    keyValues: {},
+    afterInit: function() {
+        if (!window.__cmp) {
+            streamampUtils.log('Overriding CMP displayConsentUI')
+            window.__cmp = function(x) {
+                if (x === 'displayConsentUi') {
+                    streamampInitializeCmp()
+                    window.__cmp('displayConsentUi')
+                    streamampUtils.log('Displaying CMP consent UI')
+                }
+            }
+            window.__cmp.streamampOverridden = true
+        }
     },
     adUnits: [
         {
@@ -31,7 +49,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -75,26 +93,26 @@ var streamampConfig = {
                         tagid: '71106'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22039683
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 22039683
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999',
+                //         '729 - 970',
+                //         '0 - 728'
+                //     ],
+                //     params: {
+                //         placementId: 22039683
+                //     }
+                // },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 22039683
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -205,7 +223,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -226,15 +244,15 @@ var streamampConfig = {
                         tagid: '71107'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 22039684
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 22039684
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -291,7 +309,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -316,17 +334,17 @@ var streamampConfig = {
                         tagid: '71108'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22039685
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999',
+                //         '729 - 970',
+                //         '0 - 728'
+                //     ],
+                //     params: {
+                //         placementId: 22039685
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -413,18 +431,8 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        zoneId: 1382490,
-                        publisherSubId: 'HRZ_Top_320x50'
-                    }
-                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -449,15 +457,6 @@ var streamampConfig = {
                 {
                     bidder: 'emx_digital',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        tagid: '71111'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -474,47 +473,25 @@ var streamampConfig = {
                         tagid: '71110'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22039686
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 22039686
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970'
-                    ],
-                    params: {
-                        placementId: 22039686
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        siteId: '378939',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 22039686
+                //     }
+                // },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999',
+                //         '729 - 970'
+                //     ],
+                //     params: {
+                //         placementId: 22039686
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -545,16 +522,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        unit: '540778468',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '971 - 9999'
                     ],
                     params: {
@@ -571,15 +538,6 @@ var streamampConfig = {
                     params: {
                         unit: '540778468',
                         delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 16175622
                     }
                 },
                 {
@@ -617,12 +575,6 @@ var streamampConfig = {
                     [
                         728,
                         90
-                    ]
-                ],
-                '0 - 728': [
-                    [
-                        320,
-                        50
                     ]
                 ]
             }
@@ -677,7 +629,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             bids: [
                 {
                     bidder: 'criteo',
@@ -702,17 +654,17 @@ var streamampConfig = {
                         tagid: '74369'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22051178
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '971 - 9999',
+                //         '729 - 970',
+                //         '0 - 728'
+                //     ],
+                //     params: {
+                //         placementId: 22051178
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -809,15 +761,15 @@ var streamampConfig = {
                         tagid: '80045'
                     }
                 },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 22128379
-                    }
-                },
+                // {
+                //     bidder: 'improvedigital',
+                //     labelAny: [
+                //         '0 - 728'
+                //     ],
+                //     params: {
+                //         placementId: 22128379
+                //     }
+                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -863,9 +815,10 @@ var streamampConfig = {
     ],
     cmp: {
         isEnabled: true,
+        pathnamesToExclude: ['/privacy-policy'],
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [],
@@ -873,11 +826,13 @@ var streamampConfig = {
             'Initial Screen Accept Button Text': 'I agree',
             'Initial Screen Reject Button Text': 'I do not accept',
             'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
-            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data based on Legitimate Interests, these companies include OptInMonster, AddThisSocial, HotJar and PageFair. You can view our <a target="_blank" rel="noopener noreferrer" href="https://www.hrzone.com/privacy-policy"><strong>Privacy Policy</strong></a> for more information on these and to opt out.',
             'Vendor Screen Accept All Button Text': 'Accept all',
             'Vendor Screen Reject All Button Text': 'Reject all',
             'Publisher Name': 'HR Zone',
-            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png'
+            'Publisher Logo': 'https://static.amp.services/logos/siftlogo.png',
+            'Custom Links Displayed on Initial Screen': ['[Privacy Policy](https://www.hrzone.com/privacy-policy)'],
+            'Display Persistent Consent Link': false
         },
         hasCustomStyles: false,
         styles: {
