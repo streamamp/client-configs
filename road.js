@@ -120,7 +120,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
-                        publisherId: '1341643',
+                        publisherId: '127864',
+                        pmzoneid: '1341643',
                         adSlot: 'rcc_road_1_728x90@728x90'
                     }
                 },
@@ -128,7 +129,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
-                        publisherId: '1341641',
+                        publisherId: '127864',
+                        pmzoneid: '1341641',
                         adSlot: 'rcc_road_1_970x250@970x250'
                     }
                 },
@@ -136,7 +138,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1341644',
+                        publisherId: '127864',
+                        pmzoneid: '1341644',
                         adSlot: 'rcc_road_1_320x50@320x50'
                     }
                 },
@@ -282,7 +285,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341645',
+                        publisherId: '127864',
+                        pmzoneid: '1341645',
                         adSlot: 'rcc_road_2_300x250@300x250'
                     }
                 },
@@ -290,7 +294,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
-                        publisherId: '1341647',
+                        publisherId: '127864',
+                        pmzoneid: '1341647',
                         adSlot: 'rcc_road_2_300x600@300x600'
                     }
                 },
@@ -298,7 +303,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341646',
+                        publisherId: '127864',
+                        pmzoneid: '1341646',
                         adSlot: 'rcc_road_2_320x50@320x50'
                     }
                 },
@@ -444,7 +450,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
-                        publisherId: '1341651',
+                        publisherId: '127864',
+                        pmzoneid: '1341651',
                         adSlot: 'rcc_road_3_300x600@300x600'
                     }
                 },
@@ -452,7 +459,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341649',
+                        publisherId: '127864',
+                        pmzoneid: '1341649',
                         adSlot: 'rcc_road_3_300x250@300x250'
                     }
                 },
@@ -460,7 +468,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1341650',
+                        publisherId: '127864',
+                        pmzoneid: '1341650',
                         adSlot: 'rcc_road_3_320x50@320x50'
                     }
                 },
@@ -591,7 +600,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341652',
+                        publisherId: '127864',
+                        pmzoneid: '1341652',
                         adSlot: 'rcc_road_4_300x250@300x250'
                     }
                 },
@@ -599,7 +609,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1341654',
+                        publisherId: '127864',
+                        pmzoneid: '1341654',
                         adSlot: 'rcc_road_4_320x50@320x50'
                     }
                 },
@@ -716,7 +727,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341661',
+                        publisherId: '127864',
+                        pmzoneid: '1341661',
                         adSlot: 'rcc_road_5_300x250@300x250'
                     }
                 },
@@ -724,7 +736,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1341664',
+                        publisherId: '127864',
+                        pmzoneid: '1341664',
                         adSlot: 'rcc_road_5_320x50@320x50'
                     }
                 },
@@ -841,7 +854,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341666',
+                        publisherId: '127864',
+                        pmzoneid: '1341666',
                         adSlot: 'rcc_road_6_300x250@300x250'
                     }
                 },
@@ -849,7 +863,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1341667',
+                        publisherId: '127864',
+                        pmzoneid: '1341667',
                         adSlot: 'rcc_road_6_320x50@320x50'
                     }
                 },
@@ -966,7 +981,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341668',
+                        publisherId: '127864',
+                        pmzoneid: '1341668',
                         adSlot: 'rcc_road_7_300x250@300x250'
                     }
                 },
@@ -974,7 +990,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1341669',
+                        publisherId: '127864',
+                        pmzoneid: '1341669',
                         adSlot: 'rcc_road_7_320x50@320x50'
                     }
                 },
@@ -1106,7 +1123,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341671',
+                        publisherId: '127864',
+                        pmzoneid: '1341671',
                         adSlot: 'rcc_road_8_300x250@300x250'
                     }
                 },
@@ -1114,7 +1132,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
-                        publisherId: '1341673',
+                        publisherId: '127864',
+                        pmzoneid: '1341673',
                         adSlot: 'rcc_road_8_300x600@300x600'
                     }
                 },
@@ -1122,7 +1141,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1521635',
+                        publisherId: '127864',
+                        pmzoneid: '1521635',
                         adSlot: 'rcc_road_8_320x50@320x50'
                     }
                 },
@@ -1268,7 +1288,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
-                        publisherId: '1341675',
+                        publisherId: '127864',
+                        pmzoneid: '1341675',
                         adSlot: 'rcc_road_9_300x600@300x600'
                     }
                 },
@@ -1276,7 +1297,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341674',
+                        publisherId: '127864',
+                        pmzoneid: '1341674',
                         adSlot: 'rcc_road_9_300x250@300x250'
                     }
                 },
@@ -1284,7 +1306,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1521637',
+                        publisherId: '127864',
+                        pmzoneid: '1521637',
                         adSlot: 'rcc_road_9_320x50@320x50'
                     }
                 },
@@ -1430,7 +1453,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639'],
                     params: {
-                        publisherId: '1341677',
+                        publisherId: '127864',
+                        pmzoneid: '1341677',
                         adSlot: 'rcc_road_10_300x600@300x600'
                     }
                 },
@@ -1438,7 +1462,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1341676',
+                        publisherId: '127864',
+                        pmzoneid: '1341676',
                         adSlot: 'rcc_road_10_300x250@300x250'
                     }
                 },
@@ -1446,7 +1471,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1521639',
+                        publisherId: '127864',
+                        pmzoneid: '1521639',
                         adSlot: 'rcc_road_10_320x50@320x50'
                     }
                 },
@@ -1646,7 +1672,8 @@ var streamampConfig = {
                         '1640 - 9999'
                     ],
                     params: {
-                        publisherId: '2515292',
+                        publisherId: '127864',
+                        pmzoneid: '2515292',
                         adSlot: 'rcc_road_11_300x600'
                     }
                 },
@@ -1658,7 +1685,8 @@ var streamampConfig = {
                         '0 - 767'
                     ],
                     params: {
-                        publisherId: '2515303',
+                        publisherId: '127864',
+                        pmzoneid: '2515303',
                         adSlot: 'rcc_road_11_300x250'
                     }
                 },
@@ -1668,7 +1696,8 @@ var streamampConfig = {
                         '1025 - 1639'
                     ],
                     params: {
-                        publisherId: '1448534',
+                        publisherId: '127864',
+                        pmzoneid: '1448534',
                         adSlot: 'rcc_road_11_160x600'
                     }
                 },
@@ -1865,7 +1894,8 @@ var streamampConfig = {
                         '1640 - 9999'
                     ],
                     params: {
-                        publisherId: '2515324',
+                        publisherId: '127864',
+                        pmzoneid: '2515324',
                         adSlot: 'rcc_road_12_300x600'
                     }
                 },
@@ -1877,7 +1907,8 @@ var streamampConfig = {
                         '0 - 767'
                     ],
                     params: {
-                        publisherId: '2515345',
+                        publisherId: '127864',
+                        pmzoneid: '2515345',
                         adSlot: 'rcc_road_12_300x250'
                     }
                 },
@@ -1887,7 +1918,8 @@ var streamampConfig = {
                         '1025 - 1639'
                     ],
                     params: {
-                        publisherId: '1448536',
+                        publisherId: '127864',
+                        pmzoneid: '1448536',
                         adSlot: 'rcc_road_12_160x600'
                     }
                 },
@@ -1999,7 +2031,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1448538',
+                        publisherId: '127864',
+                        pmzoneid: '1448538',
                         adSlot: 'rcc_road_13_320x50@320x50'
                     }
                 },
@@ -2151,7 +2184,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1711362',
+                        publisherId: '127864',
+                        pmzoneid: '1711362',
                         adSlot: 'rcc_road_Unit15_300x250@300x250'
                     }
                 },
@@ -2159,7 +2193,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1711363',
+                        publisherId: '127864',
+                        pmzoneid: '1711363',
                         adSlot: 'rcc_road_Unit15_320x50@320x50'
                     }
                 },
@@ -2276,7 +2311,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1711365',
+                        publisherId: '127864',
+                        pmzoneid: '1711365',
                         adSlot: 'rcc_road_Unit16_300x250@300x250'
                     }
                 },
@@ -2284,7 +2320,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1711368',
+                        publisherId: '127864',
+                        pmzoneid: '1711368',
                         adSlot: 'rcc_road_Unit16_320x50@320x50'
                     }
                 },
@@ -2401,7 +2438,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024', '0 - 767'],
                     params: {
-                        publisherId: '1711370',
+                        publisherId: '127864',
+                        pmzoneid: '1711370',
                         adSlot: 'rcc_road_Unit17_300x250@300x250'
                     }
                 },
@@ -2409,7 +2447,8 @@ var streamampConfig = {
                     bidder: 'pubmatic',
                     labelAny: ['0 - 767'],
                     params: {
-                        publisherId: '1711373',
+                        publisherId: '127864',
+                        pmzoneid: '1711373',
                         adSlot: 'rcc_road_Unit17_320x50@320x50'
                     }
                 },
