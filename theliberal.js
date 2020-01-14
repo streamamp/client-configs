@@ -1,6 +1,6 @@
 var streamampConfig = {
     levelTargeting: false,
-    gptSingleRequestEnabled: true,
+    gptSingleRequestEnabled: false,
     a9Enabled: false,
     apsPubID: '',
     bidTimeout: 1.2,
@@ -19,7 +19,7 @@ var streamampConfig = {
     keyValues: {},
     adUnits: [
         {
-            code: 'SA-Unit1',
+            code: 'Unit1',
             path: '/15188745/TheLiberal/Unit1',
             mediaTypes: {
                 banner: {
@@ -210,7 +210,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'SA-Unit2',
+            code: 'Unit2',
             path: '/15188745/TheLiberal/Unit2',
             mediaTypes: {
                 banner: {
@@ -275,7 +275,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'SA-Unit3',
+            code: 'Unit3',
             path: '/15188745/TheLiberal/Unit3',
             mediaTypes: {
                 banner: {
@@ -450,7 +450,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'SA-Unit4',
+            code: 'Unit4',
             path: '/15188745/TheLiberal/Unit4',
             mediaTypes: {
                 banner: {
@@ -625,7 +625,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'SA-Unit5',
+            code: 'Unit5',
             path: '/15188745/TheLiberal/Unit5',
             mediaTypes: {
                 banner: {
@@ -800,7 +800,7 @@ var streamampConfig = {
             }
         },
         {
-            code: 'SA-1x1-Interscroller',
+            code: '1x1',
             path: '/15188745/TheLiberal/1x1',
             mediaTypes: {
                 banner: {
