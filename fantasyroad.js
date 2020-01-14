@@ -150,7 +150,8 @@ var streamampConfig = {
                         '0 - 9999'
                     ],
                     params: {
-                        publisherId: '2455329',
+                        publisherId: '127864',
+                        pmzoneid: '2455329',
                         adSlot: 'FA_Fantasy_Unit1_970x250'
                     }
                 },
@@ -160,7 +161,8 @@ var streamampConfig = {
                         '0 - 9999'
                     ],
                     params: {
-                        publisherId: '2455330',
+                        publisherId: '127864',
+                        pmzoneid: '2455330',
                         adSlot: 'FA_Fantasy_Unit1_728x90'
                     }
                 },
@@ -341,7 +343,8 @@ var streamampConfig = {
                         '0 - 9999'
                     ],
                     params: {
-                        publisherId: '2455331',
+                        publisherId: '127864',
+                        pmzoneid: '2455331',
                         adSlot: 'FA_Fantasy_Unit2_300x250'
                     }
                 },
@@ -351,7 +354,8 @@ var streamampConfig = {
                         '0 - 9999'
                     ],
                     params: {
-                        publisherId: '2455332',
+                        publisherId: '127864',
+                        pmzoneid: '2455332',
                         adSlot: 'FA_Fantasy_Unit2_300x600'
                     }
                 },
@@ -506,7 +510,8 @@ var streamampConfig = {
                         '0 - 9999'
                     ],
                     params: {
-                        publisherId: '2455333',
+                        publisherId: '127864',
+                        pmzoneid: '2455333',
                         adSlot: 'FA_Fantasy_Unit3_300x250'
                     }
                 },
@@ -516,7 +521,8 @@ var streamampConfig = {
                         '0 - 9999'
                     ],
                     params: {
-                        publisherId: '2455334',
+                        publisherId: '127864',
+                        pmzoneid: '2455334',
                         adSlot: 'FA_Fantasy_Unit3_300x600'
                     }
                 },
