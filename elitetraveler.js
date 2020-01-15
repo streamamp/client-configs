@@ -44,6 +44,14 @@ var streamampConfig = {
                         [
                             320,
                             100
+                        ],
+                        [
+                            468,
+                            60
+                        ],
+                        [
+                            970,
+                            90
                         ]
                     ]
                 }
@@ -52,6 +60,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -114,6 +133,44 @@ var streamampConfig = {
                     params: {
                         dmxid: 160992,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259'
+                    ],
+                    params: {
+                        placementId: 11586248
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586251
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586247
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586246
                     }
                 },
                 {
@@ -290,6 +347,10 @@ var streamampConfig = {
                     [
                         970,
                         250
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '700-1259': [
@@ -300,6 +361,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0-699': [
@@ -340,6 +405,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '1260-9999'
@@ -367,6 +443,24 @@ var streamampConfig = {
                     params: {
                         dmxid: 160999,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586252
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586253
                     }
                 },
                 {
@@ -512,6 +606,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '1260-9999'
@@ -551,6 +656,35 @@ var streamampConfig = {
                     params: {
                         dmxid: 235460,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586254
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586255
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 13768747
                     }
                 },
                 {
@@ -760,6 +894,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '1260-9999'
@@ -787,6 +932,24 @@ var streamampConfig = {
                     params: {
                         dmxid: 161003,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586256
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586257
                     }
                 },
                 {
@@ -927,6 +1090,14 @@ var streamampConfig = {
                         [
                             320,
                             100
+                        ],
+                        [
+                            468,
+                            60
+                        ],
+                        [
+                            970,
+                            90
                         ]
                     ]
                 }
@@ -935,6 +1106,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -1006,6 +1188,44 @@ var streamampConfig = {
                     params: {
                         dmxid: 161004,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586263
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259'
+                    ],
+                    params: {
+                       placementId:	11586261
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586259
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586258
                     }
                 },
                 {
@@ -1209,6 +1429,10 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '700-1259': [
@@ -1219,6 +1443,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        468,
+                        60
                     ]
                 ],
                 '0-699': [
@@ -1255,6 +1483,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '0-699'
@@ -1272,6 +1511,15 @@ var streamampConfig = {
                     params: {
                         dmxid: 161010,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586265
                     }
                 },
                 {
@@ -1377,6 +1625,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259',
+                        '0 - 699'
+                    ],
+                    params: {
+                        site_id: '200954'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '1260-9999',
@@ -1438,6 +1697,44 @@ var streamampConfig = {
                     params: {
                         dmxid: 161011,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999'
+                    ],
+                    params: {
+                        placementId: 11586273
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1260-9999',
+                        '700-1259'
+                    ],
+                    params: {
+                        placementId: 11586269
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '700-1259',
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586267
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0-699'
+                    ],
+                    params: {
+                        placementId: 11586266
                     }
                 },
                 {
