@@ -1002,70 +1002,6 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'SoccerStats-1x1',
-			path: '/15188745/SoccerStats-1x1',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							1,
-							1
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'justpremium',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						zone: '79714',
-						allow: [
-							'mt',
-							'is',
-							'mo'
-						]
-					}
-				},
-				{
-					bidder: 'justpremium',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						zone: '79714',
-						allow: [
-							'hv',
-							'cs',
-							'as',
-							'ci',
-							'sa',
-							'pa'
-						]
-					}
-				}
-			],
-			breakpoints: {
-				'469-9999': [
-					[
-						1,
-						1
-					]
-				],
-				'0-468': [
-					[
-						1,
-						1
-					]
-				]
-			}
-		},
-		{
 			code: 'SoccerStats/Responsive/StickyMobile',
 			path: '/15188745/SoccerStats//Responsive//StickyMobile',
 			mediaTypes: {
@@ -1279,10 +1215,6 @@ var streamampConfig = {
 				[
 					970,
 					250
-				],
-				[
-					1,
-					1
 				]
 			]
 		},
@@ -1298,10 +1230,6 @@ var streamampConfig = {
 				[
 					300,
 					250
-				],
-				[
-					1,
-					1
 				]
 			]
 		}
