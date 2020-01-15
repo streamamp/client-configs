@@ -113,28 +113,30 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970'
-                //     ],
-                //     params: {
-                //         publisherId: '1759086',
-                //         adSlot: 'Energy_Job_Line_Unit1_728x90'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '469-820',
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1759088',
-                //         adSlot: 'Energy_Job_Line_Unit1_320x50'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971-9999',
+                        '821-970'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759086',
+                        adSlot: 'Energy_Job_Line_Unit1_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469-820',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759088',
+                        adSlot: 'Energy_Job_Line_Unit1_320x50'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -303,38 +305,41 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970'
-                //     ],
-                //     params: {
-                //         publisherId: '1759090',
-                //         adSlot: 'Energy_Job_Line_Unit2_728x90'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '469-820',
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1759091',
-                //         adSlot: 'Energy_Job_Line_Unit2_320x50'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1805286',
-                //         adSlot: 'Energy_Job_Line_Unit2_300x250'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971-9999',
+                        '821-970'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759090',
+                        adSlot: 'Energy_Job_Line_Unit2_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469-820',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759091',
+                        adSlot: 'Energy_Job_Line_Unit2_320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1805286',
+                        adSlot: 'Energy_Job_Line_Unit2_300x250'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -490,28 +495,30 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970'
-                //     ],
-                //     params: {
-                //         publisherId: '1759093',
-                //         adSlot: 'Energy_Job_Line_Unit3_728x90'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '469-820',
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1759094',
-                //         adSlot: 'Energy_Job_Line_Unit3_320x50'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971-9999',
+                        '821-970'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759093',
+                        adSlot: 'Energy_Job_Line_Unit3_728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469-820',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759094',
+                        adSlot: 'Energy_Job_Line_Unit3_320x50'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -630,19 +637,20 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970',
-                //         '469-820',
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1759096',
-                //         adSlot: 'Energy_Job_Line_Unit4_300x250'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971-9999',
+                        '821-970',
+                        '469-820',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759096',
+                        adSlot: 'Energy_Job_Line_Unit4_300x250'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -749,17 +757,18 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970'
-                //     ],
-                //     params: {
-                //         publisherId: '1759106',
-                //         adSlot: 'Energy_Job_Line_Unit5_160x600'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971-9999',
+                        '821-970'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759106',
+                        adSlot: 'Energy_Job_Line_Unit5_160x600'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -864,19 +873,20 @@ var streamampConfig = {
         //                 delDomain: 'streamamp-d.openx.net'
         //             }
         //         },
-        //         // {
-        //         //     bidder: 'pubmatic',
-        //         //     labelAny: [
-        //         //         '971-9999',
-        //         //         '821-970',
-        //         //         '469-820',
-        //         //         '0-468'
-        //         //     ],
-        //         //     params: {
-        //         //         publisherId: '1759100',
-        //         //         adSlot: 'Energy_Job_Line_Unit6_300x250'
-        //         //     }
-        //         // },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '971-9999',
+        //                 '821-970',
+        //                 '469-820',
+        //                 '0-468'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '1759100',
+        //                 adSlot: 'Energy_Job_Line_Unit6_300x250'
+        //             }
+        //         },
         //         {
         //             bidder: 'streamamp',
         //             labelAny: [
@@ -979,17 +989,18 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '469-820',
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1759101',
-                //         adSlot: 'Energy_Job_Line_Unit7_320x50'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469-820',
+                        '0-468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1759101',
+                        adSlot: 'Energy_Job_Line_Unit7_320x50'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -1082,17 +1093,18 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970'
-                //     ],
-                //     params: {
-                //         publisherId: '1805289',
-                //         adSlot: 'Energy_Job_Line_Unit8_160x600'
-                //     }
-                // },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971-9999',
+                        '821-970'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1805289',
+                        adSlot: 'Energy_Job_Line_Unit8_160x600'
+                    }
+                },
                 {
                     bidder: 'streamamp',
                     labelAny: [
