@@ -794,129 +794,129 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'Unit6',
-            path: '/15188745/EnergyJobLine/Unit6',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '971-9999',
-                        '821-970',
-                        '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        tagid: '58570'
-                    }
-                },
-                {
-                    bidder: 'improvedigital',
-                    labelAny: [
-                        '971-9999',
-                        '821-970',
-                        '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        placementId: 1229879
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971-9999',
-                        '821-970',
-                        '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        siteId: '322928',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '971-9999',
-                        '821-970',
-                        '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        unit: '540487657',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971-9999',
-                //         '821-970',
-                //         '469-820',
-                //         '0-468'
-                //     ],
-                //     params: {
-                //         publisherId: '1759100',
-                //         adSlot: 'Energy_Job_Line_Unit6_300x250'
-                //     }
-                // },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '971-9999',
-                        '821-970',
-                        '469-820',
-                        '0-468'
-                    ],
-                    params: {
-                        placementId: 14440722
-                    }
-                }
-            ],
-            breakpoints: {
-                '971-9999': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '821-970': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '469-820': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '0-468': [
-                    [
-                        300,
-                        250
-                    ]
-                ]
-            }
-        },
+        // {
+        //     code: 'Unit6',
+        //     path: '/15188745/EnergyJobLine/Unit6',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '971-9999',
+        //                 '821-970',
+        //                 '469-820',
+        //                 '0-468'
+        //             ],
+        //             params: {
+        //                 tagid: '58570'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'improvedigital',
+        //             labelAny: [
+        //                 '971-9999',
+        //                 '821-970',
+        //                 '469-820',
+        //                 '0-468'
+        //             ],
+        //             params: {
+        //                 placementId: 1229879
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '971-9999',
+        //                 '821-970',
+        //                 '469-820',
+        //                 '0-468'
+        //             ],
+        //             params: {
+        //                 siteId: '322928',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '971-9999',
+        //                 '821-970',
+        //                 '469-820',
+        //                 '0-468'
+        //             ],
+        //             params: {
+        //                 unit: '540487657',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'pubmatic',
+        //         //     labelAny: [
+        //         //         '971-9999',
+        //         //         '821-970',
+        //         //         '469-820',
+        //         //         '0-468'
+        //         //     ],
+        //         //     params: {
+        //         //         publisherId: '1759100',
+        //         //         adSlot: 'Energy_Job_Line_Unit6_300x250'
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '971-9999',
+        //                 '821-970',
+        //                 '469-820',
+        //                 '0-468'
+        //             ],
+        //             params: {
+        //                 placementId: 14440722
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '971-9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '821-970': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '469-820': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '0-468': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: 'Unit7',
             path: '/15188745/EnergyJobLine/Unit7',
