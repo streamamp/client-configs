@@ -23,25 +23,25 @@ var streamampConfig = {
                 type: 'static'
             });
         }
-        
+
         var getQueryVariable = function(variable, queryString){
             queryString = queryString || window.location.search;
-            
+
             var query = queryString.substr(1),
                 vars  = query.split('&'),
                 pairs;
-            
+
             for(var i = 0, j = vars.length; i < j; i++){
                 pairs = vars[i].split('=');
-                
+
                 if(decodeURIComponent(pairs[0].toLowerCase()) == variable.toLowerCase()){
                     return decodeURIComponent(pairs[1]);
                 }
             }
         };
-        
+
         var pid = getQueryVariable("pid");
-        
+
         window.streamampConfig.globalKeyValues.push({
             name: "PID",
             value: pid || "none",
@@ -253,6 +253,10 @@ var streamampConfig = {
                         [
                             160,
                             600
+                        ],
+                        [
+                            120,
+                            600
                         ]
                     ]
                 }
@@ -350,6 +354,10 @@ var streamampConfig = {
                 '800-9999': [
                     [
                         160,
+                        600
+                    ],
+                    [
+                        120,
                         600
                     ]
                 ]
@@ -586,6 +594,10 @@ var streamampConfig = {
                         [
                             320,
                             50
+                        ],
+                        [
+                          120,
+                          600
                         ]
                     ]
                 }
@@ -897,6 +909,10 @@ var streamampConfig = {
                     [
                         160,
                         600
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ],
                 '0-767': [
@@ -907,6 +923,10 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ],
+                    [
+                        120,
+                        600
                     ]
                 ]
             }
