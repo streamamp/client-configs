@@ -9,7 +9,7 @@ var streamampConfig = {
     refreshBidsTimeout: 90,
     hasCollapsedEmptyDivs: false,
     publisher_id: 'StreamAMP/TheLiberal',
-    token: '',
+    token: 'JYnZQ534kTZo4c4s3zpYK4Fe3HoUGGRga8dEbAYaccxDOrjZrPnJf002YZF95j8f',
     currency: {
         enabled: false,
         value: ''
@@ -18,24 +18,13 @@ var streamampConfig = {
     globalKeyValues: [],
     keyValues: {},
     adUnits: [
+        // Mobile Sticky Leaderboard
         {
             code: 'Unit1',
             path: '/15188745/TheLiberal/Unit1',
             mediaTypes: {
                 banner: {
                     sizes: [
-                        [
-                            728,
-                            90
-                        ],
-                        [
-                            970,
-                            250
-                        ],
-                        [
-                            300,
-                            250
-                        ],
                         [
                             320,
                             50
@@ -47,41 +36,10 @@ var streamampConfig = {
                     ]
                 }
             },
-            isSticky: false,
+            isSticky: true,
             safeFrame: false,
             outOfPage: false,
             bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '990-9999',
-                        '748-989'
-                    ],
-                    params: {
-                        zoneId: 1382489,
-                        publisherSubId: 'TheLiberal_Unit1_728x90'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '990-9999'
-                    ],
-                    params: {
-                        zoneId: 1382488,
-                        publisherSubId: 'TheLiberal_Unit1_970x250'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '748-989'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'TheLiberal_Unit1_300x250'
-                    }
-                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -96,37 +54,6 @@ var streamampConfig = {
                 {
                     bidder: 'openx',
                     labelAny: [
-                        '990-9999',
-                        '748-989'
-                    ],
-                    params: {
-                        unit: '540916440',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '990-9999'
-                    ],
-                    params: {
-                        unit: '540916440',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '748-989'
-                    ],
-                    params: {
-                        unit: '540916440',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
                         '375-747',
                         '0-374'
                     ],
@@ -136,31 +63,15 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'streamamp',
+                    bidder: 'pubmatic',
                     labelAny: [
-                        '990-9999',
-                        '748-989'
+                        '375-747',
+                        '0-374'
                     ],
                     params: {
-                        placementId: 17787457
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '990-9999'
-                    ],
-                    params: {
-                        placementId: 17787459
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '748-989'
-                    ],
-                    params: {
-                        placementId: 17787458
+                        publisherId: '127864',
+                        pmzoneid: '2564816',
+                        adSlot: 'TheLiberal_Unit1_320x50@320x50'
                     }
                 },
                 {
@@ -175,30 +86,14 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                '990-9999': [
-                    [
-                        728,
-                        90
-                    ],
-                    [
-                        970,
-                        250
-                    ]
-                ],
-                '748-989': [
-                    [
-                        728,
-                        90
-                    ],
-                    [
-                        300,
-                        250
-                    ]
-                ],
                 '375-747': [
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0-374': [
@@ -209,6 +104,7 @@ var streamampConfig = {
                 ]
             }
         },
+        // Mobile Sticky Footer
         {
             code: 'Unit2',
             path: '/15188745/TheLiberal/Unit2',
@@ -249,6 +145,18 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375-747',
+                        '0-374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2564820',
+                        adSlot: 'TheLiberal_Unit2_320x50@320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '375-747',
@@ -274,6 +182,7 @@ var streamampConfig = {
                 ]
             }
         },
+        // In Copy 1 - All breakpoints
         {
             code: 'Unit3',
             path: '/15188745/TheLiberal/Unit3',
@@ -352,25 +261,41 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '990-9999',
+                        '748-989',
+                        '375-747',
+                        '0-374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2564822',
+                        adSlot: 'TheLiberal_Unit3_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
                     labelAny: [
                         '990-9999',
                         '748-989'
                     ],
                     params: {
-                        unit: '540916443',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '127864',
+                        pmzoneid: '2564823',
+                        adSlot: 'TheLiberal_Unit3_300x600@300x600'
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
                     labelAny: [
                         '375-747',
                         '0-374'
                     ],
                     params: {
-                        unit: '540916443',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '127864',
+                        pmzoneid: '2564821',
+                        adSlot: 'TheLiberal_Unit3_320x50@320x50'
                     }
                 },
                 {
@@ -435,6 +360,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0-374': [
@@ -449,6 +378,7 @@ var streamampConfig = {
                 ]
             }
         },
+        // In Copy 2 - All breakpoints
         {
             code: 'Unit4',
             path: '/15188745/TheLiberal/Unit4',
@@ -527,25 +457,41 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '990-9999',
+                        '748-989',
+                        '375-747',
+                        '0-374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2564825',
+                        adSlot: 'TheLiberal_Unit4_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
                     labelAny: [
                         '990-9999',
                         '748-989'
                     ],
                     params: {
-                        unit: '540916445',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '127864',
+                        pmzoneid: '2564826',
+                        adSlot: 'TheLiberal_Unit4_300x600@300x600'
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
                     labelAny: [
                         '375-747',
                         '0-374'
                     ],
                     params: {
-                        unit: '540916443',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '127864',
+                        pmzoneid: '2564824',
+                        adSlot: 'TheLiberal_Unit4_320x50@320x50'
                     }
                 },
                 {
@@ -577,7 +523,7 @@ var streamampConfig = {
                         '0-374'
                     ],
                     params: {
-                        placementId: 17787464
+                        placementId: 17787472
                     }
                 }
             ],
@@ -610,6 +556,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0-374': [
@@ -624,6 +574,7 @@ var streamampConfig = {
                 ]
             }
         },
+        // In Copy 3 - All breakpoints
         {
             code: 'Unit5',
             path: '/15188745/TheLiberal/Unit5',
@@ -702,25 +653,41 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '990-9999',
+                        '748-989',
+                        '375-747',
+                        '0-374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2564828',
+                        adSlot: 'TheLiberal_Unit5_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
                     labelAny: [
                         '990-9999',
                         '748-989'
                     ],
                     params: {
-                        unit: '540916446',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '127864',
+                        pmzoneid: '2564829',
+                        adSlot: 'TheLiberal_Unit5_300x600@300x600'
                     }
                 },
                 {
-                    bidder: 'openx',
+                    bidder: 'pubmatic',
                     labelAny: [
                         '375-747',
                         '0-374'
                     ],
                     params: {
-                        unit: '540916446',
-                        delDomain: 'streamamp-d.openx.net'
+                        publisherId: '127864',
+                        pmzoneid: '2564827',
+                        adSlot: 'TheLiberal_Unit5_320x50@320x50'
                     }
                 },
                 {
@@ -785,6 +752,10 @@ var streamampConfig = {
                     [
                         320,
                         50
+                    ],
+                    [
+                        320,
+                        100
                     ]
                 ],
                 '0-374': [
@@ -799,6 +770,131 @@ var streamampConfig = {
                 ]
             }
         },
+        // Tablet, Desktop Leaderboard
+        {
+            code: 'Unit6',
+            path: '/15188745/TheLiberal/Unit6',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            970,
+                            250
+                        ],
+                        [
+                            728,
+                            90
+                        ],
+                        [
+                            970,
+                            90
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '990-9999'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'TheLiberal_Unit6_970x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '990-9999',
+                        '748-989'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'TheLiberal_Unit6_728x90'
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '990-9999',
+                        '748-989'
+                    ],
+                    params: {
+                        unit: '540948831',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '990-9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2564837',
+                        adSlot: 'TheLiberal_Unit6_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '990-9999',
+                        '748-989'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2564836',
+                        adSlot: 'TheLiberal_Unit6_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '990-9999'
+                    ],
+                    params: {
+                        placementId: 18240716
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '990-9999',
+                        '748-989'
+                    ],
+                    params: {
+                        placementId: 18240714
+                    }
+                }
+            ],
+            breakpoints: {
+                '990-9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        970,
+                        90
+                    ]
+                ],
+                '748-989': [
+                    [
+                        728,
+                        90
+                    ]
+                ]
+            }
+        },
+        // 1x1 Interscroller
         {
             code: '1x1',
             path: '/15188745/TheLiberal/1x1',
@@ -819,7 +915,76 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: false
+        isEnabled: true,
+        config: {
+            'UI Layout': 'banner',
+            'Language': 'en',
+            'Display Persistent Consent Link': false,
+            'Non-Consent Display Frequency': 2,
+            'Publisher Name': 'The Liberal',
+            'Publisher Logo': 'https://theliberal.ie/wp-content/uploads/2015/08/cropped-newliberal111.jpg',
+            'Initial Screen Body Text': 'We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.',
+            'Initial Screen Body Text Option': 1,
+            'Initial Screen Reject Button Text': 'I do not accept',
+            'Initial Screen Accept Button Text': 'I accept',
+            'Purpose Screen Body Text': 'You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.',
+            'Publisher Purpose IDs': [1,2,3,4,5],
+            'Publisher Purpose Legitimate Interest IDs': [2,4,5],
+            'Vendor Screen Body Text': 'You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.',
+            'Vendor Screen Accept All Button Text': 'Accept all',
+            'Vendor Screen Reject All Button Text': 'Reject all'
+        },
+        hasCustomStyles: true,
+        styles: {
+            ui: {
+                backgroundColor: '#FFFFFF',
+                textColor: '#294451'
+            },
+            link: {
+                textColor: '#294451',
+                isUnderlined: true
+            },
+            primaryButton: {
+                borderColor: '#1C72BD',
+                backgroundColor: '#1C72BD',
+                textColor: '#FFFFFF'
+            },
+            primaryButtonHover: {
+                backgroundColor: '#FFFFFF',
+                borderColor: '#1C72BD',
+                textColor: '#1C72BD'
+            },
+            isSecondaryButtonHidden: false,
+            secondaryButton: {
+                backgroundColor: '#FFFFFF',
+                borderColor: '#294451',
+                textColor: '#294451',
+            },
+            secondaryButtonHover: {
+                backgroundColor: '#FFFFFF',
+                borderColor: '#1C72BD',
+                textColor: '#1C72BD'
+            },
+            tableHeader: {
+                backgroundColor: '#FAFAFA',
+                textColor: '#294451'
+            },
+            tableRow: {
+                textColor: '#294451'
+            },
+            toggleOn: {
+                backgroundColor: '#1C72BD',
+                borderColor: '#1C72BD'
+            },
+            toggleOff: {
+                backgroundColor: '#9A9A9A',
+                borderColor: '#9A9A9A'
+            },
+            toggleStatusTextColor: '#000000',
+            toggleSwitchBorderColor: '#294451',
+            dropdownArrowColor: '#294451',
+            additionalStyles: ''
+        }
     },
     breakpoints: [
         {
@@ -828,12 +993,12 @@ var streamampConfig = {
             maxWidth: 9999,
             sizesSupported: [
                 [
-                    728,
-                    90
-                ],
-                [
                     970,
                     250
+                ],
+                [
+                    728,
+                    90
                 ],
                 [
                     300,
@@ -870,12 +1035,12 @@ var streamampConfig = {
             maxWidth: 747,
             sizesSupported: [
                 [
-                    320,
-                    50
-                ],
-                [
                     300,
                     250
+                ],
+                [
+                    320,
+                    50
                 ]
             ]
         },
@@ -885,12 +1050,12 @@ var streamampConfig = {
             maxWidth: 374,
             sizesSupported: [
                 [
-                    320,
-                    50
-                ],
-                [
                     300,
                     250
+                ],
+                [
+                    320,
+                    50
                 ]
             ]
         }
