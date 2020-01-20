@@ -281,7 +281,7 @@ var streamampConfig = {
 						'768-991',
 						'576–767',
 						'0–575'
-					
+
 					],
 					params: {
 						unit: '540736029',
@@ -296,7 +296,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471217',
-						adSlot: 'BritishComedyGuide_Unit1_970x250'
+						adSlot: 'BritishComedyGuide_Unit1_970x250@970x250'
 					}
 				},
 				{
@@ -309,7 +309,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471218',
-						adSlot: 'BritishComedyGuide_Unit1_728x90'
+						adSlot: 'BritishComedyGuide_Unit1_728x90@728x90'
 					}
 				},
 				{
@@ -321,7 +321,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471220',
-						adSlot: 'BritishComedyGuide_Unit1_300x250'
+						adSlot: 'BritishComedyGuide_Unit1_300x250@300x250'
 					}
 				},
 				{
@@ -332,7 +332,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471219',
-						adSlot: 'BritishComedyGuide_Unit1_320x50'
+						adSlot: 'BritishComedyGuide_Unit1_320x50@320x50'
 					}
 				},
 				{
@@ -552,7 +552,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471221',
-						adSlot: 'BritishComedyGuide_Unit2_300x250'
+						adSlot: 'BritishComedyGuide_Unit2_300x250@300x250'
 					}
 				},
 				{
@@ -699,7 +699,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471222',
-						adSlot: 'BritishComedyGuide_Unit3_300x250'
+						adSlot: 'BritishComedyGuide_Unit3_300x250@300x250'
 					}
 				},
 				{
@@ -938,7 +938,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471223',
-						adSlot: 'BritishComedyGuide_Unit4_728x90'
+						adSlot: 'BritishComedyGuide_Unit4_728x90@728x90'
 					}
 				},
 				{
@@ -950,7 +950,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471225',
-						adSlot: 'BritishComedyGuide_Unit4_300x250'
+						adSlot: 'BritishComedyGuide_Unit4_300x250@300x250'
 					}
 				},
 				{
@@ -961,7 +961,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471224',
-						adSlot: 'BritishComedyGuide_Unit4_320x50'
+						adSlot: 'BritishComedyGuide_Unit4_320x50@320x50'
 					}
 				},
 				{
@@ -1148,7 +1148,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2471226',
-						adSlot: 'BritishComedyGuide_Unit5_300x250'
+						adSlot: 'BritishComedyGuide_Unit5_300x250@300x250'
 					}
 				},
 				{
