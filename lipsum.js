@@ -36,7 +36,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -61,7 +61,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382489,
-                        publisherSubId: 'Lipsum_Unit1_728x90'
+                        publisherSubId: 'Lipsum_Unit1_728x90@728x90'
                     }
                 },
                 {
@@ -72,7 +72,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382490,
-                        publisherSubId: 'Lipsum_Unit1_320x50'
+                        publisherSubId: 'Lipsum_Unit1_320x50@320x320'
                     }
                 },
                 {
@@ -222,7 +222,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'Lipsum/Unit1/728x90@728x90',
+                        adSlot: 'Lipsum_Unit1_728x90@728x90',
                         uid: '643821'
                     }
                 },
@@ -234,7 +234,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'Lipsum/Unit1/320x50@320x50',
+                        adSlot: 'Lipsum_Unit1_320x50@320x50',
                         uid: '643824'
                     }
                 },
@@ -311,7 +311,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -336,7 +336,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382489,
-                        publisherSubId: 'Lipsum_Unit2_728x90'
+                        publisherSubId: 'Lipsum_Unit2_728x90@728x90'
                     }
                 },
                 {
@@ -347,7 +347,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382490,
-                        publisherSubId: 'Lipsum_Unit2_320x50'
+                        publisherSubId: 'Lipsum_Unit2_320x50@320x50'
                     }
                 },
                 {
@@ -497,7 +497,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'Lipsum/Unit2/728x90@728x90',
+                        adSlot: 'Lipsum_Unit2_728x90@728x90',
                         uid: '643825'
                     }
                 },
@@ -509,7 +509,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'Lipsum/Unit2/320x50@320x50',
+                        adSlot: 'Lipsum_Unit2_320x50@320x50',
                         uid: '643828'
                     }
                 },
@@ -586,7 +586,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -605,7 +605,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382493,
-                        publisherSubId: 'Lipsum_Unit3_160x600'
+                        publisherSubId: 'Lipsum_Unit3_160x600@160x600'
                     }
                 },
                 {
@@ -720,7 +720,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -739,7 +739,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382493,
-                        publisherSubId: 'Lipsum_Unit4_160x600'
+                        publisherSubId: 'Lipsum_Unit4_160x600@160x600'
                     }
                 },
                 {
@@ -854,7 +854,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -879,7 +879,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382489,
-                        publisherSubId: 'Lipsum_Unit5_728x90'
+                        publisherSubId: 'Lipsum_Unit5_728x90@728x90'
                     }
                 },
                 {
@@ -890,7 +890,7 @@ var streamampConfig = {
                     ],
                     params: {
                         zoneId: 1382490,
-                        publisherSubId: 'Lipsum_Unit5_320x50'
+                        publisherSubId: 'Lipsum_Unit5_320x50@320x50'
                     }
                 },
                 {
@@ -1040,7 +1040,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'Lipsum/Unit5/728x90@728x90',
+                        adSlot: 'Lipsum_Unit5_728x90@728x90',
                         uid: '1809656'
                     }
                 },
@@ -1052,7 +1052,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'Lipsum/Unit5/320x50@320x50',
+                        adSlot: 'Lipsum_Unit5_320x50@320x50',
                         uid: '1809657'
                     }
                 },
