@@ -78,39 +78,39 @@ var streamampConfig = {
                         publisherSubId: 'FA_Deals_Unit1_160x600'
                     }
                 },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '993 - 9999',
-                        '769 - 992'
-                    ],
-                    params: {
-                        dmxid: 375147,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0 - 768'
-                    ],
-                    params: {
-                        dmxid: 375147,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '993 - 9999',
-                        '769 - 992',
-                        '0 - 768'
-                    ],
-                    params: {
-                        dmxid: 375147,
-                        memberid: 100615
-                    }
-                },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '993 - 9999',
+                //         '769 - 992'
+                //     ],
+                //     params: {
+                //         dmxid: 375147,
+                //         memberid: 100615
+                //     }
+                // },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '0 - 768'
+                //     ],
+                //     params: {
+                //         dmxid: 375147,
+                //         memberid: 100615
+                //     }
+                // },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '993 - 9999',
+                //         '769 - 992',
+                //         '0 - 768'
+                //     ],
+                //     params: {
+                //         dmxid: 375147,
+                //         memberid: 100615
+                //     }
+                // },
                 {
                     bidder: 'emx_digital',
                     labelAny: [
@@ -235,12 +235,12 @@ var streamampConfig = {
                         '993 - 9999',
                         '769 - 992',
                         '0 - 768'
-                    
+
                     ],
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455307',
-                        adSlot: 'FA_Deals_Unit1_300x250'
+                        adSlot: 'FA_Deals_Unit1_300x250@300x250'
                     }
                 },
                 {
@@ -252,7 +252,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455308',
-                        adSlot: 'FA_Deals_Unit1_300x600'
+                        adSlot: 'FA_Deals_Unit1_300x600@300x600'
                     }
                 },
                 {
@@ -263,7 +263,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455309',
-                        adSlot: 'FA_Deals_Unit1_320x50'
+                        adSlot: 'FA_Deals_Unit1_320x50@320x50'
                     }
                 },
                 {
@@ -274,7 +274,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2507870',
-                        adSlot: 'FA_Deals_Unit1_160x600'
+                        adSlot: 'FA_Deals_Unit1_160x600@160x600'
                     }
                 },
                 {
@@ -455,36 +455,36 @@ var streamampConfig = {
                         publisherSubId: 'FA_Deals_Unit2_320x50'
                     }
                 },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '993 - 9999'
-                    ],
-                    params: {
-                        dmxid: 375148,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '769 - 992'
-                    ],
-                    params: {
-                        dmxid: 375148,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0 - 768'
-                    ],
-                    params: {
-                        dmxid: 375148,
-                        memberid: 100615
-                    }
-                },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '993 - 9999'
+                //     ],
+                //     params: {
+                //         dmxid: 375148,
+                //         memberid: 100615
+                //     }
+                // },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '769 - 992'
+                //     ],
+                //     params: {
+                //         dmxid: 375148,
+                //         memberid: 100615
+                //     }
+                // },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '0 - 768'
+                //     ],
+                //     params: {
+                //         dmxid: 375148,
+                //         memberid: 100615
+                //     }
+                // },
                 {
                     bidder: 'emx_digital',
                     labelAny: [
@@ -582,7 +582,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455312',
-                        adSlot: 'FA_Deals_Unit2_970x250'
+                        adSlot: 'FA_Deals_Unit2_970x250@970x250'
                     }
                 },
                 {
@@ -593,7 +593,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455311',
-                        adSlot: 'FA_Deals_Unit2_728x90'
+                        adSlot: 'FA_Deals_Unit2_728x90@728x90'
                     }
                 },
                 {
@@ -604,7 +604,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455310',
-                        adSlot: 'FA_Deals_Unit2_320x50'
+                        adSlot: 'FA_Deals_Unit2_320x50@320x50'
                     }
                 },
                 {
@@ -740,16 +740,16 @@ var streamampConfig = {
                         publisherSubId: 'FA_Deals_Unit3_320x50'
                     }
                 },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0 - 768'
-                    ],
-                    params: {
-                        dmxid: 407783,
-                        memberid: 100615
-                    }
-                },
+                // {
+                //     bidder: 'districtmDMX',
+                //     labelAny: [
+                //         '0 - 768'
+                //     ],
+                //     params: {
+                //         dmxid: 407783,
+                //         memberid: 100615
+                //     }
+                // },
                 {
                     bidder: 'emx_digital',
                     labelAny: [
@@ -799,7 +799,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2455313',
-                        adSlot: 'FA_Deals_Unit3_320x50'
+                        adSlot: 'FA_Deals_Unit3_320x50@320x50'
                     }
                 },
                 {
