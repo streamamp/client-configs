@@ -1,6 +1,6 @@
 var streamampConfig = {
     gptSingleRequestEnabled: true,
-    a9Enabled: true,
+    a9Enabled: false,
     bidTimeout: 1.2,
     levelTargeting: true,
     pbjsPriceGranularity: 'high',
