@@ -56,7 +56,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -209,7 +209,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686400',
-                        adSlot: 'Spiked-Online_Unit1_728x90_New'
+                        adSlot: 'Spiked-Online_Unit1_728x90_New@728x90'
                     }
                 },
                 {
@@ -220,7 +220,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530337',
-                        adSlot: 'Spiked-Online_Unit1_970x250_New'
+                        adSlot: 'Spiked-Online_Unit1_970x250_New@970x250'
                     }
                 },
                 {
@@ -232,7 +232,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686406',
-                        adSlot: 'Spiked-Online_Unit1_320x50_New'
+                        adSlot: 'Spiked-Online_Unit1_320x50_New@320x50'
                     }
                 },
                 {
@@ -334,7 +334,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -479,7 +479,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686407',
-                        adSlot: 'Spiked-Online_Unit2_728x90_New'
+                        adSlot: 'Spiked-Online_Unit2_728x90_New@728x90'
                     }
                 },
                 {
@@ -491,7 +491,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686410',
-                        adSlot: 'Spiked-Online_Unit2_320x50_New'
+                        adSlot: 'Spiked-Online_Unit2_320x50_New@320x50'
                     }
                 },
                 {
@@ -588,7 +588,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -734,7 +734,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686491',
-                        adSlot: 'Spiked-Online_Unit3_728x90_New'
+                        adSlot: 'Spiked-Online_Unit3_728x90_New@728x90'
                     }
                 },
                 {
@@ -746,7 +746,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686495',
-                        adSlot: 'Spiked-Online_Unit3_320x50_New'
+                        adSlot: 'Spiked-Online_Unit3_320x50_New@320x50'
                     }
                 },
                 {
@@ -843,7 +843,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -989,7 +989,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686521',
-                        adSlot: 'Spiked-Online_Unit4_728x90_New'
+                        adSlot: 'Spiked-Online_Unit4_728x90_New@728x90'
                     }
                 },
                 {
@@ -1001,7 +1001,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686523',
-                        adSlot: 'Spiked-Online_Unit4_320x50_New'
+                        adSlot: 'Spiked-Online_Unit4_320x50_New@320x50'
                     }
                 },
                 {
@@ -1090,7 +1090,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -1169,7 +1169,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686526',
-                        adSlot: 'Spiked-Online_Unit5_160x600_New'
+                        adSlot: 'Spiked-Online_Unit5_160x600_New@160x600'
                     }
                 },
                 {
@@ -1223,7 +1223,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -1302,7 +1302,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686528',
-                        adSlot: 'Spiked-Online_Unit6_160x600_New'
+                        adSlot: 'Spiked-Online_Unit6_160x600_New@160x600'
                     }
                 },
                 {
@@ -1373,7 +1373,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -1552,7 +1552,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2467823',
-                        adSlot: 'Spiked-Online_Unit7_970x250_New'
+                        adSlot: 'Spiked-Online_Unit7_970x250_New@970x250'
                     }
                 },
                 {
@@ -1564,7 +1564,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686532',
-                        adSlot: 'Spiked-Online_Unit7_728x90_New'
+                        adSlot: 'Spiked-Online_Unit7_728x90_New@728x90'
                     }
                 },
                 {
@@ -1576,7 +1576,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686548',
-                        adSlot: 'Spiked-Online_Unit7_320x50_New'
+                        adSlot: 'Spiked-Online_Unit7_320x50_New@320x50'
                     }
                 },
                 {
@@ -1695,7 +1695,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -1813,7 +1813,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1686550',
-                        adSlot: 'Spiked-Online_Unit8_300x250_New'
+                        adSlot: 'Spiked-Online_Unit8_300x250_New@300x250'
                     }
                 },
                 {
@@ -1825,7 +1825,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530333',
-                        adSlot: 'Spiked-Online_Unit8_320x50_New'
+                        adSlot: 'Spiked-Online_Unit8_320x50_New@320x50'
                     }
                 },
                 {
@@ -1920,7 +1920,7 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -2065,7 +2065,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2467824',
-                        adSlot: 'Spiked-Online_Unit9_728x90_New'
+                        adSlot: 'Spiked-Online_Unit9_728x90_New@728x90'
                     }
                 },
                 {
@@ -2077,7 +2077,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2467821',
-                        adSlot: 'Spiked-Online_Unit9_320x50_New'
+                        adSlot: 'Spiked-Online_Unit9_320x50_New@320x50'
                     }
                 },
                 {
@@ -2166,7 +2166,7 @@ var streamampConfig = {
                 }
             },
             isSticky: true,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
@@ -2310,7 +2310,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2467825',
-                        adSlot: 'Spiked-Online_Sticky_728x90_New'
+                        adSlot: 'Spiked-Online_Sticky_728x90_New@728x90'
                     }
                 },
                 {
@@ -2322,7 +2322,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2467822',
-                        adSlot: 'Spiked-Online_Sticky_320x50_New'
+                        adSlot: 'Spiked-Online_Sticky_320x50_New@320x50'
                     }
                 },
                 {
@@ -2407,7 +2407,7 @@ var streamampConfig = {
                 }
             },
             isSticky: true,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
             bids: [
                 {
