@@ -113,7 +113,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530479',
-                        adSlot: 'XCWeather_Unit1_160x600'
+                        adSlot: 'XCWeather_Unit1_160x600@160x600'
                     }
                 },
                 {
@@ -235,7 +235,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530480',
-        //                 adSlot: 'XCWeather_Unit2_160x600'
+        //                 adSlot: 'XCWeather_Unit1_160x600@160x600'
         //             }
         //         },
         //         {
@@ -358,7 +358,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530481',
-                        adSlot: 'XCWeather_Unit3_160x600'
+                        adSlot: 'XCWeather_Unit3_160x600@160x600'
                     }
                 },
                 {
@@ -481,7 +481,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530482',
-                        adSlot: 'XCWeather_Unit4_728x90'
+                        adSlot: 'XCWeather_Unit4_728x90@728x90'
                     }
                 },
                 {
@@ -604,7 +604,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530483',
-                        adSlot: 'XCWeather_Unit5_160x600'
+                        adSlot: 'XCWeather_Unit5_160x600@160x600'
                     }
                 },
                 {
@@ -759,7 +759,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2530485',
-                        adSlot: 'XCWeather_Unit7_728x90'
+                        adSlot: 'XCWeather_Unit7_728x90@728x90'
                     }
                 },
                 {
@@ -935,7 +935,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530486',
-        //                 adSlot: 'XCWeather_Unit8_728x90'
+        //                 adSlot: 'XCWeather_Unit8_728x90@728x90'
         //             }
         //         },
         //         {
@@ -946,7 +946,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530487',
-        //                 adSlot: 'XCWeather_Unit8_320x50'
+        //                 adSlot: 'XCWeather_Unit8_320x50@320x50'
         //             }
         //         },
         //         {
@@ -1148,7 +1148,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530488',
-        //                 adSlot: 'XCWeather_Unit9_728x90'
+        //                 adSlot: 'XCWeather_Unit9_728x90@728x90'
         //             }
         //         },
         //         {
@@ -1159,7 +1159,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530489',
-        //                 adSlot: 'XCWeather_Unit9_320x50'
+        //                 adSlot: 'XCWeather_Unit9_320x50@320x50'
         //             }
         //         },
         //         {
@@ -1300,7 +1300,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530490',
-        //                 adSlot: 'XCWeather_Unit10_300x250'
+        //                 adSlot: 'XCWeather_Unit10_300x250@300x250'
         //             }
         //         },
         //         {
@@ -1414,7 +1414,7 @@ var streamampConfig = {
         //             ],
         //             params: {
         //                 publisherId: '2530491',
-        //                 adSlot: 'XCWeather_Unit11_160x600'
+        //                 adSlot: 'XCWeather_Unit11_160x600@160x600'
         //             }
         //         },
         //         {
