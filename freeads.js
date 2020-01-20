@@ -65,28 +65,6 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '1790384',
-                        adSlot: 'Freeads_Unit1_HeroBanner_320x50'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                       '1339 - 9999',
-                        '729 - 1338'
-                    ],
-                    params: {
-                        publisherId: '1790392',
-                        adSlot: 'Freeads_Unit1_HeroBanner_728x90'
-                    }
-                },
-                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1339 - 9999',
@@ -229,6 +207,41 @@ var streamampConfig = {
                     params: {
                         unit: '540514728',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1790393',
+                        adSlot: 'Freeads_Unit1_HeroBanner_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1790392',
+                        adSlot: 'Freeads_Unit1_HeroBanner_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1790384',
+                        adSlot: 'Freeads_Unit1_HeroBanner_320x50@320x50'
                     }
                 },
                 {
