@@ -221,7 +221,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_mpu_300x600'
+                        adSlot: 'TheAA_mpu_300x600@300x600'
                     }
                 },
                 {
@@ -235,7 +235,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_mpu_300x250'
+                        adSlot: 'TheAA_mpu_300x250@300x250'
                     }
                 },
                 {
@@ -480,7 +480,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_header_728x90'
+                        adSlot: 'TheAA_header_728x90@728x90'
                     }
                 },
                 {
@@ -697,7 +697,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_footer_970x250'
+                        adSlot: 'TheAA_footer_970x250@970x250'
                     }
                 },
                 {
@@ -709,7 +709,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_footer_728x90'
+                        adSlot: 'TheAA_footer_728x90@728x90'
                     }
                 },
                 {
@@ -926,7 +926,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_Desktop_print_728X90'
+                        adSlot: 'TheAA_Desktop_print_728X90@728x90'
                     }
                 },
                 {
@@ -1090,7 +1090,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_sky_160x600'
+                        adSlot: 'TheAA_sky_160x600@160x600'
                     }
                 },
                 {
@@ -1403,7 +1403,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper1_Desktop_160x600'
+                        adSlot: 'TheAA_skyscraper1_Desktop_160x600@160x600'
                     }
                 },
                 {
@@ -1415,7 +1415,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper1_300x600'
+                        adSlot: 'TheAA_skyscraper1_300x600@300x600'
                     }
                 },
                 {
@@ -1429,7 +1429,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper1_300x250'
+                        adSlot: 'TheAA_skyscraper1_300x250@300x250'
                     }
                 },
                 {
@@ -1923,7 +1923,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper2_Desktop_160x600'
+                        adSlot: 'TheAA_skyscraper2_Desktop_160x600@160x600'
                     }
                 },
                 {
@@ -1935,7 +1935,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper2_300x600'
+                        adSlot: 'TheAA_skyscraper2_300x600@300x600'
                     }
                 },
                 {
@@ -1949,7 +1949,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper2_300x250'
+                        adSlot: 'TheAA_skyscraper2_300x250@300x250'
                     }
                 },
                 {
@@ -2438,7 +2438,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper3_Desktop_160x600'
+                        adSlot: 'TheAA_skyscraper3_Desktop_160x600@160x600'
                     }
                 },
                 {
@@ -2450,7 +2450,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper3_300x600'
+                        adSlot: 'TheAA_skyscraper3_300x600@300x600'
                     }
                 },
                 {
@@ -2464,7 +2464,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '2310110',
-                        adSlot: 'TheAA_skyscraper3_300x250'
+                        adSlot: 'TheAA_skyscraper3_300x250@300x250'
                     }
                 },
                 {
@@ -2779,7 +2779,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '1660847',
-                        adSlot: 'TheAA_mobile_320x50'
+                        adSlot: 'TheAA_mobile_320x50@320x50'
                     }
                 },
                 {
