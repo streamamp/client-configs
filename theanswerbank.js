@@ -1,6 +1,6 @@
 var streamampConfig = {
 	levelTargeting: false,
-	gptSingleRequestEnabled: true,
+	gptSingleRequestEnabled: false,
 	a9Enabled: true,
 	apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
 	bidTimeout: 1.2,
@@ -193,8 +193,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '1242874',
-						adSlot: 'AnswerBank_MPU_300x250'
+						publisherId: '127864',
+						pmzoneid: '1242874',
+						adSlot: 'AnswerBank_MPU_300x250@300x250'
 					}
 				},
 				{
@@ -205,8 +206,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '1242876',
-						adSlot: 'AnswerBank_MPU_300x600'
+						publisherId: '127864',
+						pmzoneid: '1242876',
+						adSlot: 'AnswerBank_MPU_300x600@300x600'
 					}
 				},
 				{
@@ -388,8 +390,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '1242894',
-						adSlot: 'AnswerBank_Banner_728x90'
+						publisherId: '127864',
+						pmzoneid: '1242894',
+						adSlot: 'AnswerBank_Banner_728x90@728x90'
 					}
 				},
 				{
@@ -399,8 +402,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '1242892',
-						adSlot: 'AnswerBank_Banner_320x50'
+						publisherId: '127864',
+						pmzoneid: '1242892',
+						adSlot: 'AnswerBank_Banner_320x50@320x50'
 					}
 				},
 				{
@@ -579,8 +583,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '1455246',
-						adSlot: 'AnswerBank_MPU2_300x250'
+						publisherId: '127864',
+						pmzoneid: '1455246',
+						adSlot: 'AnswerBank_MPU2_300x250@300x250'
 					}
 				},
 				{
@@ -589,8 +594,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '1455247',
-						adSlot: 'AnswerBank_MPU2_300x600'
+						publisherId: '127864',
+						pmzoneid: '1455247',
+						adSlot: 'AnswerBank_MPU2_300x600@300x600'
 					}
 				},
 				{
@@ -774,8 +780,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '1455248',
-						adSlot: 'AnswerBank_MPU3_300x250'
+						publisherId: '127864',
+						pmzoneid: '1455248',
+						adSlot: 'AnswerBank_MPU3_300x250@300x250'
 					}
 				},
 				{
@@ -784,8 +791,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '1455249',
-						adSlot: 'AnswerBank_MPU3_300x600'
+						publisherId: '127864',
+						pmzoneid: '1455249',
+						adSlot: 'AnswerBank_MPU3_300x600@300x600'
 					}
 				},
 				{
@@ -908,8 +916,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '1455251',
-						adSlot: 'AnswerBank_Leaderboard_728x90'
+						publisherId: '127864',
+						pmzoneid: '1455251',
+						adSlot: 'AnswerBank_Leaderboard_728x90@728x90'
 					}
 				},
 				{
@@ -1005,8 +1014,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '1455254',
-						adSlot: 'AnswerBank_Skyscraper1_160x600'
+						publisherId: '127864',
+						pmzoneid: '1455254',
+						adSlot: 'AnswerBank_Skyscraper1_160x600@160x600'
 					}
 				},
 				{
@@ -1102,8 +1112,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '1455255',
-						adSlot: 'AnswerBank_Skyscraper2_160x600'
+						publisherId: '127864',
+						pmzoneid: '1455255',
+						adSlot: 'AnswerBank_Skyscraper2_160x600@160x600'
 					}
 				},
 				{
@@ -1127,7 +1138,7 @@ var streamampConfig = {
 		},
 		{
 			code: 'TheAnswerBank_Leaderboard1',
-			path: ' /15188745/TheAnswerBank_Leaderboard1',
+			path: '/15188745/TheAnswerBank_Leaderboard1',
 			mediaTypes: {
 				banner: {
 					sizes: [
@@ -1325,8 +1336,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '2467766',
-						adSlot: 'AnswerBank_Leaderboard1_970x250'
+						publisherId: '127864',
+						pmzoneid: '2467766',
+						adSlot: 'AnswerBank_Leaderboard1_970x250@970x250'
 					}
 				},
 				{
@@ -1335,8 +1347,9 @@ var streamampConfig = {
 						'768-991'
 					],
 					params: {
-						publisherId: '2467760',
-						adSlot: 'AnswerBank_Leaderboard1_728x90'
+						publisherId: '127864',
+						pmzoneid: '2467760',
+						adSlot: 'AnswerBank_Leaderboard1_728x90@728x90'
 					}
 				},
 				{
@@ -1345,8 +1358,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467753',
-						adSlot: 'AnswerBank_Leaderboard1_300x250'
+						publisherId: '127864',
+						pmzoneid: '2467753',
+						adSlot: 'AnswerBank_Leaderboard1_300x250@300x250'
 					}
 				},
 				{
@@ -1611,8 +1625,9 @@ var streamampConfig = {
 						'992-9999'
 					],
 					params: {
-						publisherId: '2467767',
-						adSlot: 'AnswerBank_Leaderboard2_970x250'
+						publisherId: '127864',
+						pmzoneid: '2467767',
+						adSlot: 'AnswerBank_Leaderboard2_970x250@970x250'
 					}
 				},
 				{
@@ -1621,8 +1636,9 @@ var streamampConfig = {
 						'768-991'
 					],
 					params: {
-						publisherId: '2467761',
-						adSlot: 'AnswerBank_Leaderboard2_728x90'
+						publisherId: '127864',
+						pmzoneid: '2467761',
+						adSlot: 'AnswerBank_Leaderboard2_728x90@728x90'
 					}
 				},
 				{
@@ -1631,8 +1647,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467755',
-						adSlot: 'AnswerBank_Leaderboard2_300x250'
+						publisherId: '127864',
+						pmzoneid: '2467755',
+						adSlot: 'AnswerBank_Leaderboard2_300x250@300x250'
 					}
 				},
 				{
@@ -1641,8 +1658,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467756',
-						adSlot: 'AnswerBank_Leaderboard2_320X50'
+						publisherId: '127864',
+						pmzoneid: '2467756',
+						adSlot: 'AnswerBank_Leaderboard2_320X50@320X50'
 					}
 				},
 				{
@@ -1787,8 +1805,9 @@ var streamampConfig = {
 						'768-991'
 					],
 					params: {
-						publisherId: '2467762',
-						adSlot: 'AnswerBank_Skyscraper1new_160x600'
+						publisherId: '127864',
+						pmzoneid: '2467762',
+						adSlot: 'AnswerBank_Skyscraper1new_160x600@160x600'
 					}
 				},
 				{
@@ -1897,8 +1916,9 @@ var streamampConfig = {
 						'768-991'
 					],
 					params: {
-						publisherId: '2467763',
-						adSlot: 'AnswerBank_Skyscraper2new_160x600'
+						publisherId: '127864',
+						pmzoneid: '2467763',
+						adSlot: 'AnswerBank_Skyscraper2new_160x600@160x600'
 					}
 				},
 				{
@@ -2072,8 +2092,9 @@ var streamampConfig = {
 						'768-991'
 					],
 					params: {
-						publisherId: '2467764',
-						adSlot: 'AnswerBank_MPUnew_300x600'
+						publisherId: '127864',
+						pmzoneid: '2467764',
+						adSlot: 'AnswerBank_MPUnew_300x600@300x600'
 					}
 				},
 				{
@@ -2084,8 +2105,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467757',
-						adSlot: 'AnswerBank_MPUnew_300x250'
+						publisherId: '127864',
+						pmzoneid: '2467757',
+						adSlot: 'AnswerBank_MPUnew_300x250@300x250'
 					}
 				},
 				{
@@ -2300,8 +2322,9 @@ var streamampConfig = {
 						'768-991'
 					],
 					params: {
-						publisherId: '2467765',
-						adSlot: 'AnswerBank_Billboard_728x90'
+						publisherId: '127864',
+						pmzoneid: '2467765',
+						adSlot: 'AnswerBank_Billboard_728x90@728x90'
 					}
 				},
 				{
@@ -2310,8 +2333,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467758',
-						adSlot: 'AnswerBank_Billboard_300x250'
+						publisherId: '127864',
+						pmzoneid: '2467758',
+						adSlot: 'AnswerBank_Billboard_300x250@300x250'
 					}
 				},
 				{
@@ -2320,8 +2344,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467759',
-						adSlot: 'AnswerBank_Billboard_320x50'
+						publisherId: '127864',
+						pmzoneid: '2467759',
+						adSlot: 'AnswerBank_Billboard_320x50@320x50'
 					}
 				},
 				{
@@ -2465,8 +2490,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '1455253',
-						adSlot: 'AnswerBank_Mobile_320x50'
+						publisherId: '127864',
+						pmzoneid: '1455253',
+						adSlot: 'AnswerBank_Mobile_320x50@320x50'
 					}
 				},
 				{
@@ -2562,8 +2588,9 @@ var streamampConfig = {
 						'0-767'
 					],
 					params: {
-						publisherId: '2467750',
-						adSlot: 'AnswerBank_Sticky_320x50'
+						publisherId: '127864',
+						pmzoneid: '2467750',
+						adSlot: 'AnswerBank_Sticky_320x50@320x50'
 					}
 				},
 				{
@@ -2664,4 +2691,5 @@ var streamampConfig = {
 			]
 		}
 	]
-}
+};
+
