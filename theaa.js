@@ -102,6 +102,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727'
+                    ],
+                    params: {
+                        placementId: 14149754
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727',
+                        '0 - 490'
+                    ],
+                    params: {
+                        placementId: 14149750
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1034 - 9999',
@@ -196,7 +221,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_mpu_300x600'
+                        adSlot: 'TheAA_mpu_300x600@300x600'
                     }
                 },
                 {
@@ -210,7 +235,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_mpu_300x250'
+                        adSlot: 'TheAA_mpu_300x250@300x250'
                     }
                 },
                 {
@@ -393,6 +418,16 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 14149765
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1034 - 9999',
@@ -445,7 +480,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_header_728x90'
+                        adSlot: 'TheAA_header_728x90@728x90'
                     }
                 },
                 {
@@ -561,6 +596,27 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033'
+                    ],
+                    params: {
+                        placementId: 14149769
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 14149772
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1034 - 9999',
@@ -641,7 +697,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_footer_970x250'
+                        adSlot: 'TheAA_footer_970x250@970x250'
                     }
                 },
                 {
@@ -653,7 +709,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_footer_728x90'
+                        adSlot: 'TheAA_footer_728x90@728x90'
                     }
                 },
                 {
@@ -802,6 +858,17 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 15819191
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1034 - 9999',
@@ -859,7 +926,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_Desktop_print_728X90'
+                        adSlot: 'TheAA_Desktop_print_728X90@728x90'
                     }
                 },
                 {
@@ -961,6 +1028,16 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 14149775
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '970 - 1033',
@@ -1013,7 +1090,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_sky_160x600'
+                        adSlot: 'TheAA_sky_160x600@160x600'
                     }
                 },
                 {
@@ -1146,9 +1223,9 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1034 - 9999',
-                        '491 - 727',
+                        '970 - 1033',
                         '728 - 969',
-                        '970 - 1033'
+                        '491 - 727'
                     ],
                     params: {
                         dmxid: 323457,
@@ -1159,8 +1236,8 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1034 - 9999',
-                        '728 - 969',
-                        '970 - 1033'
+                        '970 - 1033',
+                        '728 - 969'
                     ],
                     params: {
                         dmxid: 411105,
@@ -1171,10 +1248,10 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1034 - 9999',
-                        '0 - 490',
-                        '491 - 727',
+                        '970 - 1033',
                         '728 - 969',
-                        '970 - 1033'
+                        '491 - 727',
+                        '0 - 490'
                     ],
                     params: {
                         dmxid: 411106,
@@ -1182,15 +1259,39 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'emx_digital',
+                    bidder: 'districtm',
                     labelAny: [
                         '1034 - 9999',
-                        '491 - 727',
+                        '970 - 1033',
                         '728 - 969',
-                        '970 - 1033'
+                        '491 - 727'
                     ],
                     params: {
-                        tagid: '58506'
+                        placementId: 14955509
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 16983906
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727',
+                        '0 - 490'
+                    ],
+                    params: {
+                        placementId: 16983907
                     }
                 },
                 {
@@ -1302,7 +1403,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper1_Desktop_160x600'
+                        adSlot: 'TheAA_skyscraper1_Desktop_160x600@160x600'
                     }
                 },
                 {
@@ -1314,7 +1415,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper1_300x600'
+                        adSlot: 'TheAA_skyscraper1_300x600@300x600'
                     }
                 },
                 {
@@ -1328,7 +1429,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper1_300x250'
+                        adSlot: 'TheAA_skyscraper1_300x250@300x250'
                     }
                 },
                 {
@@ -1655,6 +1756,42 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727'
+                    ],
+                    params: {
+                        placementId: 14955510
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 16983908
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727',
+                        '0 - 490'
+                    ],
+                    params: {
+                        placementId: 16983909
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1034 - 9999',
@@ -1786,7 +1923,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper2_Desktop_160x600'
+                        adSlot: 'TheAA_skyscraper2_Desktop_160x600@160x600'
                     }
                 },
                 {
@@ -1798,7 +1935,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper2_300x600'
+                        adSlot: 'TheAA_skyscraper2_300x600@300x600'
                     }
                 },
                 {
@@ -1812,7 +1949,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper2_300x250'
+                        adSlot: 'TheAA_skyscraper2_300x250@300x250'
                     }
                 },
                 {
@@ -2145,6 +2282,42 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727'
+                    ],
+                    params: {
+                        placementId: 14955511
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969'
+                    ],
+                    params: {
+                        placementId: 16983910
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1034 - 9999',
+                        '970 - 1033',
+                        '728 - 969',
+                        '491 - 727',
+                        '0 - 490'
+                    ],
+                    params: {
+                        placementId: 16983911
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1034 - 9999',
@@ -2265,7 +2438,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper3_Desktop_160x600'
+                        adSlot: 'TheAA_skyscraper3_Desktop_160x600@160x600'
                     }
                 },
                 {
@@ -2277,7 +2450,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        adSlot: 'TheAA_skyscraper3_300x600'
+                        adSlot: 'TheAA_skyscraper3_300x600@300x600'
                     }
                 },
                 {
@@ -2291,7 +2464,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '2310110',
-                        adSlot: 'TheAA_skyscraper3_300x250'
+                        adSlot: 'TheAA_skyscraper3_300x250@300x250'
                     }
                 },
                 {
@@ -2550,6 +2723,15 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0 - 490'
+                    ],
+                    params: {
+                        placementId: 14149777
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '0 - 490'
@@ -2597,7 +2779,7 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '1660847',
-                        adSlot: 'TheAA_mobile_320x50'
+                        adSlot: 'TheAA_mobile_320x50@320x50'
                     }
                 },
                 {
@@ -2787,4 +2969,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
+};
