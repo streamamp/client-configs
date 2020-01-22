@@ -113,8 +113,9 @@ var streamampConfig = {
                         '0-9999'
                     ],
                     params: {
-                        publisherId: '1472109',
-                        adSlot: 'twtd_fn_1_728x90'
+                        publisherId: '127864',
+                        pmzoneid: '1472109',
+                        adSlot: 'twtd_fn_1_728x90@728x90'
                     }
                 },
                 {
@@ -233,8 +234,9 @@ var streamampConfig = {
                         '0-9999'
                     ],
                     params: {
-                        publisherId: '1472111',
-                        adSlot: 'twtd_fn_2_970x250'
+                        publisherId: '127864',
+                        pmzoneid: '1472111',
+                        adSlot: 'twtd_fn_2_970x250@970x250'
                     }
                 },
                 {
@@ -357,8 +359,9 @@ var streamampConfig = {
                         '0-9999'
                     ],
                     params: {
-                        publisherId: '1472112',
-                        adSlot: 'twtd_fn_3_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1472112',
+                        adSlot: 'twtd_fn_3_300x250@300x250'
                     }
                 },
                 {
@@ -477,8 +480,9 @@ var streamampConfig = {
                         '0-9999'
                     ],
                     params: {
-                        publisherId: '1472114',
-                        adSlot: 'twtd_fn_5_160x600'
+                        publisherId: '127864',
+                        pmzoneid: '1472114',
+                        adSlot: 'twtd_fn_5_160x600@160x600'
                     }
                 },
                 {
@@ -597,8 +601,9 @@ var streamampConfig = {
                         '0-9999'
                     ],
                     params: {
-                        publisherId: '1472116',
-                        adSlot: 'twtd_fn_6_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1472116',
+                        adSlot: 'twtd_fn_6_300x250@300x250'
                     }
                 },
                 {
@@ -721,8 +726,9 @@ var streamampConfig = {
                         '0-9999'
                     ],
                     params: {
-                        publisherId: '1472118',
-                        adSlot: 'twtd_fn_8_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1472118',
+                        adSlot: 'twtd_fn_8_300x250@300x250'
                     }
                 },
                 {
@@ -781,4 +787,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
+};
