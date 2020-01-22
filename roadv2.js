@@ -1286,7 +1286,24 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+              {
+		            bidder: 'justpremium',
+		            labelAny: ['0 - 767'],
+		            params: {
+			            zone: '79351',
+			            allow: ['mt', 'is', 'mo', 'ms']
+		            }
+              },
+	            {
+		            bidder: 'justpremium',
+		            labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
+		            params: {
+			            zone: '79351',
+			            allow: ['cf', 'as', 'ci']
+		            }
+	            }
+	          ],
             breakpoints: {
                 '1640 - 9999': [[1, 1]],
                 '1025 - 1639': [[1, 1]],
@@ -1299,7 +1316,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [1, 2, 3, 4, 5],
