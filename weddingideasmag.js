@@ -195,7 +195,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471920',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_970x250_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_970x250_New@970x250'
                     }
                 },
                 {
@@ -207,7 +207,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1689114',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_728x90_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_728x90_New@728x90'
                     }
                 },
                 {
@@ -219,7 +219,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1689111',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_320x50_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit1_320x50_New@320x50'
                     }
                 },
                 {
@@ -441,7 +441,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471915',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit2_300x250_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit2_300x250_New@300x250'
                     }
                 },
                 {
@@ -453,7 +453,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471921',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit2_300x600_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit2_300x600_New@300x600'
                     }
                 },
                 {
@@ -659,7 +659,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1689117',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit3_300x250_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit3_300x250_New@300x250'
                     }
                 },
                 {
@@ -671,7 +671,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471922',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit3_300x600_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit3_300x600_New@300x600'
                     }
                 },
                 {
@@ -877,7 +877,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '1689118',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit4_300x250_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit4_300x250_New@300x250'
                     }
                 },
                 {
@@ -889,7 +889,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471923',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit4_300x600_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit4_300x600_New@300x600'
                     }
                 },
                 {
@@ -1126,7 +1126,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471924',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_970x250_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_970x250_New@970x250'
                     }
                 },
                 {
@@ -1138,7 +1138,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471925',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_728x90_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_728x90_New@728x90'
                     }
                 },
                 {
@@ -1150,7 +1150,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471916',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_320x50_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit5_320x50_New@320x50'
                     }
                 },
                 {
@@ -1352,7 +1352,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471926',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit6_728x90_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit6_728x90_New@728x90'
                     }
                 },
                 {
@@ -1364,7 +1364,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2471917',
-                        adSlot: 'TheCMC_WeddingIdeasMag_Unit6_320x50_New'
+                        adSlot: 'TheCMC_WeddingIdeasMag_Unit6_320x50_New@320x50'
                     }
                 },
                 {
