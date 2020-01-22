@@ -1,7 +1,8 @@
 var streamampConfig = {
+	gptSingleRequestEnabled: true,
 	levelTargeting: true,
-	a9Enabled: false,
-	apsPubID: '',
+	a9Enabled: true,
+	apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
 	bidTimeout: 1.2,
 	pbjsPriceGranularity: 'high',
 	hasRefreshBids: false,
@@ -30,7 +31,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -100,8 +101,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511776',
-						adSlot: 'LCM_FamiliesOnline_Unit1_728x90'
+						publisherId: '127864',
+						pmzoneid: '2511776',
+						adSlot: 'LCM_FamiliesOnline_Unit1_728x90@728x90'
 					}
 				},
 				{
@@ -137,7 +139,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -207,8 +209,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511788',
-						adSlot: 'LCM_FamiliesOnline_Unit3_160x600'
+						publisherId: '127864',
+						pmzoneid: '2511788',
+						adSlot: 'LCM_FamiliesOnline_Unit3_160x600@160x600'
 					}
 				},
 				{
@@ -244,7 +247,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -314,8 +317,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511789',
-						adSlot: 'LCM_FamiliesOnline_Unit4_160x600'
+						publisherId: '127864',
+						pmzoneid: '2511789',
+						adSlot: 'LCM_FamiliesOnline_Unit4_160x600@160x600'
 					}
 				},
 				{
@@ -351,7 +355,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -421,8 +425,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511778',
-						adSlot: 'LCM_FamiliesOnline_Unit5_300x250'
+						publisherId: '127864',
+						pmzoneid: '2511778',
+						adSlot: 'LCM_FamiliesOnline_Unit5_300x250@300x250'
 					}
 				},
 				{
@@ -458,7 +463,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -528,8 +533,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511779',
-						adSlot: 'LCM_FamiliesOnline_Unit6_300x250'
+						publisherId: '127864',
+						pmzoneid: '2511779',
+						adSlot: 'LCM_FamiliesOnline_Unit6_300x250@300x250'
 					}
 				},
 				{
@@ -565,7 +571,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -635,8 +641,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511780',
-						adSlot: 'LCM_FamiliesOnline_Unit7_300x600'
+						publisherId: '127864',
+						pmzoneid: '2511780',
+						adSlot: 'LCM_FamiliesOnline_Unit7_300x600@300x600'
 					}
 				},
 				{
@@ -672,7 +679,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -742,8 +749,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511781',
-						adSlot: 'LCM_FamiliesOnline_Unit8_970x250'
+						publisherId: '127864',
+						pmzoneid: '2511781',
+						adSlot: 'LCM_FamiliesOnline_Unit8_970x250@970x250'
 					}
 				},
 				{
@@ -783,7 +791,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -853,8 +861,9 @@ var streamampConfig = {
 						'0 - 767'
 					],
 					params: {
-						publisherId: '2511782',
-						adSlot: 'LCM_FamiliesOnline_Unit9_320x50'
+						publisherId: '127864',
+						pmzoneid: '2511782',
+						adSlot: 'LCM_FamiliesOnline_Unit9_320x50@320x50'
 					}
 				},
 				{
@@ -890,7 +899,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -960,8 +969,9 @@ var streamampConfig = {
 						'0 - 767'
 					],
 					params: {
-						publisherId: '2511783',
-						adSlot: 'LCM_FamiliesOnline_Unit10_320x50'
+						publisherId: '127864',
+						pmzoneid: '2511783',
+						adSlot: 'LCM_FamiliesOnline_Unit10_320x50@320x50'
 					}
 				},
 				{
@@ -997,7 +1007,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1067,8 +1077,9 @@ var streamampConfig = {
 						'0 - 767'
 					],
 					params: {
-						publisherId: '2511784',
-						adSlot: 'LCM_FamiliesOnline_Unit11_300x250'
+						publisherId: '127864',
+						pmzoneid: '2511784',
+						adSlot: 'LCM_FamiliesOnline_Unit11_300x250@300x250'
 					}
 				},
 				{
@@ -1104,7 +1115,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1174,8 +1185,9 @@ var streamampConfig = {
 						'0 - 767'
 					],
 					params: {
-						publisherId: '2511785',
-						adSlot: 'LCM_FamiliesOnline_Unit12_300x250'
+						publisherId: '127864',
+						pmzoneid: '2511785',
+						adSlot: 'LCM_FamiliesOnline_Unit12_300x250@300x250'
 					}
 				},
 				{
@@ -1289,7 +1301,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1359,8 +1371,9 @@ var streamampConfig = {
 						'768 - 9999'
 					],
 					params: {
-						publisherId: '2511786',
-						adSlot: 'LCM_FamiliesOnline_Unit18_300x250'
+						publisherId: '127864',
+						pmzoneid: '2511786',
+						adSlot: 'LCM_FamiliesOnline_Unit18_300x250@300x250'
 					}
 				},
 				{
@@ -1396,7 +1409,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1466,8 +1479,9 @@ var streamampConfig = {
 						'0 - 767'
 					],
 					params: {
-						publisherId: '2511787',
-						adSlot: 'LCM_FamiliesOnline_Unit19_320x50'
+						publisherId: '127864',
+						pmzoneid: '2511787',
+						adSlot: 'LCM_FamiliesOnline_Unit19_320x50@320x50'
 					}
 				},
 				{
