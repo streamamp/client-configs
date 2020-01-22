@@ -1,6 +1,7 @@
 var streamampConfig = {
+	gptSingleRequestEnabled: true,
 	levelTargeting: true,
-	a9Enabled: false,
+	a9Enabled: true,
 	apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
 	bidTimeout: 1.2,
 	pbjsPriceGranularity: 'high',
@@ -30,7 +31,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -138,7 +139,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -246,7 +247,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -354,7 +355,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -462,7 +463,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -570,7 +571,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -678,7 +679,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -790,7 +791,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -898,7 +899,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1006,7 +1007,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1114,7 +1115,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1300,7 +1301,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
@@ -1408,7 +1409,7 @@ var streamampConfig = {
 				}
 			},
 			isSticky: false,
-			safeFrame: true,
+			safeframe: false,
 			outOfPage: false,
 			bids: [
 				{
