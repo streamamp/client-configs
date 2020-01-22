@@ -183,7 +183,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346271',
-                        adSlot: 'F1i_Unit1_728x90'
+                        adSlot: 'F1i_Unit1_728x90@728x90'
                     }
                 },
                 {
@@ -194,7 +194,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346272',
-                        adSlot: 'F1i_Unit1_970x250'
+                        adSlot: 'F1i_Unit1_970x250@970x250'
                     }
                 },
                 {
@@ -205,7 +205,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346270',
-                        adSlot: 'F1i_Unit1_320x50'
+                        adSlot: 'F1i_Unit1_320x50@320x50'
                     }
                 },
                 {
@@ -421,7 +421,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346273',
-                        adSlot: 'F1i_Unit2_300x600'
+                        adSlot: 'F1i_Unit2_300x600@300x600'
                     }
                 },
                 {
@@ -432,7 +432,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346274',
-                        adSlot: 'F1i_Unit2_300x250'
+                        adSlot: 'F1i_Unit2_300x250@300x250'
                     }
                 },
                 {
@@ -443,7 +443,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346275',
-                        adSlot: 'F1i_Unit2_160x600'
+                        adSlot: 'F1i_Unit2_160x600@160x600'
                     }
                 },
                 {
@@ -629,7 +629,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346276',
-                        adSlot: 'F1i_Unit3_300x250'
+                        adSlot: 'F1i_Unit3_300x250@300x250'
                     }
                 },
                 {
@@ -640,7 +640,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346277',
-                        adSlot: 'F1i_Unit3_320x50'
+                        adSlot: 'F1i_Unit3_320x50@320x50'
                     }
                 },
                 {
@@ -819,7 +819,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346280',
-                        adSlot: 'F1i_Unit4_300x250'
+                        adSlot: 'F1i_Unit4_300x250@300x250'
                     }
                 },
                 {
@@ -830,7 +830,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346279',
-                        adSlot: 'F1i_Unit4_320x50'
+                        adSlot: 'F1i_Unit4_320x50@320x50'
                     }
                 },
                 {
@@ -966,7 +966,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346283',
-                        adSlot: 'F1i_Unit5_160x600'
+                        adSlot: 'F1i_Unit5_160x600@160x600'
                     }
                 },
                 {
@@ -1078,7 +1078,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2346284',
-                        adSlot: 'F1i_Unit6_320x50'
+                        adSlot: 'F1i_Unit6_320x50@320x50'
                     }
                 },
                 {
@@ -1204,7 +1204,7 @@ var streamampConfig = {
                     params: {
                         publisherId: '127864',
                         pmzoneid: '2562009',
-                        adSlot: 'F1i_Unit8_320x50'
+                        adSlot: 'F1i_Unit8_320x50@320x50'
                     }
                 },
                 {
