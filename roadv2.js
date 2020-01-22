@@ -77,7 +77,7 @@ var streamampConfig = {
                         50
                     ]
                 ],
-                '0 - 347': [
+                '0 - 374': [
                     [
                         320,
                         50
@@ -1215,9 +1215,9 @@ var streamampConfig = {
             ]
         },
         {
-            label: '0 - 347',
+            label: '0 - 374',
             minWidth: 0,
-            maxWidth: 347,
+            maxWidth: 374,
             sizesSupported: [
                 [
                     320,
