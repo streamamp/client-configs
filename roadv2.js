@@ -41,9 +41,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937543',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -105,7 +120,20 @@ var streamampConfig = {
             isSticky: true,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+              {
+                bidder: 'openx',
+                labelAny: [
+                    '748 - 1024',
+                    '375 - 747',
+                    '0 - 347'
+                ],
+                params: {
+                    unit: '540937544',
+                    delDomain: 'streamamp-d.openx.net'
+                }
+            }
+            ],
             breakpoints: {
                 '748 - 1024': [
                     [
@@ -153,9 +181,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937545',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -231,9 +274,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937546',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -309,9 +367,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937547',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -389,7 +462,19 @@ var streamampConfig = {
             isSticky: true,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        unit: '540937548',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -441,7 +526,19 @@ var streamampConfig = {
             isSticky: true,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        unit: '540937550',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -483,9 +580,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937551',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -549,9 +661,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937552',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -615,9 +742,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937553',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -685,9 +827,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937554',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -763,9 +920,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937555',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -841,9 +1013,24 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937558',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -919,9 +1106,117 @@ var streamampConfig = {
                 }
             },
             isSticky: false,
-            safeFrame: true,
+            safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937562',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
+            breakpoints: {
+                '1640 - 9999': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        300,
+                        600
+                    ]
+                ],
+                '1025 - 1639': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        300,
+                        600
+                    ]
+                ],
+                '748 - 1024': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '375 - 747': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '0 - 374': [
+                    [
+                        300,
+                        250
+                    ],
+                    [
+                        320,
+                        50
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'Sidebar-InCopy-MPU-5',
+            path: '/269479563/Road.cc-V2/Sidebar-InCopy-MPU-5',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            300,
+                            250
+                        ],
+                        [
+                            300,
+                            600
+                        ],
+                        [
+                            320,
+                            50
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 347'
+                    ],
+                    params: {
+                        unit: '540937564',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                }
+            ],
             breakpoints: {
                 '1640 - 9999': [
                     [
@@ -991,90 +1286,29 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+              {
+		            bidder: 'justpremium',
+		            labelAny: ['0 - 767'],
+		            params: {
+			            zone: '79351',
+			            allow: ['mt', 'is', 'mo', 'ms']
+		            }
+              },
+	            {
+		            bidder: 'justpremium',
+		            labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
+		            params: {
+			            zone: '79351',
+			            allow: ['cf', 'as', 'ci']
+		            }
+	            }
+	          ],
             breakpoints: {
                 '1640 - 9999': [[1, 1]],
                 '1025 - 1639': [[1, 1]],
                 '748 - 1024': [[1, 1]],
                 '375 - 747': [[1, 1]]
-            }
-        },
-        {
-            code: 'Sidebar-InCopy-MPU-5',
-            path: '/269479563/Road.cc-V2/Sidebar-InCopy-MPU-5',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ],
-                        [
-                            300,
-                            600
-                        ],
-                        [
-                            320,
-                            50
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: true,
-            outOfPage: false,
-            bids: [],
-            breakpoints: {
-                '1640 - 9999': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
-                    ]
-                ],
-                '1025 - 1639': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
-                    ]
-                ],
-                '748 - 1024': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ],
-                '375 - 747': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ],
-                '0 - 374': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ]
             }
         }
     ],
@@ -1082,7 +1316,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [1, 2, 3, 4, 5],
