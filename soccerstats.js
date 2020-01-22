@@ -124,7 +124,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '643797',
-						adSlot: 'SoccerStats_Unit1_728x90'
+						adSlot: 'SoccerStats_Unit1_728x90@728x90'
 					}
 				},
 				{
@@ -249,7 +249,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '643798',
-						adSlot: 'SoccerStats_Unit2_300x250'
+						adSlot: 'SoccerStats_Unit2_300x250@300x250'
 					}
 				},
 				{
@@ -490,7 +490,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '643800',
-						adSlot: 'SoccerStats_Unit3_160x600'
+						adSlot: 'SoccerStats_Unit3_160x600@160x600'
 					}
 				},
 				{
@@ -501,7 +501,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2468545',
-						adSlot: 'SoccerStats_Unit3_300x600'
+						adSlot: 'SoccerStats_Unit3_300x600@300x600'
 					}
 				},
 				{
@@ -513,7 +513,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2468543',
-						adSlot: 'SoccerStats_Unit3_300x250'
+						adSlot: 'SoccerStats_Unit3_300x250@300x250'
 					}
 				},
 				{
@@ -740,7 +740,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '643801',
-						adSlot: 'SoccerStats_Unit4_300x250'
+						adSlot: 'SoccerStats_Unit4_300x250@300x250'
 					}
 				},
 				{
@@ -751,7 +751,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '2468544',
-						adSlot: 'SoccerStats_Unit4_320x50'
+						adSlot: 'SoccerStats_Unit4_320x50@320x50'
 					}
 				},
 				{
@@ -951,7 +951,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '643804',
-						adSlot: 'SoccerStats_Unit5_728x90'
+						adSlot: 'SoccerStats_Unit5_728x90@728x90'
 					}
 				},
 				{
@@ -962,7 +962,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '1771566',
-						adSlot: 'soccerstats_Unit5_970x250'
+						adSlot: 'soccerstats_Unit5_970x250@970x250'
 					}
 				},
 				{
@@ -1106,7 +1106,7 @@ var streamampConfig = {
 					params: {
 						publisherId: '127864',
 						pmzoneid: '1698020',
-						adSlot: 'SoccerStats_Unit6_320x50'
+						adSlot: 'SoccerStats_Unit6_320x50@320x50'
 					}
 				},
 				{
