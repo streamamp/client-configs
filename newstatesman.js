@@ -1,5 +1,5 @@
 var streamampConfig = {
-    gptSingleRequestEnabled: true,
+    gptSingleRequestEnabled: false,
     levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
