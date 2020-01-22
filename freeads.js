@@ -65,28 +65,6 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '1790384',
-                        adSlot: 'Freeads_Unit1_HeroBanner_320x50'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                       '1339 - 9999',
-                        '729 - 1338'
-                    ],
-                    params: {
-                        publisherId: '1790392',
-                        adSlot: 'Freeads_Unit1_HeroBanner_728x90'
-                    }
-                },
-                {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1339 - 9999',
@@ -232,6 +210,41 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1790393',
+                        adSlot: 'Freeads_Unit1_HeroBanner_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1339 - 9999',
+                        '729 - 1338'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1790392',
+                        adSlot: 'Freeads_Unit1_HeroBanner_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '1790384',
+                        adSlot: 'Freeads_Unit1_HeroBanner_320x50@320x50'
+                    }
+                },
+                {
                     bidder: 'streamamp',
                     labelAny: [
                         '1339 - 9999',
@@ -356,8 +369,9 @@ var streamampConfig = {
                        '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '1790407',
-                        adSlot: 'Freeads_Unit4_Leader3_728x90'
+                        publisherId: '127864',
+                        pmzoneid: '1790407',
+                        adSlot: 'Freeads_Unit4_Leader3_728x90@728x90'
                     }
                 },
                 {
@@ -491,8 +505,9 @@ var streamampConfig = {
                        '729 - 1338'
                     ],
                     params: {
-                        publisherId: '2538478',
-                        adSlot: 'Freeads_Unit5_sky1_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '2538478',
+                        adSlot: 'Freeads_Unit5_sky1_300x250@300x250'
                     }
                 },
                 {
@@ -501,8 +516,9 @@ var streamampConfig = {
                        '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '2538529',
-                        adSlot: 'Freeads_Unit5_sky1_300x600'
+                        publisherId: '127864',
+                        pmzoneid: '2538529',
+                        adSlot: 'Freeads_Unit5_sky1_300x600@300x600'
                     }
                 },
                  {
@@ -512,8 +528,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1790408',
-                        adSlot: 'Freeads_Unit5_sky1_160x600'
+                        publisherId: '127864',
+                        pmzoneid: '1790408',
+                        adSlot: 'Freeads_Unit5_sky1_160x600@160x600'
                     }
                 },
                 {
@@ -727,8 +744,9 @@ var streamampConfig = {
                        '729 - 1338'
                     ],
                     params: {
-                        publisherId: '2538490',
-                        adSlot: 'Freeads_Unit5_sky2_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '2538490',
+                        adSlot: 'Freeads_Unit6_sky2_300x250@300x250'
                     }
                 },
                 {
@@ -737,8 +755,9 @@ var streamampConfig = {
                        '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '2538530',
-                        adSlot: 'Freeads_Unit5_sky2_300x600'
+                        publisherId: '127864',
+                        pmzoneid: '2538530',
+                        adSlot: 'Freeads_Unit6_sky2_300x600@300x600'
                     }
                 },
                  {
@@ -748,8 +767,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1790410',
-                        adSlot: 'Freeads_Unit5_sky2_160x600'
+                        publisherId: '127864',
+                        pmzoneid: '1790410',
+                        adSlot: 'Freeads_Unit6_sky2_160x600@160x600'
                     }
                 },
                 {
@@ -950,8 +970,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1790411',
-                        adSlot: 'Freeads_Unit7_MPU_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1790411',
+                        adSlot: 'Freeads_Unit7_MPU_300x250@300x250'
                     }
                 },
                 {
@@ -1102,8 +1123,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1790412',
-                        adSlot: 'Freeads_Unit8_MPU_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1790412',
+                        adSlot: 'Freeads_Unit8_MPU2_300x250@300x250'
                     }
                 },
                 {
@@ -1260,8 +1282,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1790413',
-                        adSlot: 'Freeads_Unit9_DMPU_300x600'
+                        publisherId: '127864',
+                        pmzoneid: '1790413',
+                        adSlot: 'Freeads_Unit9_DMPU_300x600@300x600'
                     }
                 },
                 {
@@ -1273,8 +1296,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1790414',
-                        adSlot: 'Freeads_Unit9_DMPU_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1790414',
+                        adSlot: 'Freeads_Unit9_DMPU_300x250@300x250'
                     }
                 },
                 {
@@ -1606,8 +1630,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1790418',
-                        adSlot: 'Freeads_Unit12_Midlisting_728x90'
+                        publisherId: '127864',
+                        pmzoneid: '1790418',
+                        adSlot: 'Freeads_Unit12_Midlisting_728x90@728x90'
                     }
                 },
                 {
@@ -1619,8 +1644,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '2538459',
-                        adSlot: 'Freeads_Unit12_Midlisting_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '2538459',
+                        adSlot: 'Freeads_Unit12_Midlisting_300x250@300x250'
                     }
                 },
                 {
@@ -1858,8 +1884,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1799966',
-                        adSlot: 'Freeads_Unit13_MidListing1_320x50'
+                        publisherId: '127864',
+                        pmzoneid: '1799966',
+                        adSlot: 'Freeads_Unit13_MidListing1_320x50@320x50'
                     }
                 },
                 {
@@ -2004,8 +2031,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1790416',
-                        adSlot: 'Freeads_Unit11_Sticky_320x50'
+                        publisherId: '127864',
+                        pmzoneid: '1790416',
+                        adSlot: 'Freeads_Unit11_Sticky_320x50@320x50'
                     }
                 },
                 {
@@ -2132,8 +2160,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1799968',
-                        adSlot: 'Freeads_Unit15_320x50'
+                        publisherId: '127864',
+                        pmzoneid: '1799968',
+                        adSlot: 'Freeads_Unit15_320x50@320x50'
                     }
                 },
                 {
@@ -2143,8 +2172,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1799969',
-                        adSlot: 'Freeads_Unit15_728x90'
+                        publisherId: '127864',
+                        pmzoneid: '1799969',
+                        adSlot: 'Freeads_Unit15_728x90@728x90'
                     }
                 },
                 {
@@ -2154,8 +2184,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1809119',
-                        adSlot: 'Freeads_Unit15_970x250'
+                        publisherId: '127864',
+                        pmzoneid: '1809119',
+                        adSlot: 'Freeads_Unit15_970x250@970x250'
                     }
                 },
                 {
@@ -2462,8 +2493,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1799970',
-                        adSlot: 'Freeads_Unit16_320x50'
+                        publisherId: '127864',
+                        pmzoneid: '1799970',
+                        adSlot: 'Freeads_Unit16_320x50@320x50'
                     }
                 },
                 {
@@ -2473,8 +2505,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1799971',
-                        adSlot: 'Freeads_Unit16_728x90'
+                        publisherId: '127864',
+                        pmzoneid: '1799971',
+                        adSlot: 'Freeads_Unit16_728x90@728x90'
                     }
                 },
                 {
@@ -2484,8 +2517,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1809120',
-                        adSlot: 'Freeads_Unit16_970x250'
+                        publisherId: '127864',
+                        pmzoneid: '1809120',
+                        adSlot: 'Freeads_Unit16_970x250@970x250'
                     }
                 },
                 {
@@ -2988,8 +3022,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1860156',
-                        adSlot: 'Freeads_Unit19_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1860156',
+                        adSlot: 'Freeads_Unit19_300x250@300x250'
                     }
                 },
                 {
@@ -2999,8 +3034,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1860155',
-                        adSlot: 'Freeads_Unit19_728x90'
+                        publisherId: '127864',
+                        pmzoneid: '1860155',
+                        adSlot: 'Freeads_Unit19_728x90@728x90'
                     }
                 },
                 {
@@ -3009,8 +3045,9 @@ var streamampConfig = {
                         '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '1860154',
-                        adSlot: 'Freeads_Unit19_970x250'
+                        publisherId: '127864',
+                        pmzoneid: '1860154',
+                        adSlot: 'Freeads_Unit19_970x250@970x250'
                     }
                 },
                 {
@@ -3019,8 +3056,9 @@ var streamampConfig = {
                         '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '1860157',
-                        adSlot: 'Freeads_Unit19_300x600'
+                        publisherId: '127864',
+                        pmzoneid: '1860157',
+                        adSlot: 'Freeads_Unit19_300x600@300x600'
                     }
                 },
                 {
@@ -3393,8 +3431,9 @@ var streamampConfig = {
                         '0 - 468'
                     ],
                     params: {
-                        publisherId: '1860158',
-                        adSlot: 'Freeads_Unit20_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '1860158',
+                        adSlot: 'Freeads_Unit20_300x250@300x250'
                     }
                 },
                 {
@@ -3546,8 +3585,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '1860160',
-                        adSlot: 'Freeads_Unit21_Sky3_160x600'
+                        publisherId: '127864',
+                        pmzoneid: '1860160',
+                        adSlot: 'Freeads_Unit21_Sky3_160x600@160x600'
                     }
                 },
                 {
@@ -3556,8 +3596,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '2538491',
-                        adSlot: 'Freeads_Unit21_Sky3_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '2538491',
+                        adSlot: 'Freeads_Unit20_300x250@300x250'
                     }
                 },
                 {
@@ -3566,8 +3607,9 @@ var streamampConfig = {
                         '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '2538494',
-                        adSlot: 'Freeads_Unit21_Sky3_300x600'
+                        publisherId: '127864',
+                        pmzoneid: '2538494',
+                        adSlot: 'Freeads_Unit21_Sky3_300x600@300x600'
                     }
                 },
                 {
@@ -3786,8 +3828,9 @@ var streamampConfig = {
                         '1339 - 9999'
                     ],
                     params: {
-                        publisherId: '1860160',
-                        adSlot: 'Freeads_Unit22_300x600'
+                        publisherId: '127864',
+                        pmzoneid: '1860160',
+                        adSlot: 'Freeads_Unit22_300x600@300x600'
                     }
                 },
                 {
@@ -3797,8 +3840,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '2538492',
-                        adSlot: 'Freeads_Unit22_160x600'
+                        publisherId: '127864',
+                        pmzoneid: '2538492',
+                        adSlot: 'Freeads_Unit22_160x600@160x600'
                     }
                 },
                 {
@@ -3807,8 +3851,9 @@ var streamampConfig = {
                         '729 - 1338'
                     ],
                     params: {
-                        publisherId: '2538493',
-                        adSlot: 'Freeads_Unit22_300x250'
+                        publisherId: '127864',
+                        pmzoneid: '2538493',
+                        adSlot: 'Freeads_Unit22_300x250@300x250'
                     }
                 },
                 {
