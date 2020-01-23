@@ -191,7 +191,7 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        site_id: 200514
+                        site_id: '200514'
                     }
                 }
             ],
@@ -302,7 +302,7 @@ var streamampConfig = {
                         '971 - 9999'
                     ],
                     params: {
-                        site_id: 200514
+                        site_id: '200514'
                     }
                 }
             ],
@@ -411,7 +411,7 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        site_id: 200514
+                        site_id: '200514'
                     }
                 }
             ],
@@ -597,7 +597,7 @@ var streamampConfig = {
                         '729 - 970'
                     ],
                     params: {
-                        site_id: 200514
+                        site_id: '200514'
                     }
                 }
             ],
@@ -752,7 +752,7 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        site_id: 200514
+                        site_id: '200514'
                     }
                 }
             ],
@@ -860,7 +860,7 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        site_id: 200514
+                        site_id: '200514'
                     }
                 }
             ],
