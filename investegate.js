@@ -43,7 +43,7 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '0-9999'
+                        '0 - 9999'
                     ],
                     params: {
                         site_id: '109232'
@@ -226,7 +226,7 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '0-9999'
+                        '0 - 9999'
                     ],
                     params: {
                         site_id: '109232'
@@ -405,7 +405,7 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '0-9999'
+                        '0 - 9999'
                     ],
                     params: {
                         site_id: '109232'
@@ -520,7 +520,7 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '0-9999'
+                        '0 - 9999'
                     ],
                     params: {
                         site_id: '109232'
@@ -635,7 +635,7 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '0-9999'
+                        '0 - 9999'
                     ],
                     params: {
                         site_id: '109232'
