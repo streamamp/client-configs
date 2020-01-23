@@ -45,17 +45,207 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'New_Road_Top-Billboard_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'New_Road_Top-Billboard_970x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Top-Billboard_320x50'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 375137,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90770'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        tagid: '90771'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90772'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937543',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542135',
+                        adSlot: 'New_Top-Billboard_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542134',
+                        adSlot: 'New_Top-Billboard_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542135',
+                        adSlot: 'New_Top-Billboard_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        siteId: '440425',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440425',
+                        size: [
+                            970,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440425',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        placementId: 18085900
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085896
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085902
                     }
                 }
             ],
@@ -92,7 +282,7 @@ var streamampConfig = {
                         50
                     ]
                 ],
-                '0 - 347': [
+                '0 - 374': [
                     [
                         320,
                         50
@@ -121,18 +311,139 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
-              {
-                bidder: 'openx',
-                labelAny: [
-                    '748 - 1024',
-                    '375 - 747',
-                    '0 - 347'
-                ],
-                params: {
-                    unit: '540937544',
-                    delDomain: 'streamamp-d.openx.net'
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'New_Road_Sticky-Footer_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Sticky-Footer_320x50'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202653,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024'
+                    ],
+                    params: {
+                        tagid: '90774'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90773'
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        unit: '540937544',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '202653',
+                        adSlot: 'New_Sticky-Footer_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542138',
+                        adSlot: 'New_Sticky-Footer_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024'
+                    ],
+                    params: {
+                        siteId: '440426',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440426',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024'
+                    ],
+                    params: {
+                        placementId: 18085903
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085904
+                    }
                 }
-            }
             ],
             breakpoints: {
                 '748 - 1024': [
@@ -185,17 +496,264 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'New_Road_Billboard-2_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'New_Road_Billboard-2_970x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Billboard-2_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Billboard-2_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202654,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        tagid: '90776'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                    ],
+                    params: {
+                        tagid: '90775'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90777'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90778'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937545',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542140',
+                        adSlot: 'New_Billboard-2_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542139',
+                        adSlot: 'New_Billboard-2_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542141',
+                        adSlot: 'New_Billboard-2_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542142',
+                        adSlot: 'New_Billboard-2_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        siteId: '440427',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440427',
+                        size: [
+                            970,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440427',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440427',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        placementId: 18085906
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085905
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085907
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085908
                     }
                 }
             ],
@@ -278,17 +836,264 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'New_Road_Billboard-3_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'New_Road_Billboard-3_970x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Billboard-3_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Billboard-3_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202655,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        tagid: '90780'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                    ],
+                    params: {
+                        tagid: '90779'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90781'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90782'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937546',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542144',
+                        adSlot: 'New_Billboard-3_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542143',
+                        adSlot: 'New_Billboard-3_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542145',
+                        adSlot: 'New_Billboard-3_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542146',
+                        adSlot: 'New_Billboard-3_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        siteId: '440428',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440428',
+                        size: [
+                            970,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440428',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440428',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        placementId: 18085910
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085909
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085924
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085925
                     }
                 }
             ],
@@ -371,17 +1176,264 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'New_Road_Footer-Billboard_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'New_Road_Footer-Billboard_970x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Footer-Billboard_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Footer-Billboard_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202656,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        tagid: '90784'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                    ],
+                    params: {
+                        tagid: '90783'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90785'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90786'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937547',
                         delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542148',
+                        adSlot: 'New_Footer-Billboard_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542147',
+                        adSlot: 'New_Footer-Billboard_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542149',
+                        adSlot: 'New_Footer-Billboard_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542150',
+                        adSlot: 'New_Footer-Billboard_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        siteId: '440429',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440429',
+                        size: [
+                            970,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440429',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440429',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024'
+                    ],
+                    params: {
+                        placementId: 18085929
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085927
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085930
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085931
                     }
                 }
             ],
@@ -464,6 +1516,74 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_SkyScraper-LHS_300x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_SkyScraper-LHS_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'New_Road_SkyScraper-LHS_160x600'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        dmxid: 202657,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        tagid: '90789'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        tagid: '90787'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90788'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
@@ -473,7 +1593,106 @@ var streamampConfig = {
                         unit: '540937548',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542152',
+                        adSlot: 'New_SkyScraper-LHS_160x600@160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542153',
+                        adSlot: 'New_SkyScraper-LHS_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542151',
+                        adSlot: 'New_SkyScraper-LHS_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440430',
+                        size: [
+                            160,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        siteId: '440430',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        siteId: '440430',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        placementId: 18085934
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        placementId: 18085935
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1025 - 1639',
+                    ],
+                    params: {
+                        placementId: 18085933
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -528,6 +1747,74 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_SkyScraper-RHS_300x250'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_SkyScraper-RHS_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382493,
+                        publisherSubId: 'New_Road_SkyScraper-RHS_160x600'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        dmxid: 202658,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        tagid: '90792'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        tagid: '90790'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90791'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
@@ -537,7 +1824,106 @@ var streamampConfig = {
                         unit: '540937550',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542155',
+                        adSlot: 'New_SkyScraper-RHS_160x600@160x600'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542156',
+                        adSlot: 'New_SkyScraper-RHS_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542154',
+                        adSlot: 'New_SkyScraper-RHS_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440431',
+                        size: [
+                            160,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        siteId: '440431',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        siteId: '440431',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        placementId: 18085938
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999'
+                    ],
+                    params: {
+                        placementId: 18085939
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1025 - 1639',
+                    ],
+                    params: {
+                        placementId: 18085937
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -584,19 +1970,167 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Home-MPU-1_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Home-MPU-1_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202659,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90793'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90794'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937551',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542158',
+                        adSlot: 'New_Home-MPU-1_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542157',
+                        adSlot: 'New_Home-MPU-1_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440432',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440432',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085940
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085942
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -665,19 +2199,167 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Home-MPU-2_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Home-MPU-2_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202660,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90795'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90796'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937552',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542160',
+                        adSlot: 'New_Home-MPU-2_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542159',
+                        adSlot: 'New_Home-MPU-2_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440434',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440434',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085943
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085944
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -746,19 +2428,167 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Home-MPU-3_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Home-MPU-3_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202661,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90813'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90797'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937553',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542162',
+                        adSlot: 'New_Home-MPU-3_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542161',
+                        adSlot: 'New_Home-MPU-3_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440435',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440435',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085945
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085947
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -831,19 +2661,224 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-1_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-1_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-1_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202662,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90799'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90798'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90800'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937554',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542165',
+                        adSlot: 'New_Sidebar-InCopy-MPU-1_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542164',
+                        adSlot: 'New_Sidebar-InCopy-MPU-1_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542163',
+                        adSlot: 'New_Sidebar-InCopy-MPU-1_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440436',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440436',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440436',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085950
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085949
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085952
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -924,19 +2959,224 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-2_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-2_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-2_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202663,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90802'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90801'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90803'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937555',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542168',
+                        adSlot: 'New_Sidebar-InCopy-MPU-2_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542167',
+                        adSlot: 'New_Sidebar-InCopy-MPU-2_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542166',
+                        adSlot: 'New_Sidebar-InCopy-MPU-2_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440437',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440437',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440437',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085957
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085956
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085959
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -1017,19 +3257,224 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-3_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-3_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-3_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202664,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90805'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90804'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90806'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937558',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542171',
+                        adSlot: 'New_Sidebar-InCopy-MPU-3_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542170',
+                        adSlot: 'New_Sidebar-InCopy-MPU-3_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542169',
+                        adSlot: 'New_Sidebar-InCopy-MPU-3_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440438',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440438',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440438',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085961
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085960
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085962
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -1110,19 +3555,224 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-4_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-4_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-4_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202665,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90808'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90807'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90809'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937562',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542174',
+                        adSlot: 'New_Sidebar-InCopy-MPU-4_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542173',
+                        adSlot: 'New_Sidebar-InCopy-MPU-4_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542172',
+                        adSlot: 'New_Sidebar-InCopy-MPU-4_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440439',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440439',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440439',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085970
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085967
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085971
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -1203,19 +3853,224 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        zoneId: 1382492,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-5_300x600'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-5_320x50'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: 'New_Road_Sidebar-InCopy-MPU-5_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 202666,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90811'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        tagid: '90810'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        tagid: '90812'
+                    }
+                },
+                {
                     bidder: 'openx',
                     labelAny: [
                         '1640 - 9999',
                         '1025 - 1639',
                         '748 - 1024',
                         '375 - 747',
-                        '0 - 347'
+                        '0 - 374'
                     ],
                     params: {
                         unit: '540937564',
                         delDomain: 'streamamp-d.openx.net'
                     }
-                }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542177',
+                        adSlot: 'New_Sidebar-InCopy-MPU-5_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542176',
+                        adSlot: 'New_Sidebar-InCopy-MPU-5_300x250@300x250'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2542175',
+                        adSlot: 'New_Sidebar-InCopy-MPU-5_300x600@300x600'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440440',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        siteId: '440440',
+                        size: [
+                            300,
+                            600
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '440440',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085974
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 18085973
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18085976
+                    }
+                },
             ],
             breakpoints: {
                 '1640 - 9999': [
@@ -1449,9 +4304,9 @@ var streamampConfig = {
             ]
         },
         {
-            label: '0 - 347',
+            label: '0 - 374',
             minWidth: 0,
-            maxWidth: 347,
+            maxWidth: 374,
             sizesSupported: [
                 [
                     320,

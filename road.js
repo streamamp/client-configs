@@ -2077,7 +2077,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'justpremium',
-                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
+                    labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024'],
                     params: {
                         zone: '79351',
                         allow: ['cf', 'as', 'ci']
