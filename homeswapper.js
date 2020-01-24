@@ -1743,9 +1743,10 @@ var streamampConfig = {
                 backgroundColor: '#FFFFFF',
                 borderColor: '#6F2476'
             },
-            additionalStyles: '',
             toggleSwitchBorderColor: '#6F2476',
-            toggleStatusTextColor: '#FFFFFF'
+            toggleStatusTextColor: '#FFFFFF',
+            dropdownArrowColor: '#6F2476',
+            additionalStyles: '',
         }
     },
     breakpoints: [
