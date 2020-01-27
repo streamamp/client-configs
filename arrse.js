@@ -2198,305 +2198,305 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: '2018_ARRSE_Safe_Front_Side',
-            path: '/1060220/2018_ARRSE/2018A_safe_front_side',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            160,
-                            600
-                        ],
-                        [
-                            300,
-                            250
-                        ],
-                        [
-                            300,
-                            600
-                        ],
-                        [
-                            320,
-                            50
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749',
-                        '0 - 399'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'Army_Unit10_300x250'
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 180912,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749',
-                        '0 - 399'
-                    ],
-                    params: {
-                        dmxid: 180913,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        dmxid: 354866,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0 - 399'
-                    ],
-                    params: {
-                        dmxid: 180915,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749'
-                    ],
-                    params: {
-                        tagid: '76117'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749',
-                        '0 - 399'
-                    ],
-                    params: {
-                        tagid: '76118'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        tagid: '76119'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0 - 399'
-                    ],
-                    params: {
-                        tagid: '76120'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201208
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749'
-                    ],
-                    params: {
-                        siteId: '396049',
-                        size: [
-                            160,
-                            600
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749',
-                        '0 - 399'
-                    ],
-                    params: {
-                        siteId: '396049',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        siteId: '396049',
-                        size: [
-                            300,
-                            600
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0 - 399'
-                    ],
-                    params: {
-                        siteId: '396049',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749',
-                        '0 - 399'
-                    ],
-                    params: {
-                        unit: '539775524',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749'
-                    ],
-                    params: {
-                        placementId: 12788139
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '1000 - 9999',
-                        '750 - 999',
-                        '400 - 749',
-                        '0 - 399'
-                    ],
-                    params: {
-                        placementId: 12788140
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        placementId: 12788141
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0 - 399'
-                    ],
-                    params: {
-                        placementId: 13682942
-                    }
-                }
-            ],
-            breakpoints: {
-                '1000 - 9999': [
-                    [
-                        160,
-                        600
-                    ],
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        300,
-                        600
-                    ]
-                ],
-                '750 - 999': [
-                    [
-                        160,
-                        600
-                    ],
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '400 - 749': [
-                    [
-                        160,
-                        600
-                    ],
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '0 - 399': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ]
-            }
-        },
+        // {
+        //     code: '2018_ARRSE_Safe_Front_Side',
+        //     path: '/1060220/2018_ARRSE/2018A_safe_front_side',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     160,
+        //                     600
+        //                 ],
+        //                 [
+        //                     300,
+        //                     250
+        //                 ],
+        //                 [
+        //                     300,
+        //                     600
+        //                 ],
+        //                 [
+        //                     320,
+        //                     50
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749',
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'Army_Unit10_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749'
+        //             ],
+        //             params: {
+        //                 dmxid: 180912,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749',
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 dmxid: 180913,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '1000 - 9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 354866,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 dmxid: 180915,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749'
+        //             ],
+        //             params: {
+        //                 tagid: '76117'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749',
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 tagid: '76118'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '1000 - 9999'
+        //             ],
+        //             params: {
+        //                 tagid: '76119'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 tagid: '76120'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '1000 - 9999',
+        //         //         '750 - 999',
+        //         //         '400 - 749',
+        //         //         '0 - 399'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 1201208
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749'
+        //             ],
+        //             params: {
+        //                 siteId: '396049',
+        //                 size: [
+        //                     160,
+        //                     600
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749',
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 siteId: '396049',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '1000 - 9999'
+        //             ],
+        //             params: {
+        //                 siteId: '396049',
+        //                 size: [
+        //                     300,
+        //                     600
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 siteId: '396049',
+        //                 size: [
+        //                     320,
+        //                     50
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749',
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 unit: '539775524',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749'
+        //             ],
+        //             params: {
+        //                 placementId: 12788139
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '1000 - 9999',
+        //                 '750 - 999',
+        //                 '400 - 749',
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 placementId: 12788140
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '1000 - 9999'
+        //             ],
+        //             params: {
+        //                 placementId: 12788141
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '0 - 399'
+        //             ],
+        //             params: {
+        //                 placementId: 13682942
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '1000 - 9999': [
+        //             [
+        //                 160,
+        //                 600
+        //             ],
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 300,
+        //                 600
+        //             ]
+        //         ],
+        //         '750 - 999': [
+        //             [
+        //                 160,
+        //                 600
+        //             ],
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '400 - 749': [
+        //             [
+        //                 160,
+        //                 600
+        //             ],
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '0 - 399': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 320,
+        //                 50
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: '2018_ARRSE_NoSafe_ROS_Head',
             path: '/1060220/2018_ARRSE_NoAdsense/2018A_nsafe_ros_head',
