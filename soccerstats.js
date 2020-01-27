@@ -1010,6 +1010,10 @@ var streamampConfig = {
 						[
 							320,
 							50
+						],
+						[
+							728,
+							90
 						]
 					]
 				}
@@ -1045,6 +1049,16 @@ var streamampConfig = {
 					],
 					params: {
 						dmxid: 261761,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						dmxid: 488544,
 						memberid: 100615
 					}
 				},
@@ -1089,9 +1103,23 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'ix',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						siteId: '453001',
+						size: [
+							728,
+							90
+						]
+					}
+				},
+				{
 					bidder: 'openx',
 					labelAny: [
-						'0-468'
+						'0-468',
+						'469-9999'
 					],
 					params: {
 						unit: '540766909',
@@ -1110,6 +1138,17 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'pubmatic',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						publisherId: '127864',
+						pmzoneid: '2572154',
+						adSlot: 'SoccerStats_Unit6_728x90@728x90'
+					}
+				},
+				{
 					bidder: 'streamamp',
 					labelAny: [
 						'0-468'
@@ -1117,9 +1156,24 @@ var streamampConfig = {
 					params: {
 						placementId: 14321848
 					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'469-9999'
+					],
+					params: {
+						placementId: 18315400
+					}
 				}
 			],
 			breakpoints: {
+				'469-9999': [
+					[
+						728,
+						90
+					]
+				],
 				'0-468': [
 					[
 						320,
