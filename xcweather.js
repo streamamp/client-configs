@@ -103,19 +103,19 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '970-9999',
-                        '729-969'
-
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2530479',
-                        adSlot: 'XCWeather_Unit1_160x600@160x600'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969'
+                //
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2530479',
+                //         adSlot: 'XCWeather_Unit1_160x600@160x600'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -348,19 +348,19 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '970-9999',
-                        '729-969'
-
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2530481',
-                        adSlot: 'XCWeather_Unit3_160x600@160x600'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969'
+                //
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2530481',
+                //         adSlot: 'XCWeather_Unit3_160x600@160x600'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -471,19 +471,19 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '970-9999',
-                        '729-969'
-
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2530482',
-                        adSlot: 'XCWeather_Unit4_728x90@728x90'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969'
+                //
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2530482',
+                //         adSlot: 'XCWeather_Unit4_728x90@728x90'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -594,19 +594,19 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '970-9999',
-                        '729-969'
-
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2530483',
-                        adSlot: 'XCWeather_Unit5_160x600@160x600'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969'
+                //
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2530483',
+                //         adSlot: 'XCWeather_Unit5_160x600@160x600'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -749,19 +749,19 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '970-9999',
-                        '729-969'
-
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2530485',
-                        adSlot: 'XCWeather_Unit7_728x90@728x90'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '970-9999',
+                //         '729-969'
+                //
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2530485',
+                //         adSlot: 'XCWeather_Unit7_728x90@728x90'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
