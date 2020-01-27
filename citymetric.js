@@ -191,7 +191,6 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '900-9999',
                         '730-899'
                     ],
                     params: {
@@ -214,7 +213,6 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '730-899',
                         '0-729'
                     ],
                     params: {
@@ -319,732 +317,732 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'Unit2',
-            path: '/5269235/City_Metric/Unit2',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ],
-                        [
-                            160,
-                            600
-                        ],
-                        [
-                            300,
-                            600
-                        ],
-                        [
-                            320,
-                            50
-                        ],
-                        [
-                            320,
-                            100
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'GD_CityMetric_Unit2_300x250'
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        dmxid: 161329,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        dmxid: 161330,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        dmxid: 161332,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        dmxid: 161329,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        tagid: '40622'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        tagid: '67165'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        tagid: '67166'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        tagid: '67164'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '900-9999',
-                //         '0-729',
-                //         '730-899'
-                //     ],
-                //     params: {
-                //         placementId: 1202326
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        siteId: '307489',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        siteId: '307498',
-                        size: [
-                            160,
-                            600
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        siteId: '307501',
-                        size: [
-                            300,
-                            600
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        siteId: '307492',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        unit: '539081845',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470363',
-                        adSlot: 'CityMetric_Unit2_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '900-9999',
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470365',
-                        adSlot: 'CityMetric_Unit2_160x600@160x600'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470366',
-                        adSlot: 'CityMetric_Unit2_300x600@300x600'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470364',
-                        adSlot: 'CityMetric_Unit2_320x50@320x50'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        placementId: 11609650
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 11609651
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 11609655
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 13768702
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '900-9999',
-                        '0-729',
-                        '730-899'
-                    ],
-                    params: {
-                        placementId: 17387234
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 17387242
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 17387259
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 17387235
-                    }
-                }
-            ],
-            breakpoints: {
-                '900-9999': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        160,
-                        600
-                    ],
-                    [
-                        300,
-                        600
-                    ]
-                ],
-                '0-729': [
-                    [
-                        320,
-                        50
-                    ],
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        100
-                    ]
-                ],
-                '730-899': [
-                    [
-                        300,
-                        250
-                    ]
-                ]
-            }
-        },
-        {
-            code: 'Unit3',
-            path: '/5269235/City_Metric/Unit3',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            320,
-                            250
-                        ],
-                        [
-                            160,
-                            600
-                        ],
-                        [
-                            300,
-                            600
-                        ],
-                        [
-                            320,
-                            50
-                        ],
-                        [
-                            320,
-                            100
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'GD_CityMetric_Unit3_300x250'
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        dmxid: 161333,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        dmxid: 161334,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        dmxid: 161336,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        dmxid: 161333,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        tagid: '40623'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        tagid: '67168'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        tagid: '67169'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        tagid: '67167'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '900-9999',
-                //         '730-899',
-                //         '0-729'
-                //     ],
-                //     params: {
-                //         placementId: 1202327
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        siteId: '307502',
-                        size: [
-                            320,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        siteId: '307505',
-                        size: [
-                            160,
-                            600
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        siteId: '307514',
-                        size: [
-                            300,
-                            600
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        siteId: '307503',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        unit: '539081863',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470367',
-                        adSlot: 'CityMetric_Unit3_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '900-9999',
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470369',
-                        adSlot: 'CityMetric_Unit3_160x600@160x600'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470370',
-                        adSlot: 'CityMetric_Unit3_300x600@300x600'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470368',
-                        adSlot: 'CityMetric_Unit3_320x50@320x50'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 11609656
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 11609657
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 11609660
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 13768703
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '900-9999',
-                        '730-899',
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 17387270
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 17387273
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '900-9999'
-                    ],
-                    params: {
-                        placementId: 17387277
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        placementId: 17387272
-                    }
-                }
-            ],
-            breakpoints: {
-                '900-9999': [
-                    [
-                        320,
-                        250
-                    ],
-                    [
-                        160,
-                        600
-                    ],
-                    [
-                        300,
-                        600
-                    ]
-                ],
-                '730-899': [
-                    [
-                        320,
-                        250
-                    ]
-                ],
-                '0-729': [
-                    [
-                        320,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ],
-                    [
-                        320,
-                        100
-                    ]
-                ]
-            }
-        },
+        // {
+        //     code: 'Unit2',
+        //     path: '/5269235/City_Metric/Unit2',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ],
+        //                 [
+        //                     160,
+        //                     600
+        //                 ],
+        //                 [
+        //                     300,
+        //                     600
+        //                 ],
+        //                 [
+        //                     320,
+        //                     50
+        //                 ],
+        //                 [
+        //                     320,
+        //                     100
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'GD_CityMetric_Unit2_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 dmxid: 161329,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 161330,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 161332,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 dmxid: 161329,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 tagid: '40622'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67165'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67166'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 tagid: '67164'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '900-9999',
+        //         //         '0-729',
+        //         //         '730-899'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 1202326
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 siteId: '307489',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 siteId: '307498',
+        //                 size: [
+        //                     160,
+        //                     600
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 siteId: '307501',
+        //                 size: [
+        //                     300,
+        //                     600
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 siteId: '307492',
+        //                 size: [
+        //                     320,
+        //                     50
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 unit: '539081845',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470363',
+        //                 adSlot: 'CityMetric_Unit2_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470365',
+        //                 adSlot: 'CityMetric_Unit2_160x600@160x600'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470366',
+        //                 adSlot: 'CityMetric_Unit2_300x600@300x600'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470364',
+        //                 adSlot: 'CityMetric_Unit2_320x50@320x50'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 placementId: 11609650
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11609651
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11609655
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 placementId: 13768702
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729',
+        //                 '730-899'
+        //             ],
+        //             params: {
+        //                 placementId: 17387234
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 17387242
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 17387259
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 placementId: 17387235
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '900-9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 160,
+        //                 600
+        //             ],
+        //             [
+        //                 300,
+        //                 600
+        //             ]
+        //         ],
+        //         '0-729': [
+        //             [
+        //                 320,
+        //                 50
+        //             ],
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 320,
+        //                 100
+        //             ]
+        //         ],
+        //         '730-899': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
+        // {
+        //     code: 'Unit3',
+        //     path: '/5269235/City_Metric/Unit3',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     320,
+        //                     250
+        //                 ],
+        //                 [
+        //                     160,
+        //                     600
+        //                 ],
+        //                 [
+        //                     300,
+        //                     600
+        //                 ],
+        //                 [
+        //                     320,
+        //                     50
+        //                 ],
+        //                 [
+        //                     320,
+        //                     100
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'GD_CityMetric_Unit3_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 dmxid: 161333,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 161334,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 161336,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 dmxid: 161333,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 tagid: '40623'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67168'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67169'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 tagid: '67167'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '900-9999',
+        //         //         '730-899',
+        //         //         '0-729'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 1202327
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 siteId: '307502',
+        //                 size: [
+        //                     320,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 siteId: '307505',
+        //                 size: [
+        //                     160,
+        //                     600
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 siteId: '307514',
+        //                 size: [
+        //                     300,
+        //                     600
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 siteId: '307503',
+        //                 size: [
+        //                     320,
+        //                     50
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 unit: '539081863',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470367',
+        //                 adSlot: 'CityMetric_Unit3_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470369',
+        //                 adSlot: 'CityMetric_Unit3_160x600@160x600'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470370',
+        //                 adSlot: 'CityMetric_Unit3_300x600@300x600'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2470368',
+        //                 adSlot: 'CityMetric_Unit3_320x50@320x50'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 placementId: 11609656
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11609657
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11609660
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 placementId: 13768703
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '900-9999',
+        //                 '730-899',
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 placementId: 17387270
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 17387273
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '900-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 17387277
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '0-729'
+        //             ],
+        //             params: {
+        //                 placementId: 17387272
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '900-9999': [
+        //             [
+        //                 320,
+        //                 250
+        //             ],
+        //             [
+        //                 160,
+        //                 600
+        //             ],
+        //             [
+        //                 300,
+        //                 600
+        //             ]
+        //         ],
+        //         '730-899': [
+        //             [
+        //                 320,
+        //                 250
+        //             ]
+        //         ],
+        //         '0-729': [
+        //             [
+        //                 320,
+        //                 250
+        //             ],
+        //             [
+        //                 320,
+        //                 50
+        //             ],
+        //             [
+        //                 320,
+        //                 100
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: 'Unit4',
             path: '/5269235/City_Metric/Unit4',
@@ -1235,17 +1233,17 @@ var streamampConfig = {
                         adSlot: 'CityMetric_Unit4_300x600@300x600'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '0-729'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2470372',
-                        adSlot: 'CityMetric_Unit4_320x50@320x50'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '0-729'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2470372',
+                //         adSlot: 'CityMetric_Unit4_320x50@320x50'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -1489,7 +1487,7 @@ var streamampConfig = {
                 {
                     bidder: 'pubmatic',
                     labelAny: [
-                        '730-899',
+                        // '730-899',
                         '0-729'
                     ],
                     params: {
