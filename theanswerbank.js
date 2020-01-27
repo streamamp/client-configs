@@ -185,32 +185,32 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1242874',
-						adSlot: 'AnswerBank_MPU_300x250@300x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1242876',
-						adSlot: 'AnswerBank_MPU_300x600@300x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991',
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1242874',
+				// 		adSlot: 'AnswerBank_MPU_300x250@300x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991',
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1242876',
+				// 		adSlot: 'AnswerBank_MPU_300x600@300x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -384,29 +384,29 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1242894',
-						adSlot: 'AnswerBank_Banner_728x90@728x90'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'768-991',
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1242892',
-						adSlot: 'AnswerBank_Banner_320x50@320x50'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1242894',
+				// 		adSlot: 'AnswerBank_Banner_728x90@728x90'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'768-991',
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1242892',
+				// 		adSlot: 'AnswerBank_Banner_320x50@320x50'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -575,30 +575,30 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455246',
-						adSlot: 'AnswerBank_MPU2_300x250@300x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455247',
-						adSlot: 'AnswerBank_MPU2_300x600@300x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991',
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455246',
+				// 		adSlot: 'AnswerBank_MPU2_300x250@300x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455247',
+				// 		adSlot: 'AnswerBank_MPU2_300x600@300x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -772,30 +772,30 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455248',
-						adSlot: 'AnswerBank_MPU3_300x250@300x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455249',
-						adSlot: 'AnswerBank_MPU3_300x600@300x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991',
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455248',
+				// 		adSlot: 'AnswerBank_MPU3_300x250@300x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455249',
+				// 		adSlot: 'AnswerBank_MPU3_300x600@300x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -910,17 +910,17 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455251',
-						adSlot: 'AnswerBank_Leaderboard_728x90@728x90'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455251',
+				// 		adSlot: 'AnswerBank_Leaderboard_728x90@728x90'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -1008,17 +1008,17 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455254',
-						adSlot: 'AnswerBank_Skyscraper1_160x600@160x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455254',
+				// 		adSlot: 'AnswerBank_Skyscraper1_160x600@160x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -1106,17 +1106,17 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455255',
-						adSlot: 'AnswerBank_Skyscraper2_160x600@160x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455255',
+				// 		adSlot: 'AnswerBank_Skyscraper2_160x600@160x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -1330,39 +1330,39 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467766',
-						adSlot: 'AnswerBank_Leaderboard1_970x250@970x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'768-991'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467760',
-						adSlot: 'AnswerBank_Leaderboard1_728x90@728x90'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467753',
-						adSlot: 'AnswerBank_Leaderboard1_300x250@300x250'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467766',
+				// 		adSlot: 'AnswerBank_Leaderboard1_970x250@970x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'768-991'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467760',
+				// 		adSlot: 'AnswerBank_Leaderboard1_728x90@728x90'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467753',
+				// 		adSlot: 'AnswerBank_Leaderboard1_300x250@300x250'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -1619,50 +1619,50 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467767',
-						adSlot: 'AnswerBank_Leaderboard2_970x250@970x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'768-991'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467761',
-						adSlot: 'AnswerBank_Leaderboard2_728x90@728x90'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467755',
-						adSlot: 'AnswerBank_Leaderboard2_300x250@300x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467756',
-						adSlot: 'AnswerBank_Leaderboard2_320X50@320X50'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467767',
+				// 		adSlot: 'AnswerBank_Leaderboard2_970x250@970x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'768-991'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467761',
+				// 		adSlot: 'AnswerBank_Leaderboard2_728x90@728x90'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467755',
+				// 		adSlot: 'AnswerBank_Leaderboard2_300x250@300x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467756',
+				// 		adSlot: 'AnswerBank_Leaderboard2_320X50@320X50'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -1798,18 +1798,18 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467762',
-						adSlot: 'AnswerBank_Skyscraper1new_160x600@160x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467762',
+				// 		adSlot: 'AnswerBank_Skyscraper1new_160x600@160x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -1909,18 +1909,18 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467763',
-						adSlot: 'AnswerBank_Skyscraper2new_160x600@160x600'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467763',
+				// 		adSlot: 'AnswerBank_Skyscraper2new_160x600@160x600'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -2085,31 +2085,31 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467764',
-						adSlot: 'AnswerBank_MPUnew_300x600@300x600'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467757',
-						adSlot: 'AnswerBank_MPUnew_300x250@300x250'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467764',
+				// 		adSlot: 'AnswerBank_MPUnew_300x600@300x600'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991',
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467757',
+				// 		adSlot: 'AnswerBank_MPUnew_300x250@300x250'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -2315,40 +2315,40 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'992-9999',
-						'768-991'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467765',
-						adSlot: 'AnswerBank_Billboard_728x90@728x90'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467758',
-						adSlot: 'AnswerBank_Billboard_300x250@300x250'
-					}
-				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467759',
-						adSlot: 'AnswerBank_Billboard_320x50@320x50'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'992-9999',
+				// 		'768-991'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467765',
+				// 		adSlot: 'AnswerBank_Billboard_728x90@728x90'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467758',
+				// 		adSlot: 'AnswerBank_Billboard_300x250@300x250'
+				// 	}
+				// },
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467759',
+				// 		adSlot: 'AnswerBank_Billboard_320x50@320x50'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -2484,17 +2484,17 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '1455253',
-						adSlot: 'AnswerBank_Mobile_320x50@320x50'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '1455253',
+				// 		adSlot: 'AnswerBank_Mobile_320x50@320x50'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
@@ -2582,17 +2582,17 @@ var streamampConfig = {
 						]
 					}
 				},
-				{
-					bidder: 'pubmatic',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						publisherId: '127864',
-						pmzoneid: '2467750',
-						adSlot: 'AnswerBank_Sticky_320x50@320x50'
-					}
-				},
+				// {
+				// 	bidder: 'pubmatic',
+				// 	labelAny: [
+				// 		'0-767'
+				// 	],
+				// 	params: {
+				// 		publisherId: '127864',
+				// 		pmzoneid: '2467750',
+				// 		adSlot: 'AnswerBank_Sticky_320x50@320x50'
+				// 	}
+				// },
 				{
 					bidder: 'streamamp',
 					labelAny: [
