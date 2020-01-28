@@ -186,42 +186,42 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1682596',
-                        adSlot: 'TheCMC_BabyMagazine_Unit1_970x250@970x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683880',
-                        adSlot: 'TheCMC_BabyMagazine_Unit1_728x90@728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683882',
-                        adSlot: 'TheCMC_BabyMagazine_Unit1_320x50@320x50'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1682596',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit1_970x250@970x250'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683880',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit1_728x90@728x90'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683882',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit1_320x50@320x50'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -418,32 +418,32 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683886',
-                        adSlot: 'TheCMC_BabyMagazine_Unit2_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2471454',
-                        adSlot: 'TheCMC_BabyMagazine_Unit2_300x600@300x600'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683886',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit2_300x250@300x250'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2471454',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit2_300x600@300x600'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -624,32 +624,32 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683887',
-                        adSlot: 'TheCMC_BabyMagazine_Unit3_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2471456',
-                        adSlot: 'TheCMC_BabyMagazine_Unit3_300x600@300x600'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683887',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit3_300x250@300x250'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2471456',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit3_300x600@300x600'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -830,32 +830,32 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990',
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2471451',
-                        adSlot: 'TheCMC_BabyMagazine_Unit4_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683888',
-                        adSlot: 'TheCMC_BabyMagazine_Unit4_300x600@300x600'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990',
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2471451',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit4_300x250@300x250'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683888',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit4_300x600@300x600'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -1081,42 +1081,42 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2471457',
-                        adSlot: 'TheCMC_BabyMagazine_Unit5_970x250@970x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2471461',
-                        adSlot: 'TheCMC_BabyMagazine_Unit5_728x90@728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2471452',
-                        adSlot: 'TheCMC_BabyMagazine_Unit5_320x50@320x50'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2471457',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit5_970x250@970x250'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2471461',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit5_728x90@728x90'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '2471452',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit5_320x50@320x50'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -1315,30 +1315,30 @@ var streamampConfig = {
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '991 - 9999',
-                        '729 - 990'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683891',
-                        adSlot: 'TheCMC_BabyMagazine_Unit6_728x90@728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '469 - 728',
-                        '0 - 468'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1683893',
-                        adSlot: 'TheCMC_BabyMagazine_Unit6_320x50@320x50'
-                    }
-                },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '991 - 9999',
+                //         '729 - 990'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683891',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit6_728x90@728x90'
+                //     }
+                // },
+                // {
+                //     bidder: 'pubmatic',
+                //     labelAny: [
+                //         '469 - 728',
+                //         '0 - 468'
+                //     ],
+                //     params: {
+                //         publisherId: '127864',
+                //         pmzoneid: '1683893',
+                //         adSlot: 'TheCMC_BabyMagazine_Unit6_320x50@320x50'
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
