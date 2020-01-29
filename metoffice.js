@@ -333,6 +333,22 @@ var streamampConfig = {
                     params: {
                         placementId: 6182263
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970',
+                        '0-728'
+                    ],
+                    params: {
+                        site_id: '201087'
+                    }
                 }
             ],
             breakpoints: {
@@ -688,6 +704,21 @@ var streamampConfig = {
                     params: {
                         placementId: 6532236
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970'
+                    ],
+                    params: {
+                        site_id: '201087'
+                    }
                 }
             ],
             breakpoints: {
@@ -956,6 +987,16 @@ var streamampConfig = {
                     params: {
                         placementId: 11728626
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975'
+                    ],
+                    params: {
+                        site_id: '201087'
+                    }
                 }
             ],
             breakpoints: {
@@ -1182,6 +1223,16 @@ var streamampConfig = {
                     params: {
                         placementId: 11728624
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975'
+                    ],
+                    params: {
+                        site_id: '201087'
+                    }
                 }
             ],
             breakpoints: {
@@ -1356,6 +1407,20 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 11777637
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280'
+                    ],
+                    params: {
+                        site_id: '201087'
                     }
                 }
             ],
@@ -1628,6 +1693,19 @@ var streamampConfig = {
                     params: {
                         placementId: 15199519
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360'
+                    ],
+                    params: {
+                        site_id: '201087'
+                    }
                 }
             ],
             breakpoints: {
@@ -1811,6 +1889,19 @@ var streamampConfig = {
                     params: {
                         placementId: 15199493
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360'
+                    ],
+                    params: {
+                        site_id: '201087'
+                    }
                 }
             ],
             breakpoints: {
@@ -1945,6 +2036,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 6542839
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0-728'
+                    ],
+                    params: {
+                        site_id: '201087'
                     }
                 }
             ],
