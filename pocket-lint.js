@@ -9,7 +9,7 @@ var streamampConfig = {
     refreshBidsTimeout: 90,
     minRefreshTime: 90,
     maxRefreshTime: 120,
-    adUnitsToRefresh: ["SA-Unit1", "SA-Unit2", "SA-Unit3", "SA-Unit4", "SA-Unit5", "SA-Unit6", "SA-Unit7", "SA-Unit8", "SA-Unit9", "SA-Unit10", "SA-Unit11", "SA-Unit12", "SA-Unit13", "SA-Unit14", "SA-Unit15", "SA-Unit16", "SA-Unit17", "SA-Unit19", "SA-Unit20", "SA-Sticky", "SA-Tablet", "SA-OutOfPage", "SA-RecommendationWidget", "SA-HomepageBillboard", "SA-Unit21", "Widget-320x50", "SA-Unit22-HomePage", "SA-Unit23-HomePage", "SA-Unit24-HomePage", "SA-Unit25-HomePage", "SA-Unit26-HomePage"],
+    adUnitsToRefresh: ["SA-Unit1", "SA-Unit2", "SA-Unit3", "SA-Unit4", "SA-Unit5", "SA-Unit6", "SA-Unit7", "SA-Unit8", "SA-Unit9", "SA-Unit11", "SA-Unit12", "SA-Unit13", "SA-Unit14", "SA-Unit15", "SA-Unit16", "SA-Unit17", "SA-Unit19", "SA-Unit20", "SA-Sticky", "SA-Tablet", "SA-OutOfPage", "SA-RecommendationWidget", "SA-HomepageBillboard", "SA-Unit21", "Widget-320x50", "SA-Unit22-HomePage", "SA-Unit23-HomePage", "SA-Unit24-HomePage", "SA-Unit25-HomePage", "SA-Unit26-HomePage"],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'Pocket-lint/pocket-lint-2',
     token: '1aejlUWVaAv14ZFfjjskPR5dhvF6psOSHzwj1cBZkeLZjuydMfMCXiBbkTFEXi4D',
@@ -1797,188 +1797,188 @@ var streamampConfig = {
                 '0 - 374': [[300, 250]]
             }
         },
-        {
-            code: 'SA-Unit10',
-            path: '/92354202/SA-Unit10',
-            mediaTypes: {
-                banner: {
-                    sizes: [[728, 90], [970, 250], [300, 250], [320, 50], [320, 100]]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'conversant',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        site_id: '200686',
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: ['375 - 747', '0 - 374'],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'PocketLint_Unit10_300x250'
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: ['990 - 9999', '748 - 989'],
-                    params: {
-                        siteId: '308305',
-                        size: [728, 90]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: ['990 - 9999'],
-                    params: {
-                        siteId: '308306',
-                        size: [970, 250]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: ['375 - 747'],
-                    params: {
-                        siteId: '308304',
-                        size: [320, 50]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: ['375 - 747', '0 - 374'],
-                    params: {
-                        siteId: '308303',
-                        size: [300, 250]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['990 - 9999', '748 - 989', '375 - 747', '0 - 374'],
-                    params: {
-                        unit: '538775403',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '852516',
-                        adSlot: 'pocket-lint_unit10_728x90@728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '852514',
-                        adSlot: 'pocket-lint_unit10_970x250@970x250'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '375 - 747'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1522832',
-                        adSlot: 'pocket-lint_unit10_320x50@320x50'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '852517',
-                        adSlot: 'pocket-lint_unit10_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: ['990 - 9999', '748 - 989'],
-                    params: {
-                        placementId: 9450640
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: ['990 - 9999'],
-                    params: {
-                        placementId: 9450639
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: ['375 - 747'],
-                    params: {
-                        placementId: 13763805
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: ['375 - 747', '0 - 374'],
-                    params: {
-                        placementId: 9450641
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: ['990 - 9999', '748 - 989'],
-                    params: {
-                        placementId: 16303484
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: ['990 - 9999'],
-                    params: {
-                        placementId: 16303485
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: ['375 - 747'],
-                    params: {
-                        placementId: 16303482
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: ['375 - 747', '0 - 374'],
-                    params: {
-                        placementId: 16303480
-                    }
-                }
-            ],
-            breakpoints: {
-                '990 - 9999': [[728, 90], [970, 250]],
-                '748 - 989': [[728, 90]],
-                '375 - 747': [[300, 250], [320, 50], [320, 100]],
-                '0 - 374': [[300, 250], [320, 50], [320, 100]]
-            }
-        },
+        // {
+        //     code: 'SA-Unit10',
+        //     path: '/92354202/SA-Unit10',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [[728, 90], [970, 250], [300, 250], [320, 50], [320, 100]]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'conversant',
+        //             labelAny: [
+        //                 '990 - 9999',
+        //                 '748 - 989',
+        //                 '375 - 747',
+        //                 '0 - 374'
+        //             ],
+        //             params: {
+        //                 site_id: '200686',
+        //             }
+        //         },
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: ['375 - 747', '0 - 374'],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'PocketLint_Unit10_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: ['990 - 9999', '748 - 989'],
+        //             params: {
+        //                 siteId: '308305',
+        //                 size: [728, 90]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 siteId: '308306',
+        //                 size: [970, 250]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: ['375 - 747'],
+        //             params: {
+        //                 siteId: '308304',
+        //                 size: [320, 50]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: ['375 - 747', '0 - 374'],
+        //             params: {
+        //                 siteId: '308303',
+        //                 size: [300, 250]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: ['990 - 9999', '748 - 989', '375 - 747', '0 - 374'],
+        //             params: {
+        //                 unit: '538775403',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '990 - 9999',
+        //                 '748 - 989'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '852516',
+        //                 adSlot: 'pocket-lint_unit10_728x90@728x90'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '990 - 9999'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '852514',
+        //                 adSlot: 'pocket-lint_unit10_970x250@970x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '375 - 747'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '1522832',
+        //                 adSlot: 'pocket-lint_unit10_320x50@320x50'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '375 - 747',
+        //                 '0 - 374'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '852517',
+        //                 adSlot: 'pocket-lint_unit10_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: ['990 - 9999', '748 - 989'],
+        //             params: {
+        //                 placementId: 9450640
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 placementId: 9450639
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: ['375 - 747'],
+        //             params: {
+        //                 placementId: 13763805
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: ['375 - 747', '0 - 374'],
+        //             params: {
+        //                 placementId: 9450641
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: ['990 - 9999', '748 - 989'],
+        //             params: {
+        //                 placementId: 16303484
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 placementId: 16303485
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: ['375 - 747'],
+        //             params: {
+        //                 placementId: 16303482
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: ['375 - 747', '0 - 374'],
+        //             params: {
+        //                 placementId: 16303480
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '990 - 9999': [[728, 90], [970, 250]],
+        //         '748 - 989': [[728, 90]],
+        //         '375 - 747': [[300, 250], [320, 50], [320, 100]],
+        //         '0 - 374': [[300, 250], [320, 50], [320, 100]]
+        //     }
+        // },
         {
             code: 'SA-Unit11',
             path: '/92354202/SA-Unit11',
