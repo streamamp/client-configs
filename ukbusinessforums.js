@@ -718,130 +718,130 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'ukbf-mpu-3',
-            path: '/4394518/ukbf-mpu-3',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '971 - 9999',
-                        '728 - 970',
-                        '0 - 727'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'ukbf_mpu_3_300x250'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '971 - 9999',
-                        '728 - 970',
-                        '0 - 727'
-                    ],
-                    params: {
-                        tagid: '74366'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '971 - 9999',
-                //         '728 - 970',
-                //         '0 - 727'
-                //     ],
-                //     params: {
-                //         placementId: 22051763
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999',
-                        '728 - 970',
-                        '0 - 727'
-                    ],
-                    params: {
-                        siteId: '423999',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '971 - 9999',
-                        '728 - 970',
-                        '0 - 727'
-                    ],
-                    params: {
-                        unit: '540796815',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '971 - 9999',
-                        '728 - 970',
-                        '0 - 727'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2237794',
-                        adSlot: 'Sift-ukbf_mpu_3_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '971 - 9999',
-                        '728 - 970',
-                        '0 - 727'
-                    ],
-                    params: {
-                        placementId: 16411665
-                    }
-                }
-            ],
-            breakpoints: {
-                '971 - 9999': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '728 - 970': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '0 - 727': [
-                    [
-                        300,
-                        250
-                    ]
-                ]
-            }
-        },
+        // {
+        //     code: 'ukbf-mpu-3',
+        //     path: '/4394518/ukbf-mpu-3',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '728 - 970',
+        //                 '0 - 727'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'ukbf_mpu_3_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '728 - 970',
+        //                 '0 - 727'
+        //             ],
+        //             params: {
+        //                 tagid: '74366'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '971 - 9999',
+        //         //         '728 - 970',
+        //         //         '0 - 727'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 22051763
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '728 - 970',
+        //                 '0 - 727'
+        //             ],
+        //             params: {
+        //                 siteId: '423999',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '728 - 970',
+        //                 '0 - 727'
+        //             ],
+        //             params: {
+        //                 unit: '540796815',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '728 - 970',
+        //                 '0 - 727'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2237794',
+        //                 adSlot: 'Sift-ukbf_mpu_3_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '728 - 970',
+        //                 '0 - 727'
+        //             ],
+        //             params: {
+        //                 placementId: 16411665
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '971 - 9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '728 - 970': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '0 - 727': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: 'UKBF_Sticky',
             path: '/4394518/UKBF_Sticky',
