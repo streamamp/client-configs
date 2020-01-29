@@ -1074,6 +1074,15 @@ var streamampConfig = {
 				{
 					bidder: 'emx_digital',
 					labelAny: [
+						'469-9999'
+					],
+					params: {
+						tagid: '92632'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
 						'0-468'
 					],
 					params: {
