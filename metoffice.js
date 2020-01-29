@@ -243,9 +243,9 @@ var streamampConfig = {
                         '729-970'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 386626,
+                        zoneId: '386626',
                         sizes: [
                             10
                         ]
@@ -264,16 +264,16 @@ var streamampConfig = {
                         '0-728'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 386626,
+                        zoneId: '386626',
                         sizes: [
                             15
                         ]
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: 'sovrn',
                     labelAny: [
                         '1976-9999',
                         '1697-1975',
@@ -283,12 +283,12 @@ var streamampConfig = {
                         '971-1280',
                         '729-970'
                     ],
-                    "params": {
-                        "tagid": 398210
+                    params: {
+                        tagid: '398210'
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: 'sovrn',
                     labelAny: [
                         '1976-9999',
                         '1697-1975',
@@ -299,8 +299,8 @@ var streamampConfig = {
                         '729-970',
                         '0-728'
                     ],
-                    "params": {
-                        "tagid": 398056
+                    params: {
+                        tagid: '398056'
                     }
                 },
                 {
@@ -332,6 +332,37 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 6182263
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970'
+                    ],
+                    params: {
+                        placementId: 16995427
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970',
+                        '0-728'
+                    ],
+                    params: {
+                        placementId: 16995437
                     }
                 },
                 {
@@ -623,9 +654,9 @@ var streamampConfig = {
                         '1361-1616'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 386628,
+                        zoneId: '386628',
                         sizes: [
                             57
                         ]
@@ -643,28 +674,28 @@ var streamampConfig = {
                         '729-970'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 386628,
+                        zoneId: '386628',
                         sizes: [
                             2
                         ]
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: 'sovrn',
                     labelAny: [
                         '1976-9999',
                         '1697-1975',
                         '1617-1696',
                         '1361-1616'
                     ],
-                    "params": {
-                        "tagid": 398054
+                    params: {
+                        tagid: '398054'
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: 'sovrn',
                     labelAny: [
                         '1976-9999',
                         '1697-1975',
@@ -674,8 +705,8 @@ var streamampConfig = {
                         '971-1280',
                         '729-970'
                     ],
-                    "params": {
-                        "tagid": 398211
+                    params: {
+                        tagid: '398211'
                     }
                 },
                 {
@@ -703,6 +734,33 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 6532236
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616'
+                    ],
+                    params: {
+                        placementId: 16995451
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280',
+                        '729-970'
+                    ],
+                    params: {
+                        placementId: 16995461
                     }
                 },
                 {
@@ -928,9 +986,9 @@ var streamampConfig = {
                         '1697-1975'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 691026,
+                        zoneId: '691026',
                         sizes: [
                             9
                         ]
@@ -942,31 +1000,31 @@ var streamampConfig = {
                         '1976-9999'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 691026,
+                        zoneId: '691026',
                         sizes: [
                             10
                         ]
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: 'sovrn',
                     labelAny: [
                         '1976-9999'
                     ],
-                    "params": {
-                        "tagid": 507810
+                    params: {
+                        tagid: '507810'
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: 'sovrn',
                     labelAny: [
                         '1976-9999',
                         '1697-1975'
                     ],
-                    "params": {
-                        "tagid": 507808
+                    params: {
+                        tagid: '507808'
                     }
                 },
                 {
@@ -986,6 +1044,25 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 11728626
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975'
+                    ],
+                    params: {
+                        placementId: 16995465
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999'
+                    ],
+                    params: {
+                        placementId: 16995466
                     }
                 },
                 {
@@ -1178,31 +1255,31 @@ var streamampConfig = {
                         '1976-9999'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 691030,
+                        zoneId: '691030',
                         sizes: [
                             10
                         ]
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: "sovrn",
                     labelAny: [
                         '1976-9999'
                     ],
-                    "params": {
-                        "tagid": 507813
+                    params: {
+                        tagid: '507813'
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: "sovrn",
                     labelAny: [
                         '1976-9999',
                         '1697-1975'
                     ],
-                    "params": {
-                        "tagid": 507812
+                    params: {
+                        tagid: '507812'
                     }
                 },
                 {
@@ -1222,6 +1299,25 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 11728624
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975'
+                    ],
+                    params: {
+                        placementId: 16995471
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999'
+                    ],
+                    params: {
+                        placementId: 16995468
                     }
                 },
                 {
@@ -1373,16 +1469,16 @@ var streamampConfig = {
                         '971-1280'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 702250,
+                        zoneId: '702250',
                         sizes: [
                             2
                         ]
                     }
                 },
                 {
-                    "bidder": "sovrn",
+                    bidder: "sovrn",
                     labelAny: [
                         '1976-9999',
                         '1697-1975',
@@ -1391,8 +1487,8 @@ var streamampConfig = {
                         '1281-1360',
                         '971-1280'
                     ],
-                    "params": {
-                        "tagid": 507815
+                    params: {
+                        tagid: '507815'
                     }
                 },
                 {
@@ -1407,6 +1503,20 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 11777637
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360',
+                        '971-1280'
+                    ],
+                    params: {
+                        placementId: 16995472
                     }
                 },
                 {
@@ -1643,9 +1753,9 @@ var streamampConfig = {
                         '1361-1616'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 1221682,
+                        zoneId: '1221682',
                         sizes: [
                             57
                         ]
@@ -1661,9 +1771,9 @@ var streamampConfig = {
                         '1281-1360'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 1221682,
+                        zoneId: '1221682',
                         sizes: [
                             2
                         ]
@@ -1692,6 +1802,31 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 15199519
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616'
+                    ],
+                    params: {
+                        placementId: 16995475
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360'
+                    ],
+                    params: {
+                        placementId: 16995478
                     }
                 },
                 {
@@ -1869,9 +2004,9 @@ var streamampConfig = {
                         '1281-1360'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 1221628,
+                        zoneId: '1221628',
                         sizes: [
                             15
                         ]
@@ -1888,6 +2023,19 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 15199493
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '1976-9999',
+                        '1697-1975',
+                        '1617-1696',
+                        '1361-1616',
+                        '1281-1360'
+                    ],
+                    params: {
+                        placementId: 16995481
                     }
                 },
                 {
@@ -2021,9 +2169,9 @@ var streamampConfig = {
                         '0-728'
                     ],
                     params: {
-                        accountId: 14418,
+                        accountId: '14418',
                         siteId: '79450',
-                        zoneId: 414482,
+                        zoneId: '414482',
                         sizes: [
                             43
                         ]
@@ -2036,6 +2184,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 6542839
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '0-728'
+                    ],
+                    params: {
+                        placementId: 16995483
                     }
                 },
                 {
