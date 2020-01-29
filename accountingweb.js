@@ -1,4 +1,5 @@
 var streamampConfig = {
+    gptSingleRequestEnabled:true,
     levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
@@ -1009,19 +1010,11 @@ var streamampConfig = {
                         '729 - 970',
                     ],
                     params: {
-                        zone: 82105,
+                        zone: '82105',
                         allow: [
-                            'wp',
-                            'wv',
-                            'cf',
                             'as',
-                            'fi',
-                            'hi',
-                            'ci',
                             'sa',
-                            'pa',
-                            'ca',
-                            'pu'
+                            'pa'
                         ]
                     }
                 },
@@ -1031,12 +1024,11 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        zone: 82105,
+                        zone: '82105',
                         allow: [
                             'mt',
                             'is',
-                            'mo',
-                            'ms'
+                            'mo'
                         ]
                     }
                 }
