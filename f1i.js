@@ -234,6 +234,16 @@ var streamampConfig = {
                     params: {
                         placementId: 16974447
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        site_id: '201088'
+                    }
                 }
             ],
             breakpoints: {
@@ -472,6 +482,15 @@ var streamampConfig = {
                     params: {
                         placementId: 16974460
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        site_id: '201088'
+                    }
                 }
             ],
             breakpoints: {
@@ -660,6 +679,16 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16974467
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        site_id: '201088'
                     }
                 }
             ],
@@ -851,6 +880,16 @@ var streamampConfig = {
                     params: {
                         placementId: 16974477
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        site_id: '201088'
+                    }
                 }
             ],
             breakpoints: {
@@ -977,6 +1016,15 @@ var streamampConfig = {
                     params: {
                         placementId: 16974483
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        site_id: '201088'
+                    }
                 }
             ],
             breakpoints: {
@@ -1088,6 +1136,15 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 16974487
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        site_id: '201088'
                     }
                 }
             ],
@@ -1215,6 +1272,15 @@ var streamampConfig = {
                     params: {
                         placementId: 18192167
                     }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        site_id: '201088'
+                    }
                 }
             ],
             breakpoints: {
@@ -1231,7 +1297,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [
