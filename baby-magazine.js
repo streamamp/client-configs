@@ -251,6 +251,21 @@ var streamampConfig = {
                     params: {
                         placementId: 16828170
                     }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny : [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        zone: '82099',
+                        allow: [
+                          'wp',
+                          'wv',
+                          'hv'
+                        ]
+                    }
                 }
             ],
             breakpoints: {
@@ -1403,9 +1418,44 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny : [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        zone: '82099',
+                        allow: [
+                            'sp',
+                            'pa'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny : [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        zone: '82099',
+                        allow: [
+                            'mt',
+                            'is'
+                        ]
+                    }
+                }
+            ],
             breakpoints: {
                 '991 - 9999': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '729 - 990': [
                     [
                         1,
                         1
@@ -1422,12 +1472,6 @@ var streamampConfig = {
                         1,
                         1
                     ]
-                ],
-                '729 - 990': [
-                    [
-                        1,
-                        1
-                    ]
                 ]
             }
         }
@@ -1436,7 +1480,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'Display Persistent Consent Link': false,
             'No Option': false,
             'Non-Consent Display Frequency': 7,
