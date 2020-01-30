@@ -251,6 +251,21 @@ var streamampConfig = {
                     params: {
                         placementId: 16835364
                     }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny : [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        zone: '82104',
+                        allow: [
+                            'wp',
+                            'wv',
+                            'hv'
+                        ]
+                    }
                 }
             ],
             breakpoints: {
@@ -1431,7 +1446,37 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny : [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        zone: '82104',
+                        allow: [
+                            'sa',
+                            'pa'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny : [
+                        '469 - 728',
+                        '0 - 468'
+                    ],
+                    params: {
+                        zone: '82104',
+                        allow: [
+                            'mt',
+                            'ms',
+                            'mo'
+                        ]
+                    }
+                }
+            ],
             breakpoints: {
                 '970 - 9999': [
                     [
@@ -1464,7 +1509,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'Display Persistent Consent Link': false,
             'No Option': false,
             'Non-Consent Display Frequency': 7,
