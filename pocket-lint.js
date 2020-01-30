@@ -4115,13 +4115,30 @@ var streamampConfig = {
                 '748 - 989': [[300, 250]],
                 '375 - 747': [[300, 250]]
             }
+        },
+        {
+            code: 'SA-StickerBanner',
+            path: '/92354202/SA-StickerBanner',
+            mediaTypes: {
+                banner: {
+                    sizes: [[320, 50]]
+                }
+            },
+            isSticky: true,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [],
+            breakpoints: {
+                '375 - 747': [[320, 50]],
+                '0 - 374': [[320, 50]]
+            }
         }
     ],
     cmp: {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [1, 2, 3, 4, 5],
