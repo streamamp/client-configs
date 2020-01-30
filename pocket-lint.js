@@ -1991,6 +1991,19 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+		            {
+			            bidder: 'nanointeractive',
+			            labelAny: [
+				            '990 - 9999',
+				            '748 - 989',
+				            '375 - 747',
+				            '0 - 374'
+			            ],
+			            params: {
+				            pid: '5e32a3930ae8993077321a42',
+				            nq: document.title
+			            }
+		            },
                 {
                     bidder: 'conversant',
                     labelAny: [
@@ -2150,6 +2163,19 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+		            {
+			            bidder: 'nanointeractive',
+			            labelAny: [
+				            '990 - 9999',
+				            '748 - 989',
+				            '375 - 747',
+				            '0 - 374'
+			            ],
+			            params: {
+				            pid: '5e32a3930ae8993077321a42',
+				            nq: document.title
+			            }
+		            },
                 {
                     bidder: 'conversant',
                     labelAny: [
@@ -3335,6 +3361,19 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        pid: '5e32a3930ae8993077321a42',
+                        nq: document.title
+                    }
+                },
+                {
                     bidder: 'conversant',
                     labelAny: [
                         '990 - 9999',
@@ -3660,6 +3699,18 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+		            {
+			            bidder: 'nanointeractive',
+			            labelAny: [
+				            '990 - 9999',
+				            '748 - 989',
+				            '375 - 747'
+			            ],
+			            params: {
+				            pid: '5e32a3930ae8993077321a42',
+				            nq: document.title
+			            }
+		            },
                 {
                     bidder: 'conversant',
                     labelAny: [
@@ -3741,6 +3792,18 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+		            {
+			            bidder: 'nanointeractive',
+			            labelAny: [
+				            '990 - 9999',
+				            '748 - 989',
+				            '375 - 747'
+			            ],
+			            params: {
+				            pid: '5e32a3930ae8993077321a42',
+				            nq: document.title
+			            }
+		            },
                 {
                     bidder: 'conversant',
                     labelAny: [
