@@ -1,4 +1,5 @@
 var streamampConfig = {
+    gptSingleRequestEnabled:true,
     levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
@@ -228,18 +229,30 @@ var streamampConfig = {
                     [
                         300,
                         600
+                    ],
+                    [
+                        336,
+                        280
                     ]
                 ],
                 '729 - 970': [
                     [
                         300,
                         250
+                    ],
+                    [
+                        336,
+                        280
                     ]
                 ],
                 '0 - 728': [
                     [
                         300,
                         250
+                    ],
+                    [
+                      336,
+                      280
                     ]
                 ]
             }
@@ -680,6 +693,10 @@ var streamampConfig = {
                     [
                         728,
                         90
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ],
                 '729 - 970': [
@@ -820,6 +837,185 @@ var streamampConfig = {
                     [
                         300,
                         250
+                    ]
+                ]
+            }
+        },
+        {
+            code: 'AWUK_Mid',
+            path: '/4394518/AWUK_inline',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                      [
+                        970,
+                        250
+                      ],
+                      [
+                        728,
+                        90
+                      ],
+                      [
+                        970,
+                        90
+                      ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            bids: [
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        zoneId: 1382489,
+                        publisherSubId: 'AWUK_Mid_728x90'
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'AWUK_Mid_970x250'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        tagid: '92789'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        tagid: '92787'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        siteId: '454726',
+                        size: [
+                            728,
+                            90
+                        ]
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        siteId: '454726',
+                        size: [
+                            970,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        unit: '540957292',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2575261',
+                        adSlot: 'Sift-AWUK_Mid_728x90@728x90'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2575262',
+                        adSlot: 'Sift-AWUK_Mid_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        placementId: 18364679
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '971 - 9999'
+                    ],
+                    params: {
+                        placementId: 18364678
+                    }
+                },
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        site_id: '200953'
+                    }
+                }
+            ],
+            breakpoints: {
+                "971 - 9999": [
+                  [
+                    970,
+                    90
+                  ]
+                ],
+                "729 - 970": [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        728,
+                        90
+                    ],
+                    [
+                        970,
+                        90
                     ]
                 ]
             }
@@ -1009,19 +1205,11 @@ var streamampConfig = {
                         '729 - 970',
                     ],
                     params: {
-                        zone: 82105,
+                        zone: '82105',
                         allow: [
-                            'wp',
-                            'wv',
-                            'cf',
                             'as',
-                            'fi',
-                            'hi',
-                            'ci',
                             'sa',
-                            'pa',
-                            'ca',
-                            'pu'
+                            'pa'
                         ]
                     }
                 },
@@ -1031,12 +1219,11 @@ var streamampConfig = {
                         '0 - 728'
                     ],
                     params: {
-                        zone: 82105,
+                        zone: '82105',
                         allow: [
                             'mt',
                             'is',
-                            'mo',
-                            'ms'
+                            'mo'
                         ]
                     }
                 }
