@@ -71,7 +71,7 @@ var streamampConfig = {
 						'768-991',
 					],
 					params: {
-						zone: 1382489,
+						zone: '86983',
 						allow: [
 							'wp',
 							'wv',
@@ -92,7 +92,7 @@ var streamampConfig = {
 						'0–575'
 					],
 					params: {
-						zone: 1382489,
+						zone: '86983',
 						allow: [
 							'mt',
 							'is',
