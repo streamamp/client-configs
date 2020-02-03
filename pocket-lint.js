@@ -4117,20 +4117,104 @@ var streamampConfig = {
             }
         },
         {
-            code: 'SA-StickerBanner',
-            path: '/92354202/SA-StickerBanner',
+            code: 'SA-StickyBanner',
+            path: '/92354202/SA-StickyBanner',
             mediaTypes: {
                 banner: {
-                    sizes: [[320, 50]]
+                    sizes: [
+                        [
+                            320,
+                            50
+                        ]
+                    ]
                 }
             },
             isSticky: true,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        site_id: '200686',
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        zoneId: 1382490,
+                        publisherSubId: 'PocketLint_StickyBanner_320x50'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        siteId: '455125',
+                        size: [
+                            320,
+                            50
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        unit: '540958258',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2577656',
+                        adSlot: 'PocketLint_StickyBanner_320x50@320x50'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 18370463
+                    }
+                },
+            ],
             breakpoints: {
-                '375 - 747': [[320, 50]],
-                '0 - 374': [[320, 50]]
+                '375 - 747': [
+                    [
+                        320,
+                        50
+                    ]
+                ],
+                '0 - 374': [
+                    [
+                        320,
+                        50
+                    ]
+                ]
             }
         }
     ],
