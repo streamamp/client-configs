@@ -4200,7 +4200,7 @@ var streamampConfig = {
                     params: {
                         placementId: 18370463
                     }
-                },
+                }
             ],
             breakpoints: {
                 '375 - 747': [
@@ -4216,7 +4216,96 @@ var streamampConfig = {
                     ]
                 ]
             }
-        }
+        },
+        {
+            code: 'SA-Unit18-Skins',
+            path: '/92354202/SA-Unit18',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            970,
+                            250
+                        ]
+                    ]
+                }
+            },
+            isSticky: true,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        site_id: '200686',
+                    }
+                },
+                {
+                    bidder: 'criteo',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        zoneId: 1382488,
+                        publisherSubId: 'PocketLint_SA-Unit18-Skins_970x250'
+                    }
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        siteId: '455126',
+                        size: [
+                            970,
+                            250
+                        ]
+                    }
+                },
+                {
+                    bidder: 'openx',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        unit: '540958259',
+                        delDomain: 'streamamp-d.openx.net'
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        pmzoneid: '2577657',
+                        adSlot: 'PocketLint_SA-Unit18-Skins_970x250@970x250'
+                    }
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        placementId: 18370473
+                    }
+                }
+            ],
+            breakpoints: {
+                '990 - 9999': [
+                    [
+                        970,
+                        250
+                    ]
+                ]
+            }
+        },
     ],
     cmp: {
         isEnabled: true,
