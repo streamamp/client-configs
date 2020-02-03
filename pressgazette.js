@@ -1,5 +1,5 @@
 var streamampConfig = {
-    gptSingleRequestEnabled: true,
+    gptSingleRequestEnabled: false,
     levelTargeting: false,
     a9Enabled: true,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
@@ -1789,454 +1789,454 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'Unit7',
-            path: '/5269235/Press_Gazette/Unit7',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ],
-                        [
-                            728,
-                            90
-                        ],
-                        [
-                            970,
-                            250
-                        ],
-                        [
-                            320,
-                            50
-                        ],
-                        [
-                            320,
-                            100
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        zoneId: 1382489,
-                        publisherSubId: 'GD_PressGazette_Unit7_728x90'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        zoneId: 1382490,
-                        publisherSubId: 'GD_PressGazette_Unit7_320x50'
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        dmxid: 161691,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        dmxid: 161694,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        dmxid: 161696,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        dmxid: 161692,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtm',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        placementId: 11593275
-                    }
-                },
-                {
-                    bidder: 'districtm',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        placementId: 11593278
-                    }
-                },
-                {
-                    bidder: 'districtm',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 11593280
-                    }
-                },
-                {
-                    bidder: 'districtm',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        placementId: 11593276
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        tagid: '67355'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        tagid: '67357'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        tagid: '67358'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        tagid: '67356'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '971 - 9999',
-                //         '760 - 970',
-                //         '490 - 759',
-                //         '0 - 489'
-                //     ],
-                //     params: {
-                //         placementId: 1202337
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        siteId: '308101',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        siteId: '308104',
-                        size: [
-                            728,
-                            90
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        siteId: '308106',
-                        size: [
-                            970,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        siteId: '308102',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        unit: '539287583',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0 - 489'
-                //     ],
-                //     params: {
-                //         publisherId: '2527024',
-                //         adSlot: 'PressGazette_Unit7_320x50'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971 - 9999',
-                //         '760 - 970',
-                //         '490 - 759',
-                //         '0 - 489'
-                //     ],
-                //     params: {
-                //         publisherId: '2527023',
-                //         adSlot: 'PressGazette_Unit7_300x250'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971 - 9999',
-                //         '760 - 970'
-                //     ],
-                //     params: {
-                //         publisherId: '2527025',
-                //         adSlot: 'PressGazette_Unit7_728x90'
-                //     }
-                // },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ],
-                //     params: {
-                //         publisherId: '2527026',
-                //         adSlot: 'PressGazette_Unit7_970x250'
-                //     }
-                // },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        placementId: 12103808
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        placementId: 12103814
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 12103817
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        placementId: 12103809
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970',
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        placementId: 17428331
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '971 - 9999',
-                        '760 - 970'
-                    ],
-                    params: {
-                        placementId: 17428335
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 17428336
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '490 - 759',
-                        '0 - 489'
-                    ],
-                    params: {
-                        placementId: 17428333
-                    }
-                }
-            ],
-            breakpoints: {
-                '971 - 9999': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        728,
-                        90
-                    ],
-                    [
-                        970,
-                        250
-                    ]
-                ],
-                '760 - 970': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        728,
-                        90
-                    ]
-                ],
-                '490 - 759': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ]
-                ],
-                '0 - 489': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ],
-                    [
-                        320,
-                        100
-                    ]
-                ]
-            }
-        }
+        // {
+        //     code: 'Unit7',
+        //     path: '/5269235/Press_Gazette/Unit7',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ],
+        //                 [
+        //                     728,
+        //                     90
+        //                 ],
+        //                 [
+        //                     970,
+        //                     250
+        //                 ],
+        //                 [
+        //                     320,
+        //                     50
+        //                 ],
+        //                 [
+        //                     320,
+        //                     100
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382489,
+        //                 publisherSubId: 'GD_PressGazette_Unit7_728x90'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382490,
+        //                 publisherSubId: 'GD_PressGazette_Unit7_320x50'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 dmxid: 161691,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 dmxid: 161694,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 161696,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 dmxid: 161692,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtm',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 placementId: 11593275
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtm',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 placementId: 11593278
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtm',
+        //             labelAny: [
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11593280
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtm',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 placementId: 11593276
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 tagid: '67355'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 tagid: '67357'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67358'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 tagid: '67356'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '971 - 9999',
+        //         //         '760 - 970',
+        //         //         '490 - 759',
+        //         //         '0 - 489'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 1202337
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 siteId: '308101',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 siteId: '308104',
+        //                 size: [
+        //                     728,
+        //                     90
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 siteId: '308106',
+        //                 size: [
+        //                     970,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 siteId: '308102',
+        //                 size: [
+        //                     320,
+        //                     50
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 unit: '539287583',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'pubmatic',
+        //         //     labelAny: [
+        //         //         '0 - 489'
+        //         //     ],
+        //         //     params: {
+        //         //         publisherId: '2527024',
+        //         //         adSlot: 'PressGazette_Unit7_320x50'
+        //         //     }
+        //         // },
+        //         // {
+        //         //     bidder: 'pubmatic',
+        //         //     labelAny: [
+        //         //         '971 - 9999',
+        //         //         '760 - 970',
+        //         //         '490 - 759',
+        //         //         '0 - 489'
+        //         //     ],
+        //         //     params: {
+        //         //         publisherId: '2527023',
+        //         //         adSlot: 'PressGazette_Unit7_300x250'
+        //         //     }
+        //         // },
+        //         // {
+        //         //     bidder: 'pubmatic',
+        //         //     labelAny: [
+        //         //         '971 - 9999',
+        //         //         '760 - 970'
+        //         //     ],
+        //         //     params: {
+        //         //         publisherId: '2527025',
+        //         //         adSlot: 'PressGazette_Unit7_728x90'
+        //         //     }
+        //         // },
+        //         // {
+        //         //     bidder: 'pubmatic',
+        //         //     labelAny: [
+        //         //         '971 - 9999'
+        //         //     ],
+        //         //     params: {
+        //         //         publisherId: '2527026',
+        //         //         adSlot: 'PressGazette_Unit7_970x250'
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 placementId: 12103808
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 placementId: 12103814
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 placementId: 12103817
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 placementId: 12103809
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970',
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 placementId: 17428331
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '760 - 970'
+        //             ],
+        //             params: {
+        //                 placementId: 17428335
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 placementId: 17428336
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: [
+        //                 '490 - 759',
+        //                 '0 - 489'
+        //             ],
+        //             params: {
+        //                 placementId: 17428333
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '971 - 9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 728,
+        //                 90
+        //             ],
+        //             [
+        //                 970,
+        //                 250
+        //             ]
+        //         ],
+        //         '760 - 970': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 728,
+        //                 90
+        //             ]
+        //         ],
+        //         '490 - 759': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 320,
+        //                 50
+        //             ]
+        //         ],
+        //         '0 - 489': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 320,
+        //                 50
+        //             ],
+        //             [
+        //                 320,
+        //                 100
+        //             ]
+        //         ]
+        //     }
+        // }
     ],
     cmp: {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'Display Persistent Consent Link': true,
             'No Option': true,
             'Non-Consent Display Frequency': 7,
