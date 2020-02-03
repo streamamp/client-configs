@@ -1135,6 +1135,10 @@ var streamampConfig = {
 						[
 							320,
 							50
+						],
+						[
+							728,
+							90
 						]
 					]
 				}
@@ -1152,6 +1156,17 @@ var streamampConfig = {
 					params: {
 						zoneId: 1382490,
 						publisherSubId: 'Attitude_Sticky_320x50'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'1061-9999',
+						'729-1060'
+					],
+					params: {
+						zoneId: 1382489,
+						publisherSubId: 'Attitude_Sticky_728x90'
 					}
 				},
 				// {
@@ -1179,8 +1194,24 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'ix',
+					labelAny: [
+						'1061-9999',
+						'729-1060'
+					],
+					params: {
+						siteId: '457725',
+						size: [
+							728,
+							90
+						]
+					}
+				},
+				{
 					bidder: 'openx',
 					labelAny: [
+						'1061-9999',
+						'729-1060',
 						'468-728',
 						'0-467'
 					],
@@ -1210,9 +1241,31 @@ var streamampConfig = {
 					params: {
 						placementId: 14876331
 					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'1061-9999',
+						'729-1060'
+					],
+					params: {
+						placementId: 18379348
+					}
 				}
 			],
 			breakpoints: {
+				'1061-9999': [
+					[
+						728,
+						90
+					]
+				],
+				'729-1060': [
+					[
+						728,
+						90
+					]
+				],
 				'468-728': [
 					[
 						320,
