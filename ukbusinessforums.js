@@ -966,17 +966,10 @@ var streamampConfig = {
                     params: {
                         zone: 82102,
                         allow: [
-                            'wp',
-                            'wv',
-                            'cf',
                             'as',
-                            'fi',
-                            'hi',
                             'ci',
                             'sa',
-                            'pa',
-                            'ca',
-                            'pu'
+                            'pa'
                         ]
                     }
                 },
@@ -990,8 +983,7 @@ var streamampConfig = {
                         allow: [
                             'mt',
                             'is',
-                            'mo',
-                            'ms'
+                            'mo'
                         ]
                     }
                 }
