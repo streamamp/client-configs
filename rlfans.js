@@ -1574,23 +1574,23 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'RLFans_250x250',
-            path: '/15188745/RLFans_250x250',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            250,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
+        // {
+        //     code: 'RLFans_250x250',
+        //     path: '/15188745/RLFans_250x250',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     250,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
                 // {
                 //     bidder: 'improvedigital',
                 //     labelAny: [
@@ -1601,33 +1601,33 @@ var streamampConfig = {
                 //         placementId: 1204070
                 //     }
                 // },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '601-9999',
-                        '0-600'
-                    ],
-                    params: {
-                        unit: '539782696',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                }
-            ],
-            breakpoints: {
-                '601-9999': [
-                    [
-                        250,
-                        250
-                    ]
-                ],
-                '0-600': [
-                    [
-                        250,
-                        250
-                    ]
-                ]
-            }
-        },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '601-9999',
+        //                 '0-600'
+        //             ],
+        //             params: {
+        //                 unit: '539782696',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '601-9999': [
+        //             [
+        //                 250,
+        //                 250
+        //             ]
+        //         ],
+        //         '0-600': [
+        //             [
+        //                 250,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: 'RLFans-Sticky',
             path: '/15188745/RLFans-Sticky',
@@ -1725,24 +1725,24 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'RLFans-1x1-interscroller',
-            path: '/15188745/RLFans-1x1-interscroller',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            1,
-                            1
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: []
-        }
+        // {
+        //     code: 'RLFans-1x1-interscroller',
+        //     path: '/15188745/RLFans-1x1-interscroller',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     1,
+        //                     1
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: []
+        // }
     ],
     cmp: {
         isEnabled: true,
@@ -1800,14 +1800,6 @@ var streamampConfig = {
                 [
                     320,
                     50
-                ],
-                [
-                    250,
-                    250
-                ],
-                [
-                    1,
-                    1
                 ]
             ]
         },
@@ -1841,16 +1833,8 @@ var streamampConfig = {
                     90
                 ],
                 [
-                    250,
-                    250
-                ],
-                [
                     320,
                     100
-                ],
-                [
-                    1,
-                    1
                 ]
             ]
         }
