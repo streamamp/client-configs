@@ -9,19 +9,12 @@ var streamampConfig = {
 	minRefreshTime: 90,
 	maxRefreshTime: 120,
 	adUnitsToRefresh: [
-		"MPU",
 		"Sidebar",
 		"Category",
 		"Question",
-		"Banner",
 		"TheAnswerBankSticky",
-		"TheAnswerBank_MPU2",
 		"TheAnswerBank_MPU3",
 		"TheAnswerBank_Leaderboard",
-		"TheAnswerBank_Mobile",
-		"TheAnswerBank_Skyscraper1",
-		"TheAnswerBank_Skyscraper2",
-		"TheAnswerBank_Skin",
 		"TheAnswerBank_Leaderboard2",
 		"Skyscraper1new",
 		"Skyscraper2new",
@@ -39,612 +32,612 @@ var streamampConfig = {
 		globalKeyValues: [],
 	keyValues: {},
 	adUnits: [
-		{
-			code: 'MPU',
-			path: '/15188745/TheAnswerBankMPU',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							300,
-							250
-						],
-						[
-							300,
-							600
-						],
-						[
-							320,
-							100
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						zoneId: 1382491,
-						publisherSubId: 'AnswerBank_MPU_300x250'
-					}
-				},
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						zoneId: 1382492,
-						publisherSubId: '40575'
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						dmxid: 149736,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						dmxid: 149737,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						tagid: '40574'
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						tagid: '40575'
-					}
-				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999',
-				// 		'768-991',
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201090
-				// 	}
-				// },
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999',
-				// 		'768-991'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201090
-				// 	}
-				// },
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						siteId: '196219',
-						size: [
-							300,
-							250
-						]
-					}
-				},
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						siteId: '306678',
-						size: [
-							300,
-							600
-						]
-					}
-				},
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999',
-				// 		'768-991',
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1242874',
-				// 		adSlot: 'AnswerBank_MPU_300x250@300x250'
-				// 	}
-				// },
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999',
-				// 		'768-991',
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1242876',
-				// 		adSlot: 'AnswerBank_MPU_300x600@300x600'
-				// 	}
-				// },
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						placementId: 11247629
-					}
-				},
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						placementId: 11247653
-					}
-				}
-			],
-			breakpoints: {
-				'992-9999': [
-					[
-						300,
-						250
-					],
-					[
-						300,
-						600
-					]
-				],
-				'768-991': [
-					[
-						300,
-						250
-					],
-					[
-						300,
-						600
-					]
-				],
-				'0-767': [
-					[
-						300,
-						250
-					],
-					[
-						300,
-						600
-					]
-				]
-			}
-		},
-		{
-			code: 'Banner',
-			path: '/15188745/TheAnswerBank_Banner',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							728,
-							90
-						],
-						[
-							320,
-							50
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'768-991',
-						'0-767'
-					],
-					params: {
-						zoneId: 1382490,
-						publisherSubId: 'AnswerBank_Banner_320x50'
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						dmxid: 167290,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'768-991',
-						'0-767'
-					],
-					params: {
-						dmxid: 167292,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						tagid: '67139'
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'768-991',
-						'0-767'
-					],
-					params: {
-						tagid: '67138'
-					}
-				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201094
-				// 	}
-				// },
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'768-991'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201094
-				// 	}
-				// },
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						siteId: '306681',
-						size: [
-							728,
-							90
-						]
-					}
-				},
-				{
-					bidder: 'ix',
-					labelAny: [
-						'768-991',
-						'0-767'
-					],
-					params: {
-						siteId: '306679',
-						size: [
-							320,
-							50
-						]
-					}
-				},
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1242894',
-				// 		adSlot: 'AnswerBank_Banner_728x90@728x90'
-				// 	}
-				// },
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'768-991',
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1242892',
-				// 		adSlot: 'AnswerBank_Banner_320x50@320x50'
-				// 	}
-				// },
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						placementId: 11773863
-					}
-				},
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'768-991',
-						'0-767'
-					],
-					params: {
-						placementId: 11773859
-					}
-				}
-			],
-			breakpoints: {
-				'768-991': [
-					[
-						320,
-						50
-					]
-				],
-				'992-9999': [
-					[
-						728,
-						90
-					]
-				],
-				'0-767': [
-					[
-						320,
-						50
-					]
-				]
-			}
-		},
-		{
-			code: 'TheAnswerBank_MPU2',
-			path: '/15188745/TheAnswerBank_MPU2',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							300,
-							250
-						],
-						[
-							300,
-							600
-						],
-						[
-							320,
-							100
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						zoneId: 1382491,
-						publisherSubId: 'AnswerBank_MPU2_300x250'
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						dmxid: 223101,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						dmxid: 223102,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						tagid: '58253'
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						tagid: '58254'
-					}
-				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999',
-				// 		'768-991',
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201095
-				// 	}
-				// },
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201095
-				// 	}
-				// },
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						siteId: '306682',
-						size: [
-							300,
-							250
-						]
-					}
-				},
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						siteId: '306683',
-						size: [
-							300,
-							600
-						]
-					}
-				},
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999',
-				// 		'768-991',
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1455246',
-				// 		adSlot: 'AnswerBank_MPU2_300x250@300x250'
-				// 	}
-				// },
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1455247',
-				// 		adSlot: 'AnswerBank_MPU2_300x600@300x600'
-				// 	}
-				// },
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999',
-						'768-991',
-						'0-767'
-					],
-					params: {
-						placementId: 13475000
-					}
-				},
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						placementId: 13475014
-					}
-				}
-			],
-			breakpoints: {
-				'992-9999': [
-					[
-						300,
-						250
-					],
-					[
-						300,
-						600
-					]
-				],
-				'768-991': [
-					[
-						300,
-						250
-					]
-				],
-				'0-767': [
-					[
-						300,
-						250
-					]
-				]
-			}
-		},
+		// {
+		// 	code: 'MPU',
+		// 	path: '/15188745/TheAnswerBankMPU',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: [
+		// 				[
+		// 					300,
+		// 					250
+		// 				],
+		// 				[
+		// 					300,
+		// 					600
+		// 				],
+		// 				[
+		// 					320,
+		// 					100
+		// 				]
+		// 			]
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: [
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382491,
+		// 				publisherSubId: 'AnswerBank_MPU_300x250'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382492,
+		// 				publisherSubId: '40575'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				dmxid: 149736,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				dmxid: 149737,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				tagid: '40574'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				tagid: '40575'
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999',
+		// 		// 		'768-991',
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201090
+		// 		// 	}
+		// 		// },
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999',
+		// 		// 		'768-991'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201090
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				siteId: '196219',
+		// 				size: [
+		// 					300,
+		// 					250
+		// 				]
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				siteId: '306678',
+		// 				size: [
+		// 					300,
+		// 					600
+		// 				]
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999',
+		// 		// 		'768-991',
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1242874',
+		// 		// 		adSlot: 'AnswerBank_MPU_300x250@300x250'
+		// 		// 	}
+		// 		// },
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999',
+		// 		// 		'768-991',
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1242876',
+		// 		// 		adSlot: 'AnswerBank_MPU_300x600@300x600'
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				placementId: 11247629
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				placementId: 11247653
+		// 			}
+		// 		}
+		// 	],
+		// 	breakpoints: {
+		// 		'992-9999': [
+		// 			[
+		// 				300,
+		// 				250
+		// 			],
+		// 			[
+		// 				300,
+		// 				600
+		// 			]
+		// 		],
+		// 		'768-991': [
+		// 			[
+		// 				300,
+		// 				250
+		// 			],
+		// 			[
+		// 				300,
+		// 				600
+		// 			]
+		// 		],
+		// 		'0-767': [
+		// 			[
+		// 				300,
+		// 				250
+		// 			],
+		// 			[
+		// 				300,
+		// 				600
+		// 			]
+		// 		]
+		// 	}
+		// },
+		// {
+		// 	code: 'Banner',
+		// 	path: '/15188745/TheAnswerBank_Banner',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: [
+		// 				[
+		// 					728,
+		// 					90
+		// 				],
+		// 				[
+		// 					320,
+		// 					50
+		// 				]
+		// 			]
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: [
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382490,
+		// 				publisherSubId: 'AnswerBank_Banner_320x50'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				dmxid: 167290,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				dmxid: 167292,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				tagid: '67139'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				tagid: '67138'
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201094
+		// 		// 	}
+		// 		// },
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'768-991'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201094
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				siteId: '306681',
+		// 				size: [
+		// 					728,
+		// 					90
+		// 				]
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				siteId: '306679',
+		// 				size: [
+		// 					320,
+		// 					50
+		// 				]
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1242894',
+		// 		// 		adSlot: 'AnswerBank_Banner_728x90@728x90'
+		// 		// 	}
+		// 		// },
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'768-991',
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1242892',
+		// 		// 		adSlot: 'AnswerBank_Banner_320x50@320x50'
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				placementId: 11773863
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				placementId: 11773859
+		// 			}
+		// 		}
+		// 	],
+		// 	breakpoints: {
+		// 		'768-991': [
+		// 			[
+		// 				320,
+		// 				50
+		// 			]
+		// 		],
+		// 		'992-9999': [
+		// 			[
+		// 				728,
+		// 				90
+		// 			]
+		// 		],
+		// 		'0-767': [
+		// 			[
+		// 				320,
+		// 				50
+		// 			]
+		// 		]
+		// 	}
+		// },
+		// {
+		// 	code: 'TheAnswerBank_MPU2',
+		// 	path: '/15188745/TheAnswerBank_MPU2',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: [
+		// 				[
+		// 					300,
+		// 					250
+		// 				],
+		// 				[
+		// 					300,
+		// 					600
+		// 				],
+		// 				[
+		// 					320,
+		// 					100
+		// 				]
+		// 			]
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: [
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382491,
+		// 				publisherSubId: 'AnswerBank_MPU2_300x250'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				dmxid: 223101,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				dmxid: 223102,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				tagid: '58253'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				tagid: '58254'
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999',
+		// 		// 		'768-991',
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201095
+		// 		// 	}
+		// 		// },
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201095
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				siteId: '306682',
+		// 				size: [
+		// 					300,
+		// 					250
+		// 				]
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				siteId: '306683',
+		// 				size: [
+		// 					300,
+		// 					600
+		// 				]
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999',
+		// 		// 		'768-991',
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1455246',
+		// 		// 		adSlot: 'AnswerBank_MPU2_300x250@300x250'
+		// 		// 	}
+		// 		// },
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1455247',
+		// 		// 		adSlot: 'AnswerBank_MPU2_300x600@300x600'
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999',
+		// 				'768-991',
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				placementId: 13475000
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				placementId: 13475014
+		// 			}
+		// 		}
+		// 	],
+		// 	breakpoints: {
+		// 		'992-9999': [
+		// 			[
+		// 				300,
+		// 				250
+		// 			],
+		// 			[
+		// 				300,
+		// 				600
+		// 			]
+		// 		],
+		// 		'768-991': [
+		// 			[
+		// 				300,
+		// 				250
+		// 			]
+		// 		],
+		// 		'0-767': [
+		// 			[
+		// 				300,
+		// 				250
+		// 			]
+		// 		]
+		// 	}
+		// },
 		{
 			code: 'TheAnswerBank_MPU3',
 			path: '/15188745/TheAnswerBank_MPU3',
@@ -940,202 +933,202 @@ var streamampConfig = {
 				]
 			}
 		},
-		{
-			code: 'TheAnswerBank_Skyscraper1',
-			path: '/15188745/TheAnswerBank_Skyscraper1',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							160,
-							600
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						zoneId: 1382493,
-						publisherSubId: 'AnswerBank_Skyscrapper1_160x600'
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						dmxid: 223108,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						tagid: '58259'
-					}
-				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201106
-				// 	}
-				// },
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						siteId: '306689',
-						size: [
-							160,
-							600
-						]
-					}
-				},
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1455254',
-				// 		adSlot: 'AnswerBank_Skyscraper1_160x600@160x600'
-				// 	}
-				// },
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						placementId: 13475059
-					}
-				}
-			],
-			breakpoints: {
-				'992-9999': [
-					[
-						160,
-						600
-					]
-				]
-			}
-		},
-		{
-			code: 'TheAnswerBank_Skyscraper2',
-			path: '/15188745/TheAnswerBank_Skyscraper2',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							160,
-							600
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						zoneId: 1382493,
-						publisherSubId: 'AnswerBank_Skyscrapper2_160x600'
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						dmxid: 223109,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						tagid: '67141'
-					}
-				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201107
-				// 	}
-				// },
-				{
-					bidder: 'ix',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						siteId: '306690',
-						size: [
-							160,
-							600
-						]
-					}
-				},
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'992-9999'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1455255',
-				// 		adSlot: 'AnswerBank_Skyscraper2_160x600@160x600'
-				// 	}
-				// },
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'992-9999'
-					],
-					params: {
-						placementId: 13475064
-					}
-				}
-			],
-			breakpoints: {
-				'992-9999': [
-					[
-						160,
-						600
-					]
-				]
-			}
-		},
+		// {
+		// 	code: 'TheAnswerBank_Skyscraper1',
+		// 	path: '/15188745/TheAnswerBank_Skyscraper1',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: [
+		// 				[
+		// 					160,
+		// 					600
+		// 				]
+		// 			]
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: [
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382493,
+		// 				publisherSubId: 'AnswerBank_Skyscrapper1_160x600'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				dmxid: 223108,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				tagid: '58259'
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201106
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				siteId: '306689',
+		// 				size: [
+		// 					160,
+		// 					600
+		// 				]
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1455254',
+		// 		// 		adSlot: 'AnswerBank_Skyscraper1_160x600@160x600'
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				placementId: 13475059
+		// 			}
+		// 		}
+		// 	],
+		// 	breakpoints: {
+		// 		'992-9999': [
+		// 			[
+		// 				160,
+		// 				600
+		// 			]
+		// 		]
+		// 	}
+		// },
+		// {
+		// 	code: 'TheAnswerBank_Skyscraper2',
+		// 	path: '/15188745/TheAnswerBank_Skyscraper2',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: [
+		// 				[
+		// 					160,
+		// 					600
+		// 				]
+		// 			]
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: [
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382493,
+		// 				publisherSubId: 'AnswerBank_Skyscrapper2_160x600'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				dmxid: 223109,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				tagid: '67141'
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201107
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				siteId: '306690',
+		// 				size: [
+		// 					160,
+		// 					600
+		// 				]
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'992-9999'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1455255',
+		// 		// 		adSlot: 'AnswerBank_Skyscraper2_160x600@160x600'
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'992-9999'
+		// 			],
+		// 			params: {
+		// 				placementId: 13475064
+		// 			}
+		// 		}
+		// 	],
+		// 	breakpoints: {
+		// 		'992-9999': [
+		// 			[
+		// 				160,
+		// 				600
+		// 			]
+		// 		]
+		// 	}
+		// },
 		{
 			code: 'TheAnswerBank_Leaderboard1',
 			path: '/15188745/TheAnswerBank_Leaderboard1',
@@ -2403,117 +2396,117 @@ var streamampConfig = {
 				]
 			}
 		},
-		{
-			code: 'TheAnswerBank_Skin',
-			path: '/15188745/TheAnswerBank_Skin',
-			mediaTypes: {
-				banner: {
-					sizes: []
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: []
-		},
-		{
-			code: 'TheAnswerBank_Mobile',
-			path: '/15188745/TheAnswerBank_Mobile',
-			mediaTypes: {
-				banner: {
-					sizes: [
-						[
-							320,
-							50
-						]
-					]
-				}
-			},
-			isSticky: false,
-			safeFrame: false,
-			outOfPage: false,
-			bids: [
-				{
-					bidder: 'criteo',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						zoneId: 1382490,
-						publisherSubId: 'AnswerBank_Mobile_320x50'
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						dmxid: 223107,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'emx_digital',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						tagid: '58258'
-					}
-				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		placementId: 1201105
-				// 	}
-				// },
-				{
-					bidder: 'ix',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-						siteId: '306688',
-						size: [
-							320,
-							50
-						]
-					}
-				},
-				// {
-				// 	bidder: 'pubmatic',
-				// 	labelAny: [
-				// 		'0-767'
-				// 	],
-				// 	params: {
-				// 		publisherId: '127864',
-				// 		pmzoneid: '1455253',
-				// 		adSlot: 'AnswerBank_Mobile_320x50@320x50'
-				// 	}
-				// },
-				{
-					bidder: 'streamamp',
-					labelAny: [
-						'0-767'
-					],
-					params: {
-					placementId: 13475055
-					}
-				},
-			],
-			breakpoints: {
-				'0-767': [
-					[
-						320,
-						50
-					]
-				]
-			}
-		},
+		// {
+		// 	code: 'TheAnswerBank_Skin',
+		// 	path: '/15188745/TheAnswerBank_Skin',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: []
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: []
+		// },
+		// {
+		// 	code: 'TheAnswerBank_Mobile',
+		// 	path: '/15188745/TheAnswerBank_Mobile',
+		// 	mediaTypes: {
+		// 		banner: {
+		// 			sizes: [
+		// 				[
+		// 					320,
+		// 					50
+		// 				]
+		// 			]
+		// 		}
+		// 	},
+		// 	isSticky: false,
+		// 	safeFrame: false,
+		// 	outOfPage: false,
+		// 	bids: [
+		// 		{
+		// 			bidder: 'criteo',
+		// 			labelAny: [
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				zoneId: 1382490,
+		// 				publisherSubId: 'AnswerBank_Mobile_320x50'
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'districtmDMX',
+		// 			labelAny: [
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				dmxid: 223107,
+		// 				memberid: 100615
+		// 			}
+		// 		},
+		// 		{
+		// 			bidder: 'emx_digital',
+		// 			labelAny: [
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				tagid: '58258'
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'improvedigital',
+		// 		// 	labelAny: [
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		placementId: 1201105
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'ix',
+		// 			labelAny: [
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 				siteId: '306688',
+		// 				size: [
+		// 					320,
+		// 					50
+		// 				]
+		// 			}
+		// 		},
+		// 		// {
+		// 		// 	bidder: 'pubmatic',
+		// 		// 	labelAny: [
+		// 		// 		'0-767'
+		// 		// 	],
+		// 		// 	params: {
+		// 		// 		publisherId: '127864',
+		// 		// 		pmzoneid: '1455253',
+		// 		// 		adSlot: 'AnswerBank_Mobile_320x50@320x50'
+		// 		// 	}
+		// 		// },
+		// 		{
+		// 			bidder: 'streamamp',
+		// 			labelAny: [
+		// 				'0-767'
+		// 			],
+		// 			params: {
+		// 			placementId: 13475055
+		// 			}
+		// 		},
+		// 	],
+		// 	breakpoints: {
+		// 		'0-767': [
+		// 			[
+		// 				320,
+		// 				50
+		// 			]
+		// 		]
+		// 	}
+		// },
 		{
 			code: 'TheAnswerBankSticky',
 			path: '/15188745/TheAnswerBankSticky',
