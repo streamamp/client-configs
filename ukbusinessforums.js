@@ -964,7 +964,7 @@ var streamampConfig = {
                         '728 - 970',
                     ],
                     params: {
-                        zone: 82102,
+                        zone: '82105',
                         allow: [
                             'as',
                             'ci',
@@ -979,7 +979,7 @@ var streamampConfig = {
                         '0 - 727'
                     ],
                     params: {
-                        zone: 82102,
+                        zone: '82105',
                         allow: [
                             'mt',
                             'is',
