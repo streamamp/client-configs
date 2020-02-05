@@ -1991,19 +1991,31 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
-		            {
-			            bidder: 'nanointeractive',
-			            labelAny: [
-				            '990 - 9999',
-				            '748 - 989',
-				            '375 - 747',
-				            '0 - 374'
-			            ],
-			            params: {
-				            pid: '5e32a3930ae8993077321a42',
-				            nq: document.title
-			            }
-		            },
+                {
+                    bidder: 'adyoulike',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placement: 'a5f7b2971cb0171744496543c34734fc'
+                    }
+                },
+                {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        pid: '5e32a3930ae8993077321a42',
+                        nq: document.title
+                    }
+                },
                 {
                     bidder: 'conversant',
                     labelAny: [
@@ -4035,87 +4047,87 @@ var streamampConfig = {
                 '375 - 747': [[300, 250]]
             }
         },
-        {
-            code: 'SA-Unit26-HomePage',
-            path: '/92354202/SA-Unit26-HomePage',
-            mediaTypes: {
-                banner: {
-                    sizes: [[300, 250]]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'conversant',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747'
-                    ],
-                    params: {
-                        site_id: '200686',
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'PocketLint_Unit26_300x250'
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
-                    params: {
-                        siteId: '389155',
-                        size: [300, 250]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
-                    params: {
-                        unit: '540798225',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2194536',
-                        adSlot: 'PocketLint_Unit26_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
-                    params: {
-                        placementId: 16427036
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
-                    params: {
-                        placementId: 17063132
-                    }
-                }
-            ],
-            breakpoints: {
-                '990 - 9999': [[300, 250]],
-                '748 - 989': [[300, 250]],
-                '375 - 747': [[300, 250]]
-            }
-        },
+        // {
+        //     code: 'SA-Unit26-HomePage',
+        //     path: '/92354202/SA-Unit26-HomePage',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [[300, 250]]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'conversant',
+        //             labelAny: [
+        //                 '990 - 9999',
+        //                 '748 - 989',
+        //                 '375 - 747'
+        //             ],
+        //             params: {
+        //                 site_id: '200686',
+        //             }
+        //         },
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'PocketLint_Unit26_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
+        //             params: {
+        //                 siteId: '389155',
+        //                 size: [300, 250]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
+        //             params: {
+        //                 unit: '540798225',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '990 - 9999',
+        //                 '748 - 989',
+        //                 '375 - 747'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '2194536',
+        //                 adSlot: 'PocketLint_Unit26_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
+        //             params: {
+        //                 placementId: 16427036
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
+        //             params: {
+        //                 placementId: 17063132
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '990 - 9999': [[300, 250]],
+        //         '748 - 989': [[300, 250]],
+        //         '375 - 747': [[300, 250]]
+        //     }
+        // },
         {
             code: 'SA-StickyBanner',
             path: '/92354202/SA-StickyBanner',
