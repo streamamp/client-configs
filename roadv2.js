@@ -1970,6 +1970,19 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'adyoulike',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placement: 'b531de97316f07a0fa8944405b6b98ea'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '748 - 1024',
@@ -4125,47 +4138,47 @@ var streamampConfig = {
                 ]
             }
         },
-        // {
-        //     code: '1x1-interscroller',
-        //     path: '/269479563/Road.cc/1x1-interscroller',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     1,
-        //                     1
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //       {
-		    //         bidder: 'justpremium',
-		    //         labelAny: ['0 - 767'],
-		    //         params: {
-			  //           zone: '79351',
-			  //           allow: ['mt', 'is', 'mo', 'ms']
-		    //         }
-        //       },
-	      //       {
-		    //         bidder: 'justpremium',
-		    //         labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
-		    //         params: {
-			  //           zone: '79351',
-			  //           allow: ['cf', 'as', 'ci']
-		    //         }
-	      //       }
-	      //     ],
-        //     breakpoints: {
-        //         '1640 - 9999': [[1, 1]],
-        //         '1025 - 1639': [[1, 1]],
-        //         '748 - 1024': [[1, 1]],
-        //         '375 - 747': [[1, 1]]
-        //     }
-        // }
+        {
+            code: '1x1-interscroller',
+            path: '/269479563/Road.cc/1x1-interscroller',
+            mediaTypes: {
+                banner: {
+                    sizes: [
+                        [
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            },
+            isSticky: false,
+            safeFrame: false,
+            outOfPage: false,
+            bids: [
+              // {
+              //   bidder: 'justpremium',
+              //   labelAny: ['0 - 767'],
+              //   params: {
+              //     zone: '79351',
+              //     allow: ['mt', 'is', 'mo', 'ms']
+              //   }
+              // },
+              // {
+              //   bidder: 'justpremium',
+              //   labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
+              //   params: {
+              //     zone: '79351',
+              //     allow: ['cf', 'as', 'ci']
+              //   }
+              // }
+            ],
+            breakpoints: {
+                '1640 - 9999': [[1, 1]],
+                '1025 - 1639': [[1, 1]],
+                '748 - 1024': [[1, 1]],
+                '375 - 747': [[1, 1]]
+            }
+        }
     ],
     cmp: {
         isEnabled: true,
