@@ -862,6 +862,25 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        tagid: '93820'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999',
+                    ],
+                    params: {
+                        tagid: '93819'
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: [
                         '971 - 9999'
@@ -985,6 +1004,25 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382489,
                         publisherSubId: 'TZ_Mid2_728x90'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999',
+                        '729 - 970'
+                    ],
+                    params: {
+                        tagid: '93822'
+                    }
+                },
+                {
+                    bidder: 'emx_digital',
+                    labelAny: [
+                        '971 - 9999',
+                    ],
+                    params: {
+                        tagid: '93821'
                     }
                 },
                 {
