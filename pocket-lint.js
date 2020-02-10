@@ -107,6 +107,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135985,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041264
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: [
                         '990 - 9999',
@@ -320,6 +345,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135986,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041265
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989'],
                     params: {
@@ -507,6 +557,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit3_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135987,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041266
                     }
                 },
                 {
@@ -700,6 +775,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135988,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041267
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989'],
                     params: {
@@ -887,6 +987,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit5_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135989,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041268
                     }
                 },
                 {
@@ -1080,6 +1205,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135990,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041269
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999'],
                     params: {
@@ -1265,6 +1415,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit7_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135991,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041274
                     }
                 },
                 {
@@ -1458,6 +1633,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135992,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041275
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999'],
                     params: {
@@ -1645,6 +1845,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit9_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135993,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041276
                     }
                 },
                 {
@@ -2045,6 +2270,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135995,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041278
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989'],
                     params: {
@@ -2217,6 +2467,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135996,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041279
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989', '375 - 747', '0 - 374'],
                     params: {
@@ -2376,6 +2651,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135997,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041280
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989'],
                     params: {
@@ -2521,6 +2821,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit14_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135998,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041281
                     }
                 },
                 {
@@ -2683,6 +3008,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135999,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041282
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989'],
                     params: {
@@ -2842,6 +3192,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 136000,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041283
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989'],
                     params: {
@@ -2986,6 +3361,31 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 136001,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041284
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989', '375 - 747', '0 - 374'],
                     params: {
@@ -3098,12 +3498,106 @@ var streamampConfig = {
                 '0 - 374': [[300, 250], [300, 600]]
             }
         },
+        // {
+        //     code: 'SA-Unit18',
+        //     path: '/92354202/SA-Unit18',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [[970, 250], [1, 1]]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'conversant',
+        //             labelAny: [
+        //                 '990 - 9999',
+        //                 '748 - 989'
+        //             ],
+        //             params: {
+        //                 site_id: '200686',
+        //             }
+        //         },
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 zoneId: 1382488,
+        //                 publisherSubId: 'PocketLint_Unit18_970x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 siteId: '308323',
+        //                 size: [970, 250]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'justpremium',
+        //             labelAny: ['990 - 9999', '748 - 989'],
+        //             params: {
+        //                 zone: '70926',
+        //                 allow: ['wp', 'wv']
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 unit: '538775412',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '990 - 9999'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '852529',
+        //                 adSlot: 'pocket-lint_unit18_970x250@970x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 placementId: 9450650
+        //             }
+        //         },
+        //         {
+        //             bidder: 'totaljobs',
+        //             labelAny: ['990 - 9999'],
+        //             params: {
+        //                 placementId: 16303544
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '990 - 9999': [[970, 250], [1, 1]],
+        //         '748 - 989': [[1, 1]]
+        //     }
+        // },
         {
             code: 'SA-Unit18',
             path: '/92354202/SA-Unit18',
             mediaTypes: {
                 banner: {
-                    sizes: [[970, 250], [1, 1]]
+                    sizes: [
+                        [
+                            970,
+                            250
+                        ],
+                        [
+                            1,
+                            1
+                        ]
+                    ]
                 }
             },
             isSticky: false,
@@ -3113,8 +3607,7 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '990 - 9999',
-                        '748 - 989'
+                        '990 - 9999'
                     ],
                     params: {
                         site_id: '200686',
@@ -3122,33 +3615,67 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'criteo',
-                    labelAny: ['990 - 9999'],
+                    labelAny: [
+                        '990 - 9999'
+                    ],
                     params: {
                         zoneId: 1382488,
-                        publisherSubId: 'PocketLint_Unit18_970x250'
+                        publisherSubId: 'PocketLint_SA-Unit18-Skins_970x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        dmxid: 136009,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999'
+                    ],
+                    params: {
+                        placementId: 10041301
                     }
                 },
                 {
                     bidder: 'ix',
-                    labelAny: ['990 - 9999'],
+                    labelAny: [
+                        '990 - 9999'
+                    ],
                     params: {
-                        siteId: '308323',
-                        size: [970, 250]
+                        siteId: '455126',
+                        size: [
+                            970,
+                            250
+                        ]
                     }
                 },
                 {
                     bidder: 'justpremium',
-                    labelAny: ['990 - 9999', '748 - 989'],
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989'
+                    ],
                     params: {
                         zone: '70926',
-                        allow: ['wp', 'wv']
+                        allow: [
+                            'wp',
+                            'wv'
+                        ]
                     }
                 },
                 {
                     bidder: 'openx',
-                    labelAny: ['990 - 9999'],
+                    labelAny: [
+                        '990 - 9999'
+                    ],
                     params: {
-                        unit: '538775412',
+                        unit: '540958259',
                         delDomain: 'streamamp-d.openx.net'
                     }
                 },
@@ -3159,28 +3686,37 @@ var streamampConfig = {
                     ],
                     params: {
                         publisherId: '127864',
-                        pmzoneid: '852529',
-                        adSlot: 'pocket-lint_unit18_970x250@970x250'
+                        pmzoneid: '2577657',
+                        adSlot: 'PocketLint_SA-Unit18-Skins_970x250@970x250'
                     }
                 },
                 {
                     bidder: 'streamamp',
-                    labelAny: ['990 - 9999'],
+                    labelAny: [
+                        '990 - 9999'
+                    ],
                     params: {
-                        placementId: 9450650
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: ['990 - 9999'],
-                    params: {
-                        placementId: 16303544
+                        placementId: 18370473
                     }
                 }
             ],
             breakpoints: {
-                '990 - 9999': [[970, 250], [1, 1]],
-                '748 - 989': [[1, 1]]
+                '990 - 9999': [
+                    [
+                        970,
+                        250
+                    ],
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '748 - 989': [
+                    [
+                        1,
+                        1
+                    ]
+                ]
             }
         },
         {
@@ -3221,6 +3757,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit20_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 136002,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041294
                     }
                 },
                 {
@@ -3411,6 +3972,31 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Homepage_Billboard_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 135984,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041263
                     }
                 },
                 {
@@ -3639,6 +4225,29 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 136003,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041295
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['375 - 747', '0 - 374'],
                     params: {
@@ -3743,6 +4352,29 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        dmxid: 136004,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        placementId: 10041296
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
                     params: {
@@ -3836,6 +4468,29 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        dmxid: 136005,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        placementId: 10041297
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
                     params: {
@@ -3917,6 +4572,29 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        dmxid: 491559,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        placementId: 18402902
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: ['990 - 9999', '748 - 989', '375 - 747'],
                     params: {
@@ -3995,6 +4673,29 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382491,
                         publisherSubId: 'PocketLint_Unit25_300x250'
+                    }
+                },
+                {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        dmxid: 136007,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '990 - 9999',
+                        '748 - 989',
+                        '375 - 747'
+                    ],
+                    params: {
+                        placementId: 10041299
                     }
                 },
                 {
@@ -4167,6 +4868,27 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtmDMX',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        dmxid: 136008,
+                        memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 10041300
+                    }
+                },
+                {
                     bidder: 'ix',
                     labelAny: [
                         '375 - 747',
@@ -4229,95 +4951,7 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'SA-Unit18-Skins',
-            path: '/92354202/SA-Unit18',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            970,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: true,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'conversant',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        site_id: '200686',
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382488,
-                        publisherSubId: 'PocketLint_SA-Unit18-Skins_970x250'
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        siteId: '455126',
-                        size: [
-                            970,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        unit: '540958259',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2577657',
-                        adSlot: 'PocketLint_SA-Unit18-Skins_970x250@970x250'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        placementId: 18370473
-                    }
-                }
-            ],
-            breakpoints: {
-                '990 - 9999': [
-                    [
-                        970,
-                        250
-                    ]
-                ]
-            }
-        },
+        
     ],
     cmp: {
         isEnabled: true,
