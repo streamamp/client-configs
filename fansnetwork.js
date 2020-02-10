@@ -504,256 +504,256 @@ var streamampConfig = {
                 ]
             }
         },
-        {
-            code: 'mpu2',
-            path: '/29165601/FansNetwork_mpu2',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ],
-                        [
-                            250,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'conversant',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        site_id: '200017'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'FansNetwork_mpu2_300x250'
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        dmxid: 148248,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        tagid: '67135'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '0-9999'
-                //     ],
-                //     params: {
-                //         placementId: 1204457
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        siteId: '307521',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        unit: '538801899',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1472116',
-                        adSlot: 'twtd_fn_6_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        placementId: 11160365
-                    }
-                }
-            ],
-            breakpoints: {
-                '0-9999': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        250,
-                        250
-                    ]
-                ]
-            }
-        },
-        {
-            code: 'mpufooter',
-            path: '/29165601/FansNetwork_mpufooter',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ],
-                        [
-                            250,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'conversant',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        site_id: '200017'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'FansNetwork_mpufooter_300x250'
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        dmxid: 148250,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        tagid: '67137'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '0-9999'
-                //     ],
-                //     params: {
-                //         placementId: 1204459
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        siteId: '307523',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        unit: '538801901',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '1472118',
-                        adSlot: 'twtd_fn_8_300x250@300x250'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0-9999'
-                    ],
-                    params: {
-                        placementId: 11160367
-                    }
-                }
-            ],
-            breakpoints: {
-                '0-9999': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        250,
-                        250
-                    ]
-                ]
-            }
-        }
+        // {
+        //     code: 'mpu2',
+        //     path: '/29165601/FansNetwork_mpu2',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ],
+        //                 [
+        //                     250,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'conversant',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 site_id: '200017'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'FansNetwork_mpu2_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 148248,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67135'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '0-9999'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 1204457
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 siteId: '307521',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 unit: '538801899',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '1472116',
+        //                 adSlot: 'twtd_fn_6_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11160365
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '0-9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 250,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
+        // {
+        //     code: 'mpufooter',
+        //     path: '/29165601/FansNetwork_mpufooter',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ],
+        //                 [
+        //                     250,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'conversant',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 site_id: '200017'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'FansNetwork_mpufooter_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'districtmDMX',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 dmxid: 148250,
+        //                 memberid: 100615
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 tagid: '67137'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '0-9999'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 1204459
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 siteId: '307523',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 unit: '538801901',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'pubmatic',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 publisherId: '127864',
+        //                 pmzoneid: '1472118',
+        //                 adSlot: 'twtd_fn_8_300x250@300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '0-9999'
+        //             ],
+        //             params: {
+        //                 placementId: 11160367
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '0-9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ],
+        //             [
+        //                 250,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // }
     ],
     cmp: {
         isEnabled: false
