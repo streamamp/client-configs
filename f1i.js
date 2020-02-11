@@ -1173,7 +1173,21 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: []
+            bids: [],
+            breakpoints: {
+                 '0 - 768': [
+                    [
+                        1,
+                        1
+                    ]
+                ],
+                '769 - 9999': [
+                    [
+                        1,
+                        1
+                    ]
+                ]
+            }
         },
         {
             code: 'Unit8',
@@ -1358,6 +1372,10 @@ var streamampConfig = {
                 [
                     160,
                     600
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         },
@@ -1373,8 +1391,12 @@ var streamampConfig = {
                 [
                     300,
                     250
+                ],
+                [
+                    1,
+                    1
                 ]
             ]
         }
     ]
-}
+};
