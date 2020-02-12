@@ -6,6 +6,20 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
+    adUnitsToRefresh: [
+        'Top-Billboard',
+        'Sticky-Footer',
+        'Billboard-2',
+        'Billboard-3',
+        'Footer-Billboard',
+        'SkyScraper-LHS',
+        'SkyScraper-RHS',
+        'Sidebar-InCopy-MPU-1',
+        'Sidebar-InCopy-MPU-2',
+        'Sidebar-InCopy-MPU-3',
+        'Sidebar-InCopy-MPU-4',
+        'Sidebar-InCopy-MPU-5',
+    ],
     minRefreshTime: 30,
     maxRefreshTime: 45,
     hasCollapsedEmptyDivs: true,
@@ -4140,7 +4154,7 @@ var streamampConfig = {
         },
         {
             code: '1x1-interscroller',
-            path: '/269479563/Road.cc/1x1-interscroller',
+            path: '/269479563/Road.cc-V2/1x1-interscroller',
             mediaTypes: {
                 banner: {
                     sizes: [
@@ -4155,22 +4169,22 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
-              // {
-              //   bidder: 'justpremium',
-              //   labelAny: ['0 - 767'],
-              //   params: {
-              //     zone: '79351',
-              //     allow: ['mt', 'is', 'mo', 'ms']
-              //   }
-              // },
-              // {
-              //   bidder: 'justpremium',
-              //   labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
-              //   params: {
-              //     zone: '79351',
-              //     allow: ['cf', 'as', 'ci']
-              //   }
-              // }
+              {
+                bidder: 'justpremium',
+                labelAny: ['0 - 767'],
+                params: {
+                  zone: '79351',
+                  allow: ['mt', 'is', 'mo', 'ms']
+                }
+              },
+              {
+                bidder: 'justpremium',
+                labelAny: ['1640 - 9999', '1025 - 1639', '768 - 1024',],
+                params: {
+                  zone: '79351',
+                  allow: ['cf', 'as', 'ci']
+                }
+              }
             ],
             breakpoints: {
                 '1640 - 9999': [[1, 1]],
