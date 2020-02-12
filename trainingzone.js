@@ -618,117 +618,117 @@ var streamampConfig = {
             outOfPage: false,
             bids: []
         },
-        {
-            code: 'TZ_MPU4',
-            path: '/4394518/TZ_MPU4',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'TZ_MPU4_300x250'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        tagid: '74367'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '971 - 9999',
-                //         '729 - 970',
-                //         '0 - 728'
-                //     ],
-                //     params: {
-                //         placementId: 22051761
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        siteId: '388666',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        unit: '540796814',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        placementId: 16411661
-                    }
-                }
-            ],
-            breakpoints: {
-                '971 - 9999': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '729 - 970': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '0 - 728': [
-                    [
-                        300,
-                        250
-                    ]
-                ]
-            }
-        },
+        // {
+        //     code: 'TZ_MPU4',
+        //     path: '/4394518/TZ_MPU4',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '729 - 970',
+        //                 '0 - 728'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'TZ_MPU4_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '729 - 970',
+        //                 '0 - 728'
+        //             ],
+        //             params: {
+        //                 tagid: '74367'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '971 - 9999',
+        //         //         '729 - 970',
+        //         //         '0 - 728'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 22051761
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '729 - 970',
+        //                 '0 - 728'
+        //             ],
+        //             params: {
+        //                 siteId: '388666',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '729 - 970',
+        //                 '0 - 728'
+        //             ],
+        //             params: {
+        //                 unit: '540796814',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '729 - 970',
+        //                 '0 - 728'
+        //             ],
+        //             params: {
+        //                 placementId: 16411661
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '971 - 9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '729 - 970': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '0 - 728': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: 'TZ_Sticky',
             path: '/4394518/TZ_Sticky',
