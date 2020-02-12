@@ -1,7 +1,8 @@
 var streamampConfig = {
+    gptSingleRequestEnabled: true,
     levelTargeting: false,
     a9Enabled: true,
-    apsPubId: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
+    apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
