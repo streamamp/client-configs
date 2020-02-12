@@ -660,128 +660,128 @@ var streamampConfig = {
             outOfPage: false,
             bids: []
         },
-        {
-            code: 'MYC_MPU4',
-            path: '/4394518/MYC_MPU4',
-            mediaTypes: {
-                banner: {
-                    sizes: [
-                        [
-                            300,
-                            250
-                        ]
-                    ]
-                }
-            },
-            isSticky: false,
-            safeFrame: false,
-            outOfPage: false,
-            bids: [
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '0 - 728',
-                        '729 - 970',
-                        '971 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382491,
-                        publisherSubId: 'MYC_MPU4_300x250'
-                    }
-                },
-                {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0 - 728',
-                        '729 - 970',
-                        '971 - 9999'
-                    ],
-                    params: {
-                        tagid: '74368'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '0 - 728',
-                //         '729 - 970',
-                //         '971 - 9999'
-                //     ],
-                //     params: {
-                //         placementId: 22051760
-                //     }
-                // },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0 - 728',
-                        '729 - 970',
-                        '971 - 9999'
-                    ],
-                    params: {
-                        siteId: '388665',
-                        size: [
-                            300,
-                            250
-                        ]
-                    }
-                },
-                {
-                    bidder: 'openx',
-                    labelAny: [
-                        '0 - 728',
-                        '729 - 970',
-                        '971 - 9999'
-                    ],
-                    params: {
-                        unit: '540796813',
-                        delDomain: 'streamamp-d.openx.net'
-                    }
-                },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0 - 728',
-                        '729 - 970',
-                        '971 - 9999'
-                    ],
-                    params: {
-                        placementId: 16411657
-                    }
-                },
-                {
-                    bidder: 'conversant',
-                    labelAny: [
-                        '971 - 9999',
-                        '729 - 970',
-                        '0 - 728'
-                    ],
-                    params: {
-                        site_id: '200515'
-                    }
-                }
-            ],
-            breakpoints: {
-                '0 - 728': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '729 - 970': [
-                    [
-                        300,
-                        250
-                    ]
-                ],
-                '971 - 9999': [
-                    [
-                        300,
-                        250
-                    ]
-                ]
-            }
-        },
+        // {
+        //     code: 'MYC_MPU4',
+        //     path: '/4394518/MYC_MPU4',
+        //     mediaTypes: {
+        //         banner: {
+        //             sizes: [
+        //                 [
+        //                     300,
+        //                     250
+        //                 ]
+        //             ]
+        //         }
+        //     },
+        //     isSticky: false,
+        //     safeFrame: false,
+        //     outOfPage: false,
+        //     bids: [
+        //         {
+        //             bidder: 'criteo',
+        //             labelAny: [
+        //                 '0 - 728',
+        //                 '729 - 970',
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 zoneId: 1382491,
+        //                 publisherSubId: 'MYC_MPU4_300x250'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'emx_digital',
+        //             labelAny: [
+        //                 '0 - 728',
+        //                 '729 - 970',
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 tagid: '74368'
+        //             }
+        //         },
+        //         // {
+        //         //     bidder: 'improvedigital',
+        //         //     labelAny: [
+        //         //         '0 - 728',
+        //         //         '729 - 970',
+        //         //         '971 - 9999'
+        //         //     ],
+        //         //     params: {
+        //         //         placementId: 22051760
+        //         //     }
+        //         // },
+        //         {
+        //             bidder: 'ix',
+        //             labelAny: [
+        //                 '0 - 728',
+        //                 '729 - 970',
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 siteId: '388665',
+        //                 size: [
+        //                     300,
+        //                     250
+        //                 ]
+        //             }
+        //         },
+        //         {
+        //             bidder: 'openx',
+        //             labelAny: [
+        //                 '0 - 728',
+        //                 '729 - 970',
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 unit: '540796813',
+        //                 delDomain: 'streamamp-d.openx.net'
+        //             }
+        //         },
+        //         {
+        //             bidder: 'streamamp',
+        //             labelAny: [
+        //                 '0 - 728',
+        //                 '729 - 970',
+        //                 '971 - 9999'
+        //             ],
+        //             params: {
+        //                 placementId: 16411657
+        //             }
+        //         },
+        //         {
+        //             bidder: 'conversant',
+        //             labelAny: [
+        //                 '971 - 9999',
+        //                 '729 - 970',
+        //                 '0 - 728'
+        //             ],
+        //             params: {
+        //                 site_id: '200515'
+        //             }
+        //         }
+        //     ],
+        //     breakpoints: {
+        //         '0 - 728': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '729 - 970': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ],
+        //         '971 - 9999': [
+        //             [
+        //                 300,
+        //                 250
+        //             ]
+        //         ]
+        //     }
+        // },
         {
             code: 'MYC_Sticky',
             path: '/4394518/MYC_Sticky',
