@@ -19,7 +19,7 @@ var streamampConfig = {
 	keyValues: {},
 	adUnits: [
 		{
-			code: 'Unit1',
+			code: 'div-gpt-ad-1572602700794-0',
 			path: '/109048388/Flashbak/Unit1',
 			mediaTypes: {
 				banner: {
@@ -77,7 +77,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit2',
+			code: 'div-gpt-ad-1572602700794-1',
 			path: '/109048388/Flashbak/Unit2',
 			mediaTypes: {
 				banner: {
@@ -143,7 +143,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit3',
+			code: 'div-gpt-ad-1572602700794-2',
 			path: '/109048388/Flashbak/Unit3',
 			mediaTypes: {
 				banner: {
@@ -209,7 +209,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit4',
+			code: 'div-gpt-ad-1572602700794-3',
 			path: '/109048388/Flashbak/Unit4',
 			mediaTypes: {
 				banner: {
@@ -275,7 +275,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit5',
+			code: 'div-gpt-ad-1572602700794-4',
 			path: '/109048388/Flashbak/Unit5',
 			mediaTypes: {
 				banner: {
@@ -341,7 +341,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit6',
+			code: 'div-gpt-ad-1572602700794-5',
 			path: '/109048388/Flashbak/Unit6',
 			mediaTypes: {
 				banner: {
@@ -407,7 +407,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit7',
+			code: 'div-gpt-ad-1572602700794-6',
 			path: '/109048388/Flashbak/Unit7',
 			mediaTypes: {
 				banner: {
@@ -473,7 +473,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit8',
+			code: 'div-gpt-ad-1572602700794-7',
 			path: '/109048388/Flashbak/Unit8',
 			mediaTypes: {
 				banner: {
@@ -507,7 +507,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit9',
+			code: 'div-gpt-ad-1572602700794-8',
 			path: '/109048388/Flashbak/Unit9',
 			mediaTypes: {
 				banner: {
@@ -541,7 +541,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Unit10',
+			code: 'div-gpt-ad-1572602700794-9',
 			path: '/109048388/Flashbak/Unit10',
 			mediaTypes: {
 				banner: {
@@ -575,7 +575,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Sticky',
+			code: 'div-gpt-ad-1572602700794-10',
 			path: '/109048388/Flashbak/Sticky',
 			mediaTypes: {
 				banner: {
@@ -617,7 +617,7 @@ var streamampConfig = {
 			}
 		},
 		{
-			code: 'Skin',
+			code: 'div-gpt-ad-1572602700794-11',
 			path: '/109048388/Flashbak/Skin',
 			mediaTypes: {
 				banner: {
