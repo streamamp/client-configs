@@ -4154,7 +4154,7 @@ var streamampConfig = {
         },
         {
             code: '1x1-interscroller',
-            path: '/269479563/Road.cc-V2/1x1-interscroller',
+            path: '/269479563/Road.cc-V2/1x1-Interscoller',
             mediaTypes: {
                 banner: {
                     sizes: [
