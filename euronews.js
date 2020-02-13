@@ -1,6 +1,6 @@
 var streamampConfig = {
     levelTargeting: false,
-    gptSingleRequestEnabled: true,
+    gptSingleRequestEnabled: false,
     a9Enabled: false,
     apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
@@ -1344,6 +1344,7 @@ var streamampUtils = {
         window[streamampConfig.namespace].que.forEach(function (cmd) {
             if (typeof cmd.called === 'undefined' && typeof cmd === 'function') {
                 try {
+                    streamampUtils.log('processing command forEach:' + cmd);
                     cmd.call();
                     cmd.called = true;
                 } catch (e) {
@@ -1355,6 +1356,7 @@ var streamampUtils = {
         window[streamampConfig.namespace].que.push = function (cmd) {
             if (typeof cmd === 'function') {
                 try {
+                    streamampUtils.log('processing command push :' + cmd);
                     cmd.call();
                 } catch (e) {
                     streamampUtils.logError('Error processing command :' + e.message);
@@ -1415,11 +1417,9 @@ pbjs.que = pbjs.que || [];
 var googletag = googletag || {};
 googletag.cmd = googletag.cmd || [];
 // disables initial load
-if (streamampConfig.gptSingleRequestEnabled) {
-    googletag.cmd.push(function () {
-        googletag.pubads().disableInitialLoad();
-    });
-}
+googletag.cmd.push(function () {
+    googletag.pubads().disableInitialLoad();
+});
 
 window.AD_UNITS_TOGGLE_OFF = window.AD_UNITS_TOGGLE_OFF || [];
 streamampUtils.log('AD_UNITS_TOGGLE_OFF is', window.AD_UNITS_TOGGLE_OFF)
@@ -1453,8 +1453,6 @@ streamampSetup()
 // streamampSetup
 function streamampSetup() {
     streamampUtils.log('Running setup()')
-    overrideGoogletagDisplay(streamampConfig)
-
 
     pbjs.que.push(function () {
         if (streamampConfig.afterLoad && typeof streamampConfig.afterLoad === 'function') {
@@ -2232,10 +2230,6 @@ function streamampDefineAdUnitSlot(adUnit, predefinedSlotIds) {
         }
     }
 
-    if (adUnit.lazyLoad === true) {
-        googleSlot = configAdUnitSlotLazyLoad(googleSlot, streamampConfig);
-    }
-
     googleSlot = streamampConfigAdUnitSlotKeyValue(adUnit.code, googleSlot);
 
     if (googleSlot && adUnit.safeFrame) {
@@ -2474,39 +2468,39 @@ function streamampRefreshBids(selectedAdUnits) {
 // Refresh bids handler
 function streamampRefresh(selectedAdUnits) {
 
-    function generateRefreshTimeout() {
-        var min = +streamampConfig.minRefreshTime || 60;
-        var max = +streamampConfig.maxRefreshTime || 90;
-        // Generate a random number of seconds between the max and min and convert it to milliseconds
-        return (Math.floor(Math.random() * (max - min)) + min) * 1e3;
-    }
-
-    var refreshAds = function () {
-        var refreshTimeout = generateRefreshTimeout()
-        streamampUtils.log('Setting refresh', {
-            selectedAdUnits: (selectedAdUnits ? selectedAdUnits : 'all'),
-            refreshTimeout: refreshTimeout / 1e3 + ' seconds'
-        });
-
-        if (window.adRefreshTimer) {
-            window.clearInterval(window.adRefreshTimer);
-        }
-        window.adRefreshTimer = setInterval(function () {
-            if (!streamampConfig.hasRefreshBids) {
-                streamampRefreshBids(selectedAdUnits);
-            }
-        }, refreshTimeout);
-    };
-    refreshAds();
-
-    window.onfocus = function () {
-        refreshAds();
-    };
-    window.onblur = function () {
-        streamampUtils.log('Refresh paused (interval cleared) due to window.onblur');
-        window.clearInterval(window.adRefreshTimer);
-        window.adRefreshTimer = null;
-    };
+    // function generateRefreshTimeout() {
+    //     var min = +streamampConfig.minRefreshTime || 60;
+    //     var max = +streamampConfig.maxRefreshTime || 90;
+    //     // Generate a random number of seconds between the max and min and convert it to milliseconds
+    //     return (Math.floor(Math.random() * (max - min)) + min) * 1e3;
+    // }
+    //
+    // var refreshAds = function () {
+    //     var refreshTimeout = generateRefreshTimeout()
+    //     streamampUtils.log('Setting refresh', {
+    //         selectedAdUnits: (selectedAdUnits ? selectedAdUnits : 'all'),
+    //         refreshTimeout: refreshTimeout / 1e3 + ' seconds'
+    //     });
+    //
+    //     if (window.adRefreshTimer) {
+    //         window.clearInterval(window.adRefreshTimer);
+    //     }
+    //     window.adRefreshTimer = setInterval(function () {
+    //         if (!streamampConfig.hasRefreshBids) {
+    //             streamampRefreshBids(selectedAdUnits);
+    //         }
+    //     }, refreshTimeout);
+    // };
+    // refreshAds();
+    //
+    // window.onfocus = function () {
+    //     refreshAds();
+    // };
+    // window.onblur = function () {
+    //     streamampUtils.log('Refresh paused (interval cleared) due to window.onblur');
+    //     window.clearInterval(window.adRefreshTimer);
+    //     window.adRefreshTimer = null;
+    // };
 };
 
 function streamampDestroySlots(adUnitCodes) {
@@ -2561,91 +2555,6 @@ function streamampCreateAPSAdUnits(adUnitsGPT) {
     return apstagSlots
 }
 
-
-function isBody(node) {
-    return node === document.body;
-}
-
-function isVisible(node) {
-    return window.getComputedStyle(node).display !== 'none';
-}
-
-function isNodeVisible(node) {
-
-    if (isBody(node)) {
-        return true;
-    }
-    return isVisible(node) && isNodeVisible(node.parentNode);
-}
-
-function registerLazyLoading(adUnitCode, auctionEndQueue) {
-    var adUnitDiv = document.getElementById(adUnitCode);
-
-    if (!adUnitDiv || adUnitDiv.length < 1 || adUnitDiv.loaded === false) {
-        return;
-    }
-
-    adUnitDiv.loaded = false;
-    adUnitDiv.fetchAd = function () {
-        window[streamampConfig.namespace].refreshBids(adUnitDiv.id);
-        adUnitDiv.loaded = true;
-        window.removeEventListener('scroll', adUnitDiv.isInView);
-    };
-
-    adUnitDiv.isInView = function () {
-        var prop = adUnitDiv.getBoundingClientRect();
-
-        var winHeight = window.innerHeight;
-        var inView = prop.top <= winHeight && prop.top - winHeight < prop.height * -0.5 && prop.top >= 0;
-
-        if (typeof adUnitDiv.isVisible === 'undefined') {
-            adUnitDiv.isVisible = isNodeVisible(adUnitDiv);
-        }
-
-        if (inView && !adUnitDiv.loaded && adUnitDiv.isVisible) {
-            auctionEndQueue.push(adUnitDiv.fetchAd);
-        }
-
-        return inView;
-    };
-
-    if (!adUnitDiv.isInView()) {
-        window.addEventListener('scroll', adUnitDiv.isInView);
-    }
-}
-
-function configAdUnitSlotLazyLoad(googleSlot, config) {
-    console.log('configAdUnitSlotLazyLoad', googleSlot)
-    googleSlot.lazyLoad = true;
-    googletag.pubads().collapseEmptyDivs(false);
-    return googleSlot;
-}
-
-function overrideGoogletagDisplay(config) {
-    googletag.cmd.push(function () {
-        var _googletagDisplay = googletag.display;
-        googletag.display = function (adUnitCode) {
-            streamampUtils.log(config.namespace, 'DEBUG:', 'googletag.display called for', adUnitCode);
-            _googletagDisplay(adUnitCode);
-            var slot = googletag.pubads().getSlots().find(function (slot) {
-                return slot.getSlotElementId() === adUnitCode;
-            });
-
-            window[config.namespace].que.push(function () {
-                if (slot && slot.lazyLoad === true) {
-                    streamampUtils.log(config.namespace, 'DEBUG:', 'window[config.namespace].registerLazyLoad(adUnitCode);', adUnitCode);
-                    window[config.namespace].registerLazyLoad(adUnitCode);
-                } else if (!config.preventInitAdServer) {
-                    streamampUtils.log(config.namespace, 'DEBUG:', 'streamampUtils.prebidEvents.auctionEndQueue', adUnitCode);
-                    streamampUtils.prebidEvents.auctionEndQueue.push(function () {
-                        googletag.pubads().refresh([slot]);
-                    });
-                }
-            });
-        };
-    });
-}
-
 function defineLazyAdUnits(gptSlots) {
 
     streamampUtils.log(streamampConfig.namespace, 'DEBUG:', 'Defining lazy load google slots');
@@ -2657,7 +2566,10 @@ function defineLazyAdUnits(gptSlots) {
     pbjs.que.push(function () {
         var adUnits = pbjs.adUnits || [];
 
+        console.log('adUnits', adUnits)
+
         var definedAdUnits = adUnits.map(function (adUnit) {
+            console.log('adUnit', adUnit)
             return adUnit.code;
         });
 
@@ -2700,8 +2612,5 @@ window.streamamp = {
             streamampInit()
         }
     },
-    que: window[streamampConfig.namespace].que,
-    registerLazyLoad: function (adUnitCode) {
-        registerLazyLoading(adUnitCode, streamampUtils.prebidEvents.auctionEndQueue);
-    }
+    que: window[streamampConfig.namespace].que
 }
