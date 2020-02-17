@@ -2639,10 +2639,10 @@ var streamampConfig = {
         }
     ],
     cmp: {
-        isEnabled: true,
+        isEnabled: false,
         config: {
             'UI Layout': 'banner',
-            Language: 'en',
+            'Language': 'en',
             'Display Persistent Consent Link': true,
             'No Option': false,
             'Non-Consent Display Frequency': 7,
