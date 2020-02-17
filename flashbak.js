@@ -46,7 +46,106 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'Flashbak_Unit1_320x50'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						zoneId: 1382489,
+						publisherSubId: 'Flashbak_Unit1_728x90'
+					}
+				},
+				{
+				    bidder: 'emx_digital',
+				    labelAny: [
+					    '0 - 728'
+				    ],
+				    params: {
+				        tagid: '93436'
+				    }
+				},
+				{
+				    bidder: 'emx_digital',
+				    labelAny: [
+					    '971 - 9999',
+					    '729 - 970',
+				    ],
+				    params: {
+				        tagid: '93437'
+				    }
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						siteId: '347916',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						siteId: '347916',
+						size: [
+							728,
+							90
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+						'0 - 728'
+					],
+					params: {
+						unit: '540630608',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						placementId: 18389540
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						placementId: 18389547
+					}
+				}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -108,7 +207,151 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'Flashbak_Unit2_320x50'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						zoneId: 1382489,
+						publisherSubId: 'Flashbak_Unit2_728x90'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						zoneId: 1382488,
+						publisherSubId: 'Flashbak_Unit2_970x250'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						tagid: '93438'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						tagid: '93439'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						tagid: '93440'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						siteId: '347915',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						siteId: '347915',
+						size: [
+							728,
+							90
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						siteId: '347915',
+						size: [
+							970,
+							250
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+						'0 - 728'
+					],
+					params: {
+						unit: '540632088',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						placementId: 18389549
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						placementId: 18389554
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						placementId: 18389557
+					}
+				}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -174,7 +417,151 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							zoneId: 1382490,
+							publisherSubId: 'Flashbak_Unit3_320x50'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382489,
+							publisherSubId: 'Flashbak_Unit3_728x90'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382488,
+							publisherSubId: 'Flashbak_Unit3_970x250'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							tagid: '93441'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93442'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93443'
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							siteId: '347223',
+							size: [
+								320,
+								50
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347223',
+							size: [
+								728,
+								90
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347223',
+							size: [
+								970,
+								250
+							]
+						}
+					},
+					{
+						bidder: 'openx',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+							'0 - 728'
+						],
+						params: {
+							unit: '540632091',
+							delDomain: 'streamamp-d.openx.net'
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							placementId: 18389560
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389561
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389563
+						}
+					}
+				],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -240,7 +627,151 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							zoneId: 1382490,
+							publisherSubId: 'Flashbak_Unit4_320x50'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382489,
+							publisherSubId: 'Flashbak_Unit4_728x90'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382488,
+							publisherSubId: 'Flashbak_Unit4_970x250'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							tagid: '93444'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93445'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93446'
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							siteId: '347917',
+							size: [
+								320,
+								50
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347917',
+							size: [
+								728,
+								90
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347917',
+							size: [
+								970,
+								250
+							]
+						}
+					},
+					{
+						bidder: 'openx',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+							'0 - 728'
+						],
+						params: {
+							unit: '540632092',
+							delDomain: 'streamamp-d.openx.net'
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							placementId: 18389564
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389567
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389565
+						}
+					}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -306,7 +837,151 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							zoneId: 1382490,
+							publisherSubId: 'Flashbak_Unit5_320x50'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382489,
+							publisherSubId: 'Flashbak_Unit5_728x90'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382488,
+							publisherSubId: 'Flashbak_Unit5_970x250'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							tagid: '93447'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93448'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93449'
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							siteId: '347918',
+							size: [
+								320,
+								50
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347918',
+							size: [
+								728,
+								90
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347918',
+							size: [
+								970,
+								250
+							]
+						}
+					},
+					{
+						bidder: 'openx',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+							'0 - 728'
+						],
+						params: {
+							unit: '540632092',
+							delDomain: 'streamamp-d.openx.net'
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							placementId: 18389568
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389570
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389571
+						}
+					}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -372,7 +1047,151 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							zoneId: 1382490,
+							publisherSubId: 'Flashbak_Unit6_320x50'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382489,
+							publisherSubId: 'Flashbak_Unit6_728x90'
+						}
+					},
+					{
+						bidder: 'criteo',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							zoneId: 1382488,
+							publisherSubId: 'Flashbak_Unit6_970x250'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							tagid: '93450'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93451'
+						}
+					},
+					{
+						bidder: 'emx_digital',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							tagid: '93452'
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							siteId: '347929',
+							size: [
+								320,
+								50
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347929',
+							size: [
+								728,
+								90
+							]
+						}
+					},
+					{
+						bidder: 'ix',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+						],
+						params: {
+							siteId: '347929',
+							size: [
+								970,
+								250
+							]
+						}
+					},
+					{
+						bidder: 'openx',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970',
+							'0 - 728'
+						],
+						params: {
+							unit: '540632094',
+							delDomain: 'streamamp-d.openx.net'
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'0 - 728'
+						],
+						params: {
+							placementId: 18389573
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18390008
+						}
+					},
+					{
+						bidder: 'streamamp',
+						labelAny: [
+							'971 - 9999',
+							'729 - 970'
+						],
+						params: {
+							placementId: 18389575
+						}
+					}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -438,7 +1257,151 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'Flashbak_Unit7_320x50'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						zoneId: 1382489,
+						publisherSubId: 'Flashbak_Unit7_728x90'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						zoneId: 1382488,
+						publisherSubId: 'Flashbak_Unit7_970x250'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						tagid: '93453'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						tagid: '93454'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						tagid: '93455'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						siteId: '347927',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						siteId: '347927',
+						size: [
+							728,
+							90
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+					],
+					params: {
+						siteId: '347927',
+						size: [
+							970,
+							250
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+						'0 - 728'
+					],
+					params: {
+						unit: '540632095',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						placementId: 18389648
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						placementId: 18389963
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						placementId: 18389966
+					}
+				}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -492,9 +1455,102 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						zoneId: 1382492,
+						publisherSubId: 'Flashbak_Unit8_300x600'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						zoneId: 1382491,
+						publisherSubId: 'Flashbak_Unit8_300x250'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						tagid: '93456'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						tagid: '93457'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						siteId: '347928',
+						size: [
+							300,
+							250
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						siteId: '347928',
+						size: [
+							300,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						unit: '540632098',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						placementId: 18389977
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						placementId: 18389975
+					}
+				}
+			],
 			breakpoints: {
-				'0 - 728': [
+				'971 - 9999': [
 					[
 						300,
 						250
@@ -526,9 +1582,102 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						zoneId: 1382492,
+						publisherSubId: 'Flashbak_Unit9_300x600'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						zoneId: 1382491,
+						publisherSubId: 'Flashbak_Unit9_300x250'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						tagid: '93458'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						tagid: '93459'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						siteId: '457903',
+						size: [
+							300,
+							250
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						siteId: '457903',
+						size: [
+							300,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						unit: '540632099',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						placementId: 18389977
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						placementId: 18389979
+					}
+				}
+			],
 			breakpoints: {
-				'0 - 728': [
+				'971 - 9999': [
 					[
 						300,
 						250
@@ -560,9 +1709,102 @@ var streamampConfig = {
 			isSticky: false,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						zoneId: 1382492,
+						publisherSubId: 'Flashbak_Unit10_300x600'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						zoneId: 1382491,
+						publisherSubId: 'Flashbak_Unit10_300x250'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						tagid: '93460'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						tagid: '93461'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						siteId: '457904',
+						size: [
+							300,
+							250
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						siteId: '457904',
+						size: [
+							300,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						unit: '540632100',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						placementId: 18389981
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999'
+					],
+					params: {
+						placementId: 18389984
+					}
+				}
+			],
 			breakpoints: {
-				'0 - 728': [
+				'971 - 9999': [
 					[
 						300,
 						250
@@ -594,7 +1836,106 @@ var streamampConfig = {
 			isSticky: true,
 			safeFrame: false,
 			outOfPage: false,
-			bids: [],
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						zoneId: 1382490,
+						publisherSubId: 'Flashbak_Sticky_320x50'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						zoneId: 1382489,
+						publisherSubId: 'Flashbak_Sticky_728x90'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						tagid: '93462'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						tagid: '93463'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						siteId: '457905',
+						size: [
+							320,
+							50
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						siteId: '457905',
+						size: [
+							728,
+							90
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970',
+						'0 - 728'
+					],
+					params: {
+						unit: '540632103',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'0 - 728'
+					],
+					params: {
+						placementId: 18389986
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971 - 9999',
+						'729 - 970'
+					],
+					params: {
+						placementId: 18389988
+					}
+				}
+			],
 			breakpoints: {
 				'971 - 9999': [
 					[
@@ -656,7 +1997,7 @@ var streamampConfig = {
 		},
 	],
 	cmp: {
-		isEnabled: true,
+		isEnabled: false,
 		config: {
 			'UI Layout': 'popup',
 			'Language': 'en',
