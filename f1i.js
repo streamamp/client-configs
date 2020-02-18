@@ -1174,7 +1174,43 @@ var streamampConfig = {
             isSticky: false,
             safeFrame: false,
             outOfPage: false,
-            bids: [],
+            bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        zone: '92403',
+                        allow: [
+                            'hv',
+                            'cf',
+                            'as',
+                            'ci',
+                            'sa',
+                            'pa',
+                            'ca',
+                            'pd'
+                        ]
+                    }
+                },
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        zone: '92403',
+                        allow: [
+                            'mt',
+                            'is',
+                            'mo',
+                            'ms',
+                            'ca'
+                        ]
+                    }
+                }
+            ],
             breakpoints: {
                  '0 - 768': [
                     [
