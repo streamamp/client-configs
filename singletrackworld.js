@@ -66,42 +66,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
+						'971-9999',
+						'701-970',
+						'0-700'
 					],
 					params: {
-						dmxid: 281956,
+						dmxid: 14702180,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
 						'971-9999',
-						'701-970'
-					],
-					params: {
-						dmxid: 281965,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281957,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'0-700'
-					],
-					params: {
-						dmxid: 281995,
-						memberid: 100615
+						placementId: 282862
 					}
 				},
 				{
@@ -395,42 +377,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
+						'971-9999',
+						'701-970',
+						'0-700'
 					],
 					params: {
-						dmxid: 281958,
+						dmxid: 14695955,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
 						'971-9999',
-						'701-970'
-					],
-					params: {
-						dmxid: 281990,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281959,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'0-700'
-					],
-					params: {
-						dmxid: 281996,
-						memberid: 100615
+						placementId: 281956
 					}
 				},
 				{
@@ -721,31 +685,23 @@ var streamampConfig = {
 					bidder: 'districtmDMX',
 					labelAny: [
 						'971-9999',
-						'701-970'
+						'701-970',
+						'0-700'
 					],
 					params: {
-						dmxid: 281960,
+						dmxid: 14695957,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281961,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'0-700'
-					],
-					params: {
-						dmxid: 281962,
-						memberid: 100615
+						placementId: 281957
 					}
 				},
 				{
@@ -980,31 +936,23 @@ var streamampConfig = {
 					bidder: 'districtmDMX',
 					labelAny: [
 						'971-9999',
-						'701-970'
+						'701-970',
+						'0-700'
 					],
 					params: {
-						dmxid: 281963,
+						dmxid: 14695986,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281964,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'0-700'
-					],
-					params: {
-						dmxid: 281991,
-						memberid: 100615
+						placementId: 281958
 					}
 				},
 				{
@@ -1242,6 +1190,29 @@ var streamampConfig = {
 					params: {
 						zoneId: 1382491,
 						publisherSubId: 'SingleTrackWorld_Unit5_300x250'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						dmxid: 14695987,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						placementId: 281959
 					}
 				},
 				{
@@ -1516,23 +1487,23 @@ var streamampConfig = {
 					bidder: 'districtmDMX',
 					labelAny: [
 						'971-9999',
-						'701-970'
+						'701-970',
+						'0-700'
 					],
 					params: {
-						dmxid: 281966,
+						dmxid: 14695988,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
 						'971-9999',
 						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281968,
-						memberid: 100615
+						placementId: 281960
 					}
 				},
 				{
@@ -1769,32 +1740,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281969,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
 						'971-9999',
-						'701-970'
-					],
-					params: {
-						dmxid: 281970,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281971,
+						dmxid: 14695989,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						placementId: 281961
 					}
 				},
 				{
@@ -2027,32 +1990,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281972,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'971-9999',
 						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281997,
+						dmxid: 14695990,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281973,
-						memberid: 100615
+						placementId: 281962
 					}
 				},
 				{
@@ -2296,32 +2251,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281988,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'971-9999',
 						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281976,
+						dmxid: 14695991,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281975,
-						memberid: 100615
+						placementId: 281963
 					}
 				},
 				{
@@ -2554,32 +2501,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281977,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'971-9999',
 						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281979,
+						dmxid: 14695992,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281978,
-						memberid: 100615
+						placementId: 281964
 					}
 				},
 				{
@@ -2783,37 +2722,6 @@ var streamampConfig = {
 		// 			params: {
 		// 				zoneId: 1382491,
 		// 				publisherSubId: 'SingleTrackWorld_Unit11_300x250'
-		// 			}
-		// 		},
-		// 		{
-		// 			bidder: 'districtmDMX',
-		// 			labelAny: [
-		// 				'971-9999'
-		// 			],
-		// 			params: {
-		// 				dmxid: 281980,
-		// 				memberid: 100615
-		// 			}
-		// 		},
-		// 		{
-		// 			bidder: 'districtmDMX',
-		// 			labelAny: [
-		// 				'701-970',
-		// 				'0-700'
-		// 			],
-		// 			params: {
-		// 				dmxid: 281998,
-		// 				memberid: 100615
-		// 			}
-		// 		},
-		// 		{
-		// 			bidder: 'districtmDMX',
-		// 			labelAny: [
-		// 				'0-700'
-		// 			],
-		// 			params: {
-		// 				dmxid: 281981,
-		// 				memberid: 100615
 		// 			}
 		// 		},
 		// 		{
@@ -3057,32 +2965,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281982,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'971-9999',
 						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281984,
+						dmxid: 14695993,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281983,
-						memberid: 100615
+						placementId: 281965
 					}
 				},
 				{
@@ -3321,37 +3221,6 @@ var streamampConfig = {
 		// 			params: {
 		// 				zoneId: 1382491,
 		// 				publisherSubId: 'SingleTrackWorld_Unit13_300x250'
-		// 			}
-		// 		},
-		// 		{
-		// 			bidder: 'districtmDMX',
-		// 			labelAny: [
-		// 				'971-9999'
-		// 			],
-		// 			params: {
-		// 				dmxid: 281985,
-		// 				memberid: 100615
-		// 			}
-		// 		},
-		// 		{
-		// 			bidder: 'districtmDMX',
-		// 			labelAny: [
-		// 				'701-970',
-		// 				'0-700'
-		// 			],
-		// 			params: {
-		// 				dmxid: 281987,
-		// 				memberid: 100615
-		// 			}
-		// 		},
-		// 		{
-		// 			bidder: 'districtmDMX',
-		// 			labelAny: [
-		// 				'0-700'
-		// 			],
-		// 			params: {
-		// 				dmxid: 281986,
-		// 				memberid: 100615
 		// 			}
 		// 		},
 		// 		{
@@ -3595,32 +3464,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281988,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'971-9999',
 						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281999,
+						dmxid: 14695994,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281989,
-						memberid: 100615
+						placementId: 281966
 					}
 				},
 				{
@@ -3850,6 +3711,27 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+						'0-700'
+					],
+					params: {
+						dmxid: 14695996,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'0-700'
+					],
+					params: {
+						placementId: 281967
+					}
+				},
+				{
 					bidder: 'emx_digital',
 					labelAny: [
 						'971-9999',
@@ -3957,6 +3839,27 @@ var streamampConfig = {
 					params: {
 						zoneId: 1382493,
 						publisherSubId: 'SingleTrackWorld_Unit16_160x600'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+						'0-700'
+					],
+					params: {
+						dmxid: 14695997,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'0-700'
+					],
+					params: {
+						placementId: 281968
 					}
 				},
 				{
@@ -4081,32 +3984,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281992,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
 						'971-9999',
-						'701-970'
-					],
-					params: {
-						dmxid: 282000,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 281993,
+						dmxid: 14695998,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						placementId: 281969
 					}
 				},
 				{
@@ -4345,32 +4240,24 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'971-9999'
-					],
-					params: {
-						dmxid: 281994,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
 						'971-9999',
-						'701-970'
-					],
-					params: {
-						dmxid: 282002,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 282862,
+						dmxid: 14695999,
 						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						placementId: 281970
 					}
 				},
 				{
@@ -4608,6 +4495,29 @@ var streamampConfig = {
 					}
 				},
 				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						dmxid: 14696001,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						placementId: 281971
+					}
+				},
+				{
 					bidder: 'emx_digital',
 					labelAny: [
 						'971-9999'
@@ -4839,6 +4749,29 @@ var streamampConfig = {
 					params: {
 						zoneId: 1382489,
 						publisherSubId: 'SingleTrackWorld_Unit20_728x90'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						dmxid: 14696002,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+						'701-970',
+						'0-700'
+					],
+					params: {
+						placementId: 281972
 					}
 				},
 				{
@@ -5274,6 +5207,314 @@ var streamampConfig = {
 			}
 		},
 		{
+			code: 'Unit22-Skyscraper',
+			path: '/1022864/SingleTrackWorld/Unit22-Skyscraper',
+			mediaTypes: {
+				banner: {
+					sizes: [
+						[
+							300,
+							600
+						],
+						[
+							160,
+							600
+						],
+						[
+							120,
+							600
+						]
+					]
+				}
+			},
+			isSticky: false,
+			safeFrame: false,
+			outOfPage: false,
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						zoneId: 1382492,
+						publisherSubId: 'SingleTrackWorld_Unit22-Skyscraper_300x600'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						zoneId: 1382493,
+						publisherSubId: 'SingleTrackWorld_Unit22-Skyscraper_160x600'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						dmxid: 14696003,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						placementId: 281973
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						tagid: '95236'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						tagid: '95237'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						siteId: '465876',
+						size: [
+							300,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						siteId: '465876',
+						size: [
+							160,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971-9999'
+					],
+					params: {
+						unit: '540978719',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971-9999'
+					],
+					params: {
+						placementId: 18523867
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971-9999'
+					],
+					params: {
+						placementId: 18523868
+					}
+				},
+			],
+			breakpoints: {
+				'971-9999': [
+					[
+						300,
+						600
+					],
+					[
+						160,
+						600
+					],
+					[
+						120,
+						600
+					]
+				]
+			}
+		},
+		{
+			code: 'Unit23-Skyscraper',
+			path: '/1022864/SingleTrackWorld/Unit23-Skyscraper',
+			mediaTypes: {
+				banner: {
+					sizes: [
+						[
+							300,
+							600
+						],
+						[
+							160,
+							600
+						],
+						[
+							120,
+							600
+						]
+					]
+				}
+			},
+			isSticky: false,
+			safeFrame: false,
+			outOfPage: false,
+			bids: [
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						zoneId: 1382492,
+						publisherSubId: 'SingleTrackWorld_Unit23-Skyscraper_300x600'
+					}
+				},
+				{
+					bidder: 'criteo',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						zoneId: 1382493,
+						publisherSubId: 'SingleTrackWorld_Unit23-Skyscraper_160x600'
+					}
+				},
+				{
+					bidder: 'districtmDMX',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						dmxid: 14696004,
+						memberid: 100615
+					}
+				},
+				{
+					bidder: 'districtm',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						placementId: 281974
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						tagid: '95238'
+					}
+				},
+				{
+					bidder: 'emx_digital',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						tagid: '95239'
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						siteId: '465877',
+						size: [
+							300,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'ix',
+					labelAny: [
+						'971-9999',
+					],
+					params: {
+						siteId: '465877',
+						size: [
+							160,
+							600
+						]
+					}
+				},
+				{
+					bidder: 'openx',
+					labelAny: [
+						'971-9999'
+					],
+					params: {
+						unit: '540978755',
+						delDomain: 'streamamp-d.openx.net'
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971-9999'
+					],
+					params: {
+						placementId: 18523869
+					}
+				},
+				{
+					bidder: 'streamamp',
+					labelAny: [
+						'971-9999'
+					],
+					params: {
+						placementId: 18523870
+					}
+				},
+			],
+			breakpoints: {
+				'971-9999': [
+					[
+						300,
+						600
+					],
+					[
+						160,
+						600
+					],
+					[
+						120,
+						600
+					]
+				]
+			}
+		},
+		{
 			code: 'Sticky',
 			path: '/1022864/SingleTrackWorld/Sticky',
 			mediaTypes: {
@@ -5290,7 +5531,7 @@ var streamampConfig = {
 					]
 				}
 			},
-			isSticky: false,
+			isSticky: true,
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
@@ -5319,21 +5560,23 @@ var streamampConfig = {
 					bidder: 'districtmDMX',
 					labelAny: [
 						'971-9999',
-						'701-970'
+						'701-970',
+						'0-700'
 					],
 					params: {
-						dmxid: 282003,
+						dmxid: 14696005,
 						memberid: 100615
 					}
 				},
 				{
-					bidder: 'districtmDMX',
+					bidder: 'districtm',
 					labelAny: [
+						'971-9999',
+						'701-970',
 						'0-700'
 					],
 					params: {
-						dmxid: 282003,
-						memberid: 100615
+						placementId: 281975
 					}
 				},
 				// {
