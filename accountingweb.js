@@ -848,10 +848,6 @@ var streamampConfig = {
                 banner: {
                     sizes: [
                       [
-                        970,
-                        250
-                      ],
-                      [
                         728,
                         90
                       ],
@@ -874,16 +870,6 @@ var streamampConfig = {
                     params: {
                         zoneId: 1382489,
                         publisherSubId: 'AWUK_Mid_728x90'
-                    }
-                },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382488,
-                        publisherSubId: 'AWUK_Mid_970x250'
                     }
                 },
                 {
@@ -920,19 +906,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        siteId: '454726',
-                        size: [
-                            970,
-                            250
-                        ]
-                    }
-                },
-                {
                     bidder: 'openx',
                     labelAny: [
                         '971 - 9999',
@@ -953,17 +926,6 @@ var streamampConfig = {
                         publisherId: '127864',
                         pmzoneid: '2575261',
                         adSlot: 'Sift-AWUK_Mid_728x90@728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2575262',
-                        adSlot: 'Sift-AWUK_Mid_970x250@970x250'
                     }
                 },
                 {
@@ -999,10 +961,6 @@ var streamampConfig = {
             breakpoints: {
                 "971 - 9999": [
                     [
-                        970,
-                        250
-                    ],
-                    [
                         728,
                         90
                     ],
@@ -1025,10 +983,6 @@ var streamampConfig = {
             mediaTypes: {
                 banner: {
                     sizes: [
-                      [
-                        970,
-                        250
-                      ],
                       [
                         728,
                         90
@@ -1055,16 +1009,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382488,
-                        publisherSubId: 'AWUK_Mid2_970x250'
-                    }
-                },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '971 - 9999',
@@ -1075,19 +1019,6 @@ var streamampConfig = {
                         size: [
                             728,
                             90
-                        ]
-                    }
-                },
-                {
-                    bidder: 'ix',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        siteId: '458054',
-                        size: [
-                            970,
-                            250
                         ]
                     }
                 },
@@ -1112,17 +1043,6 @@ var streamampConfig = {
                         publisherId: '127864',
                         pmzoneid: '2581658',
                         adSlot: 'Sift-AWUK_Mid2_728x90@728x90'
-                    }
-                },
-                {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '971 - 9999'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2581660',
-                        adSlot: 'Sift-AWUK_Mid2_970x250@970x250'
                     }
                 },
                 {
@@ -1157,10 +1077,6 @@ var streamampConfig = {
             ],
             breakpoints: {
                 "971 - 9999": [
-                    [
-                        970,
-                        250
-                    ],
                     [
                         728,
                         90
