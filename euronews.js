@@ -10,7 +10,7 @@ var streamampConfig = {
     maxRefreshTime: 120,
     hasCollapsedEmptyDivs: true,
     publisher_id: 'Euronews/Euronews',
-    token: '',
+    token: 'xXNQqgUDKWkVoNwlMSlEvPczw2Y4zsOR0jTq2xAdETjkk49W841fRzNAU0hAHKxu',
     currency: {
         enabled: true,
         value: 'GBP'
@@ -282,7 +282,7 @@ var streamampConfig = {
                         publisherSubId: "EuroNews_Unit1_320x50"
                     },
                     labelAny: [
-                       '469 - 729',
+                        '469 - 729',
                         '0 - 468'
                     ]
                 }
@@ -569,7 +569,7 @@ var streamampConfig = {
                         publisherSubId: "EuroNews_Unit2_320x50"
                     },
                     labelAny: [
-                       '469 - 729',
+                        '469 - 729',
                         '0 - 468'
                     ]
                 }
@@ -634,7 +634,7 @@ var streamampConfig = {
                         site_id: '125534'
                     },
                 },
-                 {
+                {
                     bidder: 'ix',
                     labelAny: [
                         '971 - 9999',
@@ -672,10 +672,10 @@ var streamampConfig = {
                         '0 - 468'
                     ]
                 },
-                 {
+                {
                     bidder: 'streamamp',
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729',
                         '0 - 468'
@@ -684,10 +684,10 @@ var streamampConfig = {
                         placementId: 14006198
                     }
                 },
-               {
+                {
                     bidder: 'totaljobs',
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729',
                         '0 - 468'
@@ -696,7 +696,7 @@ var streamampConfig = {
                         placementId: 16837109
                     }
                 },
-                 {
+                {
                     bidder: 'pubmatic',
                     labelAny: [
                         '971 - 9999',
@@ -730,7 +730,7 @@ var streamampConfig = {
                         publisherSubId: "EuroNews_Unit3_300x250"
                     },
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729',
                         '0 - 468'
@@ -797,7 +797,7 @@ var streamampConfig = {
                         site_id: '125534'
                     },
                 },
-                 {
+                {
                     bidder: 'ix',
                     labelAny: [
                         '971 - 9999',
@@ -861,10 +861,10 @@ var streamampConfig = {
                         '469 - 729'
                     ]
                 },
-                 {
+                {
                     bidder: 'streamamp',
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729',
                         '0 - 468'
@@ -876,7 +876,7 @@ var streamampConfig = {
                 {
                     bidder: 'streamamp',
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729'
                     ],
@@ -884,10 +884,10 @@ var streamampConfig = {
                         placementId: 14006200
                     }
                 },
-               {
+                {
                     bidder: 'totaljobs',
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729',
                         '0 - 468'
@@ -899,7 +899,7 @@ var streamampConfig = {
                 {
                     bidder: 'totaljobs',
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729'
                     ],
@@ -907,7 +907,7 @@ var streamampConfig = {
                         placementId: 16837111
                     }
                 },
-                 {
+                {
                     bidder: 'pubmatic',
                     labelAny: [
                         '971 - 9999',
@@ -954,7 +954,7 @@ var streamampConfig = {
                         publisherSubId: "EuroNews_Unit4_300x250"
                     },
                     labelAny: [
-                         '971 - 9999',
+                        '971 - 9999',
                         '730 - 970',
                         '469 - 729',
                         '0 - 468'
@@ -1021,6 +1021,22 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        zone: '78467',
+                        allow: [
+                            'wp',
+                            'wv'
+                        ]
+                    },
+                },
                 {
                     bidder: 'conversant',
                     labelAny: [
@@ -1247,7 +1263,7 @@ var streamampConfig = {
                         publisherSubId: "EuroNews_Unit1_320x50"
                     },
                     labelAny: [
-                       '469 - 729',
+                        '469 - 729',
                         '0 - 468'
                     ]
                 }
@@ -1288,7 +1304,12 @@ var streamampConfig = {
             path: "/6458/SA_Euronews/Unit9",
             mediaTypes: {
                 banner: {
-                    sizes: []
+                    sizes: [
+                        [
+                            300,
+                            250
+                        ]
+                    ]
                 }
             },
             isSticky: false,
@@ -1298,15 +1319,143 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '971 - 9999'
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
                     ],
                     params: {
                         site_id: '125534'
                     },
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        siteId: '434747',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                // {
+                //     bidder: "districtmDMX",
+                //     params: {
+                //         dmxid: 251070,
+                //         memberid: 100615
+                //     },
+                //     labelAny: [
+                //         '971 - 9999'
+                //     ]
+                // },
+                {
+                    bidder: "emx_digital",
+                    params: {
+                        tagid: "88979"
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: 17928816
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: 17929246
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'EuroNews_Unit9_300x250@300x250',
+                        uid: '2503298'
+                    }
+                },
+                {
+                    bidder: "openx",
+                    params: {
+                        unit: "540924003",
+                        delDomain: "streamamp-d.openx.net"
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: "criteo",
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: "EuroNews_Unit9_300x250"
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
                 }
             ],
             breakpoints: {
-                '971 - 9999': []
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '730 - 970': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '469 - 729': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 468': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
             }
         },
         {
@@ -1314,7 +1463,16 @@ var streamampConfig = {
             path: "/6458/SA_Euronews/Unit10",
             mediaTypes: {
                 banner: {
-                    sizes: []
+                    sizes: [
+                        [
+                            300,
+                            600
+                        ],
+                        [
+                            300,
+                            250
+                        ]
+                    ]
                 }
             },
             isSticky: false,
@@ -1324,17 +1482,145 @@ var streamampConfig = {
                 {
                     bidder: 'conversant',
                     labelAny: [
-                        '971 - 9999'
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
                     ],
                     params: {
                         site_id: '125534'
                     },
+                },
+                {
+                    bidder: 'ix',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        siteId: '434748',
+                        size: [
+                            300,
+                            250
+                        ]
+                    }
+                },
+                // {
+                //     bidder: "districtmDMX",
+                //     params: {
+                //         dmxid: 251070,
+                //         memberid: 100615
+                //     },
+                //     labelAny: [
+                //         '971 - 9999'
+                //     ]
+                // },
+                {
+                    bidder: "emx_digital",
+                    params: {
+                        tagid: "88980"
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'streamamp',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: 17928817
+                    }
+                },
+                {
+                    bidder: 'totaljobs',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: 17929248
+                    }
+                },
+                {
+                    bidder: 'pubmatic',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        publisherId: '127864',
+                        adSlot: 'EuroNews_Unit10_300x250@300x250',
+                        uid: '2503299'
+                    }
+                },
+                {
+                    bidder: "openx",
+                    params: {
+                        unit: "540924006",
+                        delDomain: "streamamp-d.openx.net"
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: "criteo",
+                    params: {
+                        zoneId: 1382491,
+                        publisherSubId: "EuroNews_Unit10_300x250"
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
                 }
             ],
             breakpoints: {
-                '971 - 9999': []
+                '971 - 9999': [
+                    [
+                        300,
+                        250
+                    ],
+                ],
+                '730 - 970': [
+                    [
+                        300,
+                        250
+                    ],
+                ],
+                '469 - 729': [
+                    [
+                        300,
+                        250
+                    ]
+                ],
+                '0 - 468': [
+                    [
+                        300,
+                        250
+                    ]
+                ]
             }
-        }
+        },
     ],
     cmp: {
         isEnabled: false
@@ -1353,6 +1639,67 @@ var streamampConfig = {
                     728,
                     90
                 ],
+                [
+                    1,
+                    1
+                ],
+                [
+                    300,
+                    250
+                ],
+                [
+                    300,
+                    600
+                ]
+            ]
+        },
+        {
+            label: '730 - 970',
+            minWidth: 730,
+            maxWidth: 970,
+            sizesSupported: [
+                [
+                    728,
+                    90
+                ],
+                [
+                    1,
+                    1
+                ],
+                [
+                    300,
+                    250
+                ],
+                [
+                    300,
+                    600
+                ]
+            ]
+        },
+        {
+            label: '469 - 729',
+            minWidth: 469,
+            maxWidth: 729,
+            sizesSupported: [
+                [
+                    1,
+                    1
+                ],
+                [
+                    300,
+                    250
+                ],
+                [
+                    300,
+                    600
+                ]
+            ]
+        },
+        {
+            label: '0 - 468',
+            minWidth: 0,
+            maxWidth: 469,
+            sizesSupported: [
                 [
                     1,
                     1
