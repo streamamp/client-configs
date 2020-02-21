@@ -6,8 +6,9 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minRefreshTime: 90,
-    maxRefreshTime: 120,
+    minRefreshTime: 45,
+    maxRefreshTime: 90,
+    adUnitsToRefresh: ['TZ_Sticky'],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/TrainingZone',
     token: 'rVtkKtzeSFHJU2bZAoduGsoQWYTsrBimBdDaXmq4wZpF70IpmWdOBvxvBnkUzwdv',
@@ -27,7 +28,7 @@ var streamampConfig = {
                     window.__cmp('displayConsentUi')
                     streamampUtils.log('Displaying CMP consent UI')
                 }
-            }
+            };
             window.__cmp.streamampOverridden = true
         }
     },
