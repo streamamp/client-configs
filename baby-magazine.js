@@ -263,7 +263,7 @@ var streamampConfig = {
                         allow: [
                           'wp',
                           'wv',
-                          'hv'
+                          'pd'
                         ]
                     }
                 }
@@ -1428,7 +1428,7 @@ var streamampConfig = {
                     params: {
                         zone: '82099',
                         allow: [
-                            'sp',
+                            'sa',
                             'pa'
                         ]
                     }
