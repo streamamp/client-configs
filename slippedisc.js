@@ -1,6 +1,6 @@
 var streamampConfig = {
     levelTargeting: false,
-    gptSingleRequestEnabled: true,
+    gptSingleRequestEnabled: false,
     a9Enabled: true,
     apsPubID: '16268e26-dabe-4bf4-a28f-b8f4ee192ed3',
     bidTimeout: 1.2,
@@ -596,7 +596,7 @@ var streamampConfig = {
                         allow: [
                             'wp',
                             'wv',
-                            'hv',
+                            'pd',
                             'cf',
                             'as',
                             'sa',
