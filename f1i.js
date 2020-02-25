@@ -85,8 +85,18 @@ var streamampConfig = {
                         '0 - 768'
                     ],
                     params: {
-                        dmxid: 18132949,
+                        dmxid: 480716,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: '18132949'
                     }
                 },
                 {
@@ -335,8 +345,17 @@ var streamampConfig = {
                         '769 - 9999'
                     ],
                     params: {
-                        dmxid: 18132950,
+                        dmxid: 480717,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '769 - 9999',
+                    ],
+                    params: {
+                        placementId: '18132950'
                     }
                 },
                 {
@@ -569,8 +588,18 @@ var streamampConfig = {
 
                     ],
                     params: {
-                        dmxid: 18132951,
+                        dmxid: 480718,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: '18132951'
                     }
                 },
                 {
@@ -769,8 +798,18 @@ var streamampConfig = {
                         '0 - 768',
                     ],
                     params: {
-                        dmxid: 18132952,
+                        dmxid: 480719,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: '18132952'
                     }
                 },
                 {
@@ -953,8 +992,17 @@ var streamampConfig = {
                         '769 - 9999',
                     ],
                     params: {
-                        dmxid: 18132953,
+                        dmxid: 480720,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '769 - 9999',
+                    ],
+                    params: {
+                        placementId: '18132953'
                     }
                 },
                 {
@@ -1074,8 +1122,17 @@ var streamampConfig = {
                         '0 - 768',
                     ],
                     params: {
-                        dmxid: 18132954,
+                        dmxid: 480721,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: '18132954'
                     }
                 },
                 {
@@ -1212,7 +1269,7 @@ var streamampConfig = {
                 }
             ],
             breakpoints: {
-                 '0 - 768': [
+                '0 - 768': [
                     [
                         1,
                         1
@@ -1259,8 +1316,17 @@ var streamampConfig = {
                         '0 - 768',
                     ],
                     params: {
-                        dmxid: 18192183,
+                        dmxid: 482260,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        placementId: '18192183'
                     }
                 },
                 {
