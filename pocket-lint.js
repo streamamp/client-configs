@@ -2216,18 +2216,18 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
-                {
-                    bidder: 'adyoulike',
-                    labelAny: [
-                        '990 - 9999',
-                        '748 - 989',
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        placement: 'a5f7b2971cb0171744496543c34734fc'
-                    }
-                },
+                // {
+                //     bidder: 'adyoulike',
+                //     labelAny: [
+                //         '990 - 9999',
+                //         '748 - 989',
+                //         '375 - 747',
+                //         '0 - 374'
+                //     ],
+                //     params: {
+                //         placement: 'a5f7b2971cb0171744496543c34734fc'
+                //     }
+                // },
                 {
                     bidder: 'nanointeractive',
                     labelAny: [
