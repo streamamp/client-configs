@@ -107,6 +107,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 16185659
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -359,6 +372,17 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011928
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '748 - 1024'
@@ -566,6 +590,19 @@ var streamampConfig = {
                     params: {
                         dmxid: 202654,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011929
                     }
                 },
                 {
@@ -909,6 +946,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011930
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -1249,6 +1299,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011931
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -1571,6 +1634,16 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 13011932
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999'
@@ -1799,6 +1872,16 @@ var streamampConfig = {
                     params: {
                         dmxid: 202658,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639'
+                    ],
+                    params: {
+                        placementId: 13011933
                     }
                 },
                 {
@@ -2037,6 +2120,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011934
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -2266,6 +2362,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011935
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -2492,6 +2601,19 @@ var streamampConfig = {
                     params: {
                         dmxid: 202661,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011936
                     }
                 },
                 {
@@ -2736,6 +2858,19 @@ var streamampConfig = {
                     params: {
                         dmxid: 202662,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011937
                     }
                 },
                 {
@@ -3037,6 +3172,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011938
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -3332,6 +3480,19 @@ var streamampConfig = {
                     params: {
                         dmxid: 202664,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011939
                     }
                 },
                 {
@@ -3633,6 +3794,19 @@ var streamampConfig = {
                     }
                 },
                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011940
+                    }
+                },
+                {
                     bidder: 'emx_digital',
                     labelAny: [
                         '1640 - 9999',
@@ -3928,6 +4102,19 @@ var streamampConfig = {
                     params: {
                         dmxid: 202666,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1640 - 9999',
+                        '1025 - 1639',
+                        '748 - 1024',
+                        '375 - 747',
+                        '0 - 374'
+                    ],
+                    params: {
+                        placementId: 13011941
                     }
                 },
                 {
