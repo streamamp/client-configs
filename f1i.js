@@ -49,6 +49,18 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583928'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '769 - 9999'
@@ -310,6 +322,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583934'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '769 - 9999'
@@ -560,6 +583,18 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583940'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '769 - 9999',
@@ -771,6 +806,18 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '769 - 9999',
+                        '0 - 768'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583942'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '769 - 9999',
@@ -977,6 +1024,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '769 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583944'
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '769 - 9999'
@@ -1106,6 +1164,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583946'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -1300,6 +1369,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 768'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311862',
+                        zoneId: '1583948'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
