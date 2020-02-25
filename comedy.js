@@ -95,7 +95,7 @@ var streamampConfig = {
                         allow: [
                             'wp',
                             'wv',
-                            'hv',
+                            'pd',
                             'fc',
                             'as',
                             'ci',
