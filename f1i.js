@@ -1309,7 +1309,7 @@ var streamampConfig = {
                     params: {
                         zone: '92403',
                         allow: [
-                            'hv',
+                            'pd',
                             'cf',
                             'as',
                             'ci',
