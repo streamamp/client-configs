@@ -41,6 +41,21 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311866',
+                        zoneId: '1583972',
+                        // sizes: [
+                        //     2,
+                        //     57
+                        // ]
+                    }
+                },
+                {
                     bidder: 'conversant',
                     labelAny: [
                         '0 - 9999'
@@ -224,6 +239,21 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311866',
+                        zoneId: '1583974',
+                        // sizes: [
+                        //     15,
+                        //     10
+                        // ]
+                    }
+                },
+                {
                     bidder: 'conversant',
                     labelAny: [
                         '0 - 9999'
@@ -403,6 +433,20 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311866',
+                        zoneId: '1583976',
+                        // sizes: [
+                        //     15
+                        // ]
+                    }
+                },
+                {
                     bidder: 'conversant',
                     labelAny: [
                         '0 - 9999'
@@ -518,6 +562,20 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311866',
+                        zoneId: '1583978',
+                        // sizes: [
+                        //     2
+                        // ]
+                    }
+                },
+                {
                     bidder: 'conversant',
                     labelAny: [
                         '0 - 9999'
@@ -632,6 +690,20 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '0 - 9999'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311866',
+                        zoneId: '1583980',
+                        // sizes: [
+                        //     43
+                        // ]
+                    }
+                },
                 {
                     bidder: 'conversant',
                     labelAny: [
