@@ -17,7 +17,7 @@ var streamampConfig = {
     hasRefreshBids: true,
     minRefreshTime: 45,
     maxRefreshTime: 90,
-    adUnitsToRefresh: ['AWUK_Sticky'],
+    adUnitsToRefresh: ['ukbf_sticky'],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'SiftMedia/UKBusinessForum',
     token: 'JJd43srQfu97oyw7PLf3LSfxvIZj6CgwdzZh0EAbVd3JslCNYLJpxzOI5ohYl5xH',
@@ -28,10 +28,10 @@ var streamampConfig = {
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
-    afterInit: function() {
+    afterInit: function () {
         if (!window.__cmp) {
             streamampUtils.log('Overriding CMP displayConsentUI')
-            window.__cmp = function(x) {
+            window.__cmp = function (x) {
                 if (x === 'displayConsentUi') {
                     streamampInitializeCmp()
                     window.__cmp('displayConsentUi')
@@ -63,6 +63,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        site_id: '201189'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -266,6 +277,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        site_id: '201189'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -473,6 +495,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '971 - 9999',
+                        '728 - 970',
+                        '0 - 727'
+                    ],
+                    params: {
+                        site_id: '201189'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -860,6 +893,15 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'conversant',
+                    labelAny: [
+                        '0 - 727'
+                    ],
+                    params: {
+                        site_id: '201189'
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
