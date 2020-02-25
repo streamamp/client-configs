@@ -239,7 +239,7 @@ var streamampConfig = {
 							'ci',
 							'as',
 							'cf',
-							'hv',
+							'pd',
 							'wv',
 							'wp'
 						]
