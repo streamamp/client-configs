@@ -59,6 +59,26 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'rubicon',
+                    labelAny: [
+                        '992-9999',
+                        '768-991',
+                        '576–767',
+                        '0–575'
+                    ],
+                    params: {
+                        accountId: '14418',
+                        siteId: '311860',
+                        zoneId: '1583904',
+                        // sizes: [
+                        //     57,
+                        //     2,
+                        //     15,
+                        //     43
+                        // ]
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '1640 - 9999',
@@ -2066,19 +2086,19 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
-                {
-                    bidder: 'adyoulike',
-                    labelAny: [
-                        '1640 - 9999',
-                        '1025 - 1639',
-                        '748 - 1024',
-                        '375 - 747',
-                        '0 - 374'
-                    ],
-                    params: {
-                        placement: 'b531de97316f07a0fa8944405b6b98ea'
-                    }
-                },
+                // {
+                //     bidder: 'adyoulike',
+                //     labelAny: [
+                //         '1640 - 9999',
+                //         '1025 - 1639',
+                //         '748 - 1024',
+                //         '375 - 747',
+                //         '0 - 374'
+                //     ],
+                //     params: {
+                //         placement: 'b531de97316f07a0fa8944405b6b98ea'
+                //     }
+                // },
                 {
                     bidder: 'criteo',
                     labelAny: [
