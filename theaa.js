@@ -6,8 +6,8 @@ var streamampConfig = {
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
     hasRefreshBids: true,
-    minRefreshTime: 30,
-    maxRefreshTime: 45,
+    minRefreshTime: 45,
+    maxRefreshTime: 60,
     adUnitsToRefresh: ['leaderboard_header', 'leaderboard_footer', 'skyscraper', 'Mobile', 'Desktop_print', 'skyscraper1', 'skyscraper2', 'skyscraper3'],
     hasCollapsedEmptyDivs: true,
     publisher_id: 'TheAA/TheAA',
@@ -16,13 +16,13 @@ var streamampConfig = {
         enabled: true,
         value: 'GBP'
     },
-    beforeInit: function() {
-        if (window.location.pathname === '/route-planner/route') {
-            window.AD_UNITS_TOGGLE_ON = ['Desktop_print', 'MPU', 'leaderboard_header', 'leaderboard_footer']
-        } else if (window.location.pathname === '/driving/mileage-calculator.jsp') {
-            window.AD_UNITS_TOGGLE_ON = ['skyscraper1', 'MPU', 'skyscraper2', 'skyscraper3']
-        }
-    },
+    // beforeInit: function() {
+    //     if (window.location.pathname === '/route-planner/route') {
+    //         window.AD_UNITS_TOGGLE_ON = ['Desktop_print', 'MPU', 'leaderboard_header', 'leaderboard_footer']
+    //     } else if (window.location.pathname === '/driving/mileage-calculator.jsp') {
+    //         window.AD_UNITS_TOGGLE_ON = ['skyscraper1', 'MPU', 'skyscraper2', 'skyscraper3']
+    //     }
+    // },
     namespace: 'streamamp',
     globalKeyValues: [],
     keyValues: {},
