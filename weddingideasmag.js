@@ -345,6 +345,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '970 - 9999',
@@ -563,6 +574,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '970 - 9999',
@@ -780,6 +802,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -1263,6 +1296,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '970 - 9999',
+                        '729 - 969'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
