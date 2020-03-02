@@ -2271,39 +2271,39 @@ function streamampRefreshBids(selectedAdUnits) {
 
 // Refresh bids handler
 function streamampRefresh(selectedAdUnits) {
-// function generateRefreshTimeout() {
-//     var min = +streamampConfig.minRefreshTime || 60;
-//     var max = +streamampConfig.maxRefreshTime || 90;
-//     // Generate a random number of seconds between the max and min and convert it to milliseconds
-//     return (Math.floor(Math.random() * (max - min)) + min) * 1e3;
-// }
-//
-// var refreshAds = function () {
-//     var refreshTimeout = generateRefreshTimeout()
-//     streamampUtils.log('Setting refresh', {
-//         selectedAdUnits: (selectedAdUnits ? selectedAdUnits : 'all'),
-//         refreshTimeout: refreshTimeout / 1e3 + ' seconds'
-//     });
-//
-//     if (window.adRefreshTimer) {
-//         window.clearInterval(window.adRefreshTimer);
-//     }
-//     window.adRefreshTimer = setInterval(function () {
-//         if (!streamampConfig.hasRefreshBids) {
-//             streamampRefreshBids(selectedAdUnits);
-//         }
-//     }, refreshTimeout);
-// };
-// refreshAds();
-//
-// window.onfocus = function () {
-//     refreshAds();
-// };
-// window.onblur = function () {
-//     streamampUtils.log('Refresh paused (interval cleared) due to window.onblur');
-//     window.clearInterval(window.adRefreshTimer);
-//     window.adRefreshTimer = null;
-// };
+    function generateRefreshTimeout() {
+        var min = +streamampConfig.minRefreshTime || 60;
+        var max = +streamampConfig.maxRefreshTime || 90;
+        // Generate a random number of seconds between the max and min and convert it to milliseconds
+        return (Math.floor(Math.random() * (max - min)) + min) * 1e3;
+    }
+
+    var refreshAds = function () {
+        var refreshTimeout = generateRefreshTimeout()
+        streamampUtils.log('Setting refresh', {
+            selectedAdUnits: (selectedAdUnits ? selectedAdUnits : 'all'),
+            refreshTimeout: refreshTimeout / 1e3 + ' seconds'
+        });
+
+        if (window.adRefreshTimer) {
+            window.clearInterval(window.adRefreshTimer);
+        }
+        window.adRefreshTimer = setInterval(function () {
+            if (!streamampConfig.hasRefreshBids) {
+                streamampRefreshBids(selectedAdUnits);
+            }
+        }, refreshTimeout);
+    };
+    refreshAds();
+
+    window.onfocus = function () {
+        refreshAds();
+    };
+    window.onblur = function () {
+        streamampUtils.log('Refresh paused (interval cleared) due to window.onblur');
+        window.clearInterval(window.adRefreshTimer);
+        window.adRefreshTimer = null;
+    };
 }
 ;
 function streamampDestroySlots(adUnitCodes) {
