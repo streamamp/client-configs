@@ -254,16 +254,16 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'justpremium',
-                    labelAny : [
+                    labelAny: [
                         '991 - 9999',
                         '729 - 990'
                     ],
                     params: {
                         zone: '82099',
                         allow: [
-                          'wp',
-                          'wv',
-                          'pd'
+                            'wp',
+                            'wv',
+                            'pd'
                         ]
                     }
                 }
@@ -332,6 +332,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -539,6 +550,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '991 - 9999',
@@ -744,6 +766,17 @@ var streamampConfig = {
             safeFrame: false,
             outOfPage: false,
             bids: [
+                {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -1236,6 +1269,17 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'nanointeractive',
+                    labelAny: [
+                        '991 - 9999',
+                        '729 - 990'
+                    ],
+                    params: {
+                        pid: "5e5692820ae8991c421e8612",
+                        nq: document.title
+                    }
+                },
+                {
                     bidder: 'criteo',
                     labelAny: [
                         '991 - 9999',
@@ -1421,7 +1465,7 @@ var streamampConfig = {
             bids: [
                 {
                     bidder: 'justpremium',
-                    labelAny : [
+                    labelAny: [
                         '991 - 9999',
                         '729 - 990'
                     ],
@@ -1435,7 +1479,7 @@ var streamampConfig = {
                 },
                 {
                     bidder: 'justpremium',
-                    labelAny : [
+                    labelAny: [
                         '469 - 728',
                         '0 - 468'
                     ],
