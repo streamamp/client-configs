@@ -109,26 +109,31 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251062,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251064,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 495424,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: '18562878'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -396,26 +401,31 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251062,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251064,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 251062,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: '14033723'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -650,16 +660,31 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251070,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 251063,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: '14033725'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -828,16 +853,31 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251070,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 251064,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: '14033726'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -1090,26 +1130,27 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251062,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251064,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 495425,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970'
+                    ],
+                    params: {
+                        placementId: '18562881'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -1344,16 +1385,31 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251070,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 251065,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: '14033751'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -1507,16 +1563,31 @@ var streamampConfig = {
                         ]
                     }
                 },
-                // {
-                //     bidder: "districtmDMX",
-                //     params: {
-                //         dmxid: 251070,
-                //         memberid: 100615
-                //     },
-                //     labelAny: [
-                //         '971 - 9999'
-                //     ]
-                // },
+                {
+                    bidder: "districtmDMX",
+                    params: {
+                        dmxid: 251066,
+                        memberid: 100615
+                    },
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ]
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        placementId: '14033785'
+                    }
+                },
                 {
                     bidder: "emx_digital",
                     params: {
@@ -1719,7 +1790,7 @@ var streamampConfig = {
 
 // StreamAMP Header Bidder v1
 var streamampUtils = {
-    isStreamampDebugMode: function() {
+    isStreamampDebugMode: function () {
         var url = window.location.href;
         var name = 'streamamp_debug';
         var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
@@ -1732,7 +1803,7 @@ var streamampUtils = {
         }
         return (decodeURIComponent(results[2].replace(/\+/g, ' ')).toUpperCase() === 'TRUE');
     },
-    getBrowserWidth: function() {
+    getBrowserWidth: function () {
         var width;
 
         var topWindow = window.top || window;
@@ -1752,7 +1823,7 @@ var streamampUtils = {
         streamampUtils.log('Getting browser width', minWidth);
         return minWidth;
     },
-    loadScript: function(url) {
+    loadScript: function (url) {
         var scriptEl = document.createElement('script');
         scriptEl.type = 'text/javascript';
         scriptEl.async = true;
@@ -1761,7 +1832,7 @@ var streamampUtils = {
         var node = document.getElementsByTagName('script')[0];
         node.parentNode.insertBefore(scriptEl, node);
     },
-    normalizeKeyValue: function(keyValue) {
+    normalizeKeyValue: function (keyValue) {
         if (keyValue && keyValue.keyValueType === 'variable') {
             keyValue.value = window[keyValue.value];
             if (keyValue.value === '') {
@@ -1771,23 +1842,23 @@ var streamampUtils = {
 
         return keyValue;
     },
-    styleDebugLog: function(type, arguments) {
+    styleDebugLog: function (type, arguments) {
         arguments = Array.from(arguments)
 
         // Choose a text color based of the type of log
         var typeTextColor
         switch (type) {
-        case 'pbjs':
-            typeTextColor = '#3B88C3;';
-            break;
-        case 'gpt':
-            typeTextColor = '#1E8E3E;';
-            break;
-        case 'aps':
-            typeTextColor = '#FF9900;';
-            break;
-        default:
-            typeTextColor = '';
+            case 'pbjs':
+                typeTextColor = '#3B88C3;';
+                break;
+            case 'gpt':
+                typeTextColor = '#1E8E3E;';
+                break;
+            case 'aps':
+                typeTextColor = '#FF9900;';
+                break;
+            default:
+                typeTextColor = '';
         }
 
         // Set the styling for the type
@@ -1800,35 +1871,35 @@ var streamampUtils = {
         arguments.unshift('%cSTREAM%cAMP' + '%c  ' + type.toUpperCase() + ': ')
         return arguments
     },
-    log: function() {
+    log: function () {
         if (streamampDebugMode) {
             console.log.apply(this, streamampUtils.styleDebugLog('debug', arguments));
         }
     },
-    logPbjs: function() {
+    logPbjs: function () {
         if (streamampDebugMode) {
             console.log.apply(this, streamampUtils.styleDebugLog('pbjs', arguments));
         }
     },
-    logGpt: function() {
+    logGpt: function () {
         if (streamampDebugMode) {
             console.log.apply(this, streamampUtils.styleDebugLog('gpt', arguments));
         }
     },
-    logAps: function() {
+    logAps: function () {
         if (streamampDebugMode) {
             console.log.apply(this, streamampUtils.styleDebugLog('aps', arguments));
         }
     },
-    logError: function() {
+    logError: function () {
         if (streamampDebugMode) {
             console.error.apply(this, streamampUtils.styleDebugLog('error', arguments));
         } else {
             console.error.apply(this, arguments);
         }
     },
-    stickyAd: function(adUnits) {
-        var stickyAdUnits = adUnits.filter(function(adUnit) {
+    stickyAd: function (adUnits) {
+        var stickyAdUnits = adUnits.filter(function (adUnit) {
             return adUnit.isSticky === true;
         });
 
@@ -1836,19 +1907,19 @@ var streamampUtils = {
             return;
         }
 
-        googletag.cmd.push(function() {
-            googletag.pubads().addEventListener('slotRenderEnded', function(e) {
+        googletag.cmd.push(function () {
+            googletag.pubads().addEventListener('slotRenderEnded', function (e) {
                 if (!e.isEmpty) {
-                    stickyAdUnits.filter(function(adUnit) {
+                    stickyAdUnits.filter(function (adUnit) {
                         return adUnit.code === e.slot.getSlotElementId();
-                    }).map(function(adUnit) {
+                    }).map(function (adUnit) {
                         streamampUtils.applyStyle(adUnit);
                     });
                 }
             });
         });
     },
-    applyStyle: function(adUnit) {
+    applyStyle: function (adUnit) {
         var adUnitCode = adUnit.code;
         var stickyAdPosition = adUnit.stickyAdPosition;
 
@@ -1899,7 +1970,7 @@ var streamampUtils = {
             closeAdButton.style.maxHeight = "24px";
 
             // add button event
-            closeAdButton.onclick = function() {
+            closeAdButton.onclick = function () {
                 adContainer.style.display = 'none';
             }
             ;
@@ -1913,9 +1984,9 @@ var streamampUtils = {
             }
         }
     },
-    polyfills: function() {
+    polyfills: function () {
         if (!String.prototype.endsWith) {
-            String.prototype.endsWith = function(search, this_len) {
+            String.prototype.endsWith = function (search, this_len) {
                 if (this_len === undefined || this_len > this.length) {
                     this_len = this.length;
                 }
@@ -1927,7 +1998,7 @@ var streamampUtils = {
         // .find polyfill
         if (!Array.prototype.find) {
             Object.defineProperty(Array.prototype, 'find', {
-                value: function(predicate) {
+                value: function (predicate) {
                     // 1. Let O be ? ToObject(this value).
                     if (this == null) {
                         throw new TypeError('"this" is null or not defined');
@@ -1974,7 +2045,7 @@ var streamampUtils = {
         // .includes polyfill
         if (!Array.prototype.includes) {
             Object.defineProperty(Array.prototype, 'includes', {
-                value: function(searchElement, fromIndex) {
+                value: function (searchElement, fromIndex) {
 
                     if (this == null) {
                         throw new TypeError('"this" is null or not defined');
@@ -2024,7 +2095,7 @@ var streamampUtils = {
         }
 
         // Object.values polyfill
-        Object.values = Object.values ? Object.values : function(obj) {
+        Object.values = Object.values ? Object.values : function (obj) {
             var allowedTypes = ["[object String]", "[object Object]", "[object Array]", "[object Function]"];
             var objType = Object.prototype.toString.call(obj);
 
@@ -2035,7 +2106,7 @@ var streamampUtils = {
             } else {
                 // if ES6 is supported
                 if (Object.keys) {
-                    return Object.keys(obj).map(function(key) {
+                    return Object.keys(obj).map(function (key) {
                         return obj[key];
                     });
                 }
@@ -2052,23 +2123,23 @@ var streamampUtils = {
         }
         ;
     },
-    MessageBroker: function() {
+    MessageBroker: function () {
         this.observers = {};
 
-        this.subscribe = function(event, callback) {
+        this.subscribe = function (event, callback) {
             var observers = this.observers[event] || [];
             observers.push(callback);
             this.observers[event] = observers;
         }
         ;
-        this.unSubscribe = function(event, callback) {
+        this.unSubscribe = function (event, callback) {
             var observers = this.observers[event] || [];
-            this.observers[event] = observers.filter(function(availableObs) {
+            this.observers[event] = observers.filter(function (availableObs) {
                 return availableObs !== callback;
             });
         }
         ;
-        this.notify = function(event, data) {
+        this.notify = function (event, data) {
             var observers = this.observers[event] || [];
             for (var i = 0; i < observers.length; i++) {
                 observers[i](data);
@@ -2076,8 +2147,8 @@ var streamampUtils = {
         }
         ;
     },
-    processQueue: function() {
-        window[streamampConfig.namespace].que.forEach(function(cmd) {
+    processQueue: function () {
+        window[streamampConfig.namespace].que.forEach(function (cmd) {
             if (typeof cmd.called === 'undefined' && typeof cmd === 'function') {
                 try {
                     streamampUtils.log('processing command forEach:' + cmd);
@@ -2089,7 +2160,7 @@ var streamampUtils = {
             }
         });
 
-        window[streamampConfig.namespace].que.push = function(cmd) {
+        window[streamampConfig.namespace].que.push = function (cmd) {
             if (typeof cmd === 'function') {
                 try {
                     streamampUtils.log('processing command push :' + cmd);
@@ -2106,9 +2177,9 @@ var streamampUtils = {
     prebidEvents: {
         auctionEndCallbacks: [],
         auctionEndQueue: {
-            push: function(cb) {
+            push: function (cb) {
                 if (typeof cb === 'function') {
-                    pbjs.que.push(function() {
+                    pbjs.que.push(function () {
                         if (pbjs.isAuctionEnded) {
                             cb.call();
                         } else {
@@ -2121,8 +2192,8 @@ var streamampUtils = {
                 }
             }
         },
-        processAuctionEndQueue: function() {
-            streamampUtils.prebidEvents.auctionEndCallbacks.forEach(function(cb) {
+        processAuctionEndQueue: function () {
+            streamampUtils.prebidEvents.auctionEndCallbacks.forEach(function (cb) {
                 if (typeof cb === 'function') {
                     cb.call();
                 } else {
@@ -2154,7 +2225,7 @@ pbjs.que = pbjs.que || [];
 var googletag = googletag || {};
 googletag.cmd = googletag.cmd || [];
 // disables initial load
-googletag.cmd.push(function() {
+googletag.cmd.push(function () {
     googletag.pubads().disableInitialLoad();
 });
 
@@ -2171,7 +2242,7 @@ window[streamampConfig.namespace].que = window[streamampConfig.namespace].que ||
 window.gptAdSlots = {}
 
 var _streamampVariables = {
-    levels: window.location.pathname.split('/').filter(function(level) {
+    levels: window.location.pathname.split('/').filter(function (level) {
         return level !== '';
     }),
     bidTimeout: streamampConfig.bidTimeout * 1e3 || 2000,
@@ -2191,7 +2262,7 @@ streamampSetup()
 function streamampSetup() {
     streamampUtils.log('Running setup()')
 
-    pbjs.que.push(function() {
+    pbjs.que.push(function () {
         if (streamampConfig.afterLoad && typeof streamampConfig.afterLoad === 'function') {
             streamampUtils.log('Running afterLoad event', streamampConfig.afterLoad);
             streamampConfig.afterLoad();
@@ -2204,7 +2275,7 @@ function streamampSetup() {
 
     // initialize Prebid
     streamampUtils.loadScript(dnsUrls.prebid);
-    var prebidVersion = dnsUrls.prebid.split('/').filter(function(item) {
+    var prebidVersion = dnsUrls.prebid.split('/').filter(function (item) {
         return item.indexOf('prebid') != -1
     }).join('')
     streamampUtils.logPbjs('Loading', prebidVersion);
@@ -2212,7 +2283,7 @@ function streamampSetup() {
     // Load apstag library
     if (streamampConfig.a9Enabled) {
         streamampUtils.logAps('APS/A9 enabled, loading apstag library apstag.js')
-        !function(a9, a, p, s, t, A, g) {
+        !function (a9, a, p, s, t, A, g) {
             if (a[a9])
                 return;
 
@@ -2221,14 +2292,15 @@ function streamampSetup() {
             }
 
             a[a9] = {
-                init: function() {
+                init: function () {
                     q("i", arguments)
                 },
-                fetchBids: function() {
+                fetchBids: function () {
                     q("f", arguments)
                 },
-                setDisplayBids: function() {},
-                targetingKeys: function() {
+                setDisplayBids: function () {
+                },
+                targetingKeys: function () {
                     return []
                 },
                 _Q: []
@@ -2256,10 +2328,9 @@ function streamampSetup() {
             });
         }
     }
-    ;
-    // Toggle off URLS
+    ;// Toggle off URLS
     if (streamampConfig.toggleOffUrls) {
-        streamampConfig.toggleOffUrls.forEach(function(url) {
+        streamampConfig.toggleOffUrls.forEach(function (url) {
 
             var level = url.level;
             var path = url.url;
@@ -2268,22 +2339,21 @@ function streamampSetup() {
             levelsKeys.push(level);
 
             var toggleOff = false;
-            levelsKeys.forEach(function(levelKey) {
+            levelsKeys.forEach(function (levelKey) {
                 if (_streamampVariables.levels && _streamampVariables.levels[levelKey - 1] && _streamampVariables.levels[levelKey - 1].toLowerCase() === path.toLowerCase()) {
                     toggleOff = true;
                 }
             })
 
             if (toggleOff) {
-                window.streamampConfig.adUnits.forEach(function(adUnit) {
+                window.streamampConfig.adUnits.forEach(function (adUnit) {
                     adUnit.bids = []
                 })
             }
         })
     }
-    ;
-    // Enable Analytics Module
-    pbjs.que.push(function() {
+    ;// Enable Analytics Module
+    pbjs.que.push(function () {
         streamampUtils.logPbjs('Queuing enableAnalytics()')
         pbjs.enableAnalytics({
             provider: 'streamamp',
@@ -2294,14 +2364,14 @@ function streamampSetup() {
         });
     });
 
-    pbjs.que.push(function() {
+    pbjs.que.push(function () {
         // Set Aliased bidders
         pbjs.aliasBidder('appnexus', 'streamamp')
         pbjs.aliasBidder('appnexus', 'totaljobs')
     });
 
     // PBJS Config Settings
-    pbjs.que.push(function() {
+    pbjs.que.push(function () {
         var currencyValue = streamampConfig.currency.value;
         var currencyFlag = streamampConfig.currency.enabled;
         var currencyFileURL = 'https://static.amp.services/currency/conversion-rates.json';
@@ -2345,11 +2415,11 @@ function streamampSetup() {
         pbjs.setConfig({
             bidderTimeout: _streamampVariables.bidTimeout
         });
-        streamampUtils.logPbjs('Queuing setConfig() for size config (breakpoints)', streamampConfig.breakpoints.map(function(breakpoint) {
+        streamampUtils.logPbjs('Queuing setConfig() for size config (breakpoints)', streamampConfig.breakpoints.map(function (breakpoint) {
             return breakpoint.label
         }))
         pbjs.setConfig({
-            sizeConfig: streamampConfig.breakpoints.map(function(breakpoint) {
+            sizeConfig: streamampConfig.breakpoints.map(function (breakpoint) {
                 return {
                     'mediaQuery': '(min-width: ' + breakpoint.minWidth + 'px) and (max-width: ' + breakpoint.maxWidth + 'px)',
                     'sizesSupported': breakpoint.sizesSupported,
@@ -2388,6 +2458,7 @@ function streamampSetup() {
             });
         }
     });
+//     window.streamampBroker.notify('streamampReady');
 
     if (!streamampConfig.preventInit) {
         streamampInit()
@@ -2424,25 +2495,25 @@ function streamampInit() {
 
     // removes the old/pre-existing ad units
     if (pbjs.adUnits && pbjs.adUnits.length) {
-        var oldAdUnitCodes = pbjs.adUnits.map(function(adUnit) {
+        var oldAdUnitCodes = pbjs.adUnits.map(function (adUnit) {
             return adUnit.code;
         });
         streamampDestroySlots(oldAdUnitCodes);
     }
 
-    pbjs.que.push(function() {
+    pbjs.que.push(function () {
         streamampUtils.logPbjs('Queuing addAdUnits() for', adUnitsGPT)
         pbjs.addAdUnits(adUnitsGPT);
     });
 
-    googletag.cmd.push(function() {
+    googletag.cmd.push(function () {
 
-        var predefinedSlotIds = googletag.pubads().getSlots().map(function(slot) {
+        var predefinedSlotIds = googletag.pubads().getSlots().map(function (slot) {
             return slot.getSlotElementId();
         });
 
         // defines slots
-        adUnitsGPT.forEach(function(adUnit) {
+        adUnitsGPT.forEach(function (adUnit) {
             streamampDefineAdUnitSlot(adUnit, predefinedSlotIds)
         });
 
@@ -2498,18 +2569,18 @@ function streamampFetchHeaderBids(adUnitsGPT, adUnitsAPS) {
     };
 
     // Loop through bidder array and add the bidders to the request manager
-    bidders.forEach(function(bidder) {
+    bidders.forEach(function (bidder) {
         requestManager[bidder] = false;
     });
 
     // Return true if all bidders have returned
     function allBiddersBack() {
         var allBiddersBack = bidders // Get the booleans from the object
-        .map(function(bidder) {
-            return requestManager[bidder];
-        })// Remove false values - indicates that the bidder has responded
-        .filter(Boolean)// If length is equal to bidders, all bidders are back
-        .length === bidders.length;
+            .map(function (bidder) {
+                return requestManager[bidder];
+            })// Remove false values - indicates that the bidder has responded
+            .filter(Boolean)// If length is equal to bidders, all bidders are back
+            .length === bidders.length;
         streamampUtils.log('Checking if all bidders are back', allBiddersBack)
         return allBiddersBack;
     }
@@ -2548,14 +2619,14 @@ function streamampFetchHeaderBids(adUnitsGPT, adUnitsAPS) {
         // Flip boolean for ad Sserver request to avoid duplicate requests
         requestManager.sendAdServerRequest = true;
         // Set bid targeting and make ad request to GAM
-        googletag.cmd.push(function() {
+        googletag.cmd.push(function () {
 
             if (streamampConfig.a9Enabled) {
                 apstag.setDisplayBids();
                 streamampUtils.logAps('Setting display bids')
             }
 
-            pbjs.que.push(function() {
+            pbjs.que.push(function () {
                 streamampUtils.logPbjs('Queuing setTargetingForGPTAsync()')
                 pbjs.setTargetingForGPTAsync();
                 streamampAddClientTargeting();
@@ -2577,8 +2648,8 @@ function streamampFetchHeaderBids(adUnitsGPT, adUnitsAPS) {
             apstag.fetchBids({
                 slots: adUnitsAPS,
                 timeout: bidTimeout
-            }, function(bids) {
-                streamampUtils.logAps('Bids received (all)', bids, '(filtered out)', bids.filter(function(bid) {
+            }, function (bids) {
+                streamampUtils.logAps('Bids received (all)', bids, '(filtered out)', bids.filter(function (bid) {
                     return bid.amzniid
                 }))
                 headerBidderBack('a9');
@@ -2586,11 +2657,11 @@ function streamampFetchHeaderBids(adUnitsGPT, adUnitsAPS) {
         }
 
         // Request bids from prebid
-        pbjs.que.push(function() {
+        pbjs.que.push(function () {
             streamampUtils.logPbjs('Queuing requestBids()')
             pbjs.requestBids({
                 timeout: bidTimeout,
-                bidsBackHandler: function(bidResponses) {
+                bidsBackHandler: function (bidResponses) {
                     headerBidderBack('prebid');
                 }
             });
@@ -2600,7 +2671,7 @@ function streamampFetchHeaderBids(adUnitsGPT, adUnitsAPS) {
     requestBids(adUnitsGPT, adUnitsAPS, _streamampVariables.bidTimeout);
 
     // Set timeout to send request to call sendAdServerRequest() after timeout if all bidders haven't returned before then
-    window.setTimeout(function() {
+    window.setTimeout(function () {
         sendAdServerRequest();
     }, _streamampVariables.bidTimeout);
 }
@@ -2609,7 +2680,7 @@ function auction(adUnitsGPT, adUnitsAPS) {
 
     // Fetch header bids
     if (window.__cmp && !window.__cmp.streamampOverridden) {
-        window.__cmp('getConsentData', null, function(data, success) {
+        window.__cmp('getConsentData', null, function (data, success) {
             streamampUtils.log('Getting CMP Consent Data', {
                 data: data,
                 success: success
@@ -2630,78 +2701,78 @@ function streamampInitializeCmp() {
     elem.type = "text/javascript";
     var scpt = document.getElementsByTagName('script')[0];
     scpt.parentNode.insertBefore(elem, scpt);
-    (function() {
-        var gdprAppliesGlobally = false;
+    (function () {
+            var gdprAppliesGlobally = false;
 
-        function addFrame() {
-            if (!window.frames['__cmpLocator']) {
-                if (document.body) {
-                    var body = document.body
-                      , iframe = document.createElement('iframe');
-                    iframe.style = 'display:none';
-                    iframe.name = '__cmpLocator';
-                    body.appendChild(iframe);
+            function addFrame() {
+                if (!window.frames['__cmpLocator']) {
+                    if (document.body) {
+                        var body = document.body
+                            , iframe = document.createElement('iframe');
+                        iframe.style = 'display:none';
+                        iframe.name = '__cmpLocator';
+                        body.appendChild(iframe);
+                    } else {
+                        // In the case where this stub is located in the head,
+                        // this allows us to inject the iframe more quickly than
+                        // relying on DOMContentLoaded or other events.
+                        setTimeout(addFrame, 5);
+                    }
+                }
+            }
+
+            addFrame();
+
+            function cmpMsgHandler(event) {
+                var msgIsString = typeof event.data === "string";
+                var json;
+                if (msgIsString) {
+                    json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
                 } else {
-                    // In the case where this stub is located in the head,
-                    // this allows us to inject the iframe more quickly than
-                    // relying on DOMContentLoaded or other events.
-                    setTimeout(addFrame, 5);
+                    json = event.data;
+                }
+                if (json.__cmpCall) {
+                    var i = json.__cmpCall;
+                    window.__cmp(i.command, i.parameter, function (retValue, success) {
+                        var returnMsg = {
+                            "__cmpReturn": {
+                                "returnValue": retValue,
+                                "success": success,
+                                "callId": i.callId
+                            }
+                        };
+                        event.source.postMessage(msgIsString ? JSON.stringify(returnMsg) : returnMsg, '*');
+                    });
                 }
             }
-        }
 
-        addFrame();
-
-        function cmpMsgHandler(event) {
-            var msgIsString = typeof event.data === "string";
-            var json;
-            if (msgIsString) {
-                json = event.data.indexOf("__cmpCall") != -1 ? JSON.parse(event.data) : {};
+            window.__cmp = function (c) {
+                var b = arguments;
+                if (!b.length) {
+                    return __cmp.a;
+                } else if (b[0] === 'ping') {
+                    b[2]({
+                        "gdprAppliesGlobally": gdprAppliesGlobally,
+                        "cmpLoaded": false
+                    }, true);
+                } else if (c == '__cmp')
+                    return false;
+                else {
+                    if (typeof __cmp.a === 'undefined') {
+                        __cmp.a = [];
+                    }
+                    __cmp.a.push([].slice.apply(b));
+                }
+            }
+            ;
+            window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
+            window.__cmp.msgHandler = cmpMsgHandler;
+            if (window.addEventListener) {
+                window.addEventListener('message', cmpMsgHandler, false);
             } else {
-                json = event.data;
-            }
-            if (json.__cmpCall) {
-                var i = json.__cmpCall;
-                window.__cmp(i.command, i.parameter, function(retValue, success) {
-                    var returnMsg = {
-                        "__cmpReturn": {
-                            "returnValue": retValue,
-                            "success": success,
-                            "callId": i.callId
-                        }
-                    };
-                    event.source.postMessage(msgIsString ? JSON.stringify(returnMsg) : returnMsg, '*');
-                });
+                window.attachEvent('onmessage', cmpMsgHandler);
             }
         }
-
-        window.__cmp = function(c) {
-            var b = arguments;
-            if (!b.length) {
-                return __cmp.a;
-            } else if (b[0] === 'ping') {
-                b[2]({
-                    "gdprAppliesGlobally": gdprAppliesGlobally,
-                    "cmpLoaded": false
-                }, true);
-            } else if (c == '__cmp')
-                return false;
-            else {
-                if (typeof __cmp.a === 'undefined') {
-                    __cmp.a = [];
-                }
-                __cmp.a.push([].slice.apply(b));
-            }
-        }
-        ;
-        window.__cmp.gdprAppliesGlobally = gdprAppliesGlobally;
-        window.__cmp.msgHandler = cmpMsgHandler;
-        if (window.addEventListener) {
-            window.addEventListener('message', cmpMsgHandler, false);
-        } else {
-            window.attachEvent('onmessage', cmpMsgHandler);
-        }
-    }
     )();
 
     // Initialize CMP with custom configuration
@@ -2716,15 +2787,15 @@ function streamampInitializeCmp() {
         streamampUtils.log('Applying custom CMP styles', quantcastTheme)
 
         style.innerHTML = // Background
-        (isNotEmptyCmp(quantcastTheme.ui) && quantcastTheme.ui.backgroundColor ? '.qc-cmp-ui' + '{' + 'background-color:' + quantcastTheme.ui.backgroundColor + '!important;' + '}' : '') + // Main Text Color
-        (isNotEmptyCmp(quantcastTheme.ui) && quantcastTheme.ui.textColor ? '.qc-cmp-ui,' + '.qc-cmp-ui .qc-cmp-main-messaging,' + '.qc-cmp-ui .qc-cmp-messaging,' + '.qc-cmp-ui .qc-cmp-beta-messaging,' + '.qc-cmp-ui .qc-cmp-title,' + '.qc-cmp-ui .qc-cmp-sub-title,' + '.qc-cmp-ui .qc-cmp-purpose-info,' + '.qc-cmp-ui .qc-cmp-table,' + '.qc-cmp-ui .qc-cmp-vendor-list,' + '.qc-cmp-ui .qc-cmp-vendor-list-title' + '{' + 'color:' + quantcastTheme.ui.textColor + '!important;' + '}' : '') + // Links
-        (isNotEmptyCmp(quantcastTheme.link) ? '.qc-cmp-ui a,' + '.qc-cmp-ui .qc-cmp-alt-action,' + '.qc-cmp-ui .qc-cmp-link' + '{' + (quantcastTheme.link.textColor ? 'color:' + quantcastTheme.link.textColor + '!important;' : '') + (quantcastTheme.link.isUnderlined ? 'text-decoration: underline' : 'text-decoration: none' + '!important;') + '}' : '') + // Buttons
-        (isNotEmptyCmp(quantcastTheme.primaryButton) ? '.qc-cmp-ui .qc-cmp-button' + '{' + (quantcastTheme.primaryButton.backgroundColor ? 'background-color:' + quantcastTheme.primaryButton.backgroundColor + '!important;' : '') + (quantcastTheme.primaryButton.borderColor ? 'border-color:' + quantcastTheme.primaryButton.borderColor + '!important;' : '') + (quantcastTheme.primaryButton.textColor ? 'color:' + quantcastTheme.primaryButton.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (isNotEmptyCmp(quantcastTheme.primaryButtonHover) ? '.qc-cmp-ui .qc-cmp-button:hover' + '{' + (quantcastTheme.primaryButtonHover.backgroundColor ? 'background-color:' + quantcastTheme.primaryButtonHover.backgroundColor + '!important;' : '') + (quantcastTheme.primaryButtonHover.borderColor ? 'border-color:' + quantcastTheme.primaryButtonHover.borderColor + '!important;' : '') + (quantcastTheme.primaryButtonHover.textColor ? 'color:' + quantcastTheme.primaryButtonHover.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (isNotEmptyCmp(quantcastTheme.secondaryButton) ? '.qc-cmp-ui .qc-cmp-button.qc-cmp-secondary-button' + '{' + (quantcastTheme.secondaryButton.backgroundColor ? 'background-color:' + quantcastTheme.secondaryButton.backgroundColor + '!important;' : '') + (quantcastTheme.secondaryButton.borderColor ? 'border-color:' + quantcastTheme.secondaryButton.borderColor + '!important;' : '') + (quantcastTheme.secondaryButton.textColor ? 'color:' + quantcastTheme.secondaryButton.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (isNotEmptyCmp(quantcastTheme.secondaryButtonHover) ? '.qc-cmp-ui .qc-cmp-button.qc-cmp-secondary-button:hover' + '{' + (quantcastTheme.secondaryButtonHover.backgroundColor ? 'background-color:' + quantcastTheme.secondaryButtonHover.backgroundColor + '!important;' : '') + (quantcastTheme.secondaryButtonHover.borderColor ? 'border-color:' + quantcastTheme.secondaryButtonHover.borderColor + '!important;' : '') + (quantcastTheme.secondaryButtonHover.textColor ? 'color:' + quantcastTheme.secondaryButtonHover.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (quantcastTheme.isSecondaryButtonHidden ? '.qc-cmp-ui .qc-cmp-button.qc-cmp-secondary-button' + '{' + 'display: none!important;' + '}' + // Without the below the 'Reject all' button will not show on purpose/vendor pages
-        '.qc-cmp-ui .qc-cmp-horizontal-buttons .qc-cmp-button.qc-cmp-secondary-button,' + '.qc-cmp-ui .qc-cmp-nav-bar-buttons-container .qc-cmp-button.qc-cmp-secondary-button' + '{' + 'display: block!important;' + '}' + // Without the below the 'Accept' button will be too big on the main page - mobile view
-        '@media screen and (max-width: 550px)' + '{' + '.qc-cmp-buttons.qc-cmp-primary-buttons' + '{' + 'height: 3.8rem!important;' + '}' + '}' : '') + // Tables
-        (isNotEmptyCmp(quantcastTheme.tableHeader) ? '.qc-cmp-ui .qc-cmp-table-header,' + '.qc-cmp-ui .qc-cmp-vendor-list .qc-cmp-vendor-row-header' + '{' + (quantcastTheme.tableHeader.backgroundColor ? 'background-color:' + quantcastTheme.tableHeader.backgroundColor + '!important;' : '') + (quantcastTheme.tableHeader.textColor ? 'color:' + quantcastTheme.tableHeader.textColor + '!important;' : '') + '}' : '') + (isNotEmptyCmp(quantcastTheme.tableRow) ? '.qc-cmp-ui .qc-cmp-publisher-purposes-table .qc-cmp-table-row,' + '.qc-cmp-ui .qc-cmp-table-row.qc-cmp-vendor-row' + '{' + (quantcastTheme.tableRow.backgroundColor ? 'background-color:' + quantcastTheme.tableRow.backgroundColor + '!important;' : '') + (quantcastTheme.tableRow.textColor ? 'color:' + quantcastTheme.tableRow.textColor + '!important;' : '') + '}' : '') + // Table content inherit color
-        '.qc-cmp-ui .qc-cmp-purpose-description,' + '.qc-cmp-ui .qc-cmp-company-cell,' + '.qc-cmp-ui .qc-cmp-vendor-info-content,' + '.qc-cmp-ui .qc-cmp-vendor-policy,' + '.qc-cmp-ui .qc-cmp-vendor-info-list' + '{' + 'color: inherit!important;' + '}' + // Toggles
-        (isNotEmptyCmp(quantcastTheme.toggleOn) ? '.qc-cmp-ui .qc-cmp-toggle.qc-cmp-toggle-on,' + '.qc-cmp-ui .qc-cmp-small-toggle.qc-cmp-toggle-on' + '{' + (quantcastTheme.toggleOn.backgroundColor ? 'background-color:' + quantcastTheme.toggleOn.backgroundColor + '!important;' : '') + (quantcastTheme.toggleOn.borderColor ? 'border-color:' + quantcastTheme.toggleOn.borderColor + '!important;' : '') + '}' : '') + (isNotEmptyCmp(quantcastTheme.toggleOff) ? '.qc-cmp-ui .qc-cmp-toggle.qc-cmp-toggle-off,' + '.qc-cmp-ui .qc-cmp-small-toggle.qc-cmp-toggle-off' + '{' + (quantcastTheme.toggleOff.backgroundColor ? 'background-color:' + quantcastTheme.toggleOff.backgroundColor + '!important;' : '') + (quantcastTheme.toggleOff.borderColor ? 'border-color:' + quantcastTheme.toggleOff.borderColor + '!important;' : '') + '}' : '') + (quantcastTheme.toggleSwitchBorderColor ? '.qc-cmp-ui .qc-cmp-toggle-switch' + '{' + 'border: 1px solid ' + quantcastTheme.toggleSwitchBorderColor + '!important;' + '}' : '') + (quantcastTheme.toggleStatusTextColor ? '.qc-cmp-ui .qc-cmp-toggle-status' + '{' + 'color:' + quantcastTheme.toggleStatusTextColor + '!important;' + '}' : '') + (quantcastTheme.dropdownArrowColor ? '.qc-cmp-ui .qc-cmp-arrow-down' + '{' + 'background:' + 'url("data:image/svg+xml;charset=utf-8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\' fill=\'none\' stroke=\'%23' + quantcastTheme.dropdownArrowColor.replace('#', '') + '\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M2 5l6 6 6-6\'/></svg>") 50% no-repeat' + '!important;' + '}' : '') + (quantcastTheme.additionalStyles ? quantcastTheme.additionalStyles : '') + '}';
+            (isNotEmptyCmp(quantcastTheme.ui) && quantcastTheme.ui.backgroundColor ? '.qc-cmp-ui' + '{' + 'background-color:' + quantcastTheme.ui.backgroundColor + '!important;' + '}' : '') + // Main Text Color
+            (isNotEmptyCmp(quantcastTheme.ui) && quantcastTheme.ui.textColor ? '.qc-cmp-ui,' + '.qc-cmp-ui .qc-cmp-main-messaging,' + '.qc-cmp-ui .qc-cmp-messaging,' + '.qc-cmp-ui .qc-cmp-beta-messaging,' + '.qc-cmp-ui .qc-cmp-title,' + '.qc-cmp-ui .qc-cmp-sub-title,' + '.qc-cmp-ui .qc-cmp-purpose-info,' + '.qc-cmp-ui .qc-cmp-table,' + '.qc-cmp-ui .qc-cmp-vendor-list,' + '.qc-cmp-ui .qc-cmp-vendor-list-title' + '{' + 'color:' + quantcastTheme.ui.textColor + '!important;' + '}' : '') + // Links
+            (isNotEmptyCmp(quantcastTheme.link) ? '.qc-cmp-ui a,' + '.qc-cmp-ui .qc-cmp-alt-action,' + '.qc-cmp-ui .qc-cmp-link' + '{' + (quantcastTheme.link.textColor ? 'color:' + quantcastTheme.link.textColor + '!important;' : '') + (quantcastTheme.link.isUnderlined ? 'text-decoration: underline' : 'text-decoration: none' + '!important;') + '}' : '') + // Buttons
+            (isNotEmptyCmp(quantcastTheme.primaryButton) ? '.qc-cmp-ui .qc-cmp-button' + '{' + (quantcastTheme.primaryButton.backgroundColor ? 'background-color:' + quantcastTheme.primaryButton.backgroundColor + '!important;' : '') + (quantcastTheme.primaryButton.borderColor ? 'border-color:' + quantcastTheme.primaryButton.borderColor + '!important;' : '') + (quantcastTheme.primaryButton.textColor ? 'color:' + quantcastTheme.primaryButton.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (isNotEmptyCmp(quantcastTheme.primaryButtonHover) ? '.qc-cmp-ui .qc-cmp-button:hover' + '{' + (quantcastTheme.primaryButtonHover.backgroundColor ? 'background-color:' + quantcastTheme.primaryButtonHover.backgroundColor + '!important;' : '') + (quantcastTheme.primaryButtonHover.borderColor ? 'border-color:' + quantcastTheme.primaryButtonHover.borderColor + '!important;' : '') + (quantcastTheme.primaryButtonHover.textColor ? 'color:' + quantcastTheme.primaryButtonHover.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (isNotEmptyCmp(quantcastTheme.secondaryButton) ? '.qc-cmp-ui .qc-cmp-button.qc-cmp-secondary-button' + '{' + (quantcastTheme.secondaryButton.backgroundColor ? 'background-color:' + quantcastTheme.secondaryButton.backgroundColor + '!important;' : '') + (quantcastTheme.secondaryButton.borderColor ? 'border-color:' + quantcastTheme.secondaryButton.borderColor + '!important;' : '') + (quantcastTheme.secondaryButton.textColor ? 'color:' + quantcastTheme.secondaryButton.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (isNotEmptyCmp(quantcastTheme.secondaryButtonHover) ? '.qc-cmp-ui .qc-cmp-button.qc-cmp-secondary-button:hover' + '{' + (quantcastTheme.secondaryButtonHover.backgroundColor ? 'background-color:' + quantcastTheme.secondaryButtonHover.backgroundColor + '!important;' : '') + (quantcastTheme.secondaryButtonHover.borderColor ? 'border-color:' + quantcastTheme.secondaryButtonHover.borderColor + '!important;' : '') + (quantcastTheme.secondaryButtonHover.textColor ? 'color:' + quantcastTheme.secondaryButtonHover.textColor + '!important;' : '') + 'background-image: none!important;' + '}' : '') + (quantcastTheme.isSecondaryButtonHidden ? '.qc-cmp-ui .qc-cmp-button.qc-cmp-secondary-button' + '{' + 'display: none!important;' + '}' + // Without the below the 'Reject all' button will not show on purpose/vendor pages
+            '.qc-cmp-ui .qc-cmp-horizontal-buttons .qc-cmp-button.qc-cmp-secondary-button,' + '.qc-cmp-ui .qc-cmp-nav-bar-buttons-container .qc-cmp-button.qc-cmp-secondary-button' + '{' + 'display: block!important;' + '}' + // Without the below the 'Accept' button will be too big on the main page - mobile view
+            '@media screen and (max-width: 550px)' + '{' + '.qc-cmp-buttons.qc-cmp-primary-buttons' + '{' + 'height: 3.8rem!important;' + '}' + '}' : '') + // Tables
+            (isNotEmptyCmp(quantcastTheme.tableHeader) ? '.qc-cmp-ui .qc-cmp-table-header,' + '.qc-cmp-ui .qc-cmp-vendor-list .qc-cmp-vendor-row-header' + '{' + (quantcastTheme.tableHeader.backgroundColor ? 'background-color:' + quantcastTheme.tableHeader.backgroundColor + '!important;' : '') + (quantcastTheme.tableHeader.textColor ? 'color:' + quantcastTheme.tableHeader.textColor + '!important;' : '') + '}' : '') + (isNotEmptyCmp(quantcastTheme.tableRow) ? '.qc-cmp-ui .qc-cmp-publisher-purposes-table .qc-cmp-table-row,' + '.qc-cmp-ui .qc-cmp-table-row.qc-cmp-vendor-row' + '{' + (quantcastTheme.tableRow.backgroundColor ? 'background-color:' + quantcastTheme.tableRow.backgroundColor + '!important;' : '') + (quantcastTheme.tableRow.textColor ? 'color:' + quantcastTheme.tableRow.textColor + '!important;' : '') + '}' : '') + // Table content inherit color
+            '.qc-cmp-ui .qc-cmp-purpose-description,' + '.qc-cmp-ui .qc-cmp-company-cell,' + '.qc-cmp-ui .qc-cmp-vendor-info-content,' + '.qc-cmp-ui .qc-cmp-vendor-policy,' + '.qc-cmp-ui .qc-cmp-vendor-info-list' + '{' + 'color: inherit!important;' + '}' + // Toggles
+            (isNotEmptyCmp(quantcastTheme.toggleOn) ? '.qc-cmp-ui .qc-cmp-toggle.qc-cmp-toggle-on,' + '.qc-cmp-ui .qc-cmp-small-toggle.qc-cmp-toggle-on' + '{' + (quantcastTheme.toggleOn.backgroundColor ? 'background-color:' + quantcastTheme.toggleOn.backgroundColor + '!important;' : '') + (quantcastTheme.toggleOn.borderColor ? 'border-color:' + quantcastTheme.toggleOn.borderColor + '!important;' : '') + '}' : '') + (isNotEmptyCmp(quantcastTheme.toggleOff) ? '.qc-cmp-ui .qc-cmp-toggle.qc-cmp-toggle-off,' + '.qc-cmp-ui .qc-cmp-small-toggle.qc-cmp-toggle-off' + '{' + (quantcastTheme.toggleOff.backgroundColor ? 'background-color:' + quantcastTheme.toggleOff.backgroundColor + '!important;' : '') + (quantcastTheme.toggleOff.borderColor ? 'border-color:' + quantcastTheme.toggleOff.borderColor + '!important;' : '') + '}' : '') + (quantcastTheme.toggleSwitchBorderColor ? '.qc-cmp-ui .qc-cmp-toggle-switch' + '{' + 'border: 1px solid ' + quantcastTheme.toggleSwitchBorderColor + '!important;' + '}' : '') + (quantcastTheme.toggleStatusTextColor ? '.qc-cmp-ui .qc-cmp-toggle-status' + '{' + 'color:' + quantcastTheme.toggleStatusTextColor + '!important;' + '}' : '') + (quantcastTheme.dropdownArrowColor ? '.qc-cmp-ui .qc-cmp-arrow-down' + '{' + 'background:' + 'url("data:image/svg+xml;charset=utf-8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\' fill=\'none\' stroke=\'%23' + quantcastTheme.dropdownArrowColor.replace('#', '') + '\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'M2 5l6 6 6-6\'/></svg>") 50% no-repeat' + '!important;' + '}' : '') + (quantcastTheme.additionalStyles ? quantcastTheme.additionalStyles : '') + '}';
 
         ref.parentNode.insertBefore(style, ref);
     }
@@ -2735,6 +2806,7 @@ function isNotEmptyCmp(obj) {
     return obj ? Object.getOwnPropertyNames(obj).length > 0 : false;
 }
 ;
+
 function generatePriceGranularity(priceGranularity) {
     streamampUtils.log('Setting price granularity to', priceGranularity)
     if (priceGranularity != 'custom') {
@@ -2768,7 +2840,7 @@ function generatePriceGranularity(priceGranularity) {
 
 function streamampConfigAdUnitSlotKeyValue(adUnitCode, googleSlot) {
     if (streamampConfig.keyValues && streamampConfig.keyValues[adUnitCode]) {
-        streamampConfig.keyValues[adUnitCode].forEach(function(keyValue) {
+        streamampConfig.keyValues[adUnitCode].forEach(function (keyValue) {
             keyValue = streamampUtils.normalizeKeyValue(keyValue);
 
             if (keyValue.value !== undefined) {
@@ -2801,7 +2873,7 @@ function streamampDefineAdUnitSlot(adUnit, predefinedSlotIds) {
                     }
                 }
 
-                predefinedSlotId = predefinedSlotIds.find(function(slotId) {
+                predefinedSlotId = predefinedSlotIds.find(function (slotId) {
                     return adUnitsToFilter.indexOf(adUnit.code) !== -1 && adUnit.code === slotId;
                 });
 
@@ -2811,13 +2883,13 @@ function streamampDefineAdUnitSlot(adUnit, predefinedSlotIds) {
             var mappedSlotIds = window['euronews']['advertising']['requiredSlots'] || [];
 
             //2. Find the predefined slot Id
-            predefinedSlotId = predefinedSlotIds.find(function(slotId) {
+            predefinedSlotId = predefinedSlotIds.find(function (slotId) {
                 return mappedSlotIds.indexOf(adUnit.code) !== -1 && adUnit.code === slotId;
             });
         }
 
         if (predefinedSlotId) {
-            googleSlot = googletag.pubads().getSlots().find(function(slot) {
+            googleSlot = googletag.pubads().getSlots().find(function (slot) {
                 return slot.getSlotElementId() === predefinedSlotId;
             });
 
@@ -2825,7 +2897,7 @@ function streamampDefineAdUnitSlot(adUnit, predefinedSlotIds) {
             adUnit.path = googleSlot.getAdUnitPath();
 
         } else {
-            pbjs.que.push(function() {
+            pbjs.que.push(function () {
                 pbjs.removeAdUnit(adUnit.code);
             });
             return;
@@ -2964,7 +3036,7 @@ function streamampGetAdUnitsPerBreakpoint() {
             }
 
             if (adUnit && streamampShouldShowAddUnit(adUnit.code) && key.indexOf(selectedBreakpoint.label) !== -1) {
-                adUnit.bids = adUnit.bids.filter(function(bid) {
+                adUnit.bids = adUnit.bids.filter(function (bid) {
                     return bid.labelAny.includes(selectedBreakpoint.label)
                 })
                 filteredAdUnits.push(adUnit);
@@ -2975,10 +3047,10 @@ function streamampGetAdUnitsPerBreakpoint() {
     return filteredAdUnits;
 }
 
-function streamampRefreshBids(selectedAdUnits) {
+function streamampRefreshBids(selectedAdUnits, callback) {
     pbjs.isAuctionEnded = false;
     streamampUtils.log(selectedAdUnits ? ('Refreshing',
-    selectedAdUnits) : 'Refreshing all ad units')
+        selectedAdUnits) : 'Refreshing all ad units')
 
     var bidTimeout = _streamampVariables.bidTimeout
     var gptSlots = streamampGetAdUnitsPerBreakpoint();
@@ -2990,11 +3062,11 @@ function streamampRefreshBids(selectedAdUnits) {
         // refreshes amazon ads
         if (selectedAdUnits) {
             if (Array.isArray(selectedAdUnits)) {
-                apstagSlots = apstagSlots.filter(function(apstagSlot) {
+                apstagSlots = apstagSlots.filter(function (apstagSlot) {
                     return selectedAdUnits.indexOf(apstagSlot.slotID) > -1;
                 });
             } else if (typeof selectedAdUnits === 'string') {
-                apstagSlots = apstagSlots.filter(function(apstagSlot) {
+                apstagSlots = apstagSlots.filter(function (apstagSlot) {
                     return apstagSlot.slotID === selectedAdUnits
                 })
             }
@@ -3004,14 +3076,14 @@ function streamampRefreshBids(selectedAdUnits) {
         apstag.fetchBids({
             slots: apstagSlots,
             timeout: bidTimeout
-        }, function(bids) {
-            streamampUtils.logAps('Bids received (all)', bids, '(filtered out)', bids.filter(function(bid) {
+        }, function (bids) {
+            streamampUtils.logAps('Bids received (all)', bids, '(filtered out)', bids.filter(function (bid) {
                 return bid.amzniid
             }))
         });
     }
 
-    googletag.cmd.push(function() {
+    googletag.cmd.push(function () {
         var gptSlots = googletag.pubads().getSlots();
         var adUnitsToRefresh = [];
         var slotIds = [];
@@ -3036,7 +3108,7 @@ function streamampRefreshBids(selectedAdUnits) {
 
         } else {
             adUnitsToRefresh = gptSlots
-            slotIds = gptSlots.map(function(gptSlot) {
+            slotIds = gptSlots.map(function (gptSlot) {
                 return gptSlot.getSlotElementId()
             })
         }
@@ -3045,24 +3117,24 @@ function streamampRefreshBids(selectedAdUnits) {
             defineLazyAdUnits(gptSlots);
         }
 
-        pbjs.que.push(function() {
+        pbjs.que.push(function () {
             streamampUtils.logPbjs('Queuing requestBids()')
             pbjs.requestBids({
                 timeout: bidTimeout,
                 adUnitCodes: slotIds,
-                bidsBackHandler: function() {
+                bidsBackHandler: function () {
                     streamampUtils.logPbjs('Queuing setTargetingForGPTAsync() for', slotIds)
                     pbjs.setTargetingForGPTAsync(slotIds);
                     streamampAddClientTargeting();
 
                     streamampUtils.logGpt('Sending ad server request for', adUnitsToRefresh)
-                    if (selectedAdUnits && selectedAdUnits[0] !== 'adzone-leaderboard_1') {
+
+                    if (typeof callback === 'function') {
+                        callback.call();
+                    } else {
                         googletag.pubads().refresh(adUnitsToRefresh);
                     }
-//                     pbjs.isAuctionEnded = true;
-//                     window.streamampBroker.notify('streamampReady');
-//                     streamampUtils.prebidEvents.processAuctionEndQueue();
-                },
+                }
             })
             if (streamampConfig.a9Enabled) {
                 streamampUtils.logAps('Setting display bids')
@@ -3110,25 +3182,26 @@ function streamampRefresh(selectedAdUnits) {
     };
 }
 ;
+
 function streamampDestroySlots(adUnitCodes) {
     streamampUtils.log('Destroying ad unit slots', adUnitCodes);
 
-    var adUnitSlots = adUnitCodes.reduce(function(slots, adUnitCode) {
+    var adUnitSlots = adUnitCodes.reduce(function (slots, adUnitCode) {
         slots.push(window.gptAdSlots[adUnitCode]);
         return slots;
     }, []);
 
-    pbjs.que.push(function() {
+    pbjs.que.push(function () {
         streamampUtils.logPbjs('Queuing removal of', adUnitCodes, 'from pbjs.adUnits')
-        pbjs.adUnits = pbjs.adUnits.filter(function(adUnit) {
+        pbjs.adUnits = pbjs.adUnits.filter(function (adUnit) {
             return adUnitCodes.indexOf(adUnit.code) === -1;
         });
     });
 
-    googletag.cmd.push(function() {
+    googletag.cmd.push(function () {
         streamampUtils.logGpt('Queuing destroySlots() for', adUnitSlots)
         googletag.destroySlots(adUnitSlots);
-        adUnitSlots.forEach(function(adUnitCode) {
+        adUnitSlots.forEach(function (adUnitCode) {
             delete window.gptAdSlots[adUnitCode];
         });
     });
@@ -3139,10 +3212,10 @@ function streamampCreateAPSAdUnits(adUnitsGPT) {
     var googleSizes = [[320, 100], [970, 90], [468, 60], [120, 600], [300, 1050]]
 
     function filterGoogleSize(adUnits) {
-        var googleSizejson = googleSizes.map(function(googleSize) {
+        var googleSizejson = googleSizes.map(function (googleSize) {
             return JSON.stringify(googleSize)
         })
-        var filterGoogleSizes = adUnits.filter(function(adUnit) {
+        var filterGoogleSizes = adUnits.filter(function (adUnit) {
             return !googleSizejson.includes(JSON.stringify(adUnit))
         })
 
@@ -3150,7 +3223,7 @@ function streamampCreateAPSAdUnits(adUnitsGPT) {
         return filterGoogleSizes
     }
 
-    var apstagSlots = adUnitsGPT.map(function(adUnit) {
+    var apstagSlots = adUnitsGPT.map(function (adUnit) {
         return {
             slotID: adUnit.code,
             slotName: adUnit.path,
@@ -3166,28 +3239,28 @@ function defineLazyAdUnits(gptSlots) {
 
     streamampUtils.log(streamampConfig.namespace, 'DEBUG:', 'Defining lazy load google slots');
 
-    var predefinedSlotIds = gptSlots.map(function(slot) {
+    var predefinedSlotIds = gptSlots.map(function (slot) {
         return slot.getSlotElementId();
     });
 
-    pbjs.que.push(function() {
+    pbjs.que.push(function () {
         var adUnits = pbjs.adUnits || [];
 
-        var definedAdUnits = adUnits.map(function(adUnit) {
+        var definedAdUnits = adUnits.map(function (adUnit) {
             return adUnit.code;
         });
 
         // Filter adunits already added to the prebid
-        var adUnitsGPT = streamampGetAdUnitsPerBreakpoint().filter(function(adUnit) {
+        var adUnitsGPT = streamampGetAdUnitsPerBreakpoint().filter(function (adUnit) {
             return definedAdUnits.indexOf(adUnit.code) === -1;
         });
 
-        streamampUtils.log(streamampConfig.namespace, 'DEBUG:', 'Add new Ad Units', adUnitsGPT.map(function(adUnit) {
+        streamampUtils.log(streamampConfig.namespace, 'DEBUG:', 'Add new Ad Units', adUnitsGPT.map(function (adUnit) {
             return adUnit.code;
         }));
         pbjs.addAdUnits(adUnitsGPT);
 
-        adUnitsGPT.forEach(function(adUnit) {
+        adUnitsGPT.forEach(function (adUnit) {
             streamampDefineAdUnitSlot(adUnit, predefinedSlotIds);
         });
     });
@@ -3196,49 +3269,42 @@ function defineLazyAdUnits(gptSlots) {
 overrideGoogletagDisplay(streamampConfig)
 
 function overrideGoogletagDisplay(config) {
-    googletag.cmd.push(function() {
+    googletag.cmd.push(function () {
         var _googletagDisplay = googletag.display;
-        googletag.display = function(adUnitCode) {
+        googletag.display = function (adUnitCode) {
             streamampUtils.log('DEBUG:', 'googletag.display called for', adUnitCode);
             _googletagDisplay(adUnitCode);
-            var slot = googletag.pubads().getSlots().find(function(slot) {
+            var slot = googletag.pubads().getSlots().find(function (slot) {
                 return slot.getSlotElementId() === adUnitCode;
             });
+            window[config.namespace].que.push(function () {
+                // Code updated for the SRA with lazyloading.
+                streamampUtils.prebidEvents.auctionEndQueue.push(function () {
+                    googletag.pubads().refresh([slot]);
 
-//             var arr = ['adzone-custom', 'adzone-wallpaper', 'adzone-oop', 'adzone-leaderboard_1']
-
-//             if (!arr.includes(slot.getSlotElementId())) {
-                console.log(slot.getSlotElementId())
-                window[config.namespace].que.push(function() {
-                    // Code updated for the SRA with lazyloading.
-                    streamampUtils.prebidEvents.auctionEndQueue.push(function() {
-                        googletag.pubads().refresh([slot]);
-
-                    })
                 })
-//             }
-
+            })
         }
     })
 }
 
 window.streamamp = {
-    refreshAllBids: function() {
+    refreshAllBids: function () {
         streamampUtils.log('window.streamamp.refreshAllBids() was called')
         streamampRefreshBids()
     },
-    refreshBids: function(selectedAdUnits) {
+    refreshBids: function (selectedAdUnits, callback) {
         if (selectedAdUnits.length > 0) {
             streamampUtils.log('window.streamamp.refreshBids() was called with', selectedAdUnits, 'ad unit(s)')
-            streamampRefreshBids(selectedAdUnits)
+            streamampRefreshBids(selectedAdUnits, callback)
         } else {
             streamampUtils.logError('refreshBids() must be passed an array of strings or a string of a single ad unit code')
         }
     },
-    destroySlots: function(selectedAdUnits) {
+    destroySlots: function (selectedAdUnits) {
         streamampDestroySlots(selectedAdUnits)
     },
-    initialize: function(boolean) {
+    initialize: function (boolean) {
         if (boolean) {
             streamampUtils.log('window.streamamp.initialize() was called')
             streamampInit()
