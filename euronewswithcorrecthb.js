@@ -3134,10 +3134,7 @@ function streamampRefreshBids(selectedAdUnits, callback) {
                     } else {
                         googletag.pubads().refresh(adUnitsToRefresh);
                     }
-
-                    pbjs.isAuctionEnded = true;
-                    streamampUtils.prebidEvents.processAuctionEndQueue();
-                },
+                }
             })
             if (streamampConfig.a9Enabled) {
                 streamampUtils.logAps('Setting display bids')
