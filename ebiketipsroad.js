@@ -298,19 +298,6 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'pubmatic',
-                    labelAny: [
-                        '980 - 9999',
-                        '670 - 979',
-                        '0 - 659'
-                    ],
-                    params: {
-                        publisherId: '127864',
-                        pmzoneid: '2455319',
-                        adSlot: 'FA_EBikeTips_Unit3_300x250@300x250'
-                    }
-                },
-                {
                     bidder: 'streamamp',
                     labelAny: ['980 - 9999', '670 - 979', '0 - 659'],
                     params: {
