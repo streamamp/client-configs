@@ -2,11 +2,13 @@ var streamampConfig = {
     levelTargeting: false,
     gptSingleRequestEnabled: true,
     a9Enabled: false,
-    apsPubID: '',
+    apsPubID: 'aac344f8-dc17-4ab8-b0a7-91cd349ec3b1',
     bidTimeout: 1.2,
     pbjsPriceGranularity: 'high',
-    hasRefreshBids: false,
-    refreshBidsTimeout: 90,
+    hasRefreshBids: true,
+	minRefreshTime: 90,
+	maxRefreshTime: 120,
+	hasCollapsedEmptyDivs: false,
     hasCollapsedEmptyDivs: false,
     publisher_id: 'StreamAMP/BusinessLeaderMagazine',
     token: '',
@@ -28,10 +30,10 @@ var streamampConfig = {
                             728,
                             90
                         ],
-                        [
-                            970,
-                            250
-                        ],
+                        // [
+                        //     970,
+                        //     250
+                        // ],
                         [
                             300,
                             250
@@ -62,16 +64,16 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit1_728x90'
                     }
                 },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382488,
-                        publisherSubId: 'BusinessLeaderMagazine_Unit1_970x250'
-                    }
-                },
+                // {
+                //     bidder: 'criteo',
+                //     labelAny: [
+                //         '990 - 9999'
+                //     ],
+                //     params: {
+                //         zoneId: 1382488,
+                //         publisherSubId: 'BusinessLeaderMagazine_Unit1_970x250'
+                //     }
+                // },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -125,15 +127,15 @@ var streamampConfig = {
                         placementId: 17865883
                     }
                 },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        placementId: 17865884
-                    }
-                },
+                // {
+                //     bidder: 'streamamp',
+                //     labelAny: [
+                //         '990 - 9999'
+                //     ],
+                //     params: {
+                //         placementId: 17865884
+                //     }
+                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -428,10 +430,10 @@ var streamampConfig = {
                             728,
                             90
                         ],
-                        [
-                            970,
-                            250
-                        ],
+//                         [
+//                             970,
+//                             250
+//                         ],
                         [
                             300,
                             250
@@ -462,16 +464,16 @@ var streamampConfig = {
                         publisherSubId: 'BusinessLeaderMagazine_Unit4_728x90'
                     }
                 },
-                {
-                    bidder: 'criteo',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        zoneId: 1382488,
-                        publisherSubId: 'BusinessLeaderMagazine_Unit4_970x250'
-                    }
-                },
+//                 {
+//                     bidder: 'criteo',
+//                     labelAny: [
+//                         '990 - 9999'
+//                     ],
+//                     params: {
+//                         zoneId: 1382488,
+//                         publisherSubId: 'BusinessLeaderMagazine_Unit4_970x250'
+//                     }
+//                 },
                 {
                     bidder: 'criteo',
                     labelAny: [
@@ -529,15 +531,15 @@ var streamampConfig = {
                         placementId: 17929625
                     }
                 },
-                {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '990 - 9999'
-                    ],
-                    params: {
-                        placementId: 17929628
-                    }
-                },
+//                 {
+//                     bidder: 'streamamp',
+//                     labelAny: [
+//                         '990 - 9999'
+//                     ],
+//                     params: {
+//                         placementId: 17929628
+//                     }
+//                 },
                 {
                     bidder: 'streamamp',
                     labelAny: [
