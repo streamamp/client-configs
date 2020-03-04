@@ -70,32 +70,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 231166,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231168,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231169,
+                        dmxid: 180902,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263411'
                     }
                 },
                 {
@@ -305,32 +298,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 231170,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231172,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231173,
+                        dmxid: 180903,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263412'
                     }
                 },
                 {
@@ -540,32 +526,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 231174,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231176,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231177,
+                        dmxid: 180904,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263413'
                     }
                 },
                 {
@@ -597,18 +576,6 @@ var streamampConfig = {
                         tagid: '76097'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201160
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -775,32 +742,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 231179,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231181,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231182,
+                        dmxid: 354861,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '15767451'
                     }
                 },
                 {
@@ -832,18 +792,6 @@ var streamampConfig = {
                         tagid: '76100'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201164
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1010,32 +958,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 231183,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231185,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231184,
+                        dmxid: 180906,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263415'
                     }
                 },
                 {
@@ -1067,18 +1008,6 @@ var streamampConfig = {
                         tagid: '76103'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201171
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1241,15 +1170,16 @@ var streamampConfig = {
                     labelAny: [
                         '1000 - 9999',
                         '750 - 999',
-                        '400 - 749'
+                        '400 - 749',
+                        '0 - 399'
                     ],
                     params: {
-                        dmxid: 354854,
+                        dmxid: 180907,
                         memberid: 100615
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
                         '1000 - 9999',
                         '750 - 999',
@@ -1257,28 +1187,7 @@ var streamampConfig = {
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 354856,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '1000 - 9999'
-                    ],
-                    params: {
-                        dmxid: 354855,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0 - 399'
-                    ],
-                    params: {
-                        dmxid: 180903,
-                        memberid: 100615
+                        placementId: '12263416'
                     }
                 },
                 {
@@ -1322,18 +1231,6 @@ var streamampConfig = {
                         tagid: '76107'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201180
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1544,32 +1441,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 180902,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 180904,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 354861,
+                        dmxid: 180908,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263417'
                     }
                 },
                 {
@@ -1601,18 +1491,6 @@ var streamampConfig = {
                         tagid: '76110'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201187
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1779,32 +1657,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 180906,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 180907,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749',
+                        '750 - 999',
+                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 180908,
+                        dmxid: 180909,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                         '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263418'
                     }
                 },
                 {
@@ -1836,18 +1707,6 @@ var streamampConfig = {
                         tagid: '76113'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201194
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -2014,17 +1873,9 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 180909,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
                     ],
                     params: {
                         dmxid: 354865,
@@ -2032,14 +1883,15 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 180911,
-                        memberid: 100615
+                        placementId: '15767592'
                     }
                 },
                 {
@@ -2071,18 +1923,6 @@ var streamampConfig = {
                         tagid: '76116'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201203
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -2198,305 +2038,6 @@ var streamampConfig = {
                 ]
             }
         },
-        // {
-        //     code: '2018_ARRSE_Safe_Front_Side',
-        //     path: '/1060220/2018_ARRSE/2018A_safe_front_side',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     160,
-        //                     600
-        //                 ],
-        //                 [
-        //                     300,
-        //                     250
-        //                 ],
-        //                 [
-        //                     300,
-        //                     600
-        //                 ],
-        //                 [
-        //                     320,
-        //                     50
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749',
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'Army_Unit10_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749'
-        //             ],
-        //             params: {
-        //                 dmxid: 180912,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749',
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 dmxid: 180913,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '1000 - 9999'
-        //             ],
-        //             params: {
-        //                 dmxid: 354866,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 dmxid: 180915,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749'
-        //             ],
-        //             params: {
-        //                 tagid: '76117'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749',
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 tagid: '76118'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '1000 - 9999'
-        //             ],
-        //             params: {
-        //                 tagid: '76119'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 tagid: '76120'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '1000 - 9999',
-        //         //         '750 - 999',
-        //         //         '400 - 749',
-        //         //         '0 - 399'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1201208
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749'
-        //             ],
-        //             params: {
-        //                 siteId: '396049',
-        //                 size: [
-        //                     160,
-        //                     600
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749',
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 siteId: '396049',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '1000 - 9999'
-        //             ],
-        //             params: {
-        //                 siteId: '396049',
-        //                 size: [
-        //                     300,
-        //                     600
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 siteId: '396049',
-        //                 size: [
-        //                     320,
-        //                     50
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749',
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 unit: '539775524',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749'
-        //             ],
-        //             params: {
-        //                 placementId: 12788139
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '1000 - 9999',
-        //                 '750 - 999',
-        //                 '400 - 749',
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 placementId: 12788140
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '1000 - 9999'
-        //             ],
-        //             params: {
-        //                 placementId: 12788141
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0 - 399'
-        //             ],
-        //             params: {
-        //                 placementId: 13682942
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '1000 - 9999': [
-        //             [
-        //                 160,
-        //                 600
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ],
-        //             [
-        //                 300,
-        //                 600
-        //             ]
-        //         ],
-        //         '750 - 999': [
-        //             [
-        //                 160,
-        //                 600
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ]
-        //         ],
-        //         '400 - 749': [
-        //             [
-        //                 160,
-        //                 600
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ]
-        //         ],
-        //         '0 - 399': [
-        //             [
-        //                 300,
-        //                 250
-        //             ],
-        //             [
-        //                 320,
-        //                 50
-        //             ]
-        //         ]
-        //     }
-        // },
         {
             code: '2018_ARRSE_NoSafe_ROS_Head',
             path: '/1060220/2018_ARRSE_NoAdsense/2018A_nsafe_ros_head',
@@ -2532,22 +2073,22 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '400 - 749'
+                         '400 - 749',
+                        '0 - 399'
                     ],
                     params: {
-                        dmxid: 180917,
+                        dmxid: 180911,
                         memberid: 100615
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
-                        '400 - 749',
+                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 180918,
-                        memberid: 100615
+                        placementId: '12263420'
                     }
                 },
                 {
@@ -2569,16 +2110,6 @@ var streamampConfig = {
                         tagid: '76123'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201216
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -2707,32 +2238,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 180919,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 180920,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 180921,
+                        dmxid: 180912,
                         memberid: 100615
+                    }
+                },
+                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                       placementId: '12263421'
                     }
                 },
                 {
@@ -2764,18 +2288,6 @@ var streamampConfig = {
                         tagid: '76126'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201225
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -2942,32 +2454,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 180922,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 180923,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 180924,
+                        dmxid: 180913,
                         memberid: 100615
+                    }
+                },
+               {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '12263422'
                     }
                 },
                 {
@@ -2999,18 +2504,6 @@ var streamampConfig = {
                         tagid: '76129'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201231
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -3177,32 +2670,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 354867,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231167,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231171,
+                        dmxid: 354866,
                         memberid: 100615
+                    }
+                },
+                 {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                        placementId: '15767678'
                     }
                 },
                 {
@@ -3234,18 +2720,6 @@ var streamampConfig = {
                         tagid: '76132'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201284
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -3412,32 +2886,25 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000 - 9999',
-                        '750 - 999'
-                    ],
-                    params: {
-                        dmxid: 231165,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '400 - 749'
-                    ],
-                    params: {
-                        dmxid: 231175,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
+                        '750 - 999',
                         '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231178,
+                        dmxid: 180915,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
+                        '0 - 399'
+                    ],
+                    params: {
+                       placementId: '12263424'
                     }
                 },
                 {
@@ -3469,18 +2936,6 @@ var streamampConfig = {
                         tagid: '76135'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201289
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -3647,18 +3102,20 @@ var streamampConfig = {
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 231180,
+                        dmxid: 180916,
                         memberid: 100615
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
+                        '1000 - 9999',
+                        '750 - 999',
+                        '400 - 749',
                         '0 - 399'
                     ],
                     params: {
-                        dmxid: 354868,
-                        memberid: 100615
+                        placementId: '12263425'
                     }
                 },
                 {
@@ -3702,18 +3159,6 @@ var streamampConfig = {
                         tagid: '76139'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000 - 9999',
-                //         '750 - 999',
-                //         '400 - 749',
-                //         '0 - 399'
-                //     ],
-                //     params: {
-                //         placementId: 1201290
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -3878,7 +3323,7 @@ var streamampConfig = {
         isEnabled: true,
         config: {
             'UI Layout': 'popup',
-            Language: 'en',
+            'Language': 'en',
             'Display Persistent Consent Link': false,
             'No Option': false,
             'Non-Consent Display Frequency': 7,
@@ -3992,4 +3437,4 @@ var streamampConfig = {
             ]
         }
     ]
-}
+};
