@@ -74,13 +74,14 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
-                        '1000-9999'
+                        '1000-9999',
+                        '900-999',
+                        '728-899'
                     ],
                     params: {
-                        dmxid: 158967,
-                        memberid: 100615
+                        placementId: '11489154'
                     }
                 },
                 {
@@ -103,17 +104,6 @@ var streamampConfig = {
                         tagid: '40577'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000-9999',
-                //         '900-999',
-                //         '728-899'
-                //     ],
-                //     params: {
-                //         placementId: 1202307
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -297,15 +287,17 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000-9999',
-                        '900-999'
+                        '900-999',
+                        '728-899',
+                        '0-727'
                     ],
                     params: {
-                        dmxid: 159780,
+                        dmxid: 158965,
                         memberid: 100615
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
                         '1000-9999',
                         '900-999',
@@ -313,18 +305,7 @@ var streamampConfig = {
                         '0-727'
                     ],
                     params: {
-                        dmxid: 159781,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        dmxid: 158968,
-                        memberid: 100615
+                        placementId: '11489155'
                     }
                 },
                 {
@@ -358,18 +339,6 @@ var streamampConfig = {
                         tagid: '67331'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000-9999',
-                //         '900-999',
-                //         '728-899',
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         placementId: 1202308
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -452,17 +421,6 @@ var streamampConfig = {
                         adSlot: 'NewStatesman_Unit2_300x250@300x250'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         pmzoneid: '2526306',
-                //         adSlot: 'NewStatesman_Unit2_320x50@320x50'
-                //     }
-                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -615,15 +573,17 @@ var streamampConfig = {
                     bidder: 'districtmDMX',
                     labelAny: [
                         '1000-9999',
-                        '900-999'
+                        '900-999',
+                        '728-899',
+                        '0-727'
                     ],
                     params: {
-                        dmxid: 159783,
+                        dmxid: 158966,
                         memberid: 100615
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
                         '1000-9999',
                         '900-999',
@@ -631,18 +591,7 @@ var streamampConfig = {
                         '0-727'
                     ],
                     params: {
-                        dmxid: 159784,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        dmxid: 159782,
-                        memberid: 100615
+                        placementId: '11489156'
                     }
                 },
                 {
@@ -676,18 +625,6 @@ var streamampConfig = {
                         tagid: '40587'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000-9999',
-                //         '900-999',
-                //         '728-899',
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         placementId: 1202309
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -781,17 +718,6 @@ var streamampConfig = {
                         adSlot: 'NewStatesman_Unit3_300x250@300x250'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         pmzoneid: '2526310',
-                //         adSlot: 'NewStatesman_Unit3_320x50@320x50'
-                //     }
-                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
@@ -932,8 +858,7 @@ var streamampConfig = {
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         zoneId: 1382491,
@@ -945,33 +870,22 @@ var streamampConfig = {
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
-                        dmxid: 159787,
+                        dmxid: 158967,
                         memberid: 100615
                     }
                 },
                 {
-                    bidder: 'districtmDMX',
+                    bidder: 'districtm',
                     labelAny: [
                         '1000-9999',
-                        '900-999'
+                        '900-999',
+                        '728-899'
                     ],
                     params: {
-                        dmxid: 159786,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        dmxid: 235456,
-                        memberid: 100615
+                        placementId: '11489158'
                     }
                 },
                 {
@@ -979,8 +893,7 @@ var streamampConfig = {
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         tagid: '40582'
@@ -997,33 +910,11 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'emx_digital',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        tagid: '67332'
-                    }
-                },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000-9999',
-                //         '900-999',
-                //         '728-899',
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         placementId: 1202310
-                //     }
-                // },
-                {
                     bidder: 'ix',
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         siteId: '307652',
@@ -1048,25 +939,11 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'ix',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        siteId: '307653',
-                        size: [
-                            320,
-                            50
-                        ]
-                    }
-                },
-                {
                     bidder: 'openx',
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         unit: '539029209',
@@ -1090,8 +967,7 @@ var streamampConfig = {
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         publisherId: '127864',
@@ -1099,24 +975,12 @@ var streamampConfig = {
                         adSlot: 'NewStatesman_Unit4_300x250@300x250'
                     }
                 },
-                // {
-                //     bidder: 'pubmatic',
-                //     labelAny: [
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         publisherId: '127864',
-                //         pmzoneid: '2526312',
-                //         adSlot: 'NewStatesman_Unit4_320x50@320x50'
-                //     }
-                // },
                 {
                     bidder: 'streamamp',
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         placementId: 11487443
@@ -1133,21 +997,11 @@ var streamampConfig = {
                     }
                 },
                 {
-                    bidder: 'streamamp',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        placementId: 13768710
-                    }
-                },
-                {
                     bidder: 'totaljobs',
                     labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899',
-                        '0-727'
+                        '728-899'
                     ],
                     params: {
                         placementId: 17395615
@@ -1161,15 +1015,6 @@ var streamampConfig = {
                     ],
                     params: {
                         placementId: 17395618
-                    }
-                },
-                {
-                    bidder: 'totaljobs',
-                    labelAny: [
-                        '0-727'
-                    ],
-                    params: {
-                        placementId: 17395617
                     }
                 }
             ],
@@ -1198,20 +1043,6 @@ var streamampConfig = {
                     [
                         300,
                         250
-                    ]
-                ],
-                '0-727': [
-                    [
-                        300,
-                        250
-                    ],
-                    [
-                        320,
-                        50
-                    ],
-                    [
-                        320,
-                        100
                     ]
                 ]
             }
@@ -1275,34 +1106,26 @@ var streamampConfig = {
                 {
                     bidder: 'districtmDMX',
                     labelAny: [
-                        '1000-9999'
-                    ],
-                    params: {
-                        dmxid: 356430,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
                         '1000-9999',
                         '900-999',
-                        '728-899'
-                    ],
-                    params: {
-                        dmxid: 174648,
-                        memberid: 100615
-                    }
-                },
-                {
-                    bidder: 'districtmDMX',
-                    labelAny: [
                         '728-899',
                         '0-727'
                     ],
                     params: {
-                        dmxid: 159788,
+                        dmxid: 158968,
                         memberid: 100615
+                    }
+                },
+                {
+                    bidder: 'districtm',
+                    labelAny: [
+                        '1000-9999',
+                        '900-999',
+                        '728-899',
+                        '0-727'
+                    ],
+                    params: {
+                        placementId: '11489159'
                     }
                 },
                 {
@@ -1335,18 +1158,6 @@ var streamampConfig = {
                         tagid: '40585'
                     }
                 },
-                // {
-                //     bidder: 'improvedigital',
-                //     labelAny: [
-                //         '1000-9999',
-                //         '900-999',
-                //         '728-899',
-                //         '0-727'
-                //     ],
-                //     params: {
-                //         placementId: 1202311
-                //     }
-                // },
                 {
                     bidder: 'ix',
                     labelAny: [
@@ -1541,1010 +1352,6 @@ var streamampConfig = {
                 ]
             }
         },
-        // {
-        //     code: 'Unit6',
-        //     path: '/5269235/New_Statesman/Unit6',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     300,
-        //                     250
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'GD_NewStatesman_Unit6_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 dmxid: 174649,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 tagid: '40588'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '1000-9999',
-        //         //         '900-999'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1202312
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 siteId: '307664',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 unit: '539029211',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526318',
-        //                 adSlot: 'NewStatesman_Unit6_300x250@300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 placementId: 11487495
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 placementId: 17414952
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '1000-9999': [
-        //             [
-        //                 300,
-        //                 250
-        //             ]
-        //         ],
-        //         '900-999': [
-        //             [
-        //                 300,
-        //                 250
-        //             ]
-        //         ]
-        //     }
-        // },
-        // {
-        //     code: 'Unit7',
-        //     path: '/5269235/New_Statesman/Unit7',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     300,
-        //                     250
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'GD_NewStatesman_Unit7_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 dmxid: 161232,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 tagid: '67335'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '1000-9999',
-        //         //         '900-999'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1202313
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 siteId: '307665',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 unit: '539063152',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526319',
-        //                 adSlot: 'NewStatesman_Unit7_300x250@300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 placementId: 11591112
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '1000-9999',
-        //                 '900-999'
-        //             ],
-        //             params: {
-        //                 placementId: 17414953
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '1000-9999': [
-        //             [
-        //                 300,
-        //                 250
-        //             ]
-        //         ],
-        //         '900-999': [
-        //             [
-        //                 300,
-        //                 250
-        //             ]
-        //         ]
-        //     }
-        // },
-        // {
-        //     code: 'Unit8',
-        //     path: '/5269235/New_Statesman/New_Statesman_Unit8',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     320,
-        //                     50
-        //                 ],
-        //                 [
-        //                     300,
-        //                     250
-        //                 ],
-        //                 [
-        //                     320,
-        //                     100
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'GD_NewStatesman_Unit8_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356422,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356423,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 tagid: '40589'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '0-727'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1202314
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307666',
-        //                 size: [
-        //                     320,
-        //                     50
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307668',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 unit: '539856321',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526320',
-        //                 adSlot: 'NewStatesman_Unit8_320x50@320x50'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526321',
-        //                 adSlot: 'NewStatesman_Unit8_300x250@300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944770
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944772
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414954
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414955
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '0-727': [
-        //             [
-        //                 320,
-        //                 50
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ],
-        //             [
-        //                 320,
-        //                 100
-        //             ]
-        //         ]
-        //     }
-        // },
-        // {
-        //     code: 'Unit9',
-        //     path: '/5269235/New_Statesman/Unit9',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     320,
-        //                     50
-        //                 ],
-        //                 [
-        //                     300,
-        //                     250
-        //                 ],
-        //                 [
-        //                     320,
-        //                     100
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'GD_NewStatesman_Unit9_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356424,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356425,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 tagid: '40590'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '0-727'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1202315
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307669',
-        //                 size: [
-        //                     320,
-        //                     50
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307671',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 unit: '539856322',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526322',
-        //                 adSlot: 'NewStatesman_Unit9_320x50@320x50'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526323',
-        //                 adSlot: 'NewStatesman_Unit9_300x250@300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944781
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944785
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414956
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414957
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '0-727': [
-        //             [
-        //                 320,
-        //                 50
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ],
-        //             [
-        //                 320,
-        //                 100
-        //             ]
-        //         ]
-        //     }
-        // },
-        // {
-        //     code: 'Unit10',
-        //     path: '/5269235/New_Statesman/Unit10',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     320,
-        //                     50
-        //                 ],
-        //                 [
-        //                     300,
-        //                     250
-        //                 ],
-        //                 [
-        //                     320,
-        //                     100
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'GD_NewStatesman_Unit10_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356426,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356427,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 tagid: '40591'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '0-727'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1202316
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307672',
-        //                 size: [
-        //                     320,
-        //                     50
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307674',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 unit: '539856323',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526324',
-        //                 adSlot: 'NewStatesman_Unit10_320x50@320x50'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526325',
-        //                 adSlot: 'NewStatesman_Unit10_300x250@300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944786
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944789
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414958
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414959
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '0-727': [
-        //             [
-        //                 320,
-        //                 50
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ],
-        //             [
-        //                 320,
-        //                 100
-        //             ]
-        //         ]
-        //     }
-        // },
-        // {
-        //     code: 'Unit11',
-        //     path: '/5269235/New_Statesman/Unit11',
-        //     mediaTypes: {
-        //         banner: {
-        //             sizes: [
-        //                 [
-        //                     320,
-        //                     50
-        //                 ],
-        //                 [
-        //                     300,
-        //                     250
-        //                 ],
-        //                 [
-        //                     320,
-        //                     100
-        //                 ]
-        //             ]
-        //         }
-        //     },
-        //     isSticky: false,
-        //     safeFrame: false,
-        //     outOfPage: false,
-        //     bids: [
-        //         {
-        //             bidder: 'criteo',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 zoneId: 1382491,
-        //                 publisherSubId: 'GD_NewStatesman_Unit11_300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356428,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'districtmDMX',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 dmxid: 356429,
-        //                 memberid: 100615
-        //             }
-        //         },
-        //         {
-        //             bidder: 'emx_digital',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 tagid: '40592'
-        //             }
-        //         },
-        //         // {
-        //         //     bidder: 'improvedigital',
-        //         //     labelAny: [
-        //         //         '0-727'
-        //         //     ],
-        //         //     params: {
-        //         //         placementId: 1202317
-        //         //     }
-        //         // },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307675',
-        //                 size: [
-        //                     320,
-        //                     50
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'ix',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 siteId: '307676',
-        //                 size: [
-        //                     300,
-        //                     250
-        //                 ]
-        //             }
-        //         },
-        //         {
-        //             bidder: 'openx',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 unit: '539856324',
-        //                 delDomain: 'streamamp-d.openx.net'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526326',
-        //                 adSlot: 'NewStatesman_Unit11_320x50@320x50'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'pubmatic',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 publisherId: '127864',
-        //                 pmzoneid: '2526327',
-        //                 adSlot: 'NewStatesman_Unit11_300x250@300x250'
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944790
-        //             }
-        //         },
-        //         {
-        //             bidder: 'streamamp',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 12944792
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414960
-        //             }
-        //         },
-        //         {
-        //             bidder: 'totaljobs',
-        //             labelAny: [
-        //                 '0-727'
-        //             ],
-        //             params: {
-        //                 placementId: 17414961
-        //             }
-        //         }
-        //     ],
-        //     breakpoints: {
-        //         '0-727': [
-        //             [
-        //                 320,
-        //                 50
-        //             ],
-        //             [
-        //                 300,
-        //                 250
-        //             ],
-        //             [
-        //                 320,
-        //                 100
-        //             ]
-        //         ]
-        //     }
-        // },
         {
             code: 'NS_Rich Media',
             path: '/5269235/New_Statesman/NS_Rich Media',
