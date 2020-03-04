@@ -36,16 +36,6 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'469-9999'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382489,
-				// 		publisherSubId: 'SoccerStats_Unit1_728x90'
-				// 	}
-				// },
 				{
 					bidder: 'conversant',
 					labelAny: [
@@ -62,7 +52,7 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						dmxid: 138387,
+						dmxid: 497665,
 						memberid: 100615
 					}
 				},
@@ -72,7 +62,7 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						placementId: 10411843
+						placementId: '18627565'
 					}
 				},
 				{
@@ -84,15 +74,6 @@ var streamampConfig = {
 						tagid: '40381'
 					}
 				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'469-9999'
-				// 	],
-				// 	params: {
-				// 		placementId: 1204104
-				// 	}
-				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -163,17 +144,6 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'469-9999',
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382491,
-				// 		publisherSubId: 'SoccerStats_Unit2_300x250'
-				// 	}
-				// },
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
@@ -181,7 +151,7 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						dmxid: 138388,
+						dmxid: 497666,
 						memberid: 100615
 					}
 				},
@@ -192,7 +162,7 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						placementId: 10411846
+						placementId: '18627566'
 					}
 				},
 				{
@@ -205,16 +175,6 @@ var streamampConfig = {
 						tagid: '40382'
 					}
 				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'469-9999',
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		placementId: 1204105
-				// 	}
-				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -303,27 +263,6 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'469-9999'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382493,
-				// 		publisherSubId: 'SoccerStas_Unit3_160x600'
-				// 	}
-				// },
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'469-9999',
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382491,
-				// 		publisherSubId: 'SoccerStats_Unit3_300x250'
-				// 	}
-				// },
 				{
 					bidder: 'conversant',
 					labelAny: [
@@ -337,50 +276,12 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
-						'469-9999'
-					],
-					params: {
-						dmxid: 138390,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						dmxid: 381594,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
 						'469-9999',
 						'0-468'
 					],
 					params: {
-						dmxid: 381595,
+						dmxid: 138387,
 						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtm',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						placementId: 	10411854
-					}
-				},
-				{
-					bidder: 'districtm',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						placementId: 	16378283
 					}
 				},
 				{
@@ -390,7 +291,7 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						placementId: 	16378285
+						placementId: '10411843'
 					}
 				},
 				{
@@ -421,16 +322,6 @@ var streamampConfig = {
 						tagid: '74341'
 					}
 				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'469-9999',
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		placementId: 1204106
-				// 	}
-				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -593,27 +484,6 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'469-9999',
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382491,
-				// 		publisherSubId: 'SoccerStats_Unit4_300x250'
-				// 	}
-				// },
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382490,
-				// 		publisherSubId: 'SoccerStats_Unit4_320x50'
-				// 	}
-				// },
 				{
 					bidder: 'conversant',
 					labelAny: [
@@ -631,17 +501,7 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						dmxid: 138391,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						dmxid: 359039,
+						dmxid: 138388,
 						memberid: 100615
 					}
 				},
@@ -652,16 +512,7 @@ var streamampConfig = {
 						'0-468'
 					],
 					params: {
-						placementId: 10411857
-					}
-				},
-				{
-					bidder: 'districtm',
-					labelAny: [
-						'0-468'
-					],
-					params: {
-						placementId: 15828168
+						placementId: '10411846'
 					}
 				},
 				{
@@ -683,16 +534,6 @@ var streamampConfig = {
 						tagid: '64543'
 					}
 				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'469-9999',
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		placementId: 1204107
-				// 	}
-				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -822,16 +663,6 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'469-9999'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382489,
-				// 		publisherSubId: 'SoccerStats_Unit5_728x90'
-				// 	}
-				// },
 				{
 					bidder: 'conversant',
 					labelAny: [
@@ -848,17 +679,7 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						dmxid: 138394,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						dmxid: 273919,
+						dmxid: 138389,
 						memberid: 100615
 					}
 				},
@@ -868,16 +689,7 @@ var streamampConfig = {
 						'469-9999'
 					],
 					params: {
-						placementId: 10411869
-					}
-				},
-				{
-					bidder: 'districtm',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						placementId: 14511580
+						placementId: '10411849'
 					}
 				},
 				{
@@ -898,15 +710,6 @@ var streamampConfig = {
 						tagid: '58229'
 					}
 				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'469-9999'
-				// 	],
-				// 	params: {
-				// 		placementId: 1204108
-				// 	}
-				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1022,16 +825,6 @@ var streamampConfig = {
 			safeFrame: false,
 			outOfPage: false,
 			bids: [
-				// {
-				// 	bidder: 'criteo',
-				// 	labelAny: [
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		zoneId: 1382490,
-				// 		publisherSubId: 'SoccerStats_Unit6_320x50'
-				// 	}
-				// },
 				{
 					bidder: 'conversant',
 					labelAny: [
@@ -1045,30 +838,22 @@ var streamampConfig = {
 				{
 					bidder: 'districtmDMX',
 					labelAny: [
+						'469-9999',
 						'0-468'
 					],
 					params: {
-						dmxid: 261761,
-						memberid: 100615
-					}
-				},
-				{
-					bidder: 'districtmDMX',
-					labelAny: [
-						'469-9999'
-					],
-					params: {
-						dmxid: 488544,
+						dmxid: 138390,
 						memberid: 100615
 					}
 				},
 				{
 					bidder: 'districtm',
 					labelAny: [
+						'469-9999',
 						'0-468'
 					],
 					params: {
-						placementId: 14318684
+						placementId: '10411854'
 					}
 				},
 				{
@@ -1089,15 +874,6 @@ var streamampConfig = {
 						tagid: '40387'
 					}
 				},
-				// {
-				// 	bidder: 'improvedigital',
-				// 	labelAny: [
-				// 		'0-468'
-				// 	],
-				// 	params: {
-				// 		placementId: 1219061
-				// 	}
-				// },
 				{
 					bidder: 'ix',
 					labelAny: [
@@ -1197,7 +973,7 @@ var streamampConfig = {
 		pathnamesToExclude: ['/legal.asp'],
 		config: {
 			'UI Layout': 'popup',
-			Language: 'en',
+			'Language': 'en',
 			'Display Persistent Consent Link': false,
 			'No Option': false,
 			'Non-Consent Display Frequency': 7,
