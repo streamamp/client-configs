@@ -45,17 +45,16 @@ var streamampConfig = {
             }
         }, {
             bidder: 'districtmDMX',
-            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280', '729-970'],
+            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280', '729-970', '0-728'],
             params: {
-                dmxid: 143731,
+                dmxid: 497581,
                 memberid: 100615
             }
         }, {
-            bidder: 'districtmDMX',
+            bidder: 'districtm',
             labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280', '729-970', '0-728'],
             params: {
-                dmxid: 143732,
-                memberid: 100615
+                placementId: '18602656'
             }
         }, {
             bidder: 'emx_digital',
@@ -212,17 +211,16 @@ var streamampConfig = {
             }
         }, {
             bidder: 'districtmDMX',
-            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616'],
+            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280', '729-970'],
             params: {
-                dmxid: 143733,
+                dmxid: 356402,
                 memberid: 100615
             }
         }, {
-            bidder: 'districtmDMX',
+            bidder: 'districtm',
             labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280', '729-970'],
             params: {
-                dmxid: 143735,
-                memberid: 100615
+                placementId: '15800581'
             }
         }, {
             bidder: 'emx_digital',
@@ -372,15 +370,14 @@ var streamampConfig = {
             bidder: 'districtmDMX',
             labelAny: ['1976-9999', '1697-1975'],
             params: {
-                dmxid: 165327,
+                dmxid: 143725,
                 memberid: 100615
             }
         }, {
-            bidder: 'districtmDMX',
-            labelAny: ['1976-9999'],
+            bidder: 'districtm',
+            labelAny: ['1976-9999', '1697-1975'],
             params: {
-                dmxid: 166507,
-                memberid: 100615
+                placementId: '10873179'
             }
         }, {
             bidder: 'emx_digital',
@@ -525,15 +522,14 @@ var streamampConfig = {
             bidder: 'districtmDMX',
             labelAny: ['1976-9999', '1697-1975'],
             params: {
-                dmxid: 165329,
+                dmxid: 143726,
                 memberid: 100615
             }
         }, {
-            bidder: 'districtmDMX',
-            labelAny: ['1976-9999'],
+            bidder: 'districtm',
+            labelAny: ['1976-9999', '1697-1975'],
             params: {
-                dmxid: 166508,
-                memberid: 100615
+                placementId: '10873180'
             }
         }, {
             bidder: 'emx_digital',
@@ -678,8 +674,14 @@ var streamampConfig = {
             bidder: 'districtmDMX',
             labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280'],
             params: {
-                dmxid: 167429,
+                dmxid: 143727,
                 memberid: 100615
+            }
+        }, {
+            bidder: 'districtm',
+            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360', '971-1280'],
+            params: {
+                placementId: '10873181'
             }
         }, {
             bidder: 'emx_digital',
@@ -771,17 +773,16 @@ var streamampConfig = {
             }
         }, {
             bidder: 'districtmDMX',
-            labelAny: ['1976-9999', '1617-1696', '1361-1616'],
+            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360'],
             params: {
-                dmxid: 334708,
+                dmxid: 143728,
                 memberid: 100615
             }
         }, {
-            bidder: 'districtmDMX',
+            bidder: 'districtm',
             labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360'],
             params: {
-                dmxid: 334709,
-                memberid: 100615
+                placementId: '10873182'
             }
         }, {
             bidder: 'emx_digital',
@@ -917,8 +918,15 @@ var streamampConfig = {
             bidder: 'districtmDMX',
             labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360'],
             params: {
-                dmxid: 334710,
+                dmxid: 143729,
                 memberid: 100615
+            }
+        },
+            {
+            bidder: 'districtm',
+            labelAny: ['1976-9999', '1697-1975', '1617-1696', '1361-1616', '1281-1360'],
+            params: {
+                placementId: '10873183'
             }
         }, {
             bidder: 'emx_digital',
@@ -1005,8 +1013,14 @@ var streamampConfig = {
             bidder: 'districtmDMX',
             labelAny: ['0-728'],
             params: {
-                dmxid: 143738,
+                dmxid: 143730,
                 memberid: 100615
+            }
+        }, {
+            bidder: 'districtm',
+            labelAny: ['0-728'],
+            params: {
+                placementId: '10873184'
             }
         }, {
             bidder: 'emx_digital',
