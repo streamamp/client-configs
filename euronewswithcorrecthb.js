@@ -57,6 +57,23 @@ var streamampConfig = {
             outOfPage: false,
             bids: [
                 {
+                    bidder: 'justpremium',
+                    labelAny: [
+                        '971 - 9999',
+                        '730 - 970',
+                        '469 - 729',
+                        '0 - 468'
+                    ],
+                    params: {
+                        zone: '78467',
+                        allow: [
+                            'wp',
+                            'wv',
+                            'pd'
+                        ]
+                    },
+                },
+                {
                     bidder: 'conversant',
                     labelAny: [
                         '971 - 9999',
@@ -1073,7 +1090,8 @@ var streamampConfig = {
                         zone: '78467',
                         allow: [
                             'wp',
-                            'wv'
+                            'wv',
+                            'pd'
                         ]
                     },
                 },
