@@ -2382,7 +2382,7 @@ var streamampConfig = {
         config: {
             'UI Layout': 'banner',
             'Language': 'en',
-            'Custom Links Displayed on Initial Screen': ["[Privacy Policy](https://freeads.zendesk.com/hc/en-us/articles/203180471-Privacy-Policy-Cookie-Policy)"],
+            'Custom Links Displayed on Initial Screen': ["[Privacy Policy](https://help.freeads.co.uk/support/solutions/articles/47000874377-privacy-cookie-data-policy )"],
             'No Option': false,
             'Non-Consent Display Frequency': 7,
             'Publisher Purpose IDs': [
